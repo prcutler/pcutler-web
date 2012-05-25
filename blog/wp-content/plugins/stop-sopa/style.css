@@ -1,0 +1,67 @@
+.admin_stopsopa_wrap table.stopsopa_files {
+	width: 100%;
+	border-collapse: collapse;
+}
+.admin_stopsopa_wrap table.stopsopa_files tr {
+
+}
+.admin_stopsopa_wrap table.stopsopa_files td,
+.admin_stopsopa_wrap table.stopsopa_files th {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	border: 1px solid #C0C0C0;
+}
+
+.admin_stopsopa_wrap table.stopsopa_files th {
+	background-color: #E0DBD0;
+	vertical-align: middle;
+}
+
+.admin_stopsopa_wrap table.stopsopa_files a{
+	color: #0080FF;
+	text-decoration: none;
+}
+.admin_stopsopa_wrap table.stopsopa_files a:hover{
+	text-decoration: underline;
+}
+.stopsopa_buttons {text-align: right; margin-bottom: 10px; margin-top: 10px; float: right;}
+.stopsopa_pageswitcher {
+	margin-right: 200px;
+	float: left;
+}
+.stopsopa_pageswitcher div {float: none !important;}
+
+.stopsopa_legend  {margin-top: 50px;}
+.stopsopa_legend  p {margin-top: 2px; margin-bottom: 2px; height: 100%; overflow: hidden;}
+.stopsopa_legend  img {float: left; margin-right: 10px;}
+
+.admin_stopsopa_wrap table.stopsopa_useroptions {
+	width: 100%;
+	border-collapse: collapse;
+}
+.admin_stopsopa_wrap table.stopsopa_useroptions  em{
+	font-size: 11px;
+	color: #A0A0A0;
+}
+
+.admin_stopsopa_wrap table.stopsopa_useroptions tr {
+
+}
+.admin_stopsopa_wrap table.stopsopa_useroptions td,
+.admin_stopsopa_wrap table.stopsopa_useroptions th {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	border: 0px solid #C0C0C0;
+	text-align: left;
+}
+.admin_stopsopa_wrap table.stopsopa_useroptions th {
+	width: 180px;
+}
+.admin_stopsopa_wrap table.stopsopa_useroptions a{
+	color: #0080FF;
+	text-decoration: none;
+}
+.admin_stopsopa_wrap table.stopsopa_useroptions a:hover{
+	text-decoration: underline;
+}
+
