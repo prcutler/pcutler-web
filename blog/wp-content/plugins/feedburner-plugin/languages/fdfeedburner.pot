@@ -1,9 +1,6 @@
 # Translation of the WordPress plugin FD Feedburner by .
 # Copyright (C) 2010 
 # This file is distributed under the same license as the  package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FD Feedburner Plugin 1.42\n"
@@ -16,7 +13,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: fdfeedburner.php:43 fdfeedburner.php:44 fdfeedburner.php:120
+#: fdfeedburner.php:43 fdfeedburner.php:44
+msgid "Feedburner"
+msgstr ""
+
+#: fdfeedburner.php:120
 msgid "Feedburner Configuration"
 msgstr ""
 
