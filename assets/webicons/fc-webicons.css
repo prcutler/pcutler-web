@@ -90,10 +90,10 @@
 .svg .fc-webicon.git { background: url("images/fc-webicon-git.svg"); }
 
 /* Github */
-.no-svg .fc-webicon.github { background: url("assets/webicons/images/fc-webicon-github-m.png"); }
-.no-svg .fc-webicon.github.large { background: url("assets/webicons/images/fc-webicon-github.png"); }
-.no-svg .fc-webicon.github.small { background: url("assets/webicons/images/fc-webicon-github-s.png"); }
-.svg .fc-webicon.github { background: url("assets/webicons/images/fc-webicon-github.svg"); }
+.no-svg .fc-webicon.github { background: url("images/fc-webicon-github-m.png"); }
+.no-svg .fc-webicon.github.large { background: url("images/fc-webicon-github.png"); }
+.no-svg .fc-webicon.github.small { background: url("images/fc-webicon-github-s.png"); }
+.svg .fc-webicon.github { background: url("images/fc-webicon-github.svg"); }
 
 /* Google Play */
 .no-svg .fc-webicon.googleplay { background: url("images/fc-webicon-googleplay-m.png"); }
