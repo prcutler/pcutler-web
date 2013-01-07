@@ -5,6 +5,12 @@ Mike Challis
 http://www.642weather.com/weather/scripts.php
 */
 
+//do not allow direct access
+if ( strpos(strtolower($_SERVER['SCRIPT_NAME']),strtolower(basename(__FILE__))) ) {
+ header('HTTP/1.0 403 Forbidden');
+ exit('Forbidden');
+}
+
 // the form is being processed to send the mail now
 
     // check all input variables
@@ -17,7 +23,7 @@ http://www.642weather.com/weather/scripts.php
         $this->si_contact_error = 1;
         $si_contact_error_contact = __('Requested Contact not found.', 'si-contact-form');
     }
-    if (empty($ctf_contacts)) {
+    if (empty($contacts)) {
        $this->si_contact_error = 1;
     }
     $mail_to    = ( isset($contacts[$cid]['EMAIL']) )   ? $this->ctf_clean_input($contacts[$cid]['EMAIL'])  : '';
@@ -177,10 +183,10 @@ if ($have_attach){
 	$attach_dir = WP_PLUGIN_DIR . '/si-contact-form/attachments/';
 	if ( !is_dir($attach_dir) ) {
         $this->si_contact_error = 1;
-		$attach_dir_error = sprintf( __( 'This contact form has file attachment fields, but the temporary folder for the files (%s) does not exist. Create the folder manually and (<a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">fix permissions</a>)', 'si-contact-form' ), $attach_dir );
+		$attach_dir_error = __('The temporary folder for the attachment field does not exist.', 'si-contact-form');
     } else if(!is_writable($attach_dir)) {
           $this->si_contact_error = 1;
-		 $attach_dir_error = sprintf( __( 'This contact form has file attachment fields, but the temporary folder for the files (%s) is not writable. (<a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">fix permissions</a>)', 'si-contact-form' ), $attach_dir );
+		 $attach_dir_error = __('The temporary folder for the attachment field is not writable.', 'si-contact-form');
     } else {
        // delete files over 3 minutes old in the attachment directory
        $this->si_contact_clean_temp_dir($attach_dir, 3);
@@ -195,15 +201,15 @@ if ($have_attach){
           }else if ($si_contact_opt['ex_field'.$i.'_type'] == 'date') {
 
                       $cal_date_array = array(
-'mm/dd/yyyy' => esc_attr(__('mm/dd/yyyy', 'si-contact-form')),
-'dd/mm/yyyy' => esc_attr(__('dd/mm/yyyy', 'si-contact-form')),
-'mm-dd-yyyy' => esc_attr(__('mm-dd-yyyy', 'si-contact-form')),
-'dd-mm-yyyy' => esc_attr(__('dd-mm-yyyy', 'si-contact-form')),
-'mm.dd.yyyy' => esc_attr(__('mm.dd.yyyy', 'si-contact-form')),
-'dd.mm.yyyy' => esc_attr(__('dd.mm.yyyy', 'si-contact-form')),
-'yyyy/mm/dd' => esc_attr(__('yyyy/mm/dd', 'si-contact-form')),
-'yyyy-mm-dd' => esc_attr(__('yyyy-mm-dd', 'si-contact-form')),
-'yyyy.mm.dd' => esc_attr(__('yyyy.mm.dd', 'si-contact-form')),
+'mm/dd/yyyy' => __('mm/dd/yyyy', 'si-contact-form'),
+'dd/mm/yyyy' => __('dd/mm/yyyy', 'si-contact-form'),
+'mm-dd-yyyy' => __('mm-dd-yyyy', 'si-contact-form'),
+'dd-mm-yyyy' => __('dd-mm-yyyy', 'si-contact-form'),
+'mm.dd.yyyy' => __('mm.dd.yyyy', 'si-contact-form'),
+'dd.mm.yyyy' => __('dd.mm.yyyy', 'si-contact-form'),
+'yyyy/mm/dd' => __('yyyy/mm/dd', 'si-contact-form'),
+'yyyy-mm-dd' => __('yyyy-mm-dd', 'si-contact-form'),
+'yyyy.mm.dd' => __('yyyy.mm.dd', 'si-contact-form'),
 );
                // required validate
                ${'ex_field'.$i} = ( !isset($_POST["si_contact_ex_field$i"]) ) ? '' : $this->ctf_clean_input($_POST["si_contact_ex_field$i"]);
@@ -361,7 +367,7 @@ if ($have_attach){
            }else{
                 // text, textarea, radio, select, password
                 if ($si_contact_opt['ex_field'.$i.'_type'] == 'textarea' && $si_contact_opt['textarea_html_allow'] == 'true') {
-                      ${'ex_field'.$i} = ( !isset($_POST["si_contact_ex_field$i"]) ) ? '' : $_POST["si_contact_ex_field$i"];
+                      ${'ex_field'.$i} = ( !isset($_POST["si_contact_ex_field$i"]) ) ? '' : wp_kses_data(stripslashes($_POST["si_contact_ex_field$i"])); // allow only some safe html
                 }else{
                       ${'ex_field'.$i} = ( !isset($_POST["si_contact_ex_field$i"]) ) ? '' : $this->ctf_clean_input($_POST["si_contact_ex_field$i"]);
                 }
@@ -378,7 +384,7 @@ if ($have_attach){
                 // regex validate
                 if( ${'ex_field'.$i} != '' && $si_contact_opt['ex_field'.$i.'_regex'] != '' && !preg_match($si_contact_opt['ex_field'.$i.'_regex'],${'ex_field'.$i}) ) {
                   $this->si_contact_error = 1;
-                  ${'si_contact_error_ex_field'.$i} = ($si_contact_opt['ex_field'.$i.'_regex_error'] != '') ? $si_contact_opt['ex_field'.$i.'_regex_error'] : __('Invalid input.', 'si-contact-form');
+                  ${'si_contact_error_ex_field'.$i} = ($si_contact_opt['ex_field'.$i.'_regex_error'] != '') ? $si_contact_opt['ex_field'.$i.'_regex_error'] : __('Invalid regex.', 'si-contact-form');
                 }
            }
         }  // end if label != ''
@@ -416,6 +422,12 @@ if ($have_attach){
 			if ( 0 == strcasecmp( $captcha_code, $captcha_word ) ) {
               // captcha was matched
               @unlink ($ctf_captcha_dir . $prefix . '.php');
+              // some empty field and time based honyepot traps for spam bots
+              $hp_check = $this->si_contact_check_honeypot("$form_id_num");
+              if($hp_check != 'ok') {
+                  $this->si_contact_error = 1;
+                  $si_contact_error_captcha =  ($si_contact_opt['error_spambot'] != '') ? $si_contact_opt['error_spambot'] : __('Possible spam bot.', 'si-contact-form');
+              }
 			} else {
               $this->si_contact_error = 1;
               $si_contact_error_captcha = ($si_contact_opt['error_captcha_wrong'] != '') ? $si_contact_opt['error_captcha_wrong'] : __('That CAPTCHA was incorrect.', 'si-contact-form');
@@ -423,39 +435,6 @@ if ($have_attach){
 	     } else {
            $this->si_contact_error = 1;
            $si_contact_error_captcha = __('Could not read CAPTCHA token file. Try again.', 'si-contact-form');
-/*           $check_this_dir = untrailingslashit( $ctf_captcha_dir );
-           $si_cec = '';
-           if(is_writable($check_this_dir)) {
-				//echo '<span style="color: green">OK - Writable</span> ' . substr(sprintf('%o', fileperms($check_this_dir)), -4);
-           } else if(!file_exists($check_this_dir)) {
-              $si_cec .= '<br />';
-              $si_cec .= __('There is a problem with the directory', 'si-contact-form');
-              $si_cec .= ' /si-contact-form/captcha/temp/.<br />';
-	          $si_cec .= __('The directory is not found, a <a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">permissions</a> problem may have prevented this directory from being created.', 'si-contact-form');
-              $si_cec .= ' ';
-              $si_cec .= __('Fixing the actual problem is recommended, but you can uncheck this setting on the contact form options page: "Use CAPTCHA without PHP session" and the captcha will work this way just fine (as long as PHP sessions are working).', 'si-contact-form');
-              $si_contact_error_captcha .= $si_cec;
-           } else {
-             $si_cec .= '<br />';
-             $si_cec .= __('There is a problem with the directory', 'si-contact-form') .' /si-contact-form/captcha/temp/.<br />';
-             $si_cec .= __('Directory Unwritable (<a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">fix permissions</a>)', 'si-contact-form').'. ';
-             $si_cec .= __('Permissions are: ', 'si-contact-form');
-             $si_cec .= ' ';
-             $si_cec .= substr(sprintf('%o', fileperms($check_this_dir)), -4);
-             $si_cec .= ' ';
-             $si_cec .=__('Fixing this may require assigning 0755 permissions or higher (e.g. 0777 on some hosts. Try 0755 first, because 0777 is sometimes too much and will not work.)', 'si-contact-form');
-             $si_cec .= ' ';
-             $si_cec .= __('Fixing the actual problem is recommended, but you can uncheck this setting on the contact form options page: "Use CAPTCHA without PHP session" and the captcha will work this way just fine (as long as PHP sessions are working).', 'si-contact-form');
-             $si_contact_error_captcha .= $si_cec;
-          }
-          if(!file_exists($ctf_captcha_dir . $prefix . '.php')){  // form will, still go through.  Try uncheck this setting on the contact form options page: "Use CAPTCHA without PHP session"
-                $si_cec .= '<br />';
-                $si_cec .= __('CAPTCHA token file is missing.', 'si-contact-form');
-                $si_cec .= ' ';
-                $si_cec .= __('Fixing the actual problem is recommended, but you can uncheck this setting on the contact form options page: "Use CAPTCHA without PHP session" and the captcha will work this way just fine (as long as PHP sessions are working).', 'si-contact-form');
-                $si_contact_error_captcha .= $si_cec;
-
-          }*/
 	    }
 	  }
     } else {
@@ -473,8 +452,6 @@ if ($have_attach){
       if (!isset($_SESSION['securimage_code_ctf_'.$form_id_num]) || empty($_SESSION['securimage_code_ctf_'.$form_id_num])) {
           $this->si_contact_error = 1;
           $si_contact_error_captcha = __('Could not read CAPTCHA cookie. Try again.', 'si-contact-form');
-          //$si_contact_error_captcha = __('Could not read CAPTCHA cookie. Make sure you have cookies enabled and not blocking in your web browser settings. Or another plugin is conflicting. See plugin FAQ.', 'si-contact-form');
-          //$si_contact_error_captcha .= ' '. __('Alternatively, the admin can enable the setting "Use CAPTCHA without PHP Session", then temporary files will be used for storing the CAPTCHA phrase. This allows the CAPTCHA to function without using PHP Sessions. This setting is on the contact form admin settings page.', 'si-contact-form');
       }else{
          if (empty($captcha_code) || $captcha_code == '') {
            $this->si_contact_error = 1;
@@ -486,6 +463,12 @@ if ($have_attach){
            $valid = $img->check("$captcha_code");
            // Check, that the right CAPTCHA password has been entered, display an error message otherwise.
            if($valid == true) {
+              // some empty field and time based honyepot traps for spam bots
+              $hp_check = $this->si_contact_check_honeypot("$form_id_num");
+              if($hp_check != 'ok') {
+                  $this->si_contact_error = 1;
+                  $si_contact_error_captcha =  ($si_contact_opt['error_spambot'] != '') ? $si_contact_opt['error_spambot'] : __('Possible spam bot.', 'si-contact-form');
+              }
              // ok can continue
            } else {
               $this->si_contact_error = 1;
@@ -495,6 +478,15 @@ if ($have_attach){
      }
    } // end if captcha use session
  } // end if enable captcha
+
+ if (!$this->si_contact_error && !$this->isCaptchaEnabled() ) { // skip if there are already form erros, if captcha is enabled this check is done in the captcha test
+    // some empty field and time based honyepot traps for spam bots
+    $hp_check = $this->si_contact_check_honeypot("$form_id_num");
+    if($hp_check != 'ok') {
+        $this->si_contact_error = 1;
+        $si_contact_error_captcha =  ($si_contact_opt['error_spambot'] != '') ? $si_contact_opt['error_spambot'] : __('Possible spam bot.', 'si-contact-form');
+    }
+ }
 
   if (!$this->si_contact_error) {
      // ok to send the email, so prepare the email message
@@ -692,8 +684,8 @@ if ($have_attach){
                $value = trim($value);
                if ($key != '' && $value != '') {
                  if($key == 'form_page') {  // page url
-                   $msg .= $this->make_bold(__('Form Page', 'si-contact-form')).$php_eol.$form_action_url.$php_eol.$php_eol;
-                   $posted_data['form_page'] = $form_action_url;
+                   $msg .= $this->make_bold(__('Form Page', 'si-contact-form')).$php_eol.esc_url($form_action_url).$php_eol.$php_eol;
+                   $posted_data['form_page'] = esc_url($form_action_url);
                  }else{
                    $msg .= $this->make_bold($key).$php_eol.$this->ctf_stripslashes($value).$php_eol.$php_eol;
                    $posted_data[$key] = $value;
@@ -763,13 +755,13 @@ if ($have_attach){
        if ($current_user->display_name != '') $user_info_string .= __('User display name', 'si-contact-form').': '.$current_user->display_name . $php_eol;
        if ($current_user->ID != '') $user_info_string .= __('User ID', 'si-contact-form').': '.$current_user->ID . $php_eol;
     }
-    $user_info_string .= __('Sent from (ip address)', 'si-contact-form').': '.$_SERVER['REMOTE_ADDR']." ($userdomain)".$php_eol;
+    $user_info_string .= __('Sent from (ip address)', 'si-contact-form').': '.esc_attr($_SERVER['REMOTE_ADDR'])." ($userdomain)".$php_eol;
     if ( $geo_loc != '' ) {
       $user_info_string .= __('Location', 'si-contact-form').': '.$geo_loc. $php_eol;
       $posted_data['sender_location'] = __('Location', 'si-contact-form').': '.$geo_loc;
     }
     $user_info_string .= __('Date/Time', 'si-contact-form').': '.date_i18n(get_option('date_format').' '.get_option('time_format'), time() ) . $php_eol;
-    $user_info_string .= __('Coming from (referer)', 'si-contact-form').': '.$form_action_url. $php_eol;
+    $user_info_string .= __('Coming from (referer)', 'si-contact-form').': '.esc_url($form_action_url). $php_eol;
     $user_info_string .= __('Using (user agent)', 'si-contact-form').': '.$this->ctf_clean_input($_SERVER['HTTP_USER_AGENT']) . $php_eol.$php_eol;
     if ($si_contact_opt['sender_info_enable'] == 'true')
        $msg .= $user_info_string;
@@ -815,7 +807,7 @@ if ($have_attach){
             $si_contact_error_message = ($si_contact_opt['error_input'] != '') ? $si_contact_opt['error_input'] : __('Invalid Input - Spam?', 'si-contact-form');
             if ($user_ID != '' && current_user_can('level_10') ) {
               // show administrator a helpful message
-              $si_contact_error_message .= '<br />'. __('Akismet determined your message is spam. This can be caused by the message content, your email address, or your IP address being on the Akismet spam system. The administrator can turn off Akismet for the form in the form Advanced Options.', 'si-contact-form');
+              $si_contact_error_message .= '<br />'. __('Akismet determined your message is spam. This can be caused by the message content, your email address, or your IP address being on the Akismet spam system. The administrator can turn off Akismet for the form on the form edit menu.', 'si-contact-form');
             }
         } else {
               // Akismet says it is spam. flag the subject as spam and send anyway.
@@ -837,8 +829,7 @@ if ($have_attach){
    }
 
      // wordwrap email message
-    if ($ctf_wrap_message)
-       $msg = wordwrap($msg, 70,$php_eol);
+     $msg = wordwrap($msg, 70,$php_eol);
 
   $email_off = 0;
   if ($si_contact_opt['redirect_enable'] == 'true' && $si_contact_opt['redirect_query'] == 'true' && $si_contact_opt['redirect_email_off'] == 'true')
@@ -853,7 +844,6 @@ if ($have_attach){
   if (!$this->si_contact_error) {
 
    if (!$email_off) {
-    $header = '';  // for php mail and wp_mail
     $ctf_email_on_this_domain = $si_contact_opt['email_from']; // optional
     // prepare the email header
     $this->si_contact_from_name  = ($name == '') ? 'WordPress' : $name;
@@ -878,7 +868,7 @@ if ($have_attach){
          }
     }
     $header_php =  "From: $this->si_contact_from_name <$this->si_contact_from_email>\n"; // header for php mail only
-
+    $header = '';  // for php mail and wp_mail
     // process $mail_to user1@example.com,[cc]user2@example.com,[cc]user3@example.com,[bcc]user4@example.com,[bcc]user5@example.com
     // some are cc, some are bcc
     $mail_to_arr = explode( ',', $mail_to );
@@ -912,7 +902,6 @@ if ($have_attach){
     }else {
          $header .= "Reply-To: $this->si_contact_from_email\n"; // for php mail and wp_mail
     }
-
     if ($ctf_email_on_this_domain != '') {
       $header .= "X-Sender: $this->si_contact_mail_sender\n";  // for php mail
       $header .= "Return-Path: $this->si_contact_mail_sender\n";   // for php mail
@@ -939,42 +928,6 @@ if ($have_attach){
           // the fifth parameter is not allowed in safe mode
           @mail($mail_to,$subj,$msg,$header_php);
       }
-    }else if ($si_contact_opt['php_mailer_enable'] == 'geekmail') {
-         // sending with geekmail
-         require_once WP_PLUGIN_DIR . '/si-contact-form/ctf_geekMail-1.0.php';
-         $ctf_geekMail = new ctf_geekMail();
-         if ($si_contact_opt['email_html'] == 'true') {
-                 $ctf_geekMail->setMailType('html');
-         } else {
-                 $ctf_geekMail->setMailType('text');
-         }
-         $ctf_geekMail->_setcharSet(get_option('blog_charset'));
-         $ctf_geekMail->_setnewLine($php_eol);
-         if ($ctf_email_on_this_domain != '') {
-           $ctf_geekMail->return_path($this->si_contact_mail_sender);
-           $ctf_geekMail->x_sender($this->si_contact_mail_sender);
-         }
-         $ctf_geekMail->from($this->si_contact_from_email, $this->si_contact_from_name);
-         $ctf_geekMail->to($mail_to);
-         if ($si_contact_opt['email_reply_to'] != '') { // custom reply_to
-              $ctf_geekMail->_replyTo($si_contact_opt['email_reply_to']);
-         }else if($email != '') {   // trying this: keep users reply to even when email_from_enforced
-              $ctf_geekMail->_replyTo($email);
-         }else {
-              $ctf_geekMail->_replyTo($this->si_contact_from_email);
-         }
-         if ($ctf_email_address_cc != '')
-           $ctf_geekMail->cc($ctf_email_address_cc);
-         if ($ctf_email_address_bcc != '')
-           $ctf_geekMail->bcc($ctf_email_address_bcc);
-         $ctf_geekMail->subject($subj);
-         $ctf_geekMail->message($msg);
-         if ( $this->uploaded_files ) {
-			    foreach ( $this->uploaded_files as $path ) {
-				    $ctf_geekMail->attach($path);
-			    }
-         }
-         @$ctf_geekMail->send();
 
     } else {
       // sending with wp_mail
@@ -1017,8 +970,7 @@ if ($have_attach){
        $subj = str_replace('[form_label]',$posted_form_name,$subj);
 
        // wordwrap email message
-       if ($ctf_wrap_message)
-             $msg = wordwrap($msg, 70,$php_eol);
+       $msg = wordwrap($msg, 70,$php_eol);
 
        $header = '';
        $header_php = '';
@@ -1051,26 +1003,6 @@ if ($have_attach){
                 // the fifth parameter is not allowed in safe mode
                 @mail($email,$subj,$msg,$header_php);
             }
-       }else if ($si_contact_opt['php_mailer_enable'] == 'geekmail') {
-            // autoresponder sending with geekmail
-            require_once WP_PLUGIN_DIR . '/si-contact-form/ctf_geekMail-1.0.php';
-            $ctf_geekMail = new ctf_geekMail();
-            if ($si_contact_opt['auto_respond_html'] == 'true') {
-                    $ctf_geekMail->setMailType('html');
-            } else {
-                    $ctf_geekMail->setMailType('text');
-            }
-            $ctf_geekMail->_setcharSet(get_option('blog_charset'));
-            $ctf_geekMail->_setnewLine($php_eol);
-            $ctf_geekMail->return_path($this->si_contact_from_email);
-            $ctf_geekMail->x_sender($this->si_contact_from_email);
-            $ctf_geekMail->from($this->si_contact_from_email, $this->si_contact_from_name);
-            $ctf_geekMail->_replyTo($auto_respond_reply_to);
-            $ctf_geekMail->to($email);
-            $ctf_geekMail->subject($subj);
-            $ctf_geekMail->message($msg);
-            @$ctf_geekMail->send();
-
        } else {
             // autoresponder sending with wp_mail
             add_filter( 'wp_mail_from_name', array(&$this,'si_contact_form_from_name'),1);

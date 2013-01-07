@@ -5,6 +5,12 @@ Mike Challis
 http://www.642weather.com/weather/scripts.php
 */
 
+//do not allow direct access
+if ( strpos(strtolower($_SERVER['SCRIPT_NAME']),strtolower(basename(__FILE__))) ) {
+ header('HTTP/1.0 403 Forbidden');
+ exit('Forbidden');
+}
+
 // the form is being displayed now
  $this->ctf_notes_style = $this->si_contact_convert_css($si_contact_opt['notes_style']);
  $this->ctf_form_style = $this->si_contact_convert_css($si_contact_opt['form_style']);
@@ -24,7 +30,7 @@ if ($this->si_contact_error)
   $this->ctf_form_style = str_replace('display: none;','',$this->ctf_form_style);
 
 $string .= '
-<!-- Fast Secure Contact Form plugin '.$this->ctf_version.' - begin - FastSecureContactForm.com -->
+<!-- Fast Secure Contact Form plugin '.esc_html($this->ctf_version).' - begin - FastSecureContactForm.com -->
 <div id="FSContact'.$form_id_num.'" '.$this->ctf_form_style.'>';
 
 if ($si_contact_opt['vcita_enabled'] == 'true') {
@@ -32,14 +38,17 @@ if ($si_contact_opt['vcita_enabled'] == 'true') {
 <div style='float:left;' class='fsc_data_container'>
 ";
 }
+if($have_attach) // there are attachment fields on this form
+    $have_attach = 'enctype="multipart/form-data" '; // for <form post
 
 if ($si_contact_opt['border_enable'] == 'true') {
   $string .= '
     <form '.$have_attach.'action="'.esc_url( $form_action_url ).'#FSContact'.$form_id_num.'" id="si_contact_form'.$form_id_num.'" method="post">
     <fieldset '.$this->ctf_border_style.'>
-        <legend>';
-     $string .= ($si_contact_opt['title_border'] != '') ? $si_contact_opt['title_border'] : __('Contact Form', 'si-contact-form');
-     $string .= '</legend>';
+
+';
+  if ($si_contact_opt['title_border'] != '')
+        $string .= '      <legend>'.esc_html($si_contact_opt['title_border']).'</legend>';
 } else {
 
  $string .= '
@@ -54,14 +63,14 @@ if ($have_attach){
     $this->si_contact_init_temp_dir($attach_dir);
     if ($si_contact_opt['php_mailer_enable'] == 'php'){
        $this->si_contact_error = 1;
-	   $attach_dir_error = __( 'This contact form has file attachment fields. Attachments are only supported when the Send E-Mail function is set to WordPress or geekMail. You can find this setting on the contact form settings page.', 'si-contact-form' );
+	   $attach_dir_error = __('Attachments are only supported when the Send E-Mail function is set to WordPress. You can find this setting on the contact form edit page.', 'si-contact-form');
     }
 	if ( !is_dir($attach_dir) ) {
         $this->si_contact_error = 1;
-		$attach_dir_error = sprintf( __( 'This contact form has file attachment fields, but the temporary folder for the files (%s) does not exist. Create the folder manually and (<a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">fix permissions</a>)', 'si-contact-form' ), $attach_dir );
+		$attach_dir_error = __('The temporary folder for the attachment field does not exist.', 'si-contact-form');
     } else if(!is_writable($attach_dir)) {
           $this->si_contact_error = 1;
-		 $attach_dir_error = sprintf( __( 'This contact form has file attachment fields, but the temporary folder for the files (%s) is not writable. (<a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">fix permissions</a>)', 'si-contact-form' ), $attach_dir );
+		 $attach_dir_error = __('The temporary folder for the attachment field is not writable.', 'si-contact-form');
     } else {
        // delete files over 3 minutes old in the attachment directory
        $this->si_contact_clean_temp_dir($attach_dir, 3);
@@ -73,7 +82,7 @@ if ($this->si_contact_error) {
     $string .= '<div '.$this->ctf_required_style.'>
     <div '.$this->ctf_error_style.'>
 ';
-    $string .= ($si_contact_opt['error_correct'] != '') ? $si_contact_opt['error_correct'] : __('Please make corrections below and try again.', 'si-contact-form');
+    $string .= esc_html(($si_contact_opt['error_correct'] != '') ? $si_contact_opt['error_correct'] : __('Please make corrections below and try again.', 'si-contact-form'));
     $string .= '
     </div>
 </div>
@@ -82,14 +91,27 @@ if ($this->si_contact_error) {
       $string .= '<div '.$this->ctf_required_style.'>
       <div '.$this->ctf_error_style.'>
 ';
-      $string .= $attach_dir_error;
+      $string .= esc_html($attach_dir_error);
       $string .= '
       </div>
 </div>
 ';
     }
+     if ( !$this->isCaptchaEnabled() && $si_contact_error_captcha ) {
+      // honeypot without captcha
+$string .= '<div '.$this->ctf_required_style.'>
+      <div '.$this->ctf_error_style.'>
+';
+      $string .= esc_html($si_contact_error_captcha);
+      $string .= '
+      </div>
+</div>
+';
+
+     }
+
 }
-if (empty($ctf_contacts)) {
+if (empty($contacts)) {
    $string .= '<div '.$this->ctf_required_style.'>
    <div '.$this->ctf_error_style.'>'.__('ERROR: Misconfigured E-mail address in options.', 'si-contact-form').'
    </div>
@@ -100,7 +122,7 @@ if (empty($ctf_contacts)) {
 if ($si_contact_opt['req_field_label_enable'] == 'true' && $si_contact_opt['req_field_indicator_enable'] == 'true' ) {
    $string .=  '<div '.$this->ctf_required_style.'>
 ';
-   $string .= ($si_contact_opt['tooltip_required'] != '') ? '<span class="required">'.$si_contact_opt['req_field_indicator'].'</span>' .$si_contact_opt['tooltip_required'] : '<span class="required">'.$si_contact_opt['req_field_indicator'].'</span>' . __('(denotes required field)', 'si-contact-form');
+   $string .= ($si_contact_opt['tooltip_required'] != '') ? '<span class="required">'.esc_html($si_contact_opt['req_field_indicator']).'</span>' .esc_html($si_contact_opt['tooltip_required']) : '<span class="required">'.esc_html($si_contact_opt['req_field_indicator']).'</span>' . esc_html(__('(denotes required field)', 'si-contact-form'));
    $string .= '
    </div>
 ';
@@ -118,7 +140,7 @@ if ( $shortcode_hidden != '') {
             if ($key != '' && $value != '') {
               $string .= '
          <div>
-               <input type="hidden" name="'.$key.'" value="'.$value.'" />
+               <input type="hidden" name="'.esc_attr($key).'" value="'.esc_attr($value).'" />
         </div>
 ';
            }
@@ -132,7 +154,7 @@ if (count($contacts) > 1) {
      $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_CID'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_dept'] != '') ? $si_contact_opt['title_dept'] : __('Department to Contact', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_dept'] != '') ? $si_contact_opt['title_dept'] : __('Department to Contact', 'si-contact-form')).':';
      $string .= $req_field_ind.'</label>
         </div>
         <div '.$this->ctf_field_div_style.'>
@@ -140,7 +162,7 @@ if (count($contacts) > 1) {
                 <select '.$this->ctf_select_style.' id="si_contact_CID'.$form_id_num.'" name="si_contact_CID" '.$this->ctf_aria_required.'>
 ';
     $string .= '                <option value="">';
-    $string .= ($si_contact_opt['title_select'] != '') ? $this->ctf_output_string($si_contact_opt['title_select']) : $this->ctf_output_string( __('Select', 'si-contact-form'));
+    $string .= esc_html(($si_contact_opt['title_select'] != '') ? $si_contact_opt['title_select'] : __('Select', 'si-contact-form'));
     $string .= '</option>
 ';
 
@@ -156,7 +178,7 @@ if (count($contacts) > 1) {
           if (!empty($cid) && $cid == $k) {
                     $selected = ' selected="selected"';
           }
-          $string .= '                <option value="' . $k . '"' . $selected . '>' . $v['CONTACT'] . '</option>
+          $string .= '                <option value="' . esc_attr($k) . '"' . $selected . '>' . esc_html($v['CONTACT']) . '</option>
 ';
           $selected = '';
       }
@@ -198,25 +220,25 @@ if($si_contact_opt['name_type'] != 'not_available' ) {
      $f_name_string = '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_f_name'.$form_id_num.'">';
-     $f_name_string .= ($si_contact_opt['title_fname'] != '') ? $si_contact_opt['title_fname'] : __('First Name', 'si-contact-form').':';
+     $f_name_string .= esc_html(($si_contact_opt['title_fname'] != '') ? $si_contact_opt['title_fname'] : __('First Name', 'si-contact-form')).':';
      if($si_contact_opt['name_type'] == 'required' )
            $f_name_string .= $req_field_ind;
      $f_name_string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_f_name).'
-                <input '.$this->ctf_field_style.' type="text" id="si_contact_f_name'.$form_id_num.'" name="si_contact_f_name" value="' . $this->ctf_output_string($f_name) .'" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_f_name'.$form_id_num.'" name="si_contact_f_name" value="' . esc_attr($f_name) .'" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>';
 
      $l_name_string = '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_l_name'.$form_id_num.'">';
-     $l_name_string .= ($si_contact_opt['title_lname'] != '') ? $si_contact_opt['title_lname'] : __('Last Name', 'si-contact-form').':';
+     $l_name_string .= esc_html(($si_contact_opt['title_lname'] != '') ? $si_contact_opt['title_lname'] : __('Last Name', 'si-contact-form')).':';
      if($si_contact_opt['name_type'] == 'required' )
            $l_name_string .= $req_field_ind;
      $l_name_string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_l_name).'
-                <input '.$this->ctf_field_style.' type="text" id="si_contact_l_name'.$form_id_num.'" name="si_contact_l_name" value="' . $this->ctf_output_string($l_name) .'" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_l_name'.$form_id_num.'" name="si_contact_l_name" value="' . esc_attr($l_name) .'" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>
 ';
 
@@ -227,13 +249,13 @@ if($si_contact_opt['name_type'] != 'not_available' ) {
 $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_name'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_name'] != '') ? $si_contact_opt['title_name'] : __('Name', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_name'] != '') ? $si_contact_opt['title_name'] : __('Name', 'si-contact-form')).':';
      if($si_contact_opt['name_type'] == 'required' )
            $string .= $req_field_ind;
      $string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_name).'
-                <input '.$this->ctf_field_style.' type="text" id="si_contact_name'.$form_id_num.'" name="si_contact_name" value="' . $this->ctf_output_string($name) .'" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_name'.$form_id_num.'" name="si_contact_name" value="' . esc_attr($name) .'" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>
 ';
 
@@ -251,11 +273,11 @@ $string .= '
 $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_mi_name'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_miname'] != '') ? $si_contact_opt['title_miname'] : __('Middle Initial', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_miname'] != '') ? $si_contact_opt['title_miname'] : __('Middle Initial', 'si-contact-form')).':';
      $string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_mi_name).'
-                <input '.$this->ctf_field_style.' type="text" id="si_contact_mi_name'.$form_id_num.'" name="si_contact_mi_name" value="' . $this->ctf_output_string($mi_name) .'" '.$this->ctf_aria_required.' size="2" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_mi_name'.$form_id_num.'" name="si_contact_mi_name" value="' . esc_attr($mi_name) .'" '.$this->ctf_aria_required.' size="2" />
         </div>';
 
      $string .= $l_name_string;
@@ -268,11 +290,11 @@ $string .= '
 $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_m_name'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_mname'] != '') ? $si_contact_opt['title_mname'] : __('Middle Name', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_mname'] != '') ? $si_contact_opt['title_mname'] : __('Middle Name', 'si-contact-form')).':';
      $string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_m_name).'
-                <input '.$this->ctf_field_style.' type="text" id="si_contact_m_name'.$form_id_num.'" name="si_contact_m_name" value="' . $this->ctf_output_string($m_name) .'" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_m_name'.$form_id_num.'" name="si_contact_m_name" value="' . esc_attr($m_name) .'" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>';
 
      $string .= $l_name_string;
@@ -285,25 +307,25 @@ if($si_contact_opt['email_type'] != 'not_available' ) {
    $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_email'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_email'] != '') ? $si_contact_opt['title_email'] : __('E-Mail Address', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_email'] != '') ? $si_contact_opt['title_email'] : __('E-Mail Address', 'si-contact-form')).':';
      if($si_contact_opt['email_type'] == 'required' )
            $string .= $req_field_ind;
      $string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_email).'
          '.$this->ctf_echo_if_error($si_contact_error_double_email).'
-                <input '.$this->ctf_field_style.' type="email" id="si_contact_email'.$form_id_num.'" name="si_contact_email" value="' . $this->ctf_output_string($email) . '" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_email'.$form_id_num.'" name="si_contact_email" value="' . esc_attr($email) . '" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_email2_'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_email2'] != '') ? $si_contact_opt['title_email2'] : __('E-Mail Address again', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_email2'] != '') ? $si_contact_opt['title_email2'] : __('E-Mail Address again', 'si-contact-form')).':';
      $string .= $req_field_ind.'</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_email2).'
                 <span style="font-size:x-small; font-weight:normal;">';
-     $string .= ($si_contact_opt['title_email2_help'] != '') ? $si_contact_opt['title_email2_help'] : __('Please enter your E-mail Address a second time.', 'si-contact-form');
+     $string .= esc_html(($si_contact_opt['title_email2_help'] != '') ? $si_contact_opt['title_email2_help'] : __('Please enter your E-mail Address a second time.', 'si-contact-form'));
      $string .= '</span><br />
-                 <input '.$this->ctf_field_style.' type="email" id="si_contact_email2_'.$form_id_num.'" name="si_contact_email2" value="' . $this->ctf_output_string($email2) . '" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                 <input '.$this->ctf_field_style.' type="text" id="si_contact_email2_'.$form_id_num.'" name="si_contact_email2" value="' . esc_attr($email2) . '" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>
 ';
 
@@ -311,13 +333,13 @@ if($si_contact_opt['email_type'] != 'not_available' ) {
     $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_email'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_email'] != '') ? $si_contact_opt['title_email'] : __('E-Mail Address', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_email'] != '') ? $si_contact_opt['title_email'] : __('E-Mail Address', 'si-contact-form')).':';
      if($si_contact_opt['email_type'] == 'required' )
            $string .= $req_field_ind;
      $string .= '</label>
         </div>
         <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($si_contact_error_email).'
-                <input '.$this->ctf_field_style.' type="email" id="si_contact_email'.$form_id_num.'" name="si_contact_email" value="' . $this->ctf_output_string($email) . '" '.$this->ctf_aria_required.' size="'.$ctf_field_size.'" />
+                <input '.$this->ctf_field_style.' type="text" id="si_contact_email'.$form_id_num.'" name="si_contact_email" value="' . esc_attr($email) . '" '.$this->ctf_aria_required.' size="'.esc_attr($ctf_field_size).'" />
         </div>
 ';
   }
@@ -341,7 +363,7 @@ if($si_contact_opt['subject_type'] != 'not_available' ) {
        $string .= '
         <div '.$this->ctf_title_style.'>
                 <label for="si_contact_subject_ID'.$form_id_num.'">';
-     $string .= ($si_contact_opt['title_subj'] != '') ? $si_contact_opt['title_subj'] : __('Subject', 'si-contact-form').':';
+     $string .= esc_html(($si_contact_opt['title_subj'] != '') ? $si_contact_opt['title_subj'] : __('Subject', 'si-contact-form')).':';
      if($si_contact_opt['subject_type'] == 'required' )
            $string .= $req_field_ind;
      $string .= '</label>
@@ -352,7 +374,7 @@ if($si_contact_opt['subject_type'] != 'not_available' ) {
 ';
 
     $string .= '               <option value="">';
-    $string .= ($si_contact_opt['title_select'] != '') ? $this->ctf_output_string($si_contact_opt['title_select']) : $this->ctf_output_string( __('Select', 'si-contact-form'));
+    $string .= esc_html(($si_contact_opt['title_select'] != '') ? $si_contact_opt['title_select'] : __('Select', 'si-contact-form'));
     $string .= '</option>
 ';
 
@@ -368,7 +390,7 @@ if($si_contact_opt['subject_type'] != 'not_available' ) {
           if (!empty($sid) && $sid == $k) {
                     $selected = ' selected="selected"';
           }
-          $string .= '                        <option value="' . $this->ctf_output_string($k) . '"' . $selected . '>' . $this->ctf_output_string($v) . '</option>
+          $string .= '                        <option value="' . esc_attr($k) . '"' . $selected . '>' . esc_html($v) . '</option>
       ';
           $selected = '';
       }
@@ -433,28 +455,40 @@ if ( $this->isCaptchaEnabled() ) {
 ";
 }
 
+   if($si_contact_opt['honeypot_enable'] == 'true' ) {
+      // hidden empty honeypot field
+      $string .= '        <div style="display:none;">
+          <label for="email_'.$form_id_num.'"><small>'.__('Leave this field empty', 'si-contact-form').'</small></label>
+          <input type="text" name="email_'.$form_id_num.'" id="email_'.$form_id_num.'" value="" />
+        </div>
+';
+      // server-side timestamp forgery token.
+      $string .= '    <input type="hidden" name="si_tok_'.$form_id_num.'" value="'. wp_hash( time() ).','.time() .'" />
+';
+   }
+
 $string .= '
 <div '.$this->ctf_submit_div_style.'>
   <input type="hidden" name="si_contact_action" value="send" />
   <input type="hidden" name="si_contact_form_id" value="'.$form_id_num.'" />
   <input type="submit" id="fsc-submit-'.$form_id_num.'" '.$this->ctf_submit_style.' value="';
-     $string .= ($si_contact_opt['title_submit'] != '') ? $this->ctf_output_string( $si_contact_opt['title_submit'] ) : $this->ctf_output_string( __('Submit', 'si-contact-form'));
+     $string .= esc_attr(($si_contact_opt['title_submit'] != '') ? $si_contact_opt['title_submit'] :  __('Submit', 'si-contact-form'));
      $string .= '" ';
    if($si_contact_opt['enable_areyousure'] == 'true') {
      $string .= ' onclick="return confirm(\'';
-     $string .= ($si_contact_opt['title_areyousure'] != '') ? $this->ctf_output_string(addslashes($si_contact_opt['title_areyousure'] )) : $this->ctf_output_string(addslashes( __('Are you sure?', 'si-contact-form')));
+     $string .= esc_js(($si_contact_opt['title_areyousure'] != '') ? $si_contact_opt['title_areyousure'] : __('Are you sure?', 'si-contact-form'));
      $string .= '\')" ';
     }
      $string .= '/> ';
    if($si_contact_opt['enable_reset'] == 'true') {
      $string .= '<input type="reset" id="fsc-reset-'.$form_id_num.'" '.$this->ctf_reset_style.' value="';
-     $string .= ($si_contact_opt['title_reset'] != '') ? $this->ctf_output_string( $si_contact_opt['title_reset'] ) : $this->ctf_output_string( __('Reset', 'si-contact-form'));
+     $string .= esc_attr(($si_contact_opt['title_reset'] != '') ?  $si_contact_opt['title_reset'] : __('Reset', 'si-contact-form'));
      $string .= '" onclick="return confirm(\'';
-     $string .= addslashes(__('Do you really want to reset the form?', 'si-contact-form'));
+     $string .= esc_js(__('Do you really want to reset the form?', 'si-contact-form'));
      $string .= '\')"  />
 ';
     }
-	
+
 $string .= '
 </div>
 ';
@@ -491,5 +525,5 @@ if ($si_contact_opt['vcita_enabled'] == 'true') {
        /* --- vCita Scheduler Display - End --- */
 }
 $string .= '
-<!-- Fast Secure Contact Form plugin '.$this->ctf_version.' - end - FastSecureContactForm.com -->';	
+<!-- Fast Secure Contact Form plugin '.esc_attr($this->ctf_version).' - end - FastSecureContactForm.com -->';
 ?>

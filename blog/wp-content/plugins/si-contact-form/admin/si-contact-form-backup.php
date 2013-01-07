@@ -15,8 +15,8 @@ if ( strpos(strtolower($_SERVER['SCRIPT_NAME']),strtolower(basename(__FILE__))) 
 if ( isset($_POST['ctf_action'] )
     && $_POST['ctf_action'] == __('Backup Settings', 'si-contact-form')
     && isset($_POST['si_contact_backup_type'])
-    && (is_numeric($_POST['si_contact_backup_type']) || $_POST['si_contact_backup_type'] == 'all') ) {
-        check_admin_referer( 'si-contact-form-backup_settings'); // nonce
+    && (is_numeric($_POST['si_contact_backup_type']) || $_POST['si_contact_backup_type'] == 'all')
+    && check_admin_referer( 'si-contact-form-backup_settings','backup_settings') ) {
 
         if ( function_exists('current_user_can') && !current_user_can('manage_options') )
              wp_die(__('You do not have permissions for managing this option', 'si-contact-form'));
