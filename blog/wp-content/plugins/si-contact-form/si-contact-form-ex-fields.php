@@ -6,6 +6,10 @@ http://www.642weather.com/weather/scripts.php
 */
 
 // display extra fields on the contact form
+// included from si-contact-form-display.php when there are extra fields for this form #
+// All the code in this file is inside function si_contact_form_short_code
+// This function may be processed more than once via shortcode when there are multiple forms on a page,
+// or when a plugin modifies "the content".
 
       $ex_fieldset = 0;
       $printed_tooltip_filetypes = 0;
@@ -54,7 +58,7 @@ http://www.642weather.com/weather/scripts.php
            $exf_opts_label = trim($exf_opts_label); $value = trim($value);
            if ($exf_opts_label == '' || $value == '') {
                // error
-               $this->si_contact_error = 1;
+               $have_error = 1;
                $string .= $this->ctf_echo_if_error(__('Error: A hidden field is not configured properly in settings.', 'si-contact-form'));
             }
             if (${'ex_field'.$i} != '') // guery string can overrride
@@ -73,7 +77,7 @@ http://www.642weather.com/weather/scripts.php
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only)).'
                 <input '.$this->ctf_field_style.' type="password" id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" value="' . esc_attr(${'ex_field'.$i}) . '" '.$ex_req_field_aria.' ';
                 if($si_contact_opt['ex_field'.$i.'_max_len'] != '')
                   $string .=  ' maxlength="'.$si_contact_opt['ex_field'.$i.'_max_len'].'" ';
@@ -100,7 +104,7 @@ http://www.642weather.com/weather/scripts.php
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only)).'
                 <input ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' type="'.esc_attr($si_contact_opt['ex_field'.$i.'_type']).'" id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" value="';
@@ -133,7 +137,7 @@ http://www.642weather.com/weather/scripts.php
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                 <textarea ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" '.$ex_req_field_aria;
@@ -166,7 +170,7 @@ $exf_opts_label = '';
 $exf_array_test = trim($si_contact_opt['ex_field'.$i.'_label'] );
 if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
        // error
-       $this->si_contact_error = 1;
+       $have_error = 1;
        $string .= $this->ctf_echo_if_error(__('Error: A select field is not configured properly in settings.', 'si-contact-form'));
 } else {
        list($exf_opts_label, $value) = preg_split('#(?<!\\\)\,#',$exf_array_test); //string will be split by "," but "\," will be ignored
@@ -175,7 +179,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
        if ($exf_opts_label != '' && $value != '') {
           if(!preg_match("/;/", $value)) {
                // error
-               $this->si_contact_error = 1;
+               $have_error = 1;
                $string .= $this->ctf_echo_if_error(__('Error: A select field is not configured properly in settings.', 'si-contact-form'));
           } else {
                // multiple options
@@ -192,7 +196,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($exf_opts_label) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                <select ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'"';
@@ -242,7 +246,7 @@ $exf_opts_label = '';
 $exf_array_test = trim($si_contact_opt['ex_field'.$i.'_label'] );
 if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
        // error
-       $this->si_contact_error = 1;
+       $have_error = 1;
        $string .= $this->ctf_echo_if_error(__('Error: A select-multiple field is not configured properly in settings.', 'si-contact-form'));
 } else {
        list($exf_opts_label, $value) = preg_split('#(?<!\\\)\,#',$exf_array_test); //string will be split by "," but "\," will be ignored
@@ -252,7 +256,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
           if(!preg_match("/;/", $value)) {
                echo $value;
                // error
-               $this->si_contact_error = 1;
+               $have_error = 1;
                $string .= $this->ctf_echo_if_error(__('Error: A select-multiple field is not configured properly in settings.', 'si-contact-form'));
           } else {
                // multiple options
@@ -269,7 +273,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($exf_opts_label) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                <select ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'[]" multiple="multiple"';
@@ -327,7 +331,7 @@ $exf_opts_inline = 0;
 $exf_array_test = trim($si_contact_opt['ex_field'.$i.'_label'] );
 if ( ($si_contact_opt['ex_field'.$i.'_type'] == 'checkbox' && preg_match('#(?<!\\\)\,#', $exf_array_test) ) ||
 ($si_contact_opt['ex_field'.$i.'_type'] == 'checkbox-multiple' && !preg_match("/;/", $exf_array_test))  ) {
-   $this->si_contact_error = 1;
+   $have_error = 1;
    $string .= $this->ctf_echo_if_error(__('Error: A checkbox field is not configured properly in settings.', 'si-contact-form'));
 }
 if( preg_match('#(?<!\\\)\,#', $exf_array_test) && preg_match("/;/", $exf_array_test) ) {
@@ -337,7 +341,7 @@ if( preg_match('#(?<!\\\)\,#', $exf_array_test) && preg_match("/;/", $exf_array_
        if ($exf_opts_label != '' && $value != '') {
           if(!preg_match("/;/", $value)) {
                // error
-               $this->si_contact_error = 1;
+               $have_error = 1;
                $string .= $this->ctf_echo_if_error(__('Error: A checkbox field is not configured properly in settings.', 'si-contact-form'));
           } else {
                // multiple options
@@ -359,7 +363,7 @@ if( preg_match('#(?<!\\\)\,#', $exf_array_test) && preg_match("/;/", $exf_array_
          $string .= '>
                 <label>' . esc_html($exf_opts_label)  . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'. $this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i});
+        <div '.$this->ctf_field_div_style.'>'. $this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) );
 $string .=   "
 ";
 
@@ -410,7 +414,7 @@ $string .=   "
          $string .= ($si_contact_opt['ex_field'.$i.'_label_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_label_css']) : $this->ctf_title_style;
          $string .= '>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                 <input type="checkbox" style="width:13px;" id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" value="selected" ';
     if (${'ex_field'.$i} != '') {
       if (${'ex_field'.$i} == 'selected') {
@@ -444,7 +448,7 @@ $exf_opts_inline = 0;
 $exf_array_test = trim($si_contact_opt['ex_field'.$i.'_label'] );
 if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
        // error
-       $this->si_contact_error = 1;
+       $have_error = 1;
        $string .= $this->ctf_echo_if_error(__('Error: A radio field is not configured properly in settings.', 'si-contact-form'));
 } else {
        list($exf_opts_label, $value) = preg_split('#(?<!\\\)\,#',$exf_array_test); //string will be split by "," but "\," will be ignored
@@ -453,7 +457,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
        if ($exf_opts_label != '' && $value != '') {
           if(!preg_match("/;/", $value)) {
                // error
-               $this->si_contact_error = 1;
+               $have_error = 1;
                $string .= $this->ctf_echo_if_error(__('Error: A radio field is not configured properly in settings.', 'si-contact-form'));
           } else {
                // multiple options
@@ -474,7 +478,7 @@ if(!preg_match('#(?<!\\\)\,#', $exf_array_test) ) {
          $string .= '>
                 <label>' . esc_html($exf_opts_label)  . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'. $this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i});
+        <div '.$this->ctf_field_div_style.'>'. $this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) );
 $string .=   "
 ";
 
@@ -519,7 +523,7 @@ $string .= '
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                 <input '.$this->ctf_field_style.' type="file" id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" value="' . esc_attr(${'ex_field'.$i}) . '" '.$ex_req_field_aria.' size="20" ';
                 if($si_contact_opt['ex_field'.$i.'_attributes'] != '')
                   $string .= ' '.$si_contact_opt['ex_field'.$i.'_attributes'];
@@ -560,7 +564,7 @@ $string .= '        </div>
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' .esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                 <input ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' type="text" id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'" value="';
@@ -587,7 +591,7 @@ $exf_opts_array = array();
          $string .= '>
                 <label for="si_contact_ex_field'.$form_id_num.'_'.$i.'">' . esc_html($si_contact_opt['ex_field'.$i.'_label']) . $ex_req_field_ind.'</label>
         </div>
-        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error(${'si_contact_error_ex_field'.$i}).'
+        <div '.$this->ctf_field_div_style.'>'.$this->ctf_echo_if_error($this->si_contact_error_var("ex_field$i",$display_only) ).'
                <select ';
          $string .= ($si_contact_opt['ex_field'.$i.'_input_css'] != '') ? $this->si_contact_convert_css($si_contact_opt['ex_field'.$i.'_input_css']) : $this->ctf_field_style;
          $string .= ' id="si_contact_ex_field'.$form_id_num.'_'.$i.'" name="si_contact_ex_field'.$i.'h">
