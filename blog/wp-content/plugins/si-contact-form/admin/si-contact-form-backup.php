@@ -28,7 +28,7 @@ if ( isset($_POST['ctf_action'] )
         $eol = "\r\n";
 
         // format the data to be stored in contact-form-backup.txt
-        $string .= "**SERIALIZED DATA, DO NOT HAND EDIT!**$eol";
+        $string = "**SERIALIZED DATA, DO NOT HAND EDIT!**$eol";
         $string .= "Backup of forms and settings for 'Fast Secure Contact Form' WordPress plugin $ctf_version$eol";
         $string .= 'Form ID included in this backup: '.$backup_type.$eol;
         $string .= "Web site: ".get_option('home').$eol;
@@ -82,7 +82,7 @@ if ( isset($_POST['ctf_action'] )
          $filename = 'contact-form-backup-'.$backup_type.'.txt';
 
         // force download dialog to web browser
-        ob_end_clean();
+        @ob_end_clean();
 		header('Pragma: public');
 		header('Expires: 0');
 		header('Cache-Control: must-revalidate, post-check=0, pre-check=0');

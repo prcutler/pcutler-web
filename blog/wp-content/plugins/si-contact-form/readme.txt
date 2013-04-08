@@ -208,8 +208,15 @@ If you have any question about the Schedule Meetings feature please contact supp
 
 == Changelog ==
 
+= 3.1.8.2 =
+- (01 Apr 2013) - switched back to PHP sessions because WP Sessions had issues with cache plugins.
+- Fixed some forms sometimes blanked on Submit.
 - Fixed error logic for attachment permissions.
-- Fixed form posting issues caused by cached pages or session timeout issues.
+- Fixed form posting issues caused by cached pages and session timeout issues.
+- Fixed sometimes missing values for select-multiple field type.
+- Fixed CAPTCHA did not work on some servers.
+- Fixed sometimes error in backup tool.
+
 
 = 3.1.8.1 =
 - (02 Feb 2013) - Fixed multiple forms on same page was broken.

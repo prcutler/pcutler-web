@@ -373,12 +373,6 @@ class Securimage_ctf {
 	function Securimage_ctf()
 	{
 
-       global $captcha_path_cf, $wp_session;
-
-       //stop the error output of broken plugins here
-       // clean the output buffer  (only works on some)
-       ob_clean();
-
 		// Set Default Values
         $this->form_num = 1;
         $this->prefix = '000000';
@@ -390,12 +384,12 @@ class Securimage_ctf {
 		$this->code_length   = 6;
 		$this->charset       = 'ABCDEFGHKLMNPRSTUVWYZabcdefghklmnprstuvwyz23456789';
 
-		$this->gd_font_file  = $captcha_path_cf . '/gdfonts/bubblebath.gdf';
+		$this->gd_font_file  = getcwd() . '/gdfonts/bubblebath.gdf';
 		$this->use_gd_font   = false;
 		$this->gd_font_size  = 24;
 		$this->text_x_start  = 15;
 
-		$this->ttf_file      = $captcha_path_cf . '/ahg-bold.ttf';
+		$this->ttf_file      = getcwd() . '/ahg-bold.ttf';
 
 		$this->perturbation       = 0.75;
 		$this->iscale             = 5;
@@ -414,20 +408,16 @@ class Securimage_ctf {
 		$this->line_color           = '#3d3d3d';
 		$this->draw_lines_over_text = true;
 
-
-
         // Initialize session or attach to existing
 		//if ( session_id() == '' ) {
         // no session has been started yet, which is needed for validation
-/*		 if( !isset( $_SESSION ) ) { // play nice with other plugins
+		 if( !isset( $_SESSION ) ) { // play nice with other plugins
             //set the $_SESSION cookie into HTTPOnly mode for better security
             if (version_compare(PHP_VERSION, '5.2.0') >= 0)  // supported on PHP version 5.2.0  and higher
             @ini_set("session.cookie_httponly", 1);
             session_cache_limiter ('private, must-revalidate');
             session_start();
-		}*/
-
-
+		}
 	}
 
 	/**
@@ -908,8 +898,7 @@ class Securimage_ctf {
 	 */
 	function saveData()
 	{
-        global $wp_session;
-		$wp_session['securimage_code_ctf_'.$this->form_num] = strtolower($this->code);
+		$_SESSION['securimage_code_ctf_'.$this->form_num] = strtolower($this->code);
 	}
 
 	/**
@@ -920,11 +909,10 @@ class Securimage_ctf {
 	 */
 	function validate()
 	{
-        global $wp_session;
-		if ( isset($wp_session['securimage_code_ctf_'.$this->form_num]) && !empty($wp_session['securimage_code_ctf_'.$this->form_num]) ) {
-			if ( strtolower($wp_session['securimage_code_ctf_'.$this->form_num]) == strtolower(trim($this->code_entered)) ) {
+		if ( isset($_SESSION['securimage_code_ctf_'.$this->form_num]) && !empty($_SESSION['securimage_code_ctf_'.$this->form_num]) ) {
+			if ( strtolower($_SESSION['securimage_code_ctf_'.$this->form_num]) == strtolower(trim($this->code_entered)) ) {
 				$this->correct_code = true;
-				$wp_session['securimage_code_ctf_'.$this->form_num] = '';  // clear code to prevent session re-use
+				$_SESSION['securimage_code_ctf_'.$this->form_num] = '';  // clear code to prevent session re-use
 			} else {
 				$this->correct_code = false;
 			}
@@ -941,9 +929,8 @@ class Securimage_ctf {
 	 */
 	function getCode()
 	{
-        global $wp_session;
-        if (isset($wp_session['securimage_code_ctf_'.$this->form_num]) && !empty($wp_session['securimage_code_ctf_'.$this->form_num])) {
-			return strtolower($wp_session['securimage_code_ctf_'.$this->form_num]);
+        if (isset($_SESSION['securimage_code_ctf_'.$this->form_num]) && !empty($_SESSION['securimage_code_ctf_'.$this->form_num])) {
+			return strtolower($_SESSION['securimage_code_ctf_'.$this->form_num]);
 		} else {
 			return '';
 		}

@@ -147,9 +147,9 @@ get_currentuserinfo();
     // Webmaster,user1@example.com (must have name,email)
     // multiple emails allowed
     // Webmaster,user1@example.com;user2@example.com
-   if ( $wp_session["fsc_shortcode_email_to_$form_id_num"] != '') {
-     if(preg_match("/,/", $wp_session["fsc_shortcode_email_to_$form_id_num"]) ) {
-       list($key, $value) = preg_split('#(?<!\\\)\,#',$wp_session["fsc_shortcode_email_to_$form_id_num"]); //string will be split by "," but "\," will be ignored
+   if ( $_SESSION["fsc_shortcode_email_to_$form_id_num"] != '') {
+     if(preg_match("/,/", $_SESSION["fsc_shortcode_email_to_$form_id_num"]) ) {
+       list($key, $value) = preg_split('#(?<!\\\)\,#',$_SESSION["fsc_shortcode_email_to_$form_id_num"]); //string will be split by "," but "\," will be ignored
        $key   = trim(str_replace('\,',',',$key)); // "\," changes to ","
        $value = trim(str_replace(';',',',$value)); // ";" changes to ","
        if ($key != '' && $value != '') {
@@ -271,6 +271,7 @@ get_currentuserinfo();
                     $ex_cnt = 1;
                     $ex_reqd = 0;
                     foreach ($exf_opts_array as $k) {
+                      $k = trim($k);
                       if( isset($_POST["si_contact_ex_field$i".'_'.$ex_cnt]) && ! empty($_POST["si_contact_ex_field$i".'_'.$ex_cnt]) ){
                         ${'ex_field'.$i.'_'.$ex_cnt} = $this->si_contact_post_var("si_contact_ex_field$i".'_'.$ex_cnt,$display_only);
                         $ex_reqd++;
@@ -302,6 +303,7 @@ get_currentuserinfo();
                      if (is_array(${'ex_field'.$i}) && !empty(${'ex_field'.$i}) ) {
                        // loop
                        foreach ($exf_opts_array as $k) {  // checkbox multi
+                          $k = trim($k);
                           if (in_array($k, ${'ex_field'.$i} ) ) {
                              $ex_reqd++;
                           }
@@ -456,8 +458,8 @@ if ($si_contact_opt['req_field_label_enable'] == 'true' && $si_contact_opt['req_
 }
 
 // allow shortcode hidden fields
-if ( $wp_session["fsc_shortcode_hidden_$form_id_num"] != '') {
-   $hidden_fields_test = explode(",",$wp_session["fsc_shortcode_hidden_$form_id_num"]);
+if ( $_SESSION["fsc_shortcode_hidden_$form_id_num"] != '') {
+   $hidden_fields_test = explode(",",$_SESSION["fsc_shortcode_hidden_$form_id_num"]);
    if ( !empty($hidden_fields_test) ) {
       foreach($hidden_fields_test as $line) {
          if(preg_match("/=/", $line) ) {
@@ -855,8 +857,8 @@ if ($si_contact_opt['vcita_enabled'] == 'true') {
 		
 		$string .= "
 <div class='fscf_vcita_container' ";
-		$string .= empty($confirmation_token) ? "" : "confirmation_token=".$confirmation_token;
-		$string .= (empty($si_contact_opt['vcita_uid']) ? "preview=true" : " vcita_uid = '").$si_contact_opt['vcita_uid']."'>
+		$string .= empty($confirmation_token) ? "" : "confirmation_token='".$confirmation_token;
+		$string .= (empty($si_contact_opt['vcita_uid']) ? "preview='true" : " vcita_uid = '").$si_contact_opt['vcita_uid']."'>
 </div>";
         $string .= "
 <div style='clear:both;'></div>

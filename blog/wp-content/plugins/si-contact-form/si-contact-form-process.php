@@ -179,9 +179,9 @@ get_currentuserinfo();
     // Webmaster,user1@example.com (must have name,email)
     // multiple emails allowed
     // Webmaster,user1@example.com;user2@example.com
-   if ( $wp_session["fsc_shortcode_email_to_$form_id_num"] != '') {
-     if(preg_match("/,/", $wp_session["fsc_shortcode_email_to_$form_id_num"]) ) {
-       list($key, $value) = preg_split('#(?<!\\\)\,#',$wp_session["fsc_shortcode_email_to_$form_id_num"]); //string will be split by "," but "\," will be ignored
+   if ( $_SESSION["fsc_shortcode_email_to_$form_id_num"] != '') {
+     if(preg_match("/,/", $_SESSION["fsc_shortcode_email_to_$form_id_num"]) ) {
+       list($key, $value) = preg_split('#(?<!\\\)\,#',$_SESSION["fsc_shortcode_email_to_$form_id_num"]); //string will be split by "," but "\," will be ignored
        $key   = trim(str_replace('\,',',',$key)); // "\," changes to ","
        $value = trim(str_replace(';',',',$value)); // ";" changes to ","
        if ($key != '' && $value != '') {
@@ -398,7 +398,7 @@ get_currentuserinfo();
                   if ($exf_opts_label != '' && $value != '') {
                      if(!preg_match("/;/", $value)) {
                         $this->si_contact_error = 1;
-                        $fsc_error_message["ex_field$i"]  = __('Error: A checkbox field is not configured properly in settings. If you are trying to use multiple checkbox options, make sure this field type is set to checkbox-multiple instead of just checkbox', 'si-contact-form');
+                        $fsc_error_message["ex_field$i"]  = __('Error: A checkbox field is not configured properly in settings.', 'si-contact-form');
                      } else {
                         // multiple options
                          $exf_opts_array = explode(";",$value);
@@ -407,6 +407,7 @@ get_currentuserinfo();
                     $ex_cnt = 1;
                     $ex_reqd = 0;
                     foreach ($exf_opts_array as $k) {
+                      $k = trim($k);
                       if( ! empty($_POST["si_contact_ex_field$i".'_'.$ex_cnt]) ){
                         ${'ex_field'.$i.'_'.$ex_cnt} = $this->ctf_clean_input($_POST["si_contact_ex_field$i".'_'.$ex_cnt]);
                         $ex_reqd++;
@@ -447,6 +448,7 @@ get_currentuserinfo();
                      if (is_array(${'ex_field'.$i}) && !empty(${'ex_field'.$i}) ) {
                        // loop
                        foreach ($exf_opts_array as $k) {  // checkbox multi
+                          $k = trim($k);
                           if (in_array($k, ${'ex_field'.$i} ) ) {
                              $ex_reqd++;
                           }
@@ -544,14 +546,14 @@ get_currentuserinfo();
       var_dump($_COOKIE);
       echo "\n\n";
       echo "SESSION ";
-      var_dump($wp_session);
+      var_dump($_SESSION);
       echo "</pre>\n";*/
 
       $captcha_code = $this->ctf_clean_input($_POST['si_contact_captcha_code']);
 
-      if (!isset($wp_session['securimage_code_ctf_'.$form_id_num]) || empty($wp_session['securimage_code_ctf_'.$form_id_num])) {
+      if (!isset($_SESSION['securimage_code_ctf_'.$form_id_num]) || empty($_SESSION['securimage_code_ctf_'.$form_id_num])) {
           $this->si_contact_error = 1;
-          $fsc_error_message['captcha'] = __('Could not read CAPTCHA cookie. Try again.', 'si-contact-form');
+          $fsc_error_message['captcha'] = __('That CAPTCHA was incorrect. Try again.', 'si-contact-form');
       }else{
          if (empty($captcha_code) || $captcha_code == '') {
            $this->si_contact_error = 1;
@@ -705,7 +707,9 @@ get_currentuserinfo();
                     if (is_array(${'ex_field'.$i}) && ${'ex_field'.$i} != '') {
                        // loop
                        $ex_cnt = 1;
+
                        foreach ($exf_opts_array as $k) {  // select-multiple
+                          $k = trim($k);
                           if (in_array($k, ${'ex_field'.$i} ) ) {
                              $msg .= ' * '.$k.$php_eol;
                              $posted_data["ex_field$i"] .= ' * '.$k;
@@ -737,6 +741,7 @@ get_currentuserinfo();
                     // loop
                     $ex_cnt = 1;
                     foreach ($exf_opts_array as $k) {  // checkbox multi
+                     $k = trim($k);
                      if( isset(${'ex_field'.$i.'_'.$ex_cnt}) && ${'ex_field'.$i.'_'.$ex_cnt} == 'selected') {
                        $msg .= ' * '.$k.$php_eol;
                        $posted_data["ex_field$i"] .= ' * '.$k;
@@ -774,8 +779,8 @@ get_currentuserinfo();
     } // end for
 
    // allow shortcode hidden fields   http://www.fastsecurecontactform.com/shortcode-options
-   if ( $wp_session["fsc_shortcode_hidden_$form_id_num"] != '') {
-      $hidden_fields_test = explode(",",$wp_session["fsc_shortcode_hidden_$form_id_num"]);
+   if ( $_SESSION["fsc_shortcode_hidden_$form_id_num"] != '') {
+      $hidden_fields_test = explode(",",$_SESSION["fsc_shortcode_hidden_$form_id_num"]);
       if ( !empty($hidden_fields_test) ) {
          foreach($hidden_fields_test as $line) {
            if(preg_match("/=/", $line) ) {
@@ -1152,15 +1157,15 @@ get_currentuserinfo();
       do_action_ref_array( 'fsctf_mail_sent', array( &$fsctf_posted_data ) );
    }  // end if export_enable
 
-        $wp_session["fsc_sent_mail"] = true; // toggle this on so check_and_send won't send back to this function a 2nd time
+        $_SESSION["fsc_sent_mail"] = true; // toggle this on so check_and_send won't send back to this function a 2nd time
        if( $si_contact_opt['redirect_enable'] == 'true' ){
           $ctf_redirect_enable = 'true';
           $ctf_redirect_url = $si_contact_opt['redirect_url'];
        }
        // allow shortcode redirect to override options redirect settings
-       if ( $wp_session["fsc_shortcode_redirect_$form_id_num"] != '') {
+       if ( $_SESSION["fsc_shortcode_redirect_$form_id_num"] != '') {
            $ctf_redirect_enable = 'true';
-           $ctf_redirect_url = strip_tags($wp_session["fsc_shortcode_redirect_$form_id_num"]);
+           $ctf_redirect_url = strip_tags($_SESSION["fsc_shortcode_redirect_$form_id_num"]);
        }
        if ($ctf_redirect_enable == 'true') {
            if ($ctf_redirect_url == '#') {  // if you put # for the redirect URL it will redirect to the same page the form is on regardless of the page.
@@ -1250,7 +1255,7 @@ $ctf_thank_you .= '
 
       // thank you message html that can now be used in si_contact_form_short_code function
       // saved into a session var because the si_contact_form_short_code function can be run multiple times by other plugins applying "the_content" filter
-      $wp_session['fsc_form_display_html'] = $ctf_thank_you;
+      $_SESSION['fsc_form_display_html'] = $ctf_thank_you;
 
 } // end if message sent
 
