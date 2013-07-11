@@ -55,11 +55,7 @@ if (count($types)) {
 			break;
 			default:
 				$message = __('Social was not successful in broadcasting this post (perhaps the service is down?), please try broadcasting again. If you receive this message repeatedly, you can try the support forums.', 'social')
-<<<<<<< HEAD
 				         . '    '.__('Support forums:', 'social').' http://wordpress.org/support/plugin/social';
-=======
-				         . '    '.__('Support forums:', 'social').' http://wordpress.org/tags/social?forum_id=10';
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			break;
 		}
 

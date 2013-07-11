@@ -662,18 +662,10 @@ final class Social_Service_Twitter extends Social_Service implements Social_Inte
 			return $url;
 		}
 		global $comment;
-<<<<<<< HEAD
 		$status_id = get_comment_meta($comment->comment_ID, 'social_status_id', true);
 		if (in_array($comment->comment_type, self::comment_types()) && is_string($status_id) && $status_id) {
 			$output = str_replace("rel='", "rel='".$status_id." ", $url);
 			$output = str_replace("'>", "'>@", $output);
-=======
-		if (in_array($comment->comment_type, self::comment_types())) {
-			$status_id = get_comment_meta($comment->comment_ID, 'social_status_id', true);
-			$output = str_replace("rel='", "rel='".$status_id." ", $url);
-			$output = str_replace("'>", "'>@", $output);
-
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			return $output;
 		}
 
