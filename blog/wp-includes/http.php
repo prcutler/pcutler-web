@@ -19,7 +19,7 @@
  *
  * @return WP_Http HTTP Transport object.
  */
-function &_wp_http_get_object() {
+function _wp_http_get_object() {
 	static $http;
 
 	if ( is_null($http) )
@@ -197,7 +197,7 @@ function wp_remote_retrieve_body(&$response) {
  * @since 3.2.0
  *
  * @param array  $capabilities Array of capabilities to test or a wp_remote_request() $args array.
- * @param string $url Optional.  If given, will check if the URL requires SSL and adds that requirement to the capabilities array.
+ * @param string $url Optional. If given, will check if the URL requires SSL and adds that requirement to the capabilities array.
  *
  * @return bool
  */
@@ -221,4 +221,154 @@ function wp_http_supports( $capabilities = array(), $url = null ) {
 	}
 
 	return (bool) $objFetchSite->_get_first_available_transport( $capabilities );
+}
+
+/**
+ * Get the HTTP Origin of the current request.
+ *
+ * @since 3.4.0
+ *
+ * @return string URL of the origin. Empty string if no origin.
+ */
+function get_http_origin() {
+	$origin = '';
+	if ( ! empty ( $_SERVER[ 'HTTP_ORIGIN' ] ) )
+		$origin = $_SERVER[ 'HTTP_ORIGIN' ];
+
+	return apply_filters( 'http_origin', $origin );
+}
+
+/**
+ * Retrieve list of allowed http origins.
+ *
+ * @since 3.4.0
+ *
+ * @return array Array of origin URLs.
+ */
+function get_allowed_http_origins() {
+	$admin_origin = parse_url( admin_url() );
+	$home_origin = parse_url( home_url() );
+
+	// @todo preserve port?
+	$allowed_origins = array_unique( array(
+		'http://' . $admin_origin[ 'host' ],
+		'https://' . $admin_origin[ 'host' ],
+		'http://' . $home_origin[ 'host' ],
+		'https://' . $home_origin[ 'host' ],
+	) );
+
+	return apply_filters( 'allowed_http_origins' , $allowed_origins );
+}
+
+/**
+ * Determines if the http origin is an authorized one.
+ *
+ * @since 3.4.0
+ *
+ * @param string Origin URL. If not provided, the value of get_http_origin() is used.
+ * @return bool True if the origin is allowed. False otherwise.
+ */
+function is_allowed_http_origin( $origin = null ) {
+	$origin_arg = $origin;
+
+	if ( null === $origin )
+		$origin = get_http_origin();
+
+	if ( $origin && ! in_array( $origin, get_allowed_http_origins() ) )
+		$origin = '';
+
+	return apply_filters( 'allowed_http_origin', $origin, $origin_arg );
+}
+
+/**
+ * Send Access-Control-Allow-Origin and related headers if the current request
+ * is from an allowed origin.
+ *
+ * If the request is an OPTIONS request, the script exits with either access
+ * control headers sent, or a 403 response if the origin is not allowed. For
+ * other request methods, you will receive a return value.
+ *
+ * @since 3.4.0
+ *
+ * @return bool|string Returns the origin URL if headers are sent. Returns false
+ * if headers are not sent.
+ */
+function send_origin_headers() {
+	$origin = get_http_origin();
+
+	if ( is_allowed_http_origin( $origin ) ) {
+		@header( 'Access-Control-Allow-Origin: ' .  $origin );
+		@header( 'Access-Control-Allow-Credentials: true' );
+		if ( 'OPTIONS' === $_SERVER['REQUEST_METHOD'] )
+			exit;
+		return $origin;
+	}
+
+	if ( 'OPTIONS' === $_SERVER['REQUEST_METHOD'] ) {
+		status_header( 403 );
+		exit;
+	}
+
+	return false;
+}
+
+/**
+ * Validate a URL for safe use in the HTTP API.
+ *
+ * @since 3.5.2
+ *
+ * @return mixed URL or false on failure.
+ */
+function wp_http_validate_url( $url ) {
+	$url = esc_url_raw( $url, array( 'http', 'https' ) );
+	if ( ! $url )
+		return false;
+
+	$parsed_url = @parse_url( $url );
+	if ( ! $parsed_url )
+		return false;
+
+	if ( isset( $parsed_url['user'] ) || isset( $parsed_url['pass'] ) )
+		return false;
+
+	if ( false !== strpos( $parsed_url['host'], ':' ) )
+		return false;
+
+	$parsed_home = @parse_url( get_option( 'home' ) );
+
+	$same_host = strtolower( $parsed_home['host'] ) === strtolower( $parsed_url['host'] );
+
+	if ( ! $same_host ) {
+		$host = trim( $parsed_url['host'], '.' );
+		if ( preg_match( '#^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$#', $host ) ) {
+			$ip = $host;
+		} else {
+			$ip = gethostbyname( $host );
+			if ( $ip === $host ) // Error condition for gethostbyname()
+				$ip = false;
+		}
+		if ( $ip ) {
+			if ( '127.0.0.1' === $ip )
+				return false;
+			$parts = array_map( 'intval', explode( '.', $ip ) );
+			if ( 10 === $parts[0] )
+				return false;
+			if ( 172 === $parts[0] && 16 <= $parts[1] && 31 >= $parts[1] )
+				return false;
+			if ( 192 === $parts[0] && 168 === $parts[1] )
+				return false;
+		}
+	}
+
+	if ( empty( $parsed_url['port'] ) )
+		return $url;
+
+	$port = $parsed_url['port'];
+	if ( 80 === $port || 443 === $port || 8080 === $port )
+		return $url;
+
+	if ( $parsed_home && $same_host && $parsed_home['port'] === $port )
+		return $url;
+
+	return false;
 }

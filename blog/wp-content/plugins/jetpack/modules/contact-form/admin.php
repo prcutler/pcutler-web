@@ -36,7 +36,11 @@ function display_form_view() {
 add_action( 'admin_print_styles', 'grunion_admin_css' );
 function grunion_admin_css() {
 	global $current_screen;
+<<<<<<< HEAD
 	if ( ! in_array( $current_screen->id, array( 'edit-feedback', 'jetpack_page_omnisearch', 'dashboard_page_omnisearch' ) ) )
+=======
+	if ( ! in_array( $current_screen->id, array( 'edit-feedback', 'jetpack_page_omnisearch' ) ) )
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		return;
 
 	wp_enqueue_script( 'wp-lists' );
@@ -625,6 +629,7 @@ function grunion_ajax_spam() {
 	echo $status_html;
 	exit;
 }
+<<<<<<< HEAD
 
 add_action( 'omnisearch_add_providers', 'grunion_omnisearch_add_providers' );
 function grunion_omnisearch_add_providers() {
@@ -634,3 +639,5 @@ function grunion_omnisearch_add_providers() {
 		new Jetpack_Omnisearch_Grunion;
 	}
 }
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d

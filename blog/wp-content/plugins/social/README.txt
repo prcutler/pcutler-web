@@ -2,8 +2,13 @@
 Contributors: crowdfavorite, alexkingorg
 Tags: comments, facebook, twitter, social, broadcast, import, integrate, integration
 Requires at least: 3.3
+<<<<<<< HEAD
 Tested up to: 3.5.2
 Stable tag: 2.9.2
+=======
+Tested up to: 3.5.1
+Stable tag: 2.9.1
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -294,6 +299,7 @@ Also included are bugfixes, expanded language support, and other minor improveme
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 2.9.2 =
 * More gracefully handle "bad data" returned from social proxy upon comment broadcast
 * Add filter to outgoing requests
@@ -301,6 +307,8 @@ Also included are bugfixes, expanded language support, and other minor improveme
 * Add Italian localization (thanks https://github.com/davidesalerno)
 * Add Spanish localization (thanks https://github.com/juanjosepablos)
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 = 2.9.1 =
 * Fixed bug in the way facebook comment permalinks were being generated
 

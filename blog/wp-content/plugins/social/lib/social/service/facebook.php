@@ -170,6 +170,7 @@ final class Social_Service_Facebook extends Social_Service implements Social_Int
 		}
 
 		$args = apply_filters($this->key().'_broadcast_args', $args, $post_id, $comment_id);
+<<<<<<< HEAD
 		$request = apply_filters($this->key().'_broadcast_request', array(
 			'url' => 'me/feed',
 			'args' => $args,
@@ -177,6 +178,9 @@ final class Social_Service_Facebook extends Social_Service implements Social_Int
 			'comment_id' => $comment_id,
 		));
 		$response = $this->request($account, $request['url'], $request['args'], 'POST');
+=======
+		$response = $this->request($account, 'me/feed', $args, 'POST');
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		if ($response !== false && $response->body()->result == 'success') {
 			// post succeeded, return response
 			update_comment_meta($comment->comment_ID, 'social_reply_to_id', addslashes_deep($response->body()->response->id));

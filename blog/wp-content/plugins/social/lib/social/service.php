@@ -408,6 +408,10 @@ abstract class Social_Service {
 				case '{content}':
 					$content = do_shortcode($post->post_content);
 					$content = htmlspecialchars_decode(strip_tags($content));
+<<<<<<< HEAD
+=======
+					$content = preg_replace('/\s+/', ' ', $content);
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 					break;
 				case '{author}':
 					$user = get_userdata($post->post_author);

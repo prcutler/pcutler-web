@@ -116,4 +116,7 @@ class Jetpack_Omnisearch_Posts extends WP_List_Table {
 		}
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d

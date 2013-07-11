@@ -247,9 +247,15 @@ class Jetpack_Comments extends Highlander_Comments_Base {
 		// The actual iframe (loads comment form from Jetpack server)
 		?>
 
+<<<<<<< HEAD
 		<div id="respond" class="comment-respond">
 			<h3 id="reply-title" class="comment-reply-title"><?php comment_form_title( esc_html( $params['greeting'] ), esc_html( $params['greeting_reply'] ) ); ?> <small><?php cancel_comment_reply_link( esc_html__( 'Cancel reply' , 'jetpack') ); ?></small></h3>
 			<div id="commentform" class="comment-form">
+=======
+		<div id="respond">
+			<h3 id="reply-title"><?php comment_form_title( esc_html( $params['greeting'] ), esc_html( $params['greeting_reply'] ) ); ?> <small><?php cancel_comment_reply_link( esc_html__( 'Cancel reply' , 'jetpack') ); ?></small></h3>
+			<div id="commentform">
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 				<iframe src="<?php echo esc_url( $url ); ?>" allowtransparency="<?php echo $transparent; ?>" style="width:100%; height: <?php echo $height; ?>px;border:0px;" frameBorder="0" scrolling="no" name="jetpack_remote_comment" id="jetpack_remote_comment"></iframe>
 			</div>
 		</div>

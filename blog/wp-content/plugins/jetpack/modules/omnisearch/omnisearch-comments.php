@@ -29,7 +29,11 @@ class Jetpack_Omnisearch_Comments extends WP_Comments_List_Table {
 		return $results;
 	}
 
+<<<<<<< HEAD
 	function get_per_page( $comment_status = 'all' ) {
+=======
+	function get_per_page( $comment_status ) {
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		return apply_filters( 'omnisearch_num_results', 5 );
 	}
 
@@ -41,8 +45,15 @@ class Jetpack_Omnisearch_Comments extends WP_Comments_List_Table {
 		return array();
 	}
 
+<<<<<<< HEAD
 	function pagination( $which ) {}
 
 	function extra_tablenav( $which ) {}
 }
 
+=======
+	function pagination() {}
+
+	function extra_tablenav( $which ) {}
+}
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d

@@ -13,8 +13,16 @@ License: GPLv2 or later
 define( 'GRUNION_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GRUNION_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
+<<<<<<< HEAD
 if ( is_admin() )
 	require_once GRUNION_PLUGIN_DIR . '/admin.php';
+=======
+if ( is_admin() ) {
+	require_once GRUNION_PLUGIN_DIR . '/admin.php';
+	if ( file_exists( GRUNION_PLUGIN_DIR . '/grunion-omnisearch.php' ) )
+		require_once GRUNION_PLUGIN_DIR . '/grunion-omnisearch.php';
+}
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 /**
  * Sets up various actions, filters, post types, post statuses, shortcodes.
@@ -73,7 +81,11 @@ class Grunion_Contact_Form_Plugin {
 		// custom post type we'll use to keep copies of the feedback items
 		register_post_type( 'feedback', array(
 			'labels'            => array(
+<<<<<<< HEAD
 				'name'               => __( 'Feedback', 'jetpack' ),
+=======
+				'name'               => __( 'Feedbacks', 'jetpack' ),
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 				'singular_name'      => __( 'Feedback', 'jetpack' ),
 				'search_items'       => __( 'Search Feedback', 'jetpack' ),
 				'not_found'          => __( 'No feedback found', 'jetpack' ),

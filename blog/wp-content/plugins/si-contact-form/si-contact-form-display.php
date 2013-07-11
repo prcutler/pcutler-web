@@ -147,7 +147,11 @@ get_currentuserinfo();
     // Webmaster,user1@example.com (must have name,email)
     // multiple emails allowed
     // Webmaster,user1@example.com;user2@example.com
+<<<<<<< HEAD
    if ( !empty($_SESSION["fsc_shortcode_email_to_$form_id_num"]) ) {
+=======
+   if ( $_SESSION["fsc_shortcode_email_to_$form_id_num"] != '') {
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
      if(preg_match("/,/", $_SESSION["fsc_shortcode_email_to_$form_id_num"]) ) {
        list($key, $value) = preg_split('#(?<!\\\)\,#',$_SESSION["fsc_shortcode_email_to_$form_id_num"]); //string will be split by "," but "\," will be ignored
        $key   = trim(str_replace('\,',',',$key)); // "\," changes to ","
@@ -236,8 +240,13 @@ get_currentuserinfo();
 'yyyy-mm-dd' => __('yyyy-mm-dd', 'si-contact-form'),
 'yyyy.mm.dd' => __('yyyy.mm.dd', 'si-contact-form'),
 );
+<<<<<<< HEAD
               // required validate
               ${'ex_field'.$i} = $this->si_contact_post_var("si_contact_ex_field$i",$display_only);
+=======
+               // required validate
+               //${'ex_field'.$i} = $this->si_contact_post_var("si_contact_ex_field$i");
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
           }else if ($si_contact_opt['ex_field'.$i.'_type'] == 'hidden') {
                ${'ex_field'.$i} = $this->si_contact_post_var("si_contact_ex_field$i",$display_only);
@@ -405,41 +414,72 @@ if ($have_attach){
 
 // print any input errors
 if ($have_error) {
+<<<<<<< HEAD
     $string .= '
+=======
+    $string .= '<div '.$this->ctf_required_style.'>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
     <div '.$this->ctf_error_style.'>
 ';
     $string .= esc_html(($si_contact_opt['error_correct'] != '') ? $si_contact_opt['error_correct'] : __('Please make corrections below and try again.', 'si-contact-form'));
     $string .= '
     </div>
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ';
 
 // print attach error if there is one
 if($have_attach && $have_attach_error ) {
+<<<<<<< HEAD
       $string .= '
+=======
+      $string .= '<div '.$this->ctf_required_style.'>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
       <div '.$this->ctf_error_style.'>
 ';
       $string .= esc_html($fsc_error_message['attach_dir_error']);
       $string .= '
       </div>
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ';
     }
      if ( !$this->isCaptchaEnabled() && $this->si_contact_error_var('captcha',$display_only) != '' ) {
       // honeypot without captcha
+<<<<<<< HEAD
 $string .= '
+=======
+$string .= '<div '.$this->ctf_required_style.'>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
       <div '.$this->ctf_error_style.'>
 ';
       $string .= esc_html($this->si_contact_error_var('captcha',$display_only));
       $string .= '
       </div>
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ';
 
      }
 
 }
 if (empty($contacts)) {
+<<<<<<< HEAD
    $string .= '
    <div '.$this->ctf_error_style.'>'.__('ERROR: Misconfigured E-mail address in options.', 'si-contact-form').'
    </div>
+=======
+   $string .= '<div '.$this->ctf_required_style.'>
+   <div '.$this->ctf_error_style.'>'.__('ERROR: Misconfigured E-mail address in options.', 'si-contact-form').'
+   </div>
+</div>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ';
 }
 
@@ -454,7 +494,11 @@ if ($si_contact_opt['req_field_label_enable'] == 'true' && $si_contact_opt['req_
 }
 
 // allow shortcode hidden fields
+<<<<<<< HEAD
 if ( !empty($_SESSION["fsc_shortcode_hidden_$form_id_num"]) ) {
+=======
+if ( $_SESSION["fsc_shortcode_hidden_$form_id_num"] != '') {
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
    $hidden_fields_test = explode(",",$_SESSION["fsc_shortcode_hidden_$form_id_num"]);
    if ( !empty($hidden_fields_test) ) {
       foreach($hidden_fields_test as $line) {
@@ -797,10 +841,19 @@ if ( $this->isCaptchaEnabled() ) {
           <input type="text" name="email_'.$form_id_num.'" id="email_'.$form_id_num.'" value="" />
         </div>
 ';
+<<<<<<< HEAD
 }
 
    // server-side token.
    $string .= '    <input type="hidden" name="si_postonce_'.$form_id_num.'" value="'. wp_hash( time() ).','.time() .'" />
+=======
+      // server-side timestamp forgery token.
+      $string .= '    <input type="hidden" name="si_tok_'.$form_id_num.'" value="'. wp_hash( time() ).','.time() .'" />
+';
+   }
+// server-side no back button mail again token.
+      $string .= '    <input type="hidden" name="si_postonce_'.$form_id_num.'" value="'. wp_hash( time() ).','.time() .'" />
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ';
 
 $string .= '

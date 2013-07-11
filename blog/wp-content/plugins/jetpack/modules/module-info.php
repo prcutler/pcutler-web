@@ -808,7 +808,11 @@ function jetpack_omnisearch_more_info() { ?>
 
 	<p><?php esc_html_e( 'Omnisearch plays nice with other plugins by letting other providers offer results as well.', 'jetpack' ); ?></p>
 
+<<<<<<< HEAD
 	<?php if( class_exists( 'Jetpack_Omnisearch' ) && current_user_can( 'edit_posts' ) ): ?>
+=======
+	<?php if( class_exists( 'Jetpack_Omnisearch' ) ): ?>
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		<?php echo Jetpack_Omnisearch::get_omnisearch_form(); ?>
 	<?php endif; ?>
 

@@ -1,7 +1,25 @@
 <?php
 
+<<<<<<< HEAD
 // Include this here so that other plugins can extend it if they like.
 require_once( dirname(__FILE__) . '/omnisearch-posts.php' );
+=======
+// Declare the new instances here, so that the classes can
+// be pulled in elsewhere if desired without activating them.
+require_once( dirname(__FILE__) . '/omnisearch-posts.php' );
+new Jetpack_Omnisearch_Posts;
+
+require_once( dirname(__FILE__) . '/omnisearch-pages.php' );
+new Jetpack_Omnisearch_Pages;
+
+require_once( dirname(__FILE__) . '/omnisearch-comments.php' );
+new Jetpack_Omnisearch_Comments;
+
+if ( current_user_can( 'install_plugins' ) ) {
+	require_once( dirname(__FILE__) . '/omnisearch-plugins.php' );
+	new Jetpack_Omnisearch_Plugins;
+}
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 class Jetpack_Omnisearch {
 	static $instance;
@@ -9,16 +27,22 @@ class Jetpack_Omnisearch {
 
 	function __construct() {
 		self::$instance = $this;
+<<<<<<< HEAD
 		add_action( 'wp_loaded',          array( $this, 'wp_loaded' ) );
 		add_action( 'admin_init',         array( $this, 'add_providers' ) );
 		add_action( 'jetpack_admin_menu', array( $this, 'jetpack_admin_menu' ) );
 		add_action( 'admin_menu',         array( $this, 'admin_menu' ), 20 );
+=======
+		add_action( 'wp_loaded', array( $this, 'wp_loaded' ) );
+		add_action(	'jetpack_admin_menu', array( $this, 'jetpack_admin_menu' ) );
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		if( is_admin() ) {
 			add_action( 'admin_bar_menu', array( $this, 'admin_bar_search' ), 4 );
 		}
 		add_filter( 'omnisearch_num_results', array( $this, 'omnisearch_num_results' ) );
 	}
 
+<<<<<<< HEAD
 	static function add_providers() {
 		// omnisearch-posts.php is included above, so that other plugins can more easily extend it.
 		new Jetpack_Omnisearch_Posts;
@@ -35,6 +59,8 @@ class Jetpack_Omnisearch {
 		do_action( 'omnisearch_add_providers' );
 	}
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 	static function omnisearch_num_results( $num ) {
 		return self::$num_results;
 	}
@@ -45,6 +71,7 @@ class Jetpack_Omnisearch {
 			$deps = array( 'genericons' );
 		}
 
+<<<<<<< HEAD
 		wp_register_style( 'omnisearch-admin',   plugins_url( 'omnisearch.css',         __FILE__ ), $deps );
 		wp_register_style( 'omnisearch-jetpack', plugins_url( 'omnisearch-jetpack.css', __FILE__ ) );
 	}
@@ -58,17 +85,29 @@ class Jetpack_Omnisearch {
 	function admin_menu() {
 		$this->slug = add_dashboard_page( __('Omnisearch', 'jetpack'), __('Omnisearch', 'jetpack'), 'edit_posts', 'omnisearch', array( $this, 'omnisearch_page' ) );
 		add_action( "admin_print_styles-{$this->slug}", array( $this, 'admin_print_styles' ) );
+=======
+		wp_register_style( 'omnisearch-admin', plugins_url( 'omnisearch.css', __FILE__ ), $deps );
+	}
+
+	function jetpack_admin_menu() {
+		$slug = add_submenu_page( 'jetpack', __('Omnisearch', 'jetpack'), __('Omnisearch', 'jetpack'), 'edit_posts', 'omnisearch', array( $this, 'omnisearch_page' ) );
+
+		add_action( "admin_print_styles-{$slug}", array( $this, 'admin_print_styles' ) );
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 	}
 
 	function admin_print_styles() {
 		wp_enqueue_style( 'omnisearch-admin' );
 	}
 
+<<<<<<< HEAD
 	function admin_print_styles_jetpack() {
 		wp_enqueue_style( 'omnisearch-admin' );
 		wp_enqueue_style( 'omnisearch-jetpack' );
 	}
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 	function omnisearch_page() {
 		$results = array();
 		$s = isset( $_GET['s'] ) ? $_GET['s'] : '';
@@ -77,6 +116,7 @@ class Jetpack_Omnisearch {
 		}
 		?>
 		<div class="wrap">
+<<<<<<< HEAD
 			<h2 class="page-title"><?php esc_html_e('Omnisearch', 'jetpack'); ?> <small><?php esc_html_e('search everything', 'jetpack'); ?></small></h2>
 			<br class="clear" />
 			<?php echo self::get_omnisearch_form( array(
@@ -85,6 +125,15 @@ class Jetpack_Omnisearch {
 							'search_placeholder' => '',
 							'submit_class'       => 'omnisearch-submit',
 							'alternate_submit'   => true,
+=======
+			<h2 class="page-title"><?php esc_html_e('Jetpack Omnisearch', 'jetpack'); ?></h2>
+			<br class="clear" />
+			<?php echo self::get_omnisearch_form( array(
+							'form_class'       => 'omnisearch-form',
+							'search_class'     => 'omnisearch',
+							'submit_class'     => 'omnisearch-submit',
+							'alternate_submit' => true,
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 						) ); ?>
 			<?php if( ! empty( $results ) ): ?>
 				<h3 id="results-title"><?php esc_html_e('Results:', 'jetpack'); ?></h3>
@@ -118,6 +167,7 @@ class Jetpack_Omnisearch {
 			'submit_class' => 'adminbar-button',
 		) );
 
+<<<<<<< HEAD
 		$form .= "<style>
 				#adminbar-search::-webkit-input-placeholder,
 				#adminbar-search:-moz-placeholder,
@@ -127,6 +177,8 @@ class Jetpack_Omnisearch {
 				}
 			</style>";
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'top-secondary',
 			'id'     => 'search',
@@ -177,4 +229,7 @@ class Jetpack_Omnisearch {
 
 }
 new Jetpack_Omnisearch;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
