@@ -203,15 +203,7 @@ if ( strpos(strtolower($_SERVER['SCRIPT_NAME']),strtolower(basename(__FILE__))) 
          'akismet_disable' =>           (isset( $_POST['si_contact_akismet_disable'] ) ) ? 'true' : 'false',
          'akismet_send_anyway' =>    strip_tags($_POST['si_contact_akismet_send_anyway']),
          'captcha_enable' =>            (isset( $_POST['si_contact_captcha_enable'] ) ) ? 'true' : 'false',
-<<<<<<< HEAD
          'captcha_small' =>             (isset( $_POST['si_contact_captcha_small'] ) ) ? 'true' : 'false',
-=======
-         'captcha_difficulty' =>     strip_tags($_POST['si_contact_captcha_difficulty']),
-         'captcha_small' =>             (isset( $_POST['si_contact_captcha_small'] ) ) ? 'true' : 'false',
-         'captcha_no_trans' =>          (isset( $_POST['si_contact_captcha_no_trans'] ) ) ? 'true' : 'false',
-         'enable_audio' =>              (isset( $_POST['si_contact_enable_audio'] ) ) ? 'true' : 'false',
-         'enable_audio_flash' =>        (isset( $_POST['si_contact_enable_audio_flash'] ) ) ? 'true' : 'false',
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
          'captcha_perm' =>              (isset( $_POST['si_contact_captcha_perm'] ) ) ? 'true' : 'false',
          'captcha_perm_level' =>     strip_tags($_POST['si_contact_captcha_perm_level']),
          'honeypot_enable' =>           (isset( $_POST['si_contact_honeypot_enable'] ) ) ? 'true' : 'false',
@@ -522,7 +514,6 @@ if ( !isset($_GET['show_form']) && !isset($_POST['fsc_action']) ) {
        $si_contact_opt['welcome'] = __('<p>Comments or questions are welcome.</p>', 'si-contact-form');
   }
 
-<<<<<<< HEAD
    // Check for safe mode
     $safe_mode_is_on = ((boolean)@ini_get('safe_mode') === false) ? 0 : 1;
     if($safe_mode_is_on){
@@ -549,8 +540,6 @@ if ( !isset($_GET['show_form']) && !isset($_POST['fsc_action']) ) {
     }
 
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 ?>
 <?php if ( !empty($_POST )  && !isset($_POST['ctf_action'])) : ?>
 <div id="message" class="updated"><p><strong><?php _e('Options saved.', 'si-contact-form'); ?></strong></p></div>
@@ -1009,25 +998,6 @@ if ( !function_exists('mail') ) {
         </div>
         <br />
   <?php
-<<<<<<< HEAD
-=======
-   // Check for safe mode
-    $safe_mode_is_on = ((boolean)@ini_get('safe_mode') === false) ? 0 : 1;
-    if($safe_mode_is_on){
-      echo '<br /><span style="color:red;">'. __('Warning: Your web host has PHP safe_mode turned on.', 'si-contact-form');
-      echo '</span> ';
-      echo __('PHP safe_mode can cause problems like sending mail failures and file permission errors.', 'si-contact-form')."<br />\n";
-      echo __('Contact your web host for support.', 'si-contact-form')."<br /><br />\n";
-    }
-
-    // Check for older than PHP5
-   if (phpversion() < 5) {
-      echo '<br /><span style="color:red;">'. __('Warning: Your web host has not upgraded from PHP4 to PHP5.', 'si-contact-form');
-      echo '</span> ';
-      echo __('PHP4 was officially discontinued August 8, 2008 and is no longer considered safe.', 'si-contact-form')."<br />\n";
-      echo __('Contact your web host for support.', 'si-contact-form')."<br /><br />\n";
-    }
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 if ( $si_contact_opt['email_from'] != '' ) {
     $from_fail = 0;
@@ -1470,7 +1440,6 @@ foreach ($akismet_send_anyway_array as $k => $v) {
         </div>
         <br />
 
-<<<<<<< HEAD
 
         <input name="si_contact_captcha_perm" id="si_contact_captcha_perm" type="checkbox" <?php if( $si_contact_opt['captcha_perm'] == 'true' ) echo 'checked="checked"'; ?> />
         <label for="si_contact_captcha_perm"><?php _e('Hide CAPTCHA for', 'si-contact-form'); ?>
@@ -1479,27 +1448,6 @@ foreach ($akismet_send_anyway_array as $k => $v) {
         <a style="cursor:pointer;" title="<?php _e('Click for Help!', 'si-contact-form'); ?>" onclick="toggleVisibility('si_contact_captcha_perm_tip');"><?php _e('help', 'si-contact-form'); ?></a>
         <div style="text-align:left; display:none" id="si_contact_captcha_perm_tip">
         <?php _e('Registered users will not have to use the CAPTCHA feature. Do not enable this setting if you do not trust your registered users as some could be spammers.', 'si-contact-form') ?>
-=======
-        <label for="si_contact_captcha_difficulty"><?php _e('CAPTCHA difficulty level:', 'si-contact-form'); ?></label>
-      <select id="si_contact_captcha_difficulty" name="si_contact_captcha_difficulty">
-<?php
-$captcha_difficulty_array = array(
-'low' => __('Low', 'si-contact-form'),
-'medium' => __('Medium', 'si-contact-form'),
-'high' => __('High', 'si-contact-form'),
-);
-$selected = '';
-foreach ($captcha_difficulty_array as $k => $v) {
- if ($si_contact_opt['captcha_difficulty'] == "$k")  $selected = ' selected="selected"';
- echo '<option value="'.esc_attr($k).'"'.$selected.'>'.esc_html($v).'</option>'."\n";
- $selected = '';
-}
-?>
-</select>
-        <a style="cursor:pointer;" title="<?php _e('Click for Help!', 'si-contact-form'); ?>" onclick="toggleVisibility('si_contact_captcha_difficulty_tip');"><?php _e('help', 'si-contact-form'); ?></a>
-        <div style="text-align:left; display:none" id="si_contact_captcha_difficulty_tip">
-        <?php _e('Changes level of distortion of the CAPTCHA image text.', 'si-contact-form') ?>
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
         </div>
         <br />
 
@@ -1521,26 +1469,12 @@ foreach ($captcha_difficulty_array as $k => $v) {
         </div>
         <br />
 
-<<<<<<< HEAD
-=======
-        <input name="si_contact_captcha_no_trans" id="si_contact_captcha_no_trans" type="checkbox" <?php if ( $si_contact_opt['captcha_no_trans'] == 'true' ) echo ' checked="checked" '; ?> />
-        <label for="si_contact_captcha_no_trans"><?php _e('Disable CAPTCHA transparent text (only if captcha text is missing on the image, try this fix).', 'si-contact-form'); ?></label>
-        <a style="cursor:pointer;" title="<?php _e('Click for Help!', 'si-contact-form'); ?>" onclick="toggleVisibility('si_contact_captcha_no_trans_tip');"><?php _e('help', 'si-contact-form'); ?></a>
-        <div style="text-align:left; display:none" id="si_contact_captcha_no_trans_tip">
-        <?php _e('Sometimes fixes missing text on the CAPTCHA image. If this does not fix missing text, your PHP server is not compatible with the CAPTCHA functions. You can disable CAPTCHA or have your web server fixed.', 'si-contact-form') ?>
-        </div>
-        <br />
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
         <input name="si_contact_honeypot_enable" id="si_contact_honeypot_enable" type="checkbox" <?php if ( $si_contact_opt['honeypot_enable'] == 'true' ) echo ' checked="checked" '; ?> />
         <label for="si_contact_honeypot_enable"><?php _e('Enable honeypot spambot trap.', 'si-contact-form'); ?></label>
         <a style="cursor:pointer;" title="<?php _e('Click for Help!', 'si-contact-form'); ?>" onclick="toggleVisibility('si_contact_honeypot_enable_tip');"><?php _e('help', 'si-contact-form'); ?></a>
         <div style="text-align:left; display:none" id="si_contact_honeypot_enable_tip">
-<<<<<<< HEAD
         <?php _e('Enables empty field honyepot traps for spam bots. For best results, do not enable unless you have a spam problem.', 'si-contact-form') ?>
-=======
-        <?php _e('Enables empty field and time based honyepot traps for spam bots. For best results, do not enable unless you have a spam problem.', 'si-contact-form') ?>
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
         </div>
 
 

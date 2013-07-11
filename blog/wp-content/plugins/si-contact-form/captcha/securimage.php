@@ -358,11 +358,8 @@ class Securimage_ctf {
     var $captcha_word;
     var $captcha_path;
     var $ctf_sm_captcha;
-<<<<<<< HEAD
     var $prefix;
     var $nosession;
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 	/**
 	 * Class constructor.<br />
@@ -378,7 +375,6 @@ class Securimage_ctf {
 	function Securimage_ctf()
 	{
 
-<<<<<<< HEAD
 	// Set Default Values
     $this->working_directory = getcwd();
     $this->form_num = 1;
@@ -419,47 +415,6 @@ class Securimage_ctf {
         // Initialize session or attach to existing
         // no session has been started yet, which is needed for validation
         if ( $this->nosession == false && session_id() == '' ) { // play nice with other plugins
-=======
-		// Set Default Values
-        $this->form_num = 1;
-        $this->prefix = '000000';
-        $this->image_width   = 175;
-		$this->image_height  = 60;
-
-		$this->image_type    = 'png'; // png, jpg or gif
-
-		$this->code_length   = 6;
-		$this->charset       = 'ABCDEFGHKLMNPRSTUVWYZabcdefghklmnprstuvwyz23456789';
-
-		$this->gd_font_file  = getcwd() . '/gdfonts/bubblebath.gdf';
-		$this->use_gd_font   = false;
-		$this->gd_font_size  = 24;
-		$this->text_x_start  = 15;
-
-		$this->ttf_file      = getcwd() . '/ahg-bold.ttf';
-
-		$this->perturbation       = 0.75;
-		$this->iscale             = 5;
-		$this->text_angle_minimum = 0;
-		$this->text_angle_maximum = 0;
-
-		$this->image_bg_color   = '#ffffff';
-        $this->text_color       = '#ff0000';
-        $this->multi_text_color = array('#0020CC','#0030EE','#0040CC','#0050EE','#0060CC');
-		$this->use_multi_text   = false;
-
-		$this->use_transparent_text         = false;
-		$this->text_transparency_percentage = 30;
-
-		$this->num_lines            = 10;
-		$this->line_color           = '#3d3d3d';
-		$this->draw_lines_over_text = true;
-
-        // Initialize session or attach to existing
-		//if ( session_id() == '' ) {
-        // no session has been started yet, which is needed for validation
-		 if( !isset( $_SESSION ) ) { // play nice with other plugins
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
             //set the $_SESSION cookie into HTTPOnly mode for better security
             if (version_compare(PHP_VERSION, '5.2.0') >= 0)  // supported on PHP version 5.2.0  and higher
             @ini_set("session.cookie_httponly", 1);
@@ -547,17 +502,10 @@ class Securimage_ctf {
 
 		$this->createCode();
 
-<<<<<<< HEAD
 		//if (!$this->draw_lines_over_text && $this->num_lines > 0) $this->drawLines();
 
 		$this->drawWord();
 	   	if ($this->use_gd_font == false) $this->distortedCopy();
-=======
-		if (!$this->draw_lines_over_text && $this->num_lines > 0) $this->drawLines();
-
-		$this->drawWord();
-		if ($this->use_gd_font == false) $this->distortedCopy();
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 		if ($this->draw_lines_over_text && $this->num_lines > 0) $this->drawLines();
 
@@ -582,13 +530,10 @@ class Securimage_ctf {
 			}
 		}
 
-<<<<<<< HEAD
         if ($this->bgimg == '') {
             return;
         }
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		$dat = @getimagesize($this->bgimg);
 		if($dat == false) { return; }
 
@@ -596,11 +541,6 @@ class Securimage_ctf {
 			case 1:  $newim = @imagecreatefromgif($this->bgimg); break;
 			case 2:  $newim = @imagecreatefromjpeg($this->bgimg); break;
 			case 3:  $newim = @imagecreatefrompng($this->bgimg); break;
-<<<<<<< HEAD
-=======
-			case 15: $newim = @imagecreatefromwbmp($this->bgimg); break;
-			case 16: $newim = @imagecreatefromxbm($this->bgimg); break;
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			default: return;
 		}
 
@@ -688,11 +628,7 @@ class Securimage_ctf {
 			$w = $this->image_width;
 			$len = rand($w * 0.4, $w * 0.7);
 			$lwid = rand(0, 2);
-<<<<<<< HEAD
 
-=======
-			 
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			$k = $this->frand() * 0.6 + 0.2;
 			$k = $k * $k * 0.5;
 			$phi = $this->frand() * 6.28;
@@ -726,10 +662,7 @@ class Securimage_ctf {
 		$width2 = $this->image_width * $this->iscale;
 		$height2 = $this->image_height * $this->iscale;
 		$text_color = $this->text_color;
-<<<<<<< HEAD
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
         $gd_info = gd_info();
 		if ($this->use_gd_font == true || !function_exists('imagettftext') || $gd_info['FreeType Support'] == false ) {
 			if (!is_int($this->gd_font_file)) { //is a file name
@@ -831,15 +764,9 @@ class Securimage_ctf {
 		 
 		// make array of poles AKA attractor points
 		for ($i = 0; $i < $numpoles; ++$i) {
-<<<<<<< HEAD
 			$px[$i]  = rand($this->image_width * 0.3, $this->image_width * 0.8);
 			$py[$i]  = rand($this->image_height * 0.3, $this->image_height * 0.8);
 			$rad[$i] = rand($this->image_width * 0.4, $this->image_width * 0.8);
-=======
-			$px[$i]  = rand($this->image_width * 0.3, $this->image_width * 0.7);
-			$py[$i]  = rand($this->image_height * 0.3, $this->image_height * 0.7);
-			$rad[$i] = rand($this->image_width * 0.4, $this->image_width * 0.7);
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			$tmp     = -$this->frand() * 0.15 - 0.15;
 			$amp[$i] = $this->perturbation * $tmp;
 		}
@@ -928,14 +855,10 @@ class Securimage_ctf {
            }
 	       $code .= $char;
 		}
-<<<<<<< HEAD
         if ( $this->nosession == true )
            return $this->captcha_word;
 
         if ( $this->nosession == false )
-=======
-
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		  return $code;
 	}
 
@@ -1045,37 +968,7 @@ class Securimage_ctf {
 		return 0.0001*rand(0,9999);
 	}
 
-<<<<<<< HEAD
 
-=======
-	/**
-	 * Print signature text on image
-	 *
-	 * @since 2.0
-	 * @access private
-	 *
-	 */
-	function addSignature()
-	{
-        $sig_color = $this->getColorArray($this->signature_color, '#3d3d3d');
-
-        $cmtcol = imagecolorallocate($this->im, $sig_color[0], $sig_color[1], $sig_color[2]);
-
-		if ($this->use_gd_font) {
-			imagestring($this->im, 5, $this->image_width - (strlen($this->image_signature) * 10), $this->image_height - 20, $this->image_signature, $cmtcol);
-		} else {
-			 
-			$bbox = imagettfbbox(10, 0, $this->signature_font, $this->image_signature);
-                        // repeat this line to fix random missing text on some Debian servers			
-                        $bbox = imagettfbbox(10, 0, $this->signature_font, $this->image_signature);
-			$textlen = $bbox[2] - $bbox[0];
-			$x = $this->image_width - $textlen - 5;
-			$y = $this->image_height - 3;
-			 
-			imagettftext($this->im, 10, 0, $x, $y, $cmtcol, $this->signature_font, $this->image_signature);
-		}
-	}
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
     /**
      *
@@ -1146,7 +1039,6 @@ class Securimage_ctf {
        return $colors;
 
     }
-<<<<<<< HEAD
     
  // needed for emptying temp directories for captcha session files
 function clean_temp_dir($dir, $minutes = 30) {
@@ -1184,11 +1076,6 @@ function clean_temp_dir($dir, $minutes = 30) {
 }
 
 } /* class Securimage_ctf */
-=======
-
-
-} /* end class Securimage_ctf */
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 /**
  * Color object for Securimage_ctf CAPTCHA

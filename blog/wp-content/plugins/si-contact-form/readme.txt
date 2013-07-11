@@ -4,11 +4,7 @@ Author URI: http://www.642weather.com/weather/scripts.php
 Donate link: http://www.FastSecureContactForm.com/donate
 Tags: Akismet, captcha, contact, contact form, form, mail, email, spam, multilingual, wpmu
 Requires at least: 3.4.2
-<<<<<<< HEAD
 Tested up to: 3.5.2
-=======
-Tested up to: 3.5.1
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 Stable tag: trunk
 
 A super customizable contact form that lets your visitors send you email. Blocks all automated spammers. No templates to mess with.
@@ -212,7 +208,6 @@ If you have any question about the Schedule Meetings feature please contact supp
 
 == Changelog ==
 
-<<<<<<< HEAD
 = 3.1.8.4 =
 - (07 Jul 2013) - Fixed CAPTCHA PHP warning on some servers.
 - Added better date input validation.
@@ -225,8 +220,6 @@ If you have any question about the Schedule Meetings feature please contact supp
 - Some code cleanup.
 
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 = 3.1.8.2 =
 - (01 Apr 2013) - switched back to PHP sessions because WP Sessions had issues with cache plugins.
 - Fixed some forms sometimes blanked on Submit.
