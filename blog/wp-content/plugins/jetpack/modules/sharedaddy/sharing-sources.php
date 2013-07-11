@@ -317,12 +317,9 @@ class Share_Email extends Sharing_Source {
 
 class Share_Twitter extends Sharing_Source {
 	var $shortname = 'twitter';
-<<<<<<< HEAD
 	// 'https://dev.twitter.com/docs/api/1.1/get/help/configuration' ( 2013/06/24 ) short_url_length is 22
 	var $short_url_length = 24;
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 	public function __construct( $id, array $settings ) {
 		parent::__construct( $id, $settings );
 
@@ -408,13 +405,8 @@ class Share_Twitter extends Sharing_Source {
 			$sig     = '';
 		}
 
-<<<<<<< HEAD
 
 		$suffix_length = $this->short_url_length + $strlen( " {$sig}" );
-=======
-		$suffix_length = $strlen( " {$post_link}{$sig}" );
-
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		// $sig is handled by twitter in their 'via' argument.
 		// $post_link is handled by twitter in their 'url' argument.
 		if ( 140 < $strlen( $post_title ) + $suffix_length ) {
@@ -611,7 +603,6 @@ class Share_LinkedIn extends Sharing_Source {
 
 	public function process_request( $post, array $post_data ) {
 
-<<<<<<< HEAD
 		$post_link = $this->get_share_url( $post->ID );
 
 		// Using the same URL as the official button, which is *not* LinkedIn's documented sharing link
@@ -620,30 +611,6 @@ class Share_LinkedIn extends Sharing_Source {
 		$linkedin_url = add_query_arg( array(
 			'url' => rawurlencode( $post_link ),
 		), 'http://www.linkedin.com/cws/share?token=&isFramed=false' );
-=======
-		setup_postdata( $post );
-
-		$post_link = $this->get_share_url( $post->ID );
-
-		// http://www.linkedin.com/shareArticle?mini=true&url={articleUrl}&title={articleTitle}&summary={articleSummary}&source={articleSource}
-
-		$encoded_title = rawurlencode( $post->post_title );
-		if( strlen( $encoded_title ) > 200 )
-			$encoded_title = substr( $encoded_title, 0, 197 ) . '...';
-
-		$encoded_summary = rawurlencode( strip_tags( get_the_excerpt() ) );
-		if( strlen( $encoded_summary ) > 256 )
-			$encoded_summary = substr( $encoded_summary, 0, 253 ) . '...';
-
-		$source = get_bloginfo( 'name' );
-
-		$linkedin_url = add_query_arg( array(
-			'title' => $encoded_title,
-			'url' => rawurlencode( $post_link ),
-			'source' => rawurlencode( $source ),
-			'summary' => $encoded_summary,
-		), 'http://www.linkedin.com/shareArticle?mini=true' );
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 		// Record stats
 		parent::process_request( $post, $post_data );
@@ -1236,11 +1203,8 @@ class Share_Pinterest extends Sharing_Source {
 				s.src = window.location.protocol + "//assets.pinterest.com/js/pinit.js";
 				var x = document.getElementsByTagName("script")[0];
 				x.parentNode.insertBefore(s, x);
-<<<<<<< HEAD
 				// if 'Pin it' button has 'counts' make container wider
 				jQuery(window).load( function(){ jQuery( 'li.share-pinterest a span:visible' ).closest( '.share-pinterest' ).width( '80px' ); } );
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			</script>
 		<?php else : ?>
 			<script type="text/javascript">

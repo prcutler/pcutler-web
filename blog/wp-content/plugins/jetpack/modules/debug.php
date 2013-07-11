@@ -9,25 +9,6 @@
  * Requires Development Mode: No
  */
 
-<<<<<<< HEAD
-=======
-// 1. Determine if we are on a network site or not
-// if ( is_multisite() )
-// 	Jetpack::update_option( 'is_network_site', 1 );
-// else
-// 	Jetpack::update_option( 'is_network_site', 0 );
-//
-// 2. Since these are some of the common issues, let's start the debug process by syncing some common details.
-// Jetpack_Sync::sync_options( __FILE__,
-// 	'home',
-// 	'siteurl',
-// 	'blogname',
-// 	'gmt_offset',
-// 	'timezone_string',
-// 	'is_network_site',
-// );
-
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 add_action( 'jetpack_admin_menu', 'jetpack_debug_add_menu_handler' );
 
 function jetpack_debug_add_menu_handler() {
@@ -38,16 +19,10 @@ function jetpack_debug_add_menu_handler() {
 }
 
 function is_jetpack_support_open() {
-<<<<<<< HEAD
 	try {
 		$response = wp_remote_request( "http://jetpack.me/is-support-open" );
 		$body = wp_remote_retrieve_body( $response );
 		$json = json_decode( $body );
-=======
-	try { 
-		$response = wp_remote_retrieve_body( wp_remote_request( "http://jetpack.me/is-support-open" ) );
-		$json = json_decode( $response );
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		return ( ( bool )$json->is_support_open );
 	}
 	catch ( Exception $e ) {
@@ -61,25 +36,6 @@ function jetpack_debug_menu_display_handler() {
 
 	global $current_user;
 	get_currentuserinfo();
-<<<<<<< HEAD
-=======
-
-	$is_jetpack_support_open = is_jetpack_support_open();
-
-	$self_xml_rpc_url = site_url( 'xmlrpc.php' );
-
-	$tests = array();
-
-	$tests['HTTP']  = wp_remote_get( 'http://jetpack.wordpress.com/jetpack.test/1/' );	
-	$tests['HTTPS'] = wp_remote_get( 'https://jetpack.wordpress.com/jetpack.test/1/' );
-
-	if ( preg_match( '/^https:/', $self_xml_rpc_url ) ) {
-		$tests['SELF']      = wp_remote_get( preg_replace( '/^https:/', 'http:', $self_xml_rpc_url ) );
-		$tests['SELF-SEC']  = wp_remote_get( $self_xml_rpc_url, array( 'sslverify' => true ) );
-	} else {
-		$tests['SELF']      = wp_remote_get( $self_xml_rpc_url );
-	}
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 	
 	$user_id = get_current_user_id();
 	$user_tokens = Jetpack::get_option( 'user_tokens' );
@@ -115,7 +71,6 @@ function jetpack_debug_menu_display_handler() {
 
 	$debug_info .= "\r\n\r\nTEST RESULTS:\r\n\r\n";
 	$debug_raw_info = '';
-<<<<<<< HEAD
 
 
 	$tests = array();
@@ -176,51 +131,6 @@ function jetpack_debug_menu_display_handler() {
 			echo $html;
 		}
 		$debug_info .= "\r\n\r\nRAW TEST RESULTS:" . $debug_raw_info ."\r\n";
-=======
-	?>
-
-	<div class="wrap">
-		<h2><?php esc_html_e( 'Jetpack Debugging Center', 'jetpack' ); ?></h2>
-		<h3><?php _e( "Tests your site's compatibily with Jetpack.", 'jetpack' ); ?></h3>
-		<h3><?php _e( 'Tests:', 'jetpack' ); ?></h3>
-		<div class="jetpack-debug-test-container">
-		<?php foreach ( $tests as $test_name => $test_result ) : 
-			$result = '';
-			if ( is_wp_error( $test_result ) ) {
-				$test_class = 'jetpack-test-error';
-				$offer_ticket_submission = true;
-				$status = __( 'System Failure!', 'jetpack' );
-				$result = esc_html( $test_result->get_error_message() );
-			} else {
-				$response_code = wp_remote_retrieve_response_code( $test_result );
-				if ( empty( $response_code ) ) {
-					$test_class = 'jetpack-test-error';;
-					$offer_ticket_submission = true;
-					$status = __( 'Failed!', 'jetpack' );
-				} elseif ( '200' == $response_code ) {
-					$test_class = 'jetpack-test-success';
-					$status = __( 'Passed!', 'jetpack' );
-					
-				} else {
-					$test_class = 'jetpack-test-error';
-					$offer_ticket_submission = true;
-					$status = __( 'Failed!', 'jetpack' );
-				}
-			} 
-			$debug_info .= $test_name . ': ' . $status . "\r\n";
-			$debug_raw_info .= "\r\n\r\n" . $test_name . "\r\n" . esc_html( print_r( $test_result, 1 ) );
-			?>
-			<div class="jetpack-test-results <?php esc_html_e( $test_class , 'jetpack'); ?>">
-				<p>
-					<a class="jetpack-test-heading" href="#"><?php esc_html_e( $test_name , 'jetpack'); ?>: <?php esc_html_e( $status , 'jetpack'); ?>
-					<span class="noticon noticon-collapse"></span>
-					</a>
-				</p>
-				<pre class="jetpack-test-details"><?php esc_html_e( $result , 'jetpack'); ?></pre>
-			</div>
-		<?php endforeach; 
-			$debug_info .= "\r\n\r\nRAW TEST RESULTS:" . $debug_raw_info ."\r\n";
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		?>
 		</div>
 		<div class="entry-content">
@@ -241,11 +151,7 @@ function jetpack_debug_menu_display_handler() {
 			</p>
 		</div>
 		<div id="contact-message" style="display:none">
-<<<<<<< HEAD
 		<?php if ( is_jetpack_support_open() ): ?>
-=======
-		<?php if ( $is_jetpack_support_open ): ?>
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			<form id="contactme" method="post" action="http://jetpack.me/contact-support/">
 				<input type="hidden" name="action" value="submit">
 				<input type="hidden" name="jetpack" value="needs-service">
@@ -299,7 +205,6 @@ function jetpack_debug_admin_head() {
 	<style type="text/css">
 		
 		.jetpack-debug-test-container {
-<<<<<<< HEAD
 			margin-top: 20px;
 			margin-bottom: 30px;
 		}
@@ -309,31 +214,12 @@ function jetpack_debug_admin_head() {
 			color: #8BAB3E;
 		}
 		
-=======
-			margin: 10px;	
-		}
-		
-		.jetpack-test-results {
-			margin-bottom: 10px;
-			border-radius: 3px;
-		}
-		.jetpack-test-results a.jetpack-test-heading {
-			padding: 4px 6px;
-			display: block;
-			text-decoration: none;
-			color: inherit;
-		}
-		.jetpack-test-success .noticon-collapse {
-			display: none;
-		}
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		.jetpack-test-details {
 			margin: 4px 6px;
 			padding: 10px;
 			overflow: auto;
 			display: none;
 		}
-<<<<<<< HEAD
 
 		.jetpack-test-error {
 			margin-bottom: 10px;
@@ -355,30 +241,6 @@ function jetpack_debug_admin_head() {
 		}
 
 		.jetpack-test-error .noticon {
-=======
-		.jetpack-test-results p {
-			margin: 0;
-			padding: 0;
-		}
-		.jetpack-test-success {
-			background: #EFF8DF;
-			border: solid 1px #B2D37D;
-			cursor: default;
-		}
-		.jetpack-test-success a{
-			cursor: default;
-		}
-		.jetpack-test-error {
-			background: #FFEBE8;
-			border: solid 1px #C00;
-		}
-		.jetpack-test-skipped {
-			background: #f5f5f5;
-			border: solid 1px #ccc;
-		}
-		
-		.jetpack-test-results .noticon {
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			float: right;
 		}
 				
@@ -388,13 +250,6 @@ function jetpack_debug_admin_head() {
 			padding: 20px;
 			margin: 10px;
 			background-color: #eaf3fa;
-<<<<<<< HEAD
-=======
-			-webkit-border-radius: 5px;
-			-khtml-border-radius: 5px;
-			-moz-border-radius: 5px;
-			-o-border-radius: 5px;
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			border-radius: 5px;
 			font-size: 15px;
 			font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -414,19 +269,7 @@ function jetpack_debug_admin_head() {
 		
 		.formbox input[type="text"], .formbox input[type="email"], .formbox input[type="url"], .formbox textarea {
 			border: 1px solid #e5e5e5;
-<<<<<<< HEAD
 			border-radius: 11px;
-=======
-			-webkit-border-radius: 11px;
-			-khtml-border-radius: 11px;
-			-moz-border-radius: 11px;
-			-o-border-radius: 11px;
-			border-radius: 11px;
-			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-			-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-			-khtml-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-			-o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 			color: #666;
 			font-size: 14px;
@@ -436,12 +279,6 @@ function jetpack_debug_admin_head() {
 		.formbox .contact-support input[type="submit"] {
 			float: right;
 			margin: 0 !important;
-<<<<<<< HEAD
-=======
-			-webkit-border-radius: 20px !important;
-			-moz-border-radius: 20px !important;
-			-khtml-border-radius: 20px !important;
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			border-radius: 20px !important;
 			cursor: pointer;
 			font-size: 13pt !important;
@@ -486,11 +323,7 @@ function jetpack_debug_admin_head() {
 		$('#debug_info').prepend('jQuery version: ' + jQuery.fn.jquery + "\r\n");
 		
 		$( '.jetpack-test-error .jetpack-test-heading' ).on( 'click', function() {
-<<<<<<< HEAD
 			$( this ).parents( '.jetpack-test-error' ).find( '.jetpack-test-details' ).slideToggle();
-=======
-			$( this ).parents( '.jetpack-test-results' ).find( '.jetpack-test-details' ).slideToggle();
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 			return false;
 		} );
 

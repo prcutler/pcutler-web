@@ -3,11 +3,7 @@ Contributors: automattic, alternatekev, andy, apeatling, azaozz, barry, beaulebe
 Tags: WordPress.com, statistics, stats, views, tweets, twitter, widget, gravatar, hovercards, profile, equations, latex, math, maths, youtube, shortcode, archives, audio, blip, bliptv, dailymotion, digg, flickr, googlevideo, google, googlemaps, kyte, kytetv, livevideo, redlasso, rockyou, rss, scribd, slide, slideshare, soundcloud, vimeo, shortlinks, wp.me, subscriptions, notifications, notes, json, api, rest, mosaic, gallery, slideshow
 Requires at least: 3.3
 Tested up to: 3.5
-<<<<<<< HEAD
 Stable tag: 2.3.1
-=======
-Stable tag: 2.3
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 
 Supercharge your WordPress site with powerful features previously only available to WordPress.com users.
 
@@ -84,7 +80,6 @@ Easy! There are a couple of ways (more coming soon):
 
 == Changelog ==
 
-<<<<<<< HEAD
 = 2.3.1 =
 * Enhancement: Social Links: Retooling the class for better consistency and performance behind the scenes.
 * Enhancement: Omnisearch: Make it easier to search Custom Post Types.  No longer need to extend the class, if all you want is a basic display.  Just call `new Jetpack_Omnisearch_Posts( 'cpt' );`
@@ -104,8 +99,6 @@ Easy! There are a couple of ways (more coming soon):
 * Bug Fix: Likes: Don't call configuration_redirect as a static, do it as a method.
 * Bug Fix: Add some further security measures to module activation.
 
-=======
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 = 2.3 =
 * Enhancement: Omnisearch: Search once, get results from everything! Omnisearch is a single search box that lets you search many different things
 * Enhancement: Debugger: this module helps you debug connection issues right from your dashboard, and contact the Jetpack support team if needed

@@ -63,9 +63,3 @@ class Jetpack_Omnisearch_Grunion extends WP_List_Table {
 		}
 	}
 }
-<<<<<<< HEAD
-=======
-
-new Jetpack_Omnisearch_Grunion;
-
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d

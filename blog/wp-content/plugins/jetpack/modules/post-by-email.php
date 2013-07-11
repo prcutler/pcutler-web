@@ -45,11 +45,7 @@ class Jetpack_Post_By_Email {
 		$jetpack->sync->register( 'noop' );
 	}
 
-<<<<<<< HEAD
 	static function configuration_redirect() {
-=======
-	function configuration_redirect() {
->>>>>>> 66cc174192049b05f02b6fe33016c7f96e0f6a9d
 		wp_safe_redirect( get_edit_profile_url( get_current_user_id() ) . '#post-by-email' );
 		exit;
 	}
