@@ -2230,11 +2230,7 @@ class WPCOM_JSON_API_Update_Taxonomy_Endpoint extends WPCOM_JSON_API_Taxonomy_En
 			)
 		);
 
-		if ( is_wp_error( $data ) )
-			return $data;
-
 		$taxonomy = get_term_by( 'id', $data['term_id'], $taxonomy_type );
-
 		$return   = $this->get_taxonomy( $taxonomy->slug, $taxonomy_type, $args['context'] );
 		if ( !$return || is_wp_error( $return ) ) {
 			return $return;
@@ -2741,7 +2737,10 @@ class WPCOM_JSON_API_Update_Comment_Endpoint extends WPCOM_JSON_API_Comment_Endp
 	// /sites/%s/comments/%d             -> $blog_id, $comment_id
 	// /sites/%s/comments/%d/delete      -> $blog_id, $comment_id
 	function callback( $path = '', $blog_id = 0, $object_id = 0 ) {
-		$blog_id = $this->api->switch_to_blog_and_validate_user( $this->api->get_blog_id( $blog_id ) );
+		if ( $this->api->ends_with( $path, '/new' ) )
+			$blog_id = $this->api->switch_to_blog_and_validate_user( $this->api->get_blog_id( $blog_id ), false );
+		else
+			$blog_id = $this->api->switch_to_blog_and_validate_user( $this->api->get_blog_id( $blog_id ) );
 		if ( is_wp_error( $blog_id ) ) {
 			return $blog_id;
 		}
