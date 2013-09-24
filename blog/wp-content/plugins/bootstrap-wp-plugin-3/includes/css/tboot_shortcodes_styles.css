@@ -1,0 +1,634 @@
+/*
+ * Plugin: Twitter Bootstrap Shortcodes Plugin
+ * Author: Brad Williams : http://braginteractive.com
+ * Copyright: Copyright (c) 2012, Brad Williams
+ * License: GNU General Public License version 3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+/* Clear Floats
+================================================== */
+.tboot-clear-floats {
+	clear: both;
+}
+
+.tboot-clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/* Spacing
+================================================== */
+.tboot-spacing {
+	display: block;
+	height: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none !important;
+	outline: none !important;
+}
+
+
+
+/* Buttons
+================================================== */
+
+
+
+/* Testimonial
+================================================== */
+.tboot-testimonial-content {
+	font-style: italic;
+	position: relative;
+	background: #f5f5f5;
+	padding: 15px;
+	color: #666;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.tboot-testimonial-content:after {
+	content: "";
+	position: absolute;
+	left: 12px;
+	bottom: -15px;
+	width: 0px;
+	height: 0px;
+	border-bottom: 15px solid rgba(255,255,255,0);
+	border-top: 15px solid rgba(255,255,255,0);
+	border-right: 15px solid #f5f5f5;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.tboot-testimonial-content p:last-child {
+	margin: 0;
+}
+
+.tboot-testimonial-author {
+	font-size: 1em;
+	margin-top: 25px;
+	margin-left: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+
+/* Toggle
+================================================== */
+.tboot-toggle .tboot-toggle-trigger {
+	display: block;
+	color: #555;
+	display: block;
+	padding: 15px 15px 15px 37px;
+	border: 1px solid #ddd;
+	background: #f9f9f9 url("images/plus.png") no-repeat 15px center;
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.tboot-toggle .tboot-toggle-trigger:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+.tboot-toggle .tboot-toggle-trigger.active,
+.tboot-toggle .tboot-toggle-trigger.active:hover {
+	color: #000;
+	background-color: #eee;
+	background-image: url("images/minus.png");
+	text-decoration: none;
+}
+
+.tboot-toggle .tboot-toggle-container {
+	display: none;
+	overflow: hidden;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-top: 0px;
+}
+
+/* Accordion
+================================================== */
+.tboot-accordion h3.tboot-accordion-trigger {
+	display: block;
+	color: #555;
+	display: block;
+	padding: 15px 15px 15px 37px;
+	border: 1px solid #ddd;
+	background: #f9f9f9 url("images/plus.png") no-repeat 15px center;
+	outline: 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin:10px 0 0 !important;
+	cursor: pointer;
+}
+
+.tboot-accordion h3.tboot-accordion-trigger a {
+	color: #555;
+	text-decoration: none !important;
+}
+
+.tboot-accordion .ui-state-focus {
+	outline: none;
+}
+
+.tboot-accordion .tboot-accordion-trigger:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+
+.tboot-accordion .tboot-accordion-trigger.ui-state-active {
+	background-color: #eee;
+	background-image: url("images/minus.png");
+	text-decoration: none;
+}
+
+.tboot-accordion .tboot-accordion-trigger.ui-state-active a {
+	color: #000;
+}
+
+.tboot-accordion .ui-accordion-content {
+	background-color: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-top: 0px;
+}
+
+.tboot-accordion .ui-accordion-content p:last-child {
+	margin: 0px;
+}
+
+.tboot-accordion .ui-icon {
+	margin-right: 7px;
+}
+
+/* Tabs
+================================================== */
+.tboot-tabs ul.ui-tabs-nav {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 1px #ddd;
+	margin-left: 1px;
+}
+
+.tboot-tabs ul.ui-tabs-nav li {
+	display: block;
+	width: auto;
+	height: 40px;
+	padding: 0 !important;
+	float: left !important;
+	margin: 0 !important;
+	outline: none;
+}
+
+.tboot-tabs ul.ui-tabs-nav li a {
+	display: block;
+	text-decoration: none;
+	width: auto;
+	height: 39px;
+	padding: 0px 20px;
+	line-height: 40px;
+	border: solid 1px #ddd;
+	border-width: 1px 1px 0 0;
+	margin: 0;
+	background-color: #f5f5f5;
+	font-size: 1em;
+	color: #444;
+	outline: none;
+}
+
+.tboot-tabs ul.ui-tabs-nav li a:hover {
+	color: #333;
+	background: #eee;
+}
+
+.tboot-tabs ul.ui-tabs-nav .ui-state-active a {
+	background: #fff;
+	height: 40px;
+	position: relative;
+	top: -4px;
+	padding-top: 4px;
+	border-left-width: 1px;
+	margin: 0 0 0 -1px;
+	color: #111 !important;
+	-moz-border-radius-topleft: 2px;
+	-webkit-border-top-left-radius: 2px;
+	border-top-left-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-webkit-border-top-right-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.tboot-tabs ul.ui-tabs-nav .ui-state-active a:hover {
+	background: #fff;
+}
+
+.tboot-tabs ul.ui-tabs-nav li:first-child .ui-state-active a {
+	margin-left: 0;
+}
+
+.tboot-tabs ul.ui-tabs-nav li:first-child a {
+	border-width: 1px 1px 0 1px;
+}
+
+.tboot-tabs .tab-content {
+	background: #fff;
+	padding: 20px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+
+.tboot-tabs ul.tabs:before, ul.tabs:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.tboot-tabs ul.tabs:after {
+	clear: both;
+}
+
+.tboot-tabs ul.tabs {
+	zoom: 1;
+}
+
+.tboot-tabs .ui-tabs-hide {
+	display: none;
+}
+
+.tboot-tabs:before, ul.tboot-tabs:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.tboot-tabs:after {
+	clear: both;
+}
+
+.tboot-tabs {
+	zoom: 1;
+}
+
+.tboot-tabs .ui-tabs-hide {
+	display: none;
+}
+
+/* Pricing Table
+================================================== */
+.tboot-pricing-table {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.tboot-pricing  {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	border: 1px solid #DDDDDD;
+}
+
+.tboot-pricing-table div {
+	list-style: none;
+}
+
+.tboot-pricing-table > div {
+	margin-right: 4%;
+	list-style: none;
+	text-shadow: none;
+	margin-bottom: 0;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+
+.tboot-pricing-table .tboot-pricing-header {
+	background: #333;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #111;
+}
+
+.tboot-pricing-table .tboot-pricing-header h5 {
+	color: #fff;
+	font-size: 1.313em;
+	margin: 0;
+	padding: 0 20px 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #111;
+}
+
+.tboot-pricing-table .tboot-pricing-cost {
+	color: #fff;
+	font-size: 1.500em;
+	line-height: 1em;
+	padding-top: 20px;
+	border-top: 1px solid #444;
+}
+
+.tboot-pricing-table .featured .tboot-pricing-header {
+	background: #006DCC;
+	margin: -1px;
+	color: #fff;
+	border-bottom: 1px solid #002A80;
+}
+
+.tboot-pricing-table .featured .tboot-pricing-header h5 {
+	color: #fff;
+	border-bottom: 1px solid #08C;
+}
+
+.tboot-pricing-table .featured .tboot-pricing-cost {
+	border-top: 1px solid #04C;
+}
+
+.tboot-pricing-table .tboot-pricing-per {
+	font-size: 0.786em;
+	color: #fff;
+}
+
+.tboot-pricing-table .tboot-pricing-content {
+	background: #fff;
+	font-size: 0.857em;
+	text-align: center;
+}
+
+.tboot-pricing-table .tboot-pricing-content ul {
+	margin: 0 !important;
+	list-style: none !important;
+	padding: 0 !important;
+}
+
+.tboot-pricing-table .tboot-pricing-content ul li {
+	margin: 0 !important;
+	padding: 10px 20px !important;
+	border-bottom: 1px solid #eee;
+	list-style: none !important;
+}
+
+.tboot-pricing-table .tboot-pricing-content ul li:nth-child(2n+2) {
+	background: #f9f9f9;
+}
+
+.tboot-pricing-table .tboot-pricing-button {
+	background: #fff;
+	text-align: center;
+	border-top: 1px solid #fff;
+	padding: 20px;
+}
+
+.tboot-pricing-table .tboot-pricing-button .tboot-button {
+	float: none;
+	margin: 0 auto;
+}
+
+/* Highlights
+================================================== */
+.tboot-highlight-yellow,
+.tboot-highlight-yellow a {
+	background-color: #FFF7A8;
+	color: #695D43;
+}
+
+.tboot-highlight-blue,
+.tboot-highlight-blue a {
+	color: #5091b2;
+	background: #e9f7fe;
+}
+
+.tboot-highlight-green,
+.tboot-highlight-green a {
+	color: #5f9025;
+	background: #ebf6e0;
+}
+
+.tboot-highlight-red,
+.tboot-highlight-red a {
+	color: #de5959;
+	background: #ffe9e9;
+}
+
+.tboot-highlight-grey,
+.tboot-highlight-grey a {
+	color: #666;
+	background: #f9f9f9;
+}
+
+/* Bootstrap (Others)
+================================================== */
+
+.lead {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 30px;
+}
+
+small {
+	font-size: 85%;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+text-align: right;
+}
+
+.muted {
+	color: #999999;
+}
+
+.text-warning {
+	color: #c09853;
+}
+
+.text-error {
+	color: #b94a48;
+}
+
+.text-info {
+	color: #3a87ad;
+}
+
+.text-success {
+	color: #468847;
+}
+
+abbr[title], abbr[data-original-title] {
+	cursor: help;
+	border-bottom: 1px dotted #999999;
+}
+
+abbr.initialism {
+	font-size: 90%;
+	text-transform: uppercase;
+}
+
+address {
+	display: block;
+	margin-bottom: 20px;
+	font-style: normal;
+	line-height: 20px;
+}
+
+cite {
+	font-style: normal;
+}
+
+blockquote small {
+	line-height: 20px;
+	color: #999999;
+}
+
+blockquote.pull-right {
+	float: right;
+	padding-right: 15px;
+	padding-left: 0;
+	border-right: 5px solid #eeeeee;
+	border-left: 0;
+}
+
+dl {
+	margin-bottom: 20px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dt, dd {
+	line-height: 20px;
+}
+
+dd {
+	margin-left: 10px;
+}
+
+.dl-horizontal:before, .dl-horizontal:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.dl-horizontal:after {
+	clear: both;
+}
+
+.dl-horizontal:before, .dl-horizontal:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.dl-horizontal dt {
+	float: left;
+	width: 160px;
+	overflow: hidden;
+	clear: left;
+	text-align: right;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dl-horizontal dd {
+	margin-left: 180px;
+}
+
+code {
+	padding: 2px 4px;
+	color: #d14;
+	white-space: nowrap;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+}
+
+code, pre {
+	padding: 0 3px 2px;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-size: 12px;
+	color: #333333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.img-rounded {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.img-circle {
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+}
+
+.img-polaroid {
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Media
+================================================== */
+
+@media only screen and (max-width: 979px) {
+	.tboot-pricing {
+		margin-bottom: 25px;
+	}
+}
