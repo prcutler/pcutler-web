@@ -94,7 +94,8 @@ add_action('after_setup_theme', 'flatty_setup');
 
 // The excerpt "more" button
 function flatty_excerpt($text) {
-    return str_replace('[&hellip;]', '[&hellip;]<div class="clearfix"></div><br /><a class="btn btn-sm btn-info" title="'. sprintf (__('Read more on %s','flatty'), get_the_title()).'" href="'.get_permalink().'">' . __('Continue Reading','flatty') . '</a>', $text);
+#    return str_replace('[&hellip;]', '[&hellip;]<div class="clearfix"></div><br /><a class="btn btn-sm btn-info" title="'. sprintf (__('Read more on %s','flatty'), get_the_title()).'" href="'.get_permalink().'">' . __('Continue Reading','flatty') . '</a>', $text);
+	return the_content();
 }
 add_filter('the_excerpt', 'flatty_excerpt');
 
