@@ -1,0 +1,218 @@
+/*********************************************************************
+* FLATTY STYLE
+*/
+
+/*********************************************************************
+* GOOGLE FONTS, locally loaded, no Google dependant
+* Compatible with Chrome, Firefox, Opera, Safari and IE 8,9 and 10
+*/
+@font-face {
+    font-family:'Lily Script One';
+    src: url('../fonts/lily-script-one.eot');
+    src: local('Lily Script One'), local('LilyScriptOne-Regular'), url('../fonts/lily-script-one.eot') format('embedded-opentype'), url('../fonts/lily-script-one.woff') format('woff');
+}
+@font-face {
+    font-family:'Rosario';
+    src: url('../fonts/rosario.eot');
+    src: local('Rosario'), local('Rosario-Regular'), url('../fonts/rosario.eot') format('embedded-opentype'), url('../fonts/rosario.woff') format('woff');
+}
+
+/* Article */
+article section {
+    font-family: 'Rosario';
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0em 1em;
+}
+article code {
+    margin: 5px 20px;
+}
+/* Article Author */
+.article-author .lead {
+    margin-bottom: 0px;
+}
+.article-author-avatar {
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+/* Bootstrap Carousel */
+body article .carousel-inner img {
+    margin: auto;
+    max-height: 380px;
+    width: auto;
+}
+body.single article .carousel-inner img {
+    margin: auto;
+    max-height: 440px;
+    width: auto;
+}
+body.page-template-tpl-one-column-empty-php article .carousel-inner img {
+    margin: auto;
+    max-height: 580px;
+    width: auto;
+}
+.carousel-indicators {
+    bottom: 0px;
+}
+.carousel-indicators li {
+    border: 1px solid #999;
+    background: #fff;
+}
+.carousel-indicators li.active {
+    background: #38c;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background: transparent;
+}
+
+/* Footer */
+body>footer {
+    background: #111;
+    box-shadow: 0 -1px 0 rgba(0,0,0,.1);
+    color: #f5f5f5;
+    margin-top: 4em;
+    padding: 1em 0em 3em 0em;
+}
+body>footer .widgettitle {
+    background: none;
+    color: inherit;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+body>footer .sidebar-admin-social {
+    text-align: left;
+}
+
+/* Code */
+code {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #398439;
+}
+
+/* Comments body */
+#comments .comment .comment-body {
+    background: #fbfbfb;
+    border: 2px solid #f5f5f5;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rosario';
+    margin-top: 0px;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    border-bottom: 4px solid #38c;
+    box-shadow: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.35);
+}
+.navbar-brand {
+    font-family: 'Lily Script One';
+    font-size: 34px;
+    margin-right: 10px;
+    padding: 14px 10px 10px 10px;
+}
+.navbar-text {
+    font-family: 'Rosario';
+    margin-left: 4px;
+}
+button.navbar-toggle {
+    margin-bottom: 0px;
+}
+.navbar-nav>li.current-menu-item>a,
+.navbar-nav>li.current-post-ancestor>a,
+.navbar-nav>li.current-page-ancestor>a,
+.navbar-nav>li.current-menu-item>a:hover,
+.navbar-nav>li.current-post-ancestor>a:hover,
+.navbar-nav>li.current-page-ancestor>a:hover {
+    color: #fff;
+    background: #38c;
+}
+.dropdown-menu li a {
+    text-shadow: none;
+}
+
+/* Respond */
+#respond {
+    background: #f5f5f5;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px #999;
+}
+
+/* Sidebar Admin */
+.sidebar-admin.well {
+    color: #fff;
+    background: #111;
+    border: 1px solid #111;
+}
+.sidebar-admin .lead {
+    margin-bottom: 0px;
+}
+.sidebar-admin-avatar {
+    margin-bottom: .25em;
+    margin-right: 1em;
+}
+.sidebar-admin-social {
+    font-size: 32px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.sidebar-admin-social a i {
+    text-shadow: 3px 3px 1px #000;
+}
+
+/* Wells */
+.well {
+    background: #fff;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadhow: none;
+}
+
+/* Widget Title */
+.widgettitle {
+    background: #333;
+    border-bottom: 5px solid #38c;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+/* Widget Calendar */
+.widget_calendar.well {
+    background: #222;
+    border: 1px solid #111;
+}
+.widget_calendar table caption {
+    background: #f5f5f5;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.widget_calendar table thead {
+    background: #0081c2;
+    color: #fff;
+}
+.widget_calendar table td {
+    background: none;
+    color: #eaeaea;
+}
+.widget_calendar table td a {
+    color: #FFBD69;
+}
+.widget_calendar td a {
+    color: #333;
+    font-size: 1em;
+}
+.widget_calendar td a:hover {
+    color: #08c;
+}
