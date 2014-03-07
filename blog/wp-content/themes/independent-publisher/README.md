@@ -1,9 +1,27 @@
 Independent Publisher WordPress Theme
 =====================
 
+## Table of Contents
+
+* [Theme Options](https://github.com/raamdev/independent-publisher#theme-options)
+* [Post Covers (Full-Width Featured Images)](https://github.com/raamdev/independent-publisher#post-covers-full-width-featured-images)
+* [Post Subtitles](https://github.com/raamdev/independent-publisher#post-subtitles)
+* [Using a Child Theme to Customize Independent Publisher](https://github.com/raamdev/independent-publisher#using-a-child-theme-to-customize-independent-publisher)
+* [Known Issues](https://github.com/raamdev/independent-publisher#known-issues)
+* [Frequently Asked Questions](https://github.com/raamdev/independent-publisher#frequently-asked-questions)
+    * [Why is my Header Image not showing on Single posts?](https://github.com/raamdev/independent-publisher#why-is-my-header-image-not-showing-on-single-posts)
+    * [How do I get the small logo to show up in the top-left corner?](https://github.com/raamdev/independent-publisher#how-do-i-get-the-small-logo-to-show-up-in-the-top-left-corner)
+    * [How do I add Social Media Buttons below the Logo?](https://github.com/raamdev/independent-publisher#how-do-i-add-social-media-buttons-below-the-logo)
+    * [How do I make the JetPack Sharing Buttons look better?](https://github.com/raamdev/independent-publisher#how-do-i-make-the-jetpack-sharing-buttons-look-better)
+    * [How do I make the Subscribe to Comments Reloaded Advanced Options look better?](https://github.com/raamdev/independent-publisher#how-do-i-make-the-subscribe-to-comments-reloaded-advanced-options-look-better)
+    * [How do I make MailChimp Signup Forms look better?](https://github.com/raamdev/independent-publisher#how-do-i-make-mailchimp-signup-forms-look-better)
+* [Color Schemes](https://github.com/raamdev/independent-publisher#color-schemes)
+* [Theme Filters and Actions](https://github.com/raamdev/independent-publisher#theme-filters-and-actions)
+* [Functions you can Override in a Child Theme](https://github.com/raamdev/independent-publisher#functions-you-can-override-in-a-child-theme)
+
 ## Theme Options
 
-Theme Options can be found in `Dashboard → Apperance → Customize`.
+Theme Options can be found in `Dashboard → Appearance → Customize`.
 
 ### Colors
 
@@ -18,9 +36,16 @@ The following colors can be changed via the Colors section:
 - Primary Meta Text Color
 - Secondary Meta Text Color
 
-### Excerpts
 
-![screen shot 2014-01-24 at 7 26 58 pm](https://f.cloud.github.com/assets/53005/2000332/844d8d20-8557-11e3-8308-f830930941ae.png)
+### Layout Options
+
+![screen shot 2014-02-11 at 7 19 46 pm](https://f.cloud.github.com/assets/53005/2143949/6c319bdc-937b-11e3-8e03-9af57e672ac8.png)
+
+- **Single-Column Layout**. Disabled by default. This option allows you to force the site layout to a single-column, regardless of the browser width.
+
+### Excerpt Options
+
+![screen shot 2014-02-11 at 7 14 43 pm](https://f.cloud.github.com/assets/53005/2143914/c9a14fd4-937a-11e3-9a95-ff023ebf120f.png)
 
 - **Post Excerpts**. Disabled by default. If you enable Post Excerpts the post excerpt will be shown on Blog, Archive, and Search pages instead of the full post content. If no excerpt is set, one is generated using the first 55 words (see [`the_excerpt()`](http://codex.wordpress.org/Function_Reference/the_excerpt)). This setting only applies to Standard and Chat post formats.
 - **Generate One-Sentence Excerpts**. Disabled by default. When this option is enabled, a one-sentence excerpt will be generated for all posts that don't have an excerpt set. A "Continue Reading →" link is also placed below the generated excerpt. This setting only applies to Standard post formats and is only relevant when Post Excerpts are enabled.
@@ -28,13 +53,13 @@ The following colors can be changed via the Colors section:
 
 ### General Options
 
-![screen shot 2014-01-24 at 7 27 09 pm](https://f.cloud.github.com/assets/53005/2000331/844780e2-8557-11e3-9c6b-1688564cf612.png)
+![screen shot 2014-03-04 at 4 18 13 pm](https://f.cloud.github.com/assets/53005/2326412/95fb35fa-a3e2-11e3-9e68-b97f472055d1.png)
 
 - **Show Post Word Count in Entry Meta**. Enabled by default. Shows the post word count in the entry meta on Blog, Archive, and Search pages. Only shows post word count for posts with the Standard Post Format.
+- **Show Post Date in Entry Meta**. Disabled by default. When this option is enabled, the post date will be shown in the entry meta on Blog, Archive, and Search pages. It uses the date format specified in *Dashboard → Settings → General → Date Format*.
 - **Show Widgets on Single Pages**. Disabled by default. When this option is enabled, sidebar widgets will also be shown on Single pages.
-- **Use Single-Column Layout**. Disabled by default. This option allows you to force the site layout to a single-column, regardless of the browser width.
-- **Multi-Author Mode**. Disabled by default. Enabling Multi Author Mode changes the behavior of the site to better support multiple authors. The author name is mentioned in the entry meta and the authors name always links to the author page instead of the home page. The Header Image (*Dashboard → Appearance → Customize → Header Image*) is treated as the site logo and placed as a small icon in top left of the single pages to provide a way of getting back to the home page.
-- **Comments Call to Action**. "Share a Comment" by default. This allows you to change the label that shows up on the 'Share a Comment' button and also changes the title of the comment form itself.
+- **Enable Multi-Author Mode**. Disabled by default. Enabling Multi Author Mode changes the behavior of the site to better support multiple authors. The author name is mentioned in the entry meta and the authors name always links to the author page instead of the home page. The Header Image (*Dashboard → Appearance → Customize → Header Image*) is treated as the site logo and placed as a small icon in top left of the single pages to provide a way of getting back to the home page.
+- **Comments Call to Action**. "Write a Comment" by default. This allows you to change the label that shows up on the 'Write a Comment' button and also changes the title of the comment form itself.
 
 ## Post Covers (Full Width Featured Images)
 
@@ -88,6 +113,19 @@ If there is only one author on your site, you probably want to set the Header Im
 
 First you need to enable **Multi-Author Mode** in *Dashboard → Appearance → Customizer → General Options* . With Multi-Author Mode enabled, the theme Header Image (*Dashboard → Appearance → Header Image*) will be placed in the top-left corner on all Single pages.
 
+### How do I add Social Media Buttons below the Logo?
+
+![screen shot 2014-02-03 at 12 54 31 pm](https://f.cloud.github.com/assets/5318719/2192243/00f7d5ec-9863-11e3-833f-3f28cd3d8cf4.png)
+
+First you need to go to *Dashboard → Appearance → Menu*. Once there, create a new menu called Social. After that, add your social media links to it. For example:
+
+![screen shot 2014-02-18 at 11 27 24 am](https://f.cloud.github.com/assets/5318719/2192161/ad89e3ca-9860-11e3-91b4-c416265854ce.png)
+
+After you're done, below in **Theme Locations** (located in the **Menu Settings** tab), choose **Social**.
+
+![screen shot 2014-02-18 at 11 42 31 am](https://f.cloud.github.com/assets/5318719/2192202/dcd5a848-9861-11e3-8e96-85cc4cdee1cb.png)
+
+
 ### How do I make the JetPack Sharing Buttons look better?
 
 If you clear the JetPack Sharing Buttons "Sharing label" field so that it's empty, Independent Publisher will force the sharing buttons to float right and will remove the right padding so that the buttons look nicer.
@@ -103,6 +141,68 @@ Go to *Settings -> Subscribe to Comments -> Comment Form -> Custom HTML* and wra
 ```
 
 Note that double-quotes are not allowed in that field and that you *must* use single quotes, i.e., `class='comment-form-subscriptions'`, NOT `class="comment-form-subscriptions"`.
+
+### How do I make MailChimp Signup Forms look better?
+
+MailChimp includes its own CSS in the HTML embed code that, by default, doesn't look quite right with Independent Publisher. To fix the MailChimp CSS, you can add the following to the `style.css` file of a [Child Theme](https://github.com/raamdev/independent-publisher-child-theme/) (or if you're using JetPack, simply go to *Appearance → Edit CSS* and insert the following):
+
+```
+#mc_embed_signup .button {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	padding-top: 2px !important;
+	padding-bottom: 3px !important;
+	line-height: 1.45 !important;
+	height: 36px !important;
+	font-weight: normal !important;
+	width: 100% !important;
+}
+
+.entry-content #mc_embed_signup h2 {
+	font-size: 1.8em !important;
+}
+.entry-content #mc_embed_signup input.email {
+	width: 100% !important;
+}
+.entry-content #mc_embed_signup label {
+	padding-bottom: 0 !important;
+}
+.entry-content #mc_embed_signup .mc-field-group {
+	width: 99% !important;
+}
+
+.widget #mc_embed_signup form {
+	text-align: center !important;
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+.widget #mc_embed_signup input.email {
+	width: 100% !important;
+	text-align: center;
+}
+.widget #mc_embed_signup input.button {
+	width: 100% !important;
+}
+```
+
+![screen shot 2014-01-28 at 4 53 37 pm](https://f.cloud.github.com/assets/53005/2024233/c5642e38-8866-11e3-9d70-555eacbcb243.png)
+
+
+## Color Schemes
+
+You can modify the color scheme in *Appearance → Customize → Colors*. Here are a few recommended color schemes:
+
+### Blue
+
+* Set Link Color to `#26759e`
+
+### Black
+
+* Set Text color to `#f7f7f7`
+* Set Background Color to `#000000`
+* Set Link Color to `#1a609e`
+* Set Title and Header Text Color to `#d1d1d1`
+* Set Primary Meta Text Color to `#8e8e8e`
+* Set Secondary Meta Text color to `#666666`
 
 ## Theme Filters and Actions
 
@@ -122,8 +222,8 @@ WordPress Filters and Actions allow you to modify the theme without actually mod
 
 ### Action Hooks
 
-- `independent_publisher_entry_meta_top` - Located at the top of post Entry Meta, just before the 'Share a Comment' button.
-- `independent_publisher_before_bottom_share_comment_button` - Located just before the second 'Share a Comment' button that shows up underneath post comments when there are more than 4 comments visible.
+- `independent_publisher_entry_meta_top` - Located at the top of post Entry Meta, just before the 'Write a Comment' button.
+- `independent_publisher_before_bottom_comment_button` - Located just before the second 'Write a Comment' button that shows up underneath post comments when there are more than 4 comments visible.
 - `independent_publisher_before_post_bottom_tag_list` - Located before the bottom 'Related Content by Tag' tag list on Single posts.
 
 ## Functions you can Override in a Child Theme
@@ -149,7 +249,7 @@ WordPress Filters and Actions allow you to modify the theme without actually mod
 - `independent_publisher_search_stats()` - Returns stats for search results
 - `independent_publisher_taxonomy_archive_stats()` - Returns taxonomy archive stats and current page info for use in taxonomy archive descriptions
 - `independent_publisher_date_archive_description()` - Returns the Date Archive description
-- `independent_publisher_min_comments_bottom_share_button()` - Returns the minimum number of comments that must exist for the bottom 'Share a comment' button to appear
+- `independent_publisher_min_comments_bottom_comment_button()` - Returns the minimum number of comments that must exist for the bottom 'Write a Comment' button to appear
 - `independent_publisher_min_comments_comment_title()` - Returns the minimum number of comments that must exist for the comments title to appear
 
 ### Functions in `functions.php`:

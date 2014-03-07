@@ -89,7 +89,7 @@ if ( ! function_exists( 'independent_publisher_comment' ) ) :
 						<time pubdate datetime="<?php comment_time( 'c' ); ?>">
 							<?php
 							/* translators: 1: date */
-							printf( __( '%1$s', 'independent_publisher' ), get_comment_date() ); ?>
+							printf( '%1$s', get_comment_date() ); ?>
 						</time>
 					</a>
 					<?php edit_comment_link( __( '(Edit)', 'independent_publisher' ), ' ' );
@@ -174,7 +174,7 @@ if ( ! function_exists( 'independent_publisher_posted_author_cats' ) ) :
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'independent_publisher' ) );
 
-		if ( ( ! post_password_required() && comments_open() ) || ( ! post_password_required() && independent_publisher_show_post_word_count() && ! get_post_format() ) ) {
+		if ( ( ! post_password_required() && comments_open() ) || ( ! post_password_required() && independent_publisher_show_post_word_count() && ! get_post_format() ) || independent_publisher_show_date_entry_meta() ) {
 			$separator = apply_filters( 'independent_publisher_entry_meta_separator', '|' );
 		}
 		else {
@@ -205,7 +205,7 @@ if ( ! function_exists( 'independent_publisher_posted_author_cats' ) ) :
 		else : // not Multi-Author Mode
 			if ( $categories_list && independent_publisher_categorized_blog() ) :
 				echo '<span class="cat-links">';
-				printf( __( '%1$s %2$s', 'independent_publisher' ),
+				printf( '%1$s %2$s',
 						independent_publisher_entry_meta_category_prefix(),
 						$categories_list
 				);
@@ -227,7 +227,7 @@ if ( ! function_exists( 'independent_publisher_posted_on_date' ) ) :
 	function independent_publisher_posted_on_date() {
 		printf( '<a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a>',
 				esc_url( get_permalink() ),
-				esc_attr( get_the_time() ),
+				esc_attr( get_the_title() ),
 				esc_attr( get_the_date( 'c' ) ),
 				esc_html( get_the_date() )
 		);
@@ -243,7 +243,7 @@ if ( ! function_exists( 'independent_publisher_continue_reading_link' ) ) :
 	function independent_publisher_continue_reading_link() {
 		$text = apply_filters( 'independent_publisher_continue_reading_link_text', ' ' . __( 'Continue Reading &rarr;', 'independent_publisher' ) );
 
-		printf( '<span class="enhanced-excerpt-read-more"><a class="read-more" href="%1$s">%2$s</a></span>',
+		printf( '<div class="enhanced-excerpt-read-more"><a class="read-more" href="%1$s">%2$s</a></div>',
 				esc_url( get_permalink() ),
 				esc_html( $text )
 		);
@@ -464,6 +464,22 @@ if ( ! function_exists( 'independent_publisher_get_post_word_count' ) ) :
 	}
 endif;
 
+if ( ! function_exists( 'independent_publisher_get_post_date' ) ) :
+	/**
+	 * Returns post date formatted for display in theme
+	 * @return string
+	 */
+	function independent_publisher_get_post_date() {
+		if ( comments_open() || ( independent_publisher_show_post_word_count() && ! get_post_format() ) ) {
+			$separator = ' <span class="sep"> ' . apply_filters( 'independent_publisher_entry_meta_separator', '|' ) . ' </span>';
+		}
+		else {
+			$separator = '';
+		}
+		return independent_publisher_posted_on_date() . $separator;
+	}
+endif;
+
 if ( ! function_exists( 'independent_publisher_full_width_featured_image' ) ):
 	/**
 	 * Show Full Width Featured Image on single pages if post has full width featured image selected
@@ -558,8 +574,11 @@ if ( ! function_exists( 'independent_publisher_date_archive_description' ) ):
 		 * Only proceed if we're on the first page and the description has not been overridden via independent_publisher_custom_date_archive_meta
 		 */
 		if ( trim( $date_archive_meta ) === '' ) {
-			if ( is_year() ) {
+			if ( is_year() && ( get_the_date( 'Y' ) != date( 'Y' ) ) ) {
 				$date_archive_meta = sprintf( _n( 'There was one post published in %2$s.', 'There were %1$s posts published in %2$s' . $pagination_info . '.', $total, 'independent_publisher' ), number_format_i18n( $total ), get_the_date( 'Y' ) );
+			}
+			else if ( is_year() && ( get_the_date( 'Y' ) == date( 'Y' ) ) ) {
+				$date_archive_meta = sprintf( _n( 'There is one post published in %2$s.', 'There are %1$s posts published in %2$s' . $pagination_info . '.', $total, 'independent_publisher' ), number_format_i18n( $total ), get_the_date( 'Y' ) );
 			}
 			else if ( is_day() ) {
 				$date_archive_meta = sprintf( _n( 'There was one post published on %2$s.', 'There were %1$s posts published on %2$s' . $pagination_info . '.', $total, 'independent_publisher' ),
@@ -583,11 +602,11 @@ if ( ! function_exists( 'independent_publisher_date_archive_description' ) ):
 	}
 endif;
 
-if ( ! function_exists( 'independent_publisher_min_comments_bottom_share_button' ) ):
+if ( ! function_exists( 'independent_publisher_min_comments_bottom_comment_button' ) ):
 	/**
-	 * Returns the minimum number of comments that must exist for the bottom 'Share a comment' button to appear
+	 * Returns the minimum number of comments that must exist for the bottom 'Write a Comment' button to appear
 	 */
-	function independent_publisher_min_comments_bottom_share_button() {
+	function independent_publisher_min_comments_bottom_comment_button() {
 		return 4;
 	}
 endif;

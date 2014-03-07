@@ -134,7 +134,6 @@ add_action( 'widgets_init', 'independent_publisher_widgets_init' );
 function independent_publisher_scripts() {
 	global $post;
 
-	wp_enqueue_style( 'independent-publisher-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/fonts/genericons/genericons.css', array(), '3.0.3' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -150,6 +149,17 @@ function independent_publisher_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'independent_publisher_scripts' );
+
+if ( ! function_exists( 'independent_publisher_stylesheet' ) ) :
+	/**
+	 * Enqueue main stylesheet
+	 */
+	function independent_publisher_stylesheet() {
+		wp_enqueue_style( 'independent-publisher-style', get_stylesheet_uri() );
+	}
+endif;
+
+add_action( 'wp_enqueue_scripts', 'independent_publisher_stylesheet' );
 
 /**
  * Echoes the theme's footer credits
@@ -428,6 +438,17 @@ function independent_publisher_show_post_word_count() {
 }
 
 /**
+ * Returns true if Show Post Date in Entry Meta option is enabled
+ */
+function independent_publisher_show_date_entry_meta() {
+	$independent_publisher_general_options = get_option( 'independent_publisher_general_options' );
+	if ( isset( $independent_publisher_general_options['show_date_entry_meta'] ) && $independent_publisher_general_options['show_date_entry_meta'] )
+		return true;
+	else
+		return false;
+}
+
+/**
  * Returns true if Show Widgets on Single Pages option is enabled
  */
 function independent_publisher_show_widgets_on_single_pages() {
@@ -442,8 +463,8 @@ function independent_publisher_show_widgets_on_single_pages() {
  * Returns true if Use Single Column Layout option is enabled
  */
 function independent_publisher_use_single_column_layout() {
-	$independent_publisher_general_options = get_option( 'independent_publisher_general_options' );
-	if ( isset( $independent_publisher_general_options['single_column_layout'] ) && $independent_publisher_general_options['single_column_layout'] )
+	$independent_publisher_layout_options = get_option( 'independent_publisher_layout_options' );
+	if ( isset( $independent_publisher_layout_options['single_column_layout'] ) && $independent_publisher_layout_options['single_column_layout'] )
 		return true;
 	else
 		return false;
@@ -457,7 +478,7 @@ function independent_publisher_comments_call_to_action_text() {
 	if ( isset( $comments_call_to_action ) && trim( $comments_call_to_action ) !== '' )
 		return esc_attr( $comments_call_to_action );
 	else
-		return __( 'Share a Comment', 'independent_publisher' );
+		return __( 'Write a Comment', 'independent_publisher' );
 }
 
 /**
@@ -564,28 +585,36 @@ if ( ! function_exists( 'independent_publisher_first_sentence_excerpt' ) ):
 	/**
 	 * Return the post excerpt. If no excerpt set, generates an excerpt using the first sentence.
 	 */
-	function independent_publisher_first_sentence_excerpt( $output ) {
+	function independent_publisher_first_sentence_excerpt( $text = '' ) {
 		global $post;
 		$content_post = get_post( $post->ID );
 
 		// Only generate a one-sentence excerpt if there is no excerpt set and One Sentence Excerpts is enabled
 		if ( ! $content_post->post_excerpt && independent_publisher_generate_one_sentence_excerpts() ) {
-			$post_content = $content_post->post_content;
 
-			// If the post starts with an image containing a caption, remove the caption before generating the excerpt
-			if ( strpos( trim( $post_content ), '[caption' ) === 0 ) {
-				$post_content = substr( $post_content, strpos( $post_content, '[/caption]' ) + 10, strlen( $post_content ) - ( strpos( $post_content, '[/caption]' ) + 10 ) );
-			}
+			// The following mimics the functionality of wp_trim_excerpt() in wp-includes/formatting.php
+			// and ensures that no shortcodes or embed URLs are included in our generated excerpt.
+			$text = get_the_content('');
+			$text = strip_shortcodes( $text );
+			$text = apply_filters( 'the_content', $text );
+			$text = str_replace(']]>', ']]&gt;', $text);
+			$excerpt_length = 150; // Something long enough that we're likely to get a full sentence.
+			$excerpt_more = ''; // Not used, but included here for clarity
+			$text = wp_trim_words( $text, $excerpt_length, $excerpt_more ); // See wp_trim_words() in wp-includes/formatting.php
 
-			// Get the first sentence in $post_content
-			$strings = preg_split( '/(\.|!|\?)\s/', strip_tags( $post_content ), 2, PREG_SPLIT_DELIM_CAPTURE );
+			// Get the first sentence
+			// This looks for three punctuation characters: . (period), ! (exclamation), or ? (question mark), followed by a space
+			$strings = preg_split( '/(\.|!|\?)\s/', strip_tags( $text ), 2, PREG_SPLIT_DELIM_CAPTURE );
 
 			// $strings[0] is the first sentence and $strings[1] is the punctuation character at the end
 			if ( ! empty( $strings[0] ) && ! empty( $strings[1] ) ) {
-				$output = $strings[0] . $strings[1];
+				$text = $strings[0] . $strings[1];
 			}
+
+			$text = wpautop($text);
 		}
-		return wpautop( $output );
+
+		return $text;
 	}
 endif;
 
@@ -824,3 +853,47 @@ if ( ! function_exists( 'independent_publisher_maybe_linkify_the_excerpt' ) ) :
 endif;
 
 add_filter( 'the_excerpt', 'independent_publisher_maybe_linkify_the_excerpt' );
+
+/**
+ * Returns the proper schema type
+ */
+function html_tag_schema() {
+    $schema = 'http://schema.org/';
+
+    // Is single post
+    if(is_single())
+    {
+        $type = "Article";
+    }
+    // Contact form page ID
+    else if( is_page(1) )
+    {
+        $type = 'ContactPage';
+    }
+    // Is author page
+    elseif( is_author() )
+    {
+        $type = 'ProfilePage';
+    }
+    // Is search results page
+    elseif( is_search() )
+    {
+        $type = 'SearchResultsPage';
+    }
+    // Is of movie post type
+    elseif(is_singular('movies'))
+    {
+        $type = 'Movie';
+    }
+    // Is of book post type
+    elseif(is_singular('books'))
+    {
+        $type = 'Book';
+    }
+    else
+    {
+        $type = 'WebPage';
+    }
+
+    echo 'itemscope="itemscope" itemtype="' . $schema . $type . '"';
+}

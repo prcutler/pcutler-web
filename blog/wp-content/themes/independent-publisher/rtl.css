@@ -4,7 +4,7 @@ Theme URI: http://independentpublisher.me/
 Author: Raam Dev
 Author URI: http://raamdev.com
 Description: Independent Publisher is beautiful reader-focused WordPress theme, for you. Clean, responsive, and mobile-ready, it gets out of your way and lets you share what you create. Full support for all Post Formats. This theme is ideal for both single-author and multi-author blogs.
-Version: 1.0
+Version: 1.0-beta
 License: GNU GPLv3
 License URI: http://www.gnu.org/copyleft/gpl.html
 Tags: blog, journal, notes, clean, formal, light, minimal, modern, simple, light, white, green, one-column, two-columns, left-sidebar, fluid-layout, featured-images, full-width-template, custom-menu, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
@@ -116,6 +116,11 @@ textarea {
 	line-height: 1.5;
 }
 
+select {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px !important; /* webkit annoyingly only lets <select> elements have a font-size of either 9px, 11px or 13px; forcing this to 13px maintains consistency */
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
@@ -170,7 +175,8 @@ blockquote {
 	margin-right: 1em;
 	font-style: italic;
 	font-family: Georgia, "Bitstream Charter", serif;
-	border-right: 6px solid #57ad68;
+	border-right: 3px solid;
+	border-color: #57ad68;
 	padding-right: 20px;
 }
 
@@ -196,7 +202,7 @@ pre {
 	margin-bottom: 1.6em;
 	padding: 1.6em;
 	max-width: 100%;
-	background: #F2F7F9;
+	background: #F5F5F5;
 	font: 12px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	line-height: 1.6;
 }
@@ -282,12 +288,12 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	font-family: "freight-sans-pro", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-decoration: none;
-	line-height: 32px;
-	height: 32px;
+	line-height: 36px;
+	height: 36px;
 	padding-left: 15px;
 	padding-right: 15px;
 	border: 0;
@@ -542,8 +548,11 @@ img.aligncenter {
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-top: 20px;
-	background: #F2F7F9;
+	background: #F5F5F5;
 	border: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 .hentry {
@@ -654,12 +663,14 @@ img.aligncenter {
 }
 
 .enhanced-excerpts .enhanced-excerpt-read-more a {
-	display: block;
 	text-align: left;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.4em;
 	color: #57ad68;
-	margin-top: 1em;
+}
+
+.enhanced-excerpt-read-more {
+	margin-bottom: 1em;
 }
 
 .show-full-content-first-post h1.entry-title,
@@ -882,8 +893,8 @@ object {
 }
 
 #nav-above {
-	padding-bottom: 1.5em;
-	padding-top: 1.5em;
+	padding-bottom: 1em;
+	padding-top: 1em;
 	margin-top: 0;
 	border-bottom: none;
 }
@@ -1054,12 +1065,12 @@ ol.commentlist .avatar {
 #share-comment-button-bottom button {
 	padding-left: 15px;
 	padding-right: 15px;
-	height: 50px;
+	height: 3.4em;
 	line-height: 50px;
 }
 
 #pinglist {
-	font-family: "freight-sans-pro", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -1100,7 +1111,7 @@ ul.pinglist {
 }
 
 .taglist {
-	font-family: "freight-sans-pro", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -1153,10 +1164,11 @@ ul.taglist {
 .comment-form-subscriptions label,
 .comment-form-reply-title {
 	margin-left: 5px;
-	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #b3b3b1;
 	display: block;
 	font-size: 16px;
+	font-weight: 100;
 }
 
 .comment-form-reply-title {
@@ -1185,6 +1197,10 @@ ul.taglist {
 
 .comment-form-comment {
 	padding-left: 20px;
+}
+
+.comment-form .logged-in-as {
+	font-size: 80%;
 }
 
 #commentform input[type="submit"] {
@@ -1456,11 +1472,15 @@ h4,
 h5,
 h6 {
 	margin: 20px 0;
-	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #333332;
 	letter-spacing: -1px;
 	font-weight: 700;
 	line-height: 1;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	word-wrap: break-word;
 }
 
 h1 {
@@ -1527,18 +1547,34 @@ h6 {
 	padding-top: 0;
 }
 
+.blog.single-column-layout article.show-full-content-first-post {
+	padding-top: 40px;
+}
+
 .archive .page-header,
 .search .page-header {
 	margin-bottom: 4em;
 	padding-bottom: 1em;
-	border-bottom: solid 1px;
+	border: solid 1px;
 	border-color: #eee;
+	background: #F5F5F5;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 .archive .page-title,
 .search .page-title,
 .archive .archive-title {
 	font-size: 3.5em;
+}
+
+.archive.author .archive-title {
+	max-width: 80%;
 }
 
 article.first-post {
@@ -1638,7 +1674,7 @@ article.first-post {
 	clear: right;
 	margin-right: -220px;
 	text-align: left;
-	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 
@@ -1648,6 +1684,13 @@ article.first-post {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+	word-wrap: break-word;
+}
+
+.entry-title {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
 	word-wrap: break-word;
 }
 
@@ -1796,7 +1839,7 @@ table th {
 .author .author-avatar img {
 	float: left;
 	border-radius: 95px;
-	margin-top: -32px;
+	margin-top: -85px;
 }
 
 .author .archive-title a {
@@ -1887,7 +1930,7 @@ table th {
 .single-column-layout .site-navigation {
 	border-bottom: 1px solid #eee;
 	margin-top: 0;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
@@ -1919,14 +1962,8 @@ table th {
 .single-column-layout #masthead .site-description {
 	padding-right: 0;
 	padding-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-size: 15px;
-}
-
-.single-column-layout #masthead .site-logo,
-.single-column-layout #masthead .site-logo img {
-	float: left;
-	max-width: 100px;
 }
 
 .single-column-layout .entry-title-meta-author {
@@ -1952,7 +1989,7 @@ table th {
 }
 
 .single-column-layout #menu-social ul {
-	text-align: right;
+	text-align: center;
 	margin-right: -5px;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -1972,7 +2009,6 @@ table th {
 #menu-social ul {
 	list-style: none;
 	margin: 0 0 25px;
-	text-align: left;
 }
 
 /* Hide left-side author card under 1200px */
@@ -1998,8 +2034,7 @@ table th {
 		font-size: 15px;
 	}
 
-	.site-published-date,
-	.site-published {
+	.site-published-date {
 		font-size: 14px;
 	}
 
@@ -2008,7 +2043,7 @@ table th {
 	}
 
 	.site-header {
-		text-align: right;
+		text-align: center;
 		margin-right: 0;
 		float: none;
 		display: block;
@@ -2073,7 +2108,7 @@ table th {
 	#masthead .site-navigation {
 		border-bottom: 1px solid #eee;
 		margin-top: 0;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 		margin-bottom: 20px;
 	}
 
@@ -2101,15 +2136,11 @@ table th {
 		padding-left: 0;
 	}
 
-	#masthead .site-description {
+	#masthead .site-description,
+	.single-column-layout #masthead .site-description {
 		padding-right: 0;
 		padding-top: 10px;
-		margin-bottom: 10px;
-	}
-
-	#masthead .site-logo,
-	#masthead .site-logo img {
-		float: left;
+		margin-bottom: 20px;
 	}
 
 	#masthead .main-navigation ul {
@@ -2122,7 +2153,7 @@ table th {
 	}
 
 	#menu-social ul {
-		text-align: right;
+		text-align: center;
 		margin-left: -5px;
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -2133,6 +2164,17 @@ table th {
 	.site,
 	.single-column-layout .site {
 		margin-top: 20px;
+	}
+
+	.site-header,
+	.single-column-layout .site-header {
+		text-align: left;
+	}
+
+	.site-main article.sticky {
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 10px;
 	}
 
 	.multi-author-mode .site,
@@ -2164,6 +2206,11 @@ table th {
 		margin-right: 0;
 	}
 
+	#masthead .site-description,
+	.single-column-layout #masthead .site-description {
+		margin-bottom: 10px;
+	}
+
 	#menu-social {
 		clear: both;
 	}
@@ -2176,6 +2223,11 @@ table th {
 	#masthead .site-navigation {
 		margin-right: -10px;
 		padding-bottom: 20px;
+	}
+
+	#menu-social ul,
+	.single-column-layout #menu-social ul {
+		text-align: left;
 	}
 
 	.single-column-layout .site-navigation {
@@ -2250,7 +2302,9 @@ table th {
 	}
 
 	.author .author-avatar img {
-		margin-top: -15px;
+		margin-top: 0;
+		max-width: 70px;
+		max-height: 70px;
 	}
 
 	.post-author-card .site-title {
@@ -2349,6 +2403,10 @@ table th {
 	.archive .archive-title,
 	.page h1.entry-title {
 		font-size: 2.2em;
+	}
+
+	.archive.author .archive-title {
+		max-width: 100%;
 	}
 
 	.page h1.entry-title {
