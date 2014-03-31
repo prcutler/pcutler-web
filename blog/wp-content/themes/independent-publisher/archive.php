@@ -11,7 +11,7 @@
 get_header(); ?>
 
 	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<main id="content" class="site-content" role="main">
 
 			<?php if ( have_posts() ) : ?>
 
@@ -21,12 +21,10 @@ get_header(); ?>
 						if ( is_category() ) {
 							printf( '%s', '<span>' . single_cat_title( '', false ) . '</span>' );
 
-						}
-						elseif ( is_tag() ) {
+						} elseif ( is_tag() ) {
 							printf( '%s', '<span>' . single_tag_title( '', false ) . '</span>' );
 
-						}
-						elseif ( is_author() ) {
+						} elseif ( is_author() ) {
 							/* Queue the first post, that way we know
 							 * what author we're dealing with (if that is the case).
 							 */
@@ -39,20 +37,34 @@ get_header(); ?>
 							 */
 							rewind_posts();
 
-						}
-						elseif ( is_day() ) {
+						} elseif ( is_day() ) {
 							printf( '%s', '<span>' . get_the_date() . '</span>' );
 
-						}
-						elseif ( is_month() ) {
+						} elseif ( is_month() ) {
 							printf( '%s', '<span>' . get_the_date( 'F Y' ) . '</span>' );
 
-						}
-						elseif ( is_year() ) {
+						} elseif ( is_year() ) {
 							printf( '%s', '<span>' . get_the_date( 'Y' ) . '</span>' );
 
-						}
-						else {
+						} elseif ( is_tax( 'post_format', 'post-format-aside' ) ) {
+							_e( 'Asides', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) {
+							_e( 'Galleries', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-image' ) ) {
+							_e( 'Images', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-video' ) ) {
+							_e( 'Videos', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-quote' ) ) {
+							_e( 'Quotes', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-link' ) ) {
+							_e( 'Links', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-status' ) ) {
+							_e( 'Statuses', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-audio' ) ) {
+							_e( 'Audios', 'independent-publisher' );
+						} elseif ( is_tax( 'post_format', 'post-format-chat' ) ) {
+							_e( 'Chats', 'independent-publisher' );
+						} else {
 							_e( 'Archives', 'independent_publisher' );
 
 						}
@@ -68,13 +80,11 @@ get_header(); ?>
 
 						if ( ! empty( $category_description ) ) { // show the description + the taxonomy stats
 							echo apply_filters( 'category_archive_meta', '<div class="taxonomy-description">' . $category_description . $taxonomy_stats . '</div>' );
-						}
-						else { // there was description set, so let's just show some stats
+						} else { // there was description set, so let's just show some stats
 							echo apply_filters( 'category_archive_meta', '<div class="taxonomy-description">' . $taxonomy_stats . '</div>' );
 						}
 
-					}
-					elseif ( is_tag() ) {
+					} elseif ( is_tag() ) {
 						// Show an optional tag description
 						$tag_description = tag_description();
 
@@ -83,12 +93,10 @@ get_header(); ?>
 
 						if ( ! empty( $tag_description ) ) { // show the description + the taxonomy stats
 							echo apply_filters( 'tag_archive_meta', '<div class="taxonomy-description">' . $tag_description . $taxonomy_stats . '</div>' );
-						}
-						else { // there was description set, so let's just show some stats
+						} else { // there was description set, so let's just show some stats
 							echo apply_filters( 'tag_archive_meta', '<div class="taxonomy-description">' . $taxonomy_stats . '</div>' );
 						}
-					}
-					elseif ( is_day() || is_month() || is_year() ) {
+					} elseif ( is_day() || is_month() || is_year() ) {
 						echo independent_publisher_date_archive_description();
 					}
 					?>
@@ -112,11 +120,11 @@ get_header(); ?>
 
 			<?php else : ?>
 
-				<?php get_template_part( 'no-results', 'archive' ); ?>
+				<?php get_template_part( 'content', 'none' ); ?>
 
 			<?php endif; ?>
 
-		</div>
+		</main>
 		<!-- #content .site-content -->
 	</section><!-- #primary .content-area -->
 

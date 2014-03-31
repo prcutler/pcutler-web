@@ -8,7 +8,7 @@
  * @since   Independent Publisher 1.0
  */
 ?><!DOCTYPE html>
-<html <?php html_tag_schema(); ?> <?php language_attributes(); ?>>
+<html <?php independent_publisher_html_tag_schema(); ?> <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -30,7 +30,7 @@
 <?php if ( independent_publisher_is_multi_author_mode() && is_single() ) : ?>
 	<div class="site-master-logo">
 		<?php if ( get_header_image() ) : ?>
-			<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<img class="no-grav" src="<?php echo esc_url( get_header_image() ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
 			</a>
 		<?php endif; ?>
@@ -49,11 +49,8 @@
 		<?php if ( ! is_single() ) : ?>
 			<?php independent_publisher_site_info(); ?>
 			<nav role="navigation" class="site-navigation main-navigation">
-				<h1 class="assistive-text"><?php _e( 'Menu', 'independent_publisher' ); ?></h1>
+				<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'independent_publisher' ); ?>"><?php _e( 'Skip to content', 'independent_publisher' ); ?></a>
 
-				<div class="assistive-text skip-link">
-					<a href="#content" title="<?php esc_attr_e( 'Skip to content', 'independent_publisher' ); ?>"><?php _e( 'Skip to content', 'independent_publisher' ); ?></a>
-				</div>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 1 ) ); ?>
 			</nav><!-- .site-navigation .main-navigation -->
 		<?php endif; ?>

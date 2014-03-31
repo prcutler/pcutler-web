@@ -3,14 +3,19 @@ Theme Name: Independent Publisher
 Theme URI: http://independentpublisher.me/
 Author: Raam Dev
 Author URI: http://raamdev.com
-Description: Independent Publisher is beautiful reader-focused WordPress theme, for you. Clean, responsive, and mobile-ready, it gets out of your way and lets you share what you create. Full support for all Post Formats. This theme is ideal for both single-author and multi-author blogs.
-Version: 1.0-beta
+Description: Independent Publisher is beautiful reader-focused WordPress theme, for you. Clean, responsive, and mobile-ready, it gets out of your way and lets you share what you create. Full support for all Post Formats, HTML5-ready, and includes Schema.org markup. This theme is ideal for both single-author and multi-author blogs.
+Version: 1.2
 License: GNU GPLv3
 License URI: http://www.gnu.org/copyleft/gpl.html
+Independent Publisher, Copyright 2014 Raam Dev
+Independent Publisher is distributed under the terms of the GNU GPL
 Tags: light, white, green, one-column, two-columns, left-sidebar, fluid-layout, featured-images, full-width-template, custom-menu, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
 
+Genericons icon font (http://genericons.com/) is bundled for use with the Social Menu feature.
+Genericons is distributed under the terms of the GNU GPL.
+
 Based on _s http://underscores.me
-and Publish by Konstantin Kovshenin http://kovshenin.com/themes/publish
+and inspired by the Publish theme by Konstantin Kovshenin http://kovshenin.com/themes/publish
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -446,13 +451,6 @@ img.aligncenter {
 	margin: 5px auto 10px;
 }
 
-/* Text meant only for screen readers */
-.assistive-text {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-}
-
 /* =Menu
 ----------------------------------------------- */
 
@@ -519,6 +517,36 @@ img.aligncenter {
 
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
+}
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
 }
 
 /* =Content
@@ -1203,6 +1231,24 @@ ul.taglist {
 	font-size: 80%;
 }
 
+#commentform-top,
+#commentform-bottom {
+	background: #F1F1F1;
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+}
+
+.commentlist .comment-respond {
+	background: #F1F1F1;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
 #commentform input[type="submit"] {
 	width: 98%;
 }
@@ -1218,6 +1264,7 @@ ul.taglist {
 	letter-spacing: 0px;
 	float: right;
 	margin-right: 10px;
+	margin-top: -20px;
 }
 
 #commentform textarea {
@@ -1443,12 +1490,14 @@ body {
 	margin-top: 20px;
 }
 
-.infinite-scroll .site-navigation {
+.infinite-scroll .site-navigation,
+.infinite-scroll .main-navigation,
+.infinite-scroll .site-footer {
 	display: none;
 }
 
-.infinite-scroll .main-navigation {
-	display: block;
+.infinite-wrap {
+	float: right;
 }
 
 .infinite-loader {
@@ -1463,6 +1512,24 @@ body {
 #infinite-handle {
 	margin-top: 20px;
 	text-align: center;
+}
+
+#infinite-footer .blog-info {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+}
+
+#infinite-footer .blog-credits {
+	color: #b3b3b1;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+#infinite-footer .blog-info a:hover {
+	text-decoration: none;
+}
+
+#infinite-footer .blog-credits a,
+#infinite-footer .blog-credits a:hover {
+	color: #57ad68;
 }
 
 h1,
@@ -2209,10 +2276,10 @@ table th {
 	.site-header {
 		text-align: center;
 		margin-left: 0;
-		float: none;
 		display: block;
 		width: 100%;
 		position: relative;
+		margin-bottom: 10px;
 	}
 
 	.blog article.show-full-content-first-post {
