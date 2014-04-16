@@ -16,21 +16,21 @@ class IndependentPublisher_Customize {
 
 		$wp_customize->add_section(
 					 'independent_publisher_layout_options', array(
-							 'title'    => __( 'Layout Options', 'independent_publisher' ),
+							 'title'    => __( 'Layout Options', 'independent-publisher' ),
 							 'priority' => 124,
 						 )
 		);
 
 		$wp_customize->add_section(
 					 'independent_publisher_excerpt_options', array(
-							 'title'    => __( 'Excerpt Options', 'independent_publisher' ),
+							 'title'    => __( 'Excerpt Options', 'independent-publisher' ),
 							 'priority' => 125,
 						 )
 		);
 
 		$wp_customize->add_section(
 					 'independent_publisher_general_options', array(
-							 'title'    => __( 'General Options', 'independent_publisher' ),
+							 'title'    => __( 'General Options', 'independent-publisher' ),
 							 'priority' => 130,
 						 )
 		);
@@ -41,11 +41,12 @@ class IndependentPublisher_Customize {
 							 'default'    => '0',
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_select_excerpt_options',
 						 )
 		);
 		$wp_customize->add_control(
 					 'excerpts', array(
-							 'label'    => __( 'Post Excerpts', 'independent_publisher' ),
+							 'label'    => __( 'Post Excerpts', 'independent-publisher' ),
 							 'settings' => 'independent_publisher_excerpt_options[excerpts]',
 							 'section'  => 'independent_publisher_excerpt_options',
 							 'type'     => 'select',
@@ -62,12 +63,13 @@ class IndependentPublisher_Customize {
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'generate_one_sentence_excerpts', array(
 							 'settings' => 'independent_publisher_excerpt_options[generate_one_sentence_excerpts]',
-							 'label'    => __( 'Generate One-Sentence Excerpts', 'independent_publisher' ),
+							 'label'    => __( 'Generate One-Sentence Excerpts', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_excerpt_options',
 							 'type'     => 'checkbox',
 						 )
@@ -79,12 +81,13 @@ class IndependentPublisher_Customize {
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'show_full_content_first_post', array(
 							 'settings' => 'independent_publisher_excerpt_options[show_full_content_first_post]',
-							 'label'    => __( 'Always Show Full Content for First Post', 'independent_publisher' ),
+							 'label'    => __( 'Always Show Full Content for First Post', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_excerpt_options',
 							 'type'     => 'checkbox',
 						 )
@@ -93,15 +96,16 @@ class IndependentPublisher_Customize {
 		// Show Post Word Count
 		$wp_customize->add_setting(
 					 'independent_publisher_general_options[show_post_word_count]', array(
-							 'default'    => true,
+							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'show_post_word_count', array(
 							 'settings' => 'independent_publisher_general_options[show_post_word_count]',
-							 'label'    => __( 'Show Post Word Count in Entry Meta', 'independent_publisher' ),
+							 'label'    => __( 'Show Post Word Count in Entry Meta', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_general_options',
 							 'type'     => 'checkbox',
 						 )
@@ -113,29 +117,67 @@ class IndependentPublisher_Customize {
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'show_date_entry_meta', array(
 							 'settings' => 'independent_publisher_general_options[show_date_entry_meta]',
-							 'label'    => __( 'Show Post Date in Entry Meta', 'independent_publisher' ),
+							 'label'    => __( 'Show Post Date in Entry Meta', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_general_options',
 							 'type'     => 'checkbox',
 						 )
 		);
 
-		// Show Widgets on Single pages
+		// Show Widgets on Single Posts
 		$wp_customize->add_setting(
 					 'independent_publisher_general_options[show_widgets_on_single]', array(
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'show_widgets_on_single', array(
 							 'settings' => 'independent_publisher_general_options[show_widgets_on_single]',
-							 'label'    => __( 'Show Widgets on Single Pages', 'independent_publisher' ),
+							 'label'    => __( 'Show Widgets on Single Posts', 'independent-publisher' ),
+							 'section'  => 'independent_publisher_general_options',
+							 'type'     => 'checkbox',
+						 )
+		);
+
+		// Show Nav Menu on Single Posts
+		$wp_customize->add_setting(
+					 'independent_publisher_general_options[show_nav_menu_on_single]', array(
+							 'default'    => false,
+							 'type'       => 'option',
+							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
+						 )
+		);
+		$wp_customize->add_control(
+					 'show_nav_menu_on_single', array(
+							 'settings' => 'independent_publisher_general_options[show_nav_menu_on_single]',
+							 'label'    => __( 'Show Nav Menu on Single Posts', 'independent-publisher' ),
+							 'section'  => 'independent_publisher_general_options',
+							 'type'     => 'checkbox',
+						 )
+		);
+
+		// Show Updated Date on Single Posts
+		$wp_customize->add_setting(
+					 'independent_publisher_general_options[show_updated_date_on_single]', array(
+							 'default'    => false,
+							 'type'       => 'option',
+							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
+						 )
+		);
+		$wp_customize->add_control(
+					 'show_updated_date_on_single', array(
+							 'settings' => 'independent_publisher_general_options[show_updated_date_on_single]',
+							 'label'    => __( 'Show Updated Date on Single Posts', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_general_options',
 							 'type'     => 'checkbox',
 						 )
@@ -147,12 +189,13 @@ class IndependentPublisher_Customize {
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'single_column_layout', array(
 							 'settings' => 'independent_publisher_layout_options[single_column_layout]',
-							 'label'    => __( 'Single-Column Layout', 'independent_publisher' ),
+							 'label'    => __( 'Single-Column Layout', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_layout_options',
 							 'type'     => 'checkbox',
 						 )
@@ -164,12 +207,31 @@ class IndependentPublisher_Customize {
 							 'default'    => false,
 							 'type'       => 'option',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
 						 )
 		);
 		$wp_customize->add_control(
 					 'multi_author_mode', array(
 							 'settings' => 'independent_publisher_general_options[multi_author_mode]',
-							 'label'    => __( 'Enable Multi-Author Mode', 'independent_publisher' ),
+							 'label'    => __( 'Enable Multi-Author Mode', 'independent-publisher' ),
+							 'section'  => 'independent_publisher_general_options',
+							 'type'     => 'checkbox',
+						 )
+		);
+
+		// Show Page Load Progress Bar
+		$wp_customize->add_setting(
+					 'independent_publisher_general_options[show_page_load_progress_bar]', array(
+							 'default'    => false,
+							 'type'       => 'option',
+							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
+						 )
+		);
+		$wp_customize->add_control(
+					 'show_page_load_progress_bar', array(
+							 'settings' => 'independent_publisher_general_options[show_page_load_progress_bar]',
+							 'label'    => __( 'Show Page Load Progress Bar', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_general_options',
 							 'type'     => 'checkbox',
 						 )
@@ -181,12 +243,13 @@ class IndependentPublisher_Customize {
 							 'default'    => 'Write a Comment',
 							 'type'       => 'theme_mod',
 							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'sanitize_text_field',
 						 )
 		);
 		$wp_customize->add_control(
 					 'comments_call_to_action', array(
 							 'settings' => 'comments_call_to_action',
-							 'label'    => __( 'Comments Call to Action', 'independent_publisher' ),
+							 'label'    => __( 'Comments Call to Action', 'independent-publisher' ),
 							 'section'  => 'independent_publisher_general_options',
 							 'type'     => 'text',
 						 )
@@ -199,32 +262,32 @@ class IndependentPublisher_Customize {
 		$colors[] = array(
 			'slug'    => 'text_color',
 			'default' => '#000000',
-			'label'   => __( 'Text Color', 'independent_publisher' )
+			'label'   => __( 'Text Color', 'independent-publisher' )
 		);
 		$colors[] = array(
 			'slug'    => 'comment_form_background_color',
 			'default' => '#F1F1F1',
-			'label'   => __( 'Comment Form Background Color', 'independent_publisher' )
+			'label'   => __( 'Comment Form Background Color', 'independent-publisher' )
 		);
 		$colors[] = array(
 			'slug'    => 'link_color',
 			'default' => '#57ad68',
-			'label'   => __( 'Link Color', 'independent_publisher' )
+			'label'   => __( 'Link Color', 'independent-publisher' )
 		);
 		$colors[] = array(
 			'slug'    => 'header_text_color',
 			'default' => '#333332',
-			'label'   => __( 'Title and Header Text Color', 'independent_publisher' )
+			'label'   => __( 'Title and Header Text Color', 'independent-publisher' )
 		);
 		$colors[] = array(
 			'slug'    => 'primary_meta_text_color',
 			'default' => '#929292',
-			'label'   => __( 'Primary Meta Text Color', 'independent_publisher' )
+			'label'   => __( 'Primary Meta Text Color', 'independent-publisher' )
 		);
 		$colors[] = array(
 			'slug'    => 'secondary_meta_text_color',
 			'default' => '#b3b3b1',
-			'label'   => __( 'Secondary Meta Text Color', 'independent_publisher' )
+			'label'   => __( 'Secondary Meta Text Color', 'independent-publisher' )
 		);
 		foreach ( $colors as $color ) {
 			// SETTINGS
@@ -308,6 +371,10 @@ class IndependentPublisher_Customize {
 			<?php self::generate_css('.site-footer a:hover', 'color', 'link_color'); ?>
 			<?php self::generate_css('blockquote', 'border-color', 'link_color'); ?>
 			<?php self::generate_css('#infinite-footer .blog-credits a, #infinite-footer .blog-credits a:hover', 'color', 'link_color'); ?>
+			<?php self::generate_css('#nprogress .bar', 'background', 'link_color'); ?>
+			<?php self::generate_css('#nprogress .spinner-icon', 'border-top-color', 'link_color'); ?>
+			<?php self::generate_css('#nprogress .spinner-icon', 'border-left-color', 'link_color'); ?>
+			<?php self::generate_css('#nprogress .peg', 'box-shadow', 'link_color', '', '', true, '%1$s { %2$s:0 0 10px %3$s, 0 0 5px %3$s; }'); ?>
 
 			<?php self::generate_css('button, html input[type="button"], input[type="reset"], input[type="submit"], button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover', 'background', 'link_color', '', '', true, '%1$s { %2$s:%3$s; /* Old browsers */ }'); ?>
 			<?php self::generate_css('button, html input[type="button"], input[type="reset"], input[type="submit"], button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover', 'background', 'link_color', '', '', true, '%1$s { %2$s: -moz-linear-gradient(top, %3$s 60%%, %3$s 100%%); /* FF3.6+ */ }'); ?>
@@ -405,6 +472,43 @@ class IndependentPublisher_Customize {
 		}
 
 		return $return;
+	}
+}
+
+/**
+ * Callback function for sanitizing checkbox settings.
+ *
+ * Used by IndependentPublisher_Customize
+ *
+ * @param $input
+ *
+ * @return int|string
+ */
+function independent_publisher_sanitize_checkbox( $input ) {
+	if ( $input == 1 ) {
+		return 1;
+	} else {
+		return '';
+	}
+}
+
+/**
+ * Callback function for sanitizing select menu for Excerpt Options.
+ *
+ * Used by IndependentPublisher_Customize
+ *
+ * @param $input
+ *
+ * @return string
+ */
+function independent_publisher_sanitize_select_excerpt_options( $input ) {
+	$valid = array( '0' => 'Disabled',
+					'1' => 'Enabled', );
+
+	if ( array_key_exists( $input, $valid ) ) {
+		return $input;
+	} else {
+		return '';
 	}
 }
 
