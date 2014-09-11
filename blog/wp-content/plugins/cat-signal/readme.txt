@@ -1,10 +1,10 @@
 === Internet Defense League Cat Signal ===
 Contributors: jazzs3quence
-Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG
+Donate link: https://coinbase.com/checkouts/64d7bc3204fb355ff92f4c47b48cfa87
 Tags: internet defense league, activism, cat signal, freedom, online activism
 Requires at least: 2.7
-Tested up to: 3.9.1
-Stable tag: 1.0.9
+Tested up to: 4.0
+Stable tag: 1.1
 
 A WordPress plugin to automatically load either the modal or the banner Cat Signal when there is an active campaign from the Internet Defense League.
 
@@ -14,6 +14,8 @@ The Internet Defense League is an online activist group organized to defend your
 
 This plugin adds the javascript for the Cat Signal to your site so you don't need to mess with the code. It's enqueued like any other javascript file and has an options page to select either the banner or the modal window option.
 
+The current action centers around the Internet Slowdown campaign, to protest against cable companies that want to inhibit your browsing experience by enabling a "fast-lane" where service providers (like YouTube and Netflix) get priority access to faster speeds for a fee. Learn more on the [Battle for the Net](https://www.battleforthenet.com/sept10th/) site. This campaign will run for one day on September 10th.
+
 = About the plugin =
 
 At first glance, it may appear that the plugin isn't doing anything because you don't have a banner or a modal window. *Don't panic!!!* What this means is that all is safe in Gotham and the Cat Signal has not been activated (read: there probably isn't an active IDL campaign running). To keep up to date on Internet Defense League campaigns, I recommend signing up for their mailing list (ed. note: I'm not affiliated with them at all, I'm just your friendly neighborhood internet activist). Once you're on the list, you'll get emails when they're about to launch a campaign.
@@ -21,11 +23,7 @@ At first glance, it may appear that the plugin isn't doing anything because you 
 **So how do I know if it's working?**
 If you're savvy, you can check the HTML source of your site and check that either the `modal.js` or `banner.js` is loading. If it is, you're good to go, and the banner or modal window will work automagically when the IDL launch a new campaign.
 
-If you're not as savvy, you can use the handy-dandy test link on the Cat Signal options page. This will display a banner or modal in the style of the actual alert while not actually displaying a pretty banner or graphic.
-
-If you'd rather check manually, you can also add `?_idl_test=1` to the end of any page URL configured to display the alert and get the same test result.
-
-**1.0.8 adds a new widget for the [Stop the Secrecy](https://openmedia.org/stopthesecrecy/resources) campaign. The code provided for this campaign adds a tall petition widget that is not responsive and the dimensions cannot be changed. Please be aware of this when chosing this option from the Cat Signal settings.**
+You can also add `?_idl_test=1` to the end of any page URL configured to display the alert. This will display a banner or modal in the style of the actual alert while not actually displaying a pretty banner or graphic.
 
 == Installation ==
 
@@ -41,9 +39,13 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 == Upgrade Notice ==
 
-1.0.8 adds a new widget for the [Stop the Secrecy](https://openmedia.org/stopthesecrecy/resources) campaign. The code provided for this campaign adds a tall petition widget that is not responsive and the dimensions cannot be changed. Please be aware of this when chosing this option from the Cat Signal settings.
-
 == Changelog ==
+
+= 1.1 =
+- removed Stop the Secrecy option
+- removed the idl_test (temporarily, see [developer thread](https://groups.google.com/d/msg/internetdefenseleague/7OWDjdEDwJ0/HX1MBpjnbr8J))
+- tested with WordPress 4.0
+- added plugin icon
 
 = 1.0.9 =
 - fixed the fatal error on activation for PHP < 5.3

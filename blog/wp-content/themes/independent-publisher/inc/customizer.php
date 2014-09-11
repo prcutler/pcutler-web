@@ -255,6 +255,24 @@ class IndependentPublisher_Customize {
 						 )
 		);
 
+		// Overlay Post Title on Post Cover
+		$wp_customize->add_setting(
+					 'independent_publisher_general_options[post_cover_overlay_post_title]', array(
+							 'default'    => false,
+							 'type'       => 'option',
+							 'capability' => 'edit_theme_options',
+							 'sanitize_callback' => 'independent_publisher_sanitize_checkbox',
+						 )
+		);
+		$wp_customize->add_control(
+					 'post_cover_overlay_post_title', array(
+							 'settings' => 'independent_publisher_general_options[post_cover_overlay_post_title]',
+							 'label'    => __( 'Overlay Post Title on Post Cover', 'independent-publisher' ),
+							 'section'  => 'independent_publisher_general_options',
+							 'type'     => 'checkbox',
+						 )
+		);
+
 		// Comments Call to Action text
 		$wp_customize->add_setting(
 					 'comments_call_to_action', array(
@@ -365,7 +383,7 @@ class IndependentPublisher_Customize {
 
 			/* Comment Form Background Color */
 
-			<?php self::generate_css('#commentform-top,#commentform-bottom,.comment-respond', 'background-color', 'comment_form_background_color'); ?>
+			<?php self::generate_css('.comment-respond', 'background-color', 'comment_form_background_color'); ?>
 
 			/* Text Color */
 

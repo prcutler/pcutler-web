@@ -3,7 +3,7 @@
 Plugin Name: Cat Signal
 Plugin URI: http://jazzsequence.github.io/Cat-Signal
 Description: A WordPress plugin to easily display a banner or a modal alert when the Cat Signal (from the Internet Defense League) is active. For more information visit: http://internetdefenseleague.org/
-Version: 1.0.9
+Version: 1.1
 Author: Chris Reynolds
 Author URI: http://chrisreynolds.io
 License: GPLv3
@@ -103,13 +103,13 @@ function idl_do_signal_type_selection() {
 					<img src="<?php echo CAT_SIGNAL_PLUGIN_URL; ?>img/modal.png" alt="<?php _e( 'Modal', 'cat-signal' ); ?>" />
 					<p><?php _e( 'Modal', 'cat-signal' ); ?></p>
 				</div>
-				<div class="alignleft">
+				<!--<div class="alignleft">
 					<img src="<?php echo CAT_SIGNAL_PLUGIN_URL; ?>img/StopSecrecy.png" alt="<?php _e( 'Stop the Secrecy petition' ); ?>" />
 					<p><?php _e( 'Stop the Secrecy petition' ); ?></p>
-				</div>
+				</div>-->
 			</td>
 		</tr>
-		<tr valign="top"><th scope="row"><?php _e('Test it!', 'cat-signal'); ?></th>
+		<!-- <tr valign="top"><th scope="row"><?php _e('Test it!', 'cat-signal'); ?></th>
 			<td>
 				<?php
 					$message = '';
@@ -133,6 +133,7 @@ function idl_do_signal_type_selection() {
 				?>
 				<br />
 				<label class="description" for="cat_signal[test]"><small><?php _e( 'This will add a test parameter at the end of the URL to the page (or pages) that you have set to display the alert to make sure it\'s working correctly. If, for some reason, this link doesn\'t work, you can run the test manually by adding <code>?_idl_test=1</code> to the end of your url.', 'cat-signal' ); ?></small></label>
+			</td> -->
 	<?php
 	$cat_settings = ob_get_contents();
 	ob_end_clean();
@@ -141,10 +142,10 @@ function idl_do_signal_type_selection() {
 
 function idl_all_the_cats() {
 	$cat_breeds = array(
-		'special' => array(
+		/*'special' => array(
 			'value' => 'special',
 			'label' => __( 'Stop the Secrecy', 'cat-signal' )
-		),
+		),*/
 		'banner' => array(
 			'value' => 'banner',
 			'label' => __( 'Banner', 'cat-signal' )
