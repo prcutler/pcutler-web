@@ -1,6 +1,8 @@
 Google Analytics for WordPress
 ==============================
 
+[![Build Status](https://api.travis-ci.org/Yoast/google-analytics-for-wordpress.png?branch=master)](https://travis-ci.org/Yoast/google-analytics-for-wordpress) [![Code Climate](https://codeclimate.com/repos/54523bb669568068b8093b43/badges/04d59b3dc67a0c7ff8ab/gpa.svg)](https://codeclimate.com/repos/54523bb669568068b8093b43/feed)
+
 Add Google Analytics to WordPress and be able to use all the powerful functions Google Analytics offers!
 
 
@@ -15,10 +17,12 @@ Installation
 ------------
 
 Here's a [guide on how to install Google Analytics for WordPress in your WordPress site](http://yoast.com/wordpress/google-analytics/installation/).
-If you want to run the Git version though, you have two options:
 
-* You can clone the GitHub repository: https://github.com/Yoast/google-analytics-for-wordpress.git
-* Download it directly as a ZIP file: https://github.com/Yoast/google-analytics-for-wordpress/archive/master.zip
+If you want to run the Git version for development though, you can set it up with [Composer](https://getcomposer.org/):
+
+```bash
+composer create-project yoast/google-analytics:dev-trunk --prefer-source --keep-vcs
+```
 
 This will download the latest development version of Google Analytics for WordPress by Yoast. While this version is usually stable,
 it is not recommended for use in a production environment.
@@ -26,6 +30,8 @@ it is not recommended for use in a production environment.
 Bugs
 ----
 If you find an issue, [let us know here](https://github.com/Yoast/google-analytics-for-wordpress/issues/new)!
+
+Please report security issues privately to **security@yoast.com**.
 
 Support
 -------

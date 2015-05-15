@@ -1,0 +1,24 @@
+.wpfr_slidebox {
+    position: fixed;
+    width: 400px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #fff;
+	-moz-box-shadow: -2px 0px 5px #aaa;
+	-webkit-box-shadow: -2px 0px 5px #aaa;
+	box-shadow: -2px 0px 5px #aaa;
+	z-index: 99999;
+}
+
+#wpfr_slidebox_right {
+    right: -800px;
+    border-left: 4px solid orange;   
+}
+
+.wpfr_slidebox .close {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+	font-size: 14pt;
+    cursor: pointer;
+}
