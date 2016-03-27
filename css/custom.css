@@ -736,7 +736,7 @@ a
 }
 .flickr:hover
 {
-    background-color: #4A789E;
+    background-color: #000000;
 }
 
 .pinterest:hover
@@ -759,7 +759,7 @@ a
 }
 .get-pocket:hover
 {
-  background-color: #DD4C39;
+  background-color: #EF4056;
 }
 
 .feed:hover
@@ -775,7 +775,7 @@ a
 
 .linkedin:hover
 {
-  background-color: #DD4C39;
+  background-color: #1A85BC;
 }
 
 
@@ -793,7 +793,7 @@ a
 
 .product-hunt:hover
 {
-  background-color: #DD4C39;
+  background-color: #DA552F;
 }
 
 form
