@@ -755,7 +755,49 @@ a
 .lastfm:hover
 {
   background-color: #DD4C39;
+
 }
+.get-pocket:hover
+{
+  background-color: #DD4C39;
+}
+
+}
+.feed:hover
+{
+  background-color: #E8671E;
+}
+
+}
+.reddit-alien:hover
+{
+  background-color: #CEE3F8;
+}
+
+}
+.linkedin:hover
+{
+  background-color: #DD4C39;
+}
+
+}
+.steam:hover
+{
+  background-color: #DD4C39;
+}
+
+}
+.wordpress:hover
+{
+  background-color: #000000;
+}
+
+}
+.product-hunt:hover
+{
+  background-color: #DD4C39;
+}
+
 form
 {
     width: 100%;
