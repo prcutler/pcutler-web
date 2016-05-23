@@ -43,19 +43,21 @@ get_header();
 						<div class="entry-attachment">
 							<div class="attachment">
 								<?php
-								/**
-								 * Grab the IDs of all the image attachments in a gallery so we can get the URL of the next adjacent image in a gallery,
-								 * or the first image (if we're looking at the last image in a gallery), or, in a gallery of one, just the link to that image file
+								/*
+								 * Grab the IDs of all the image attachments in a gallery 
+								 * so we can get the URL of the next adjacent image in a gallery,
+								 * or the first image (if we're looking at the last image in a gallery), 
+								 * or, in a gallery of one, just the link to that image file
 								 */
 								$attachments = array_values(
 									get_children(
 										array(
-											'post_parent' => $post->post_parent,
-											'post_status' => 'inherit',
-											'post_type' => 'attachment',
+											'post_parent'    => $post->post_parent,
+											'post_status'    => 'inherit',
+											'post_type'      => 'attachment',
 											'post_mime_type' => 'image',
-											'order' => 'ASC',
-											'orderby' => 'menu_order ID'
+											'order'          => 'ASC',
+											'orderby'        => 'menu_order ID'
 										)
 									)
 								);
@@ -92,7 +94,7 @@ get_header();
 							</div>
 							<!-- .attachment -->
 
-							<?php if ( ! empty( $post->post_excerpt ) ) : ?>
+							<?php if ( !empty( $post->post_excerpt ) ) : ?>
 								<div class="entry-caption">
 									<?php the_excerpt(); ?>
 								</div><!-- .entry-caption -->
@@ -116,7 +118,7 @@ get_header();
 					<footer class="entry-meta">
 						<?php do_action( 'independent_publisher_entry_meta_top' ); ?>
 
-						<?php if ( comments_open() && ! independent_publisher_hide_comments() ) : ?>
+						<?php if ( comments_open() && !independent_publisher_hide_comments() ) : ?>
 							<div id="share-comment-button">
 								<button>
 									<i class="share-comment-icon"></i><?php echo independent_publisher_comments_call_to_action_text() ?>

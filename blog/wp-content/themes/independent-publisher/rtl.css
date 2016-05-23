@@ -4,12 +4,12 @@ Theme URI: http://independentpublisher.me/
 Author: Raam Dev
 Author URI: http://raamdev.com
 Description: Independent Publisher is a beautiful reader-focused WordPress theme, for you. Clean, responsive, and mobile-ready, it gets out of your way and lets you share what you create. Full support for all Post Formats, HTML5-ready, and includes Schema.org markup. This theme is ideal for both single-author and multi-author blogs.
-Version: 1.6
+Version: 1.7
 License: GNU GPLv3
 License URI: http://www.gnu.org/copyleft/gpl.html
-Independent Publisher, Copyright 2014 Raam Dev
+Independent Publisher, Copyright 2016 Raam Dev
 Independent Publisher is distributed under the terms of the GNU GPL
-Tags: blog, journal, notes, clean, formal, light, minimal, modern, simple, light, white, green, one-column, two-columns, left-sidebar, fluid-layout, featured-images, full-width-template, custom-menu, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
+Tags: light, white, green, one-column, two-columns, left-sidebar, fluid-layout, featured-images, full-width-template, custom-menu, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
 
 Genericons icon font (http://genericons.com/) is bundled for use with the Social Menu feature.
 Genericons is distributed under the terms of the GNU GPL.
@@ -28,7 +28,9 @@ and Blueprint http://www.blueprintcss.org/
 Props to Manish Suwal 'Enwil' (http://enwil.com) and Radhika Morabia (http://rmorabia.com) for
 help with testing and contributing to the project during its early stages.
 
-Thanks also to @tlongren, @pcutler, @descubraomundo, @manishsuwal, @bitzl, and @peterk for their contributions on GitHub.
+Thanks also to @tlongren, @pcutler, @descubraomundo, @manishsuwal, @bitzl, @peterk,
+@EddyLB, @rmmartins, @PavelTajdus, @JHillert, @joch, @ryanmarkel, @mkiramu, @stevenatwork,
+@dshanske, @SpaceK33z, @iwillhappy1314, @henryk, @chrisaldrich, and @rad96 for their contributions on GitHub.
 
 Thanks to the following contributors for providing translation files:
 - French (contributed by Eddy Lelièvre-Berna; https://github.com/EddyLB)
@@ -36,6 +38,13 @@ Thanks to the following contributors for providing translation files:
 - Spanish (contributed by Guillermo Dolores; https://github.com/mkiramu)
 - German (contributed by J. Hillert; https://github.com/JHillert)
 - Czech (contributed by Tajdik; https://github.com/Tajdik)
+- Indonesian (contributed by @ekajogja; https://github.com/ekajogja)
+- Dutch (contributd by @raaphorst and @SpaceK33z; https://github.com/raaphorst and https://github.com/spaceK33z)
+- Mongolian (contributed by @uugankhuu; https://github.com/uugankhuu)
+- Portuguese-Brazil (contributed by @rmmartins; https://github.com/rmmartins)
+- Chinese (contributed by @iwillhappy1314; https://github.com/iwillhappy1314)
+- Turkish (contributed by @pekermert; https://github.com/pekermert)
+- Italian (contributed by Nicola)
 */
 
 /* =Reset
@@ -564,21 +573,25 @@ Accessibility
 ----------------------------------------------- */
 
 .site,
-.entry-content {
+.entry-content,
+.entry-summary {
 	*zoom: 1;
 }
 
 .site:before,
 .site:after,
 .entry-content:before,
-.entry-content:after {
+.entry-content:after,
+.entry-summary:before,
+.entry-summary:after {
 	display: table;
 	content: "";
 	line-height: 0;
 }
 
 .site:after,
-.entry-content:after {
+.entry-content:after,
+.entry-summary:after {
 	clear: both;
 }
 
@@ -616,7 +629,8 @@ Accessibility
 	margin: 0 0 0;
 }
 
-.entry-content > .sharedaddy {
+.entry-content > .sharedaddy,
+.entry-summary > .sharedaddy {
 	margin: 1.5em 0;
 }
 
@@ -639,11 +653,13 @@ Accessibility
 	float: right;
 }
 
-.entry-content .twitter-tweet-rendered {
+.entry-content .twitter-tweet-rendered,
+.entry-summary .twitter-tweet-rendered {
 	max-width: 100% !important;
 }
 
-.single .entry-content {
+.single .entry-content,
+.single .entry-summary {
 	padding-bottom: 20px;
 	margin-top: 0;
 }
@@ -696,7 +712,11 @@ Accessibility
 .post-excerpts .entry-content,
 .enhanced-excerpts .entry-content,
 .post-excerpts .entry-content a,
-.enhanced-excerpts .entry-content a {
+.enhanced-excerpts .entry-content a,
+.post-excerpts .entry-summary
+.enhanced-excerpts .entry-summary,
+.post-excerpts .entry-summary a,
+.enhanced-excerpts .entry-summary a {
 	margin-top: 10px;
 	text-decoration: none;
 }
@@ -720,7 +740,8 @@ Accessibility
 	margin-bottom: 20px;
 }
 
-.entry-content .subtitle {
+.entry-content .subtitle,
+.entry-summary .subtitle {
 	font-style: italic;
 	font-weight: normal;
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -763,6 +784,20 @@ Accessibility
 	font-weight: 300;
 }
 
+.format-link .entry-title {
+	font-size: 1.5em;
+}
+
+.format-link .entry-title a:after {
+	font-family: "Genericons";
+	content: '\f442';
+	font-size: 24px;
+	height: 24px;
+	position: relative;
+	top: 0;
+	width: 24px;
+}
+
 .format-aside {
 	font-style: italic;
 }
@@ -799,7 +834,8 @@ Accessibility
 	width: 90%;
 }
 
-.format-chat .entry-content {
+.format-chat .entry-content,
+.format-chat .entry-summary {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	background: #eee;
 	padding: 20px 20px 10px 20px;
@@ -813,6 +849,7 @@ Accessibility
 
 .site-header img,
 .entry-content img,
+.entry-summary img,
 .comment-content img,
 .widget img {
 	max-width: 100%; /* Fluid images for posts, comments, and widgets */
@@ -820,6 +857,7 @@ Accessibility
 
 .site-header img,
 .entry-content img,
+.entry-summary img,
 .widget img,
 img[class*="align"],
 img[class*="wp-image-"] {
@@ -828,12 +866,14 @@ img[class*="wp-image-"] {
 
 .site-header img,
 .entry-content img,
+.entry-summary img,
 img.size-full {
 	max-width: 100%;
 	width: auto\9; /* Prevent stretching of full-size images with height and width attributes in IE8 */
 }
 
 .entry-content img.wp-smiley,
+.entry-summary img.wp-smiley,
 .comment-content img.wp-smiley {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -1258,6 +1298,27 @@ ul.pinglist {
 	text-decoration: underline;
 }
 
+.mentions-list {
+	font-size: 80%;
+	margin-top: 80px;
+}
+
+.mentions-list li {
+	list-style: none;
+}
+
+.mentions-list h3 {
+	color: #b3b3b1;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: 1px;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+	display: inline-block;
+	font-family: sans-serif;
+}
+
 .taglist {
 	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
@@ -1653,6 +1714,13 @@ body {
 	color: #57ad68;
 }
 
+/* Inifnite Scroll - Spinner */
+.infinite-loader {
+	color: #000;
+	position: fixed;
+	bottom: 0;
+}
+
 h1,
 h2,
 h3,
@@ -1700,21 +1768,30 @@ h6 {
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
-.entry-content h6 {
+.entry-content h6,
+.entry-summary h1,
+.entry-summary h2,
+.entry-summary h3,
+.entry-summary h4,
+.entry-summary h5,
+.entry-summary h6 {
 	margin-top: 40px;
 	margin-bottom: 15px;
 }
 
-.entry-content h1 {
+.entry-content h1,
+.entry-summary h1 {
 	font-size: 2.1em;
 }
 
-.entry-content table {
+.entry-content table,
+.entry-summary table {
 	border-right: solid 1px #eee;
 	border-top: solid 1px #eee;
 }
 
-.entry-content table td {
+.entry-content table td,
+.entry-summary table td {
 	border-left: solid 1px #eee;
 	border-bottom: solid 1px #eee;
 }
@@ -1868,6 +1945,7 @@ article.first-post {
 }
 
 .entry-content,
+.entry-summary,
 .widget-area .widget,
 .comment {
 	-webkit-hyphens: auto;
@@ -2082,6 +2160,10 @@ table th {
 	position: relative;
 }
 
+.single-column-layout.single .site-header {
+	margin-bottom: 0;
+}
+
 .single-column-layout.single .site-header-info {
 	display: none;
 }
@@ -2215,14 +2297,17 @@ table th {
  * Styles to apply when Post Cover Title is enabled.
  */
 
- .single.post-cover-overlay-post-title .entry-title-meta {
+.single.post-cover-overlay-post-title .entry-title-meta,
+.page.post-cover-overlay-post-title .entry-title-meta {
     display: none;
 }
-.single.post-cover-overlay-post-title .post-cover-title-wrapper {
+.single.post-cover-overlay-post-title .post-cover-title-wrapper,
+.page.post-cover-overlay-post-title .post-cover-title-wrapper {
     position: relative;
     background: #000
 }
-.single.post-cover-overlay-post-title .post-cover-title-image {
+.single.post-cover-overlay-post-title .post-cover-title-image,
+.page.post-cover-overlay-post-title .post-cover-title-image {
     position: relative;
     background: no-repeat center center;
     -webkit-background-size: cover;
@@ -2233,7 +2318,8 @@ table th {
     height: 75vh;
     opacity: 0.75;
 }
-.single.post-cover-overlay-post-title .post-cover-title-head {
+.single.post-cover-overlay-post-title .post-cover-title-head,
+.page.post-cover-overlay-post-title .post-cover-title-head {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2243,42 +2329,56 @@ table th {
     background-image: -webkit-linear-gradient(transparent 0%,#000 200%);
     background-image: linear-gradient(transparent 0%,#000 200%);
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .post-cover-title {
+.single.post-cover-overlay-post-title .post-cover-title-head .post-cover-title,
+.page.post-cover-overlay-post-title .post-cover-title-head .post-cover-title {
     margin: 0 auto;
     padding: 20px 40px;
     max-width: 700px;
 }
 .single.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle,
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title {
     padding: 20px 0 5px;
     color:#fff;
     margin: 0;
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle {
     font-weight: lighter;
     padding: 5px 0 10px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta {
     height: 32px;
     line-height: 32px;
     display: block;
     margin-top: 20px;
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta-author {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta-author,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta-author {
     display: inline;
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta img {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta img,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta img {
     float: right;
     margin-left: 10px;
 }
 .single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta,
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a {
     color: rgba(255,255,255,0.80);
 }
-.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a:hover {
+.single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a:hover,
+.page.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta a:hover {
     text-decoration: underline;
+}
+.page.post-cover-overlay-post-title h1.entry-title,
+.page.full-width-featured-image h1.entry-title {
+	font-size: 2.5em;
 }
 
 
@@ -2292,9 +2392,186 @@ table th {
 	left: -9999em;
 }
 
-.menu-social ul {
+#menu-social ul {
 	list-style: none;
 	margin: 0 0 25px;
+}
+
+#menu-social ul li {
+	display: inline-block;
+	position: relative;
+}
+
+#menu-social li a::before {
+	content: '\f408';
+	display: inline-block;
+	padding: 0 5px;
+	font-family: 'Genericons';
+	font-size: 26px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+}
+
+#menu-social li a[href*="wordpress.org"]::before,
+#menu-social li a[href*="wordpress.com"]::before {
+	content: '\f205';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="wordpress.org"]:hover::before,
+#menu-social li a[href*="wordpress.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="facebook.com"]::before {
+	content: '\f203';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="facebook.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="twitter.com"]::before {
+	content: '\f202';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="twitter.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="dribbble.com"]::before {
+	content: '\f201';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="dribbble.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="plus.google.com"]::before {
+	content: '\f206';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="plus.google.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="pinterest.com"]::before {
+	content: '\f210';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="pinterest.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="github.com"]::before {
+	content: '\f200';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="github.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="tumblr.com"]::before {
+	content: '\f214';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="tumblr.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="youtube.com"]::before {
+	content: '\f213';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="youtube.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="flickr.com"]::before {
+	content: '\f211';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="flickr.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="vimeo.com"]::before {
+	content: '\f212';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="vimeo.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="instagram.com"]::before {
+	content: '\f215';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="instagram.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="codepen.io"]::before {
+	content: '\f216';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="codepen.io"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="linkedin.com"]::before {
+	content: '\f208';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="linkedin.com"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="mailto"]::before {
+	content: '\f410';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="mailto"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
+}
+
+#menu-social li a[href*="/feed"]::before {
+	content: '\f413';
+	color: #BBC7D3;
+}
+
+#menu-social li a[href*="/feed"]:hover::before {
+	transition: color ease 0.3s;
+	color: #4A4A4E;
 }
 
 /* Hide left-side author card under 1200px */
@@ -2563,6 +2840,7 @@ table th {
 	}
 
 	.entry-content,
+	.entry-summary,
 	#comments {
 		font-size: 18px;
 		line-height: 1.4;
@@ -2580,31 +2858,39 @@ table th {
 		font-size: 1.9em;
 	}
 
-	.entry-content h1 {
+	.entry-content h1,
+	.entry-summary h1 {
 		font-size: 1.7em;
 	}
 
-	.entry-content h2 {
+	.entry-content h2,
+	.entry-summary h2 {
 		font-size: 1.6em;
 	}
 
-	.entry-content h3 {
+	.entry-content h3,
+	.entry-summary h3 {
 		font-size: 1.5em;
 	}
 
-	.entry-content h4 {
+	.entry-content h4,
+	.entry-summary h4 {
 		font-size: 1.4em;
 	}
 
-	.entry-content h5 {
+	.entry-content h5,
+	.entry-summary h5 {
 		font-size: 1.3em;
 	}
 
-	.entry-content h6 {
+	.entry-content h6,
+	.entry-summary h6 {
 		font-size: 1.2em;
 	}
 
-	.entry-content ol, ul {
+	.entry-content ol,
+	.entry-summary ol,
+	ul {
 		margin-right: 2em;
 	}
 
@@ -2685,7 +2971,8 @@ table th {
 		padding-right: 10px;
 	}
 
-	.entry-content .subtitle {
+	.entry-content .subtitle,
+	.entry-summary .subtitle {
 		font-size: 1.2em;
 	}
 

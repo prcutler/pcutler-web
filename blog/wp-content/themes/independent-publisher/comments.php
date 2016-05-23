@@ -21,12 +21,12 @@ if ( post_password_required() ) {
 }
 ?>
 
-<?php if ( comments_open() && ! independent_publisher_hide_comments() ) : ?>
+<?php if ( comments_open() && !independent_publisher_hide_comments() ) : ?>
 	<div id="commentform-top"></div> <!-- do not remove; used by jQuery to move the comment reply form here -->
 	<?php comment_form( independent_publisher_comment_form_args() ); ?>
 <?php endif; ?>
 
-<?php if ( ! independent_publisher_hide_comments() ) : ?>
+<?php if ( !independent_publisher_hide_comments() ) : ?>
 
 	<div id="comments" class="comments-area">
 		<?php // You can start editing here -- including this comment! ?>
@@ -78,7 +78,7 @@ if ( post_password_required() ) {
 
 		<?php
 		// If comments are closed and there are comments, let's leave a little note, shall we?
-		if ( ! comments_open() && '0' != get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
+		if ( !comments_open() && '0' != get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 			?>
 			<p class="nocomments"><?php _e( 'Comments are closed.', 'independent-publisher' ); ?></p>
 		<?php endif; ?>
@@ -95,17 +95,12 @@ if ( post_password_required() ) {
 			<div id="commentform-bottom"></div> <!-- do not remove; used by jQuery to move the comment reply form here -->
 		<?php endif; ?>
 
-		<?php if ( have_comments() && get_comments_number() > 0 ) : // Only show pings/trackbacks if there's at least 1 comment ?>
-			<?php if ( count( $wp_query->comments_by_type['pings'] ) ) { ?>
-				<div id="pinglist">
-					<ul class="pinglist">
-						<li class="pinglist-title"><?php echo apply_filters( 'independent_publisher_pingslist_title', __( 'Readers who shared this', 'independent-publisher' ) ); ?></li>
-						<?php independent_publisher_pings(); ?>
-						<li class="pinglist-title"><?php echo apply_filters( 'independent_publisher_pingslist_end_note', __( 'Thank you!', 'independent-publisher' ) ); ?></li>
-					</ul>
-				</div>
-			<?php } // end if ( count($wp_query->comments_by_type['pings']))?>
-		<?php endif; // end have_comments() ?>
+		<?php if ( independent_publisher_comment_count_mentions() ) { // If we have mentions, let's show them ?>
+			<div id="webmentions" class="mentions-list">
+				<h3><?php _e( 'Webmentions', 'independent-publisher' ); ?></h3>
+				<?php independent_publisher_mentions(); ?>
+			</div>
+		<?php } // end if ( independent_publisher_comment_count_mentions() )?>
 
 		<?php if ( comments_open() && have_comments() && get_comments_number() > 0 ) : ?>
 			<?php independent_publisher_replytocom(); // Handles Reply to Comment links properly when JavaScript is enabled ?>
