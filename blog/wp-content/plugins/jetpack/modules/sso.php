@@ -3,7 +3,7 @@ require_once( JETPACK__PLUGIN_DIR . 'modules/sso/class.jetpack-sso-helpers.php' 
 
 /**
  * Module Name: Single Sign On
- * Module Description: Secure user authentication.
+ * Module Description: Secure user authentication with WordPress.com.
  * Jumpstart Description: Lets you log in to all your Jetpack-enabled sites with one click using your WordPress.com account.
  * Sort Order: 30
  * Recommendation Order: 5
@@ -11,7 +11,7 @@ require_once( JETPACK__PLUGIN_DIR . 'modules/sso/class.jetpack-sso-helpers.php' 
  * Requires Connection: Yes
  * Auto Activate: No
  * Module Tags: Developers
- * Feature: Jumpstart, Performance-Security
+ * Feature: Security, Jumpstart
  * Additional Search Queries: sso, single sign on, login, log in
  */
 
@@ -395,7 +395,7 @@ class Jetpack_SSO {
 			$this->wants_to_login()
 			&& Jetpack_SSO_Helpers::bypass_login_forward_wpcom()
 		) {
-			add_filter( 'allowed_redirect_hosts', array( $this, 'allowed_redirect_hosts' ) );
+			add_filter( 'allowed_redirect_hosts', array( 'Jetpack_SSO_Helpers', 'allowed_redirect_hosts' ) );
 			$this->maybe_save_cookie_redirect();
 			$reauth = ! empty( $_GET['force_reauth'] );
 			$sso_url = $this->get_sso_url_or_die( $reauth );
@@ -419,7 +419,7 @@ class Jetpack_SSO {
 				} else {
 					$this->maybe_save_cookie_redirect();
 					// Is it wiser to just use wp_redirect than do this runaround to wp_safe_redirect?
-					add_filter( 'allowed_redirect_hosts', array( $this, 'allowed_redirect_hosts' ) );
+					add_filter( 'allowed_redirect_hosts', array( 'Jetpack_SSO_Helpers', 'allowed_redirect_hosts' ) );
 					$reauth = ! empty( $_GET['force_reauth'] );
 					$sso_url = $this->get_sso_url_or_die( $reauth );
 					JetpackTracking::record_user_event( 'sso_login_redirect_success' );
@@ -532,13 +532,13 @@ class Jetpack_SSO {
 					<span><?php esc_html_e( 'Or', 'jetpack' ); ?></span>
 				</div>
 
-				<a href="<?php echo add_query_arg( 'jetpack-sso-show-default-form', '1' ); ?>" class="jetpack-sso-toggle wpcom">
+				<a href="<?php echo esc_url( add_query_arg( 'jetpack-sso-show-default-form', '1' ) ); ?>" class="jetpack-sso-toggle wpcom">
 					<?php
 						esc_html_e( 'Log in with username and password', 'jetpack' )
 					?>
 				</a>
 
-				<a href="<?php echo add_query_arg( 'jetpack-sso-show-default-form', '0' ); ?>" class="jetpack-sso-toggle default">
+				<a href="<?php echo esc_url( add_query_arg( 'jetpack-sso-show-default-form', '0' ) ); ?>" class="jetpack-sso-toggle default">
 					<?php
 						esc_html_e( 'Log in with WordPress.com', 'jetpack' )
 					?>
@@ -795,7 +795,7 @@ class Jetpack_SSO {
 			JetpackTracking::record_user_event( 'sso_user_logged_in', array(
 				'user_found_with' => $user_found_with,
 				'user_connected'  => (bool) $is_user_connected,
-				'user_role'       => Jetpack::init()->translate_current_user_to_role()
+				'user_role'       => Jetpack::translate_current_user_to_role()
 			) );
 
 			if ( ! $is_user_connected ) {
@@ -838,16 +838,6 @@ class Jetpack_SSO {
 
 	static function profile_page_url() {
 		return admin_url( 'profile.php' );
-	}
-
-	function allowed_redirect_hosts( $hosts ) {
-		if ( empty( $hosts ) ) {
-			$hosts = array();
-		}
-		$hosts[] = 'wordpress.com';
-		$hosts[] = 'jetpack.wordpress.com';
-
-		return array_unique( $hosts );
 	}
 
 	/**
@@ -1010,7 +1000,7 @@ class Jetpack_SSO {
 		$error = sprintf(
 			wp_kses(
 				__(
-					'Two-Step Authentication is required to access this site. Please visit your <a href="%1$s" target="_blank">Security Settings</a> to configure <a href="%2$S" target="_blank">Two-step Authentication</a> for your account.',
+					'Two-Step Authentication is required to access this site. Please visit your <a href="%1$s" target="_blank">Security Settings</a> to configure <a href="%2$s" target="_blank">Two-step Authentication</a> for your account.',
 					'jetpack'
 				),
 				array(  'a' => array( 'href' => array() ) )
@@ -1136,7 +1126,7 @@ class Jetpack_SSO {
 		 */
 		$connect_url = Jetpack::init()->build_connect_url( true, $redirect_after_auth, 'sso' );
 
-		add_filter( 'allowed_redirect_hosts', array( $this, 'allowed_redirect_hosts' ) );
+		add_filter( 'allowed_redirect_hosts', array( 'Jetpack_SSO_Helpers', 'allowed_redirect_hosts' ) );
 		wp_safe_redirect( $connect_url );
 		exit;
 	}
