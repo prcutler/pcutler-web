@@ -40,12 +40,12 @@ class Jetpack_JITM {
 		}
 		add_action( 'current_screen', array( $this, 'prepare_jitms' ) );
 	}
-	
+
 	function get_emblem()
 	{
 		return '<div class="jp-emblem">' . Jetpack::get_jp_emblem() . '</div>';
 	}
-	
+
 	/**
 	 * Prepare actions according to screen and post type.
 	 *
@@ -448,16 +448,30 @@ class Jetpack_JITM {
 
 		switch ( $base_location['country'] ) {
 			case 'US':
+<<<<<<< Updated upstream
 				$message = __( 'Try our new service for USPS shipping & label-printing.', 'jetpack' );
 				break;
 			case 'CA':
 				$message = __( 'Try our new Canada Post shipping service.', 'jetpack' );
+=======
+				$message = __( 'New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce.', 'jetpack' );
+				break;
+			case 'CA':
+				$message = __( 'New free service: Show Canada Post shipping rates on your store!', 'jetpack' );
+>>>>>>> Stashed changes
 				break;
 			default:
 				return;
 		}
 
+<<<<<<< Updated upstream
 		$install_url = wp_nonce_url( add_query_arg( array( 'wc-services-action' => 'install' ) ), 'wc-services-install' );
+=======
+		// If plugin dir exists, means it's installed but not activated
+		$already_installed = ( 0 === validate_plugin( 'woocommerce-services/woocommerce-services.php' ) );
+
+		$install_url = wp_nonce_url( add_query_arg( array( 'wc-services-action' => $already_installed ? 'activate' : 'install' ) ), 'wc-services-install' );
+>>>>>>> Stashed changes
 
 		?>
 		<div class="jp-jitm woo-jitm">
@@ -471,7 +485,13 @@ class Jetpack_JITM {
 				<?php echo esc_html( $message ); ?>
 			</p>
 			<p>
+<<<<<<< Updated upstream
 				<a href="<?php echo esc_url( $install_url ); ?>" title="<?php esc_attr_e( 'Install WooCommerce Services', 'jetpack' ); ?>" data-module="wooservices" class="button button-jetpack show-after-enable"><?php esc_html_e( 'Install WooCommerce Services', 'jetpack' ); ?></a>
+=======
+				<a href="<?php echo esc_url( $install_url ); ?>" title="<?php $already_installed ? esc_attr_e( 'Activate WooCommerce Services', 'jetpack' ) : esc_attr_e( 'Install WooCommerce Services', 'jetpack' ); ?>" data-module="wooservices" class="button button-jetpack show-after-enable">
+					<?php $already_installed ? esc_html_e( 'Activate WooCommerce Services', 'jetpack' ) : esc_html_e( 'Install WooCommerce Services', 'jetpack' ); ?>
+				</a>
+>>>>>>> Stashed changes
 			</p>
 		</div>
 		<?php

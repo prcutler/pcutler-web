@@ -44,11 +44,14 @@
 	box-shadow: none !important;
 }
 
+<<<<<<< Updated upstream
 .wpa-about:hover, .wa_infobox a:hover {
 	text-decoration: underline !important;	/* !important necessary, since themes override this routinely */
 	color: #444;
 }
 
+=======
+>>>>>>> Stashed changes
 /* ad unit wrapper */
 .wpa .u>div {	/* @todo: deprecate wpdvert */
 	display: block;

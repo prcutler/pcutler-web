@@ -72,6 +72,10 @@ class Publicize extends Publicize_Base {
 			<div class="jetpack-wrap-container">
 				<div class="jetpack-text-container">
 					<p><?php printf(
+<<<<<<< Updated upstream
+=======
+							/* translators: %s is the name of the blog */
+>>>>>>> Stashed changes
 							esc_html( wptexturize( __( "To use Publicize, you'll need to link your %s account to your WordPress.com account using the link below.", 'jetpack' ) ) ),
 							'<strong>' . esc_html( $blog_name ) . '</strong>'
 						); ?></p>
@@ -541,10 +545,14 @@ class Publicize extends Publicize_Base {
 			?>
 
 			<?php if ( ! empty( $me['name'] ) ) : ?>
+<<<<<<< Updated upstream
 				<p><?php printf(
 						esc_html__( 'Publicize to my %s:', 'jetpack' ),
 						'<strong>' . esc_html__( 'Facebook Wall', 'jetpack' ) . '</strong>'
 					); ?></p>
+=======
+				<p><?php _e( 'Publicize to my <strong>Facebook Wall</strong>:', 'jetpack' ); ?></p>
+>>>>>>> Stashed changes
 				<table id="option-profile">
 					<tbody>
 					<tr>
@@ -564,10 +572,14 @@ class Publicize extends Publicize_Base {
 
 			<?php if ( $pages ) : ?>
 
+<<<<<<< Updated upstream
 				<p><?php printf(
 						esc_html__( 'Publicize to my %s:', 'jetpack' ),
 						'<strong>' . esc_html__( 'Facebook Page', 'jetpack' ) . '</strong>'
 					); ?></p>
+=======
+				<p><?php _e( 'Publicize to my <strong>Facebook Page</strong>:', 'jetpack' ); ?></p>
+>>>>>>> Stashed changes
 				<table id="option-fb-fanpage">
 					<tbody>
 
@@ -698,10 +710,14 @@ class Publicize extends Publicize_Base {
 			}
 			?>
 
+<<<<<<< Updated upstream
 			<p><?php printf(
 					esc_html__( 'Publicize to my %s:', 'jetpack' ),
 					'<strong>' . esc_html__( 'Tumblr blog', 'jetpack' ) . '</strong>'
 				); ?></p>
+=======
+			<p><?php _e( 'Publicize to my <strong>Tumblr blog</strong>:', 'jetpack' ); ?></p>
+>>>>>>> Stashed changes
 
 			<ul id="option-tumblr-blog">
 

@@ -230,7 +230,14 @@ class Filter_Embedded_HTML_Objects {
 
 		foreach ( self::$failed_embeds as $entry ) {
 			$html   = sprintf( '<a href="%s">%s</a>', esc_url( $entry['src'] ), esc_url( $entry['src'] ) );
+<<<<<<< Updated upstream
 			$string = str_replace( $entry['match'], $html, $string );
+=======
+			// Check if the string doesn't contain iframe, before replace.
+			if ( ! preg_match( '/<iframe /', $string ) ) {
+				$string = str_replace( $entry['match'], $html, $string );
+			}
+>>>>>>> Stashed changes
 		}
 
 		self::$failed_embeds = array();

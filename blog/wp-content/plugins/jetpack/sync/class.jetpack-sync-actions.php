@@ -55,6 +55,11 @@ class Jetpack_Sync_Actions {
 		
 		add_action( 'init', array( __CLASS__, 'add_sender_shutdown' ), 90 );
 
+<<<<<<< Updated upstream
+=======
+		add_action( 'init', array( __CLASS__, 'add_sender_shutdown' ), 90 );
+
+>>>>>>> Stashed changes
 	}
 
 	static function add_sender_shutdown() {
@@ -137,6 +142,15 @@ class Jetpack_Sync_Actions {
 
 		$query_args['timeout'] = Jetpack_Sync_Settings::is_doing_cron() ? 30 : 15;
 
+		/**
+		 * Filters query parameters appended to the Sync request URL sent to WordPress.com.
+		 *
+		 * @since 4.7.0
+		 *
+		 * @param array $query_args associative array of query parameters.
+		 */
+		$query_args = apply_filters( 'jetpack_sync_send_data_query_args', $query_args );
+
 		$url = add_query_arg( $query_args, Jetpack::xmlrpc_api_url() );
 
 		$rpc = new Jetpack_IXR_Client( array(
@@ -210,18 +224,16 @@ class Jetpack_Sync_Actions {
 			$schedules[ self::DEFAULT_SYNC_CRON_INTERVAL_NAME ] = array(
 				'interval' => self::DEFAULT_SYNC_CRON_INTERVAL_VALUE,
 				'display' => sprintf(
-					esc_html__( 'Every %d minutes', 'jetpack' ),
-					self::DEFAULT_SYNC_CRON_INTERVAL_VALUE / 60
+					esc_html( _n( 'Every minute', 'Every %d minutes', intval( self::DEFAULT_SYNC_CRON_INTERVAL_VALUE / 60 ), 'jetpack' ) ),
+					intval( self::DEFAULT_SYNC_CRON_INTERVAL_VALUE / 60 )
 				)
 			);
 		}
 		return $schedules;
 	}
 
-	// try to send actions until we run out of things to send,
-	// or have to wait more than 15s before sending again,
-	// or we hit a lock or some other sending issue
 	static function do_cron_sync() {
+<<<<<<< Updated upstream
 		if ( ! self::sync_allowed() ) {
 			return;
 		}
@@ -245,10 +257,24 @@ class Jetpack_Sync_Actions {
 
 			$result = self::$sender->do_sync();
 		} while ( $result && ( $start_time + $time_limit ) > time() );
+=======
+		self::do_cron_sync_by_type( 'sync' );
+>>>>>>> Stashed changes
 	}
 
 	static function do_cron_full_sync() {
-		if ( ! self::sync_allowed() ) {
+		self::do_cron_sync_by_type( 'full_sync' );
+	}
+
+	/**
+	 * Try to send actions until we run out of things to send,
+	 * or have to wait more than 15s before sending again,
+	 * or we hit a lock or some other sending issue
+	 *
+	 * @param string $type Sync type. Can be `sync` or `full_sync`.
+	 */
+	static function do_cron_sync_by_type( $type ) {
+		if ( ! self::sync_allowed() || ( 'sync' !== $type && 'full_sync' !== $type ) ) {
 			return;
 		}
 
@@ -258,7 +284,7 @@ class Jetpack_Sync_Actions {
 		$start_time = time();
 
 		do {
-			$next_sync_time = self::$sender->get_next_sync_time( 'full_sync' );
+			$next_sync_time = self::$sender->get_next_sync_time( $type );
 
 			if ( $next_sync_time ) {
 				$delay = $next_sync_time - time() + 1;
@@ -269,7 +295,11 @@ class Jetpack_Sync_Actions {
 				}
 			}
 
+<<<<<<< Updated upstream
 			$result = self::$sender->do_full_sync();
+=======
+			$result = 'full_sync' === $type ? self::$sender->do_full_sync() : self::$sender->do_sync();
+>>>>>>> Stashed changes
 		} while ( $result && ( $start_time + $time_limit ) > time() );
 	}
 

@@ -3,7 +3,11 @@
 class Jetpack_JSON_API_Get_Post_Backup_Endpoint extends Jetpack_JSON_API_Endpoint {
 	// /sites/%s/posts/%d/backup      -> $blog_id, $post_id
 
+<<<<<<< Updated upstream
 	protected $needed_capabilities = 'read_private_posts';
+=======
+	protected $needed_capabilities = array();
+>>>>>>> Stashed changes
 	protected $post_id;
 
 	function validate_input( $post_id ) {

@@ -85,9 +85,15 @@ function jetpack_featured_images_get_settings() {
 function jetpack_featured_images_should_load() {
 	$opts = jetpack_featured_images_get_settings();
 
+<<<<<<< Updated upstream
 	// If the theme doesn't support archive, post and page or if all the options are ticked, don't continue.
 	if ( ( true !== $opts['archive'] && true !== $opts['post'] && true !== $opts['page'] )
 		|| ( 1 === $opts['archive-option'] && 1 === $opts['post-option'] && 1 === $opts['page-option'] ) ) {
+=======
+	// If the theme doesn't support archive, post and page or if all the options are ticked and we aren't in the customizer, don't continue.
+	if ( ( true !== $opts['archive'] && true !== $opts['post'] && true !== $opts['page'] )
+		|| ( 1 === $opts['archive-option'] && 1 === $opts['post-option'] && 1 === $opts['page-option'] && ! is_customize_preview() ) ) {
+>>>>>>> Stashed changes
 		return false;
 	}
 

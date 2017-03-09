@@ -333,6 +333,251 @@ function videopress_build_url( $guid ) {
 	}
 
 	return 'https://videopress.com/v/' . $guid;
+<<<<<<< Updated upstream
+=======
+}
+
+/**
+ * Create an empty videopress media item that will be filled out later by an xmlrpc
+ * callback from the VideoPress servers.
+ *
+ * @since 4.4
+ * @param string $title
+ * @return int|WP_Error
+ */
+function videopress_create_new_media_item( $title, $guid = null ) {
+	$post = array(
+		'post_type'      => 'attachment',
+		'post_mime_type' => 'video/videopress',
+		'post_title'     => $title,
+		'post_content'   => '',
+		'guid'           => videopress_build_url( $guid ),
+	);
+
+	$media_id = wp_insert_post( $post );
+
+	add_post_meta( $media_id, 'videopress_status', 'initiated' );
+
+	add_post_meta( $media_id, 'videopress_guid', $guid );
+
+	return $media_id;
+}
+
+
+/**
+ * @param array $current_status
+ * @param array $new_meta
+ * @return array
+ */
+function videopress_merge_file_status( $current_status, $new_meta ) {
+	$new_statuses = array();
+
+	if ( isset( $new_meta['videopress']['files_status']['hd'] ) ) {
+		$new_statuses['hd'] = $new_meta['videopress']['files_status']['hd'];
+	}
+
+	if ( isset( $new_meta['videopress']['files_status']['dvd'] ) ) {
+		$new_statuses['dvd'] = $new_meta['videopress']['files_status']['dvd'];
+	}
+
+	if ( isset( $new_meta['videopress']['files_status']['std']['mp4'] ) ) {
+		$new_statuses['mp4'] = $new_meta['videopress']['files_status']['std']['mp4'];
+	}
+
+	if ( isset( $new_meta['videopress']['files_status']['std']['ogg'] ) ) {
+		$new_statuses['ogg'] = $new_meta['videopress']['files_status']['std']['ogg'];
+	}
+
+	foreach ( $new_statuses as $format => $status ) {
+		if ( ! isset( $current_status[ $format ] ) ) {
+			$current_status[ $format ] = $status;
+			continue;
+		}
+
+		if ( $current_status[ $format ] !== 'DONE' ) {
+			$current_status[ $format ] = $status;
+		}
+	}
+
+	return $current_status;
+}
+
+/**
+ * Check to see if a video has completed processing.
+ *
+ * @since 4.4
+ * @param int $post_id
+ * @return bool
+ */
+function videopress_is_finished_processing( $post_id ) {
+	$post = get_post( $post_id );
+
+	if ( is_wp_error( $post ) ) {
+		return false;
+	}
+
+	$meta = wp_get_attachment_metadata( $post->ID );
+
+	if ( ! isset( $meta['file_statuses'] ) || ! is_array( $meta['file_statuses'] ) ) {
+		return false;
+	}
+
+	$check_statuses = array( 'hd', 'dvd', 'mp4', 'ogg' );
+
+	foreach ( $check_statuses as $status ) {
+		if ( ! isset( $meta['file_statuses'][ $status ] ) || $meta['file_statuses'][ $status ] != 'DONE' ) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
+
+/**
+ * Update the meta information  status for the given video post.
+ *
+ * @since 4.4
+ * @param int $post_id
+ * @return bool
+ */
+function videopress_update_meta_data( $post_id ) {
+
+	$meta = wp_get_attachment_metadata( $post_id );
+
+	// If this has not been processed by VideoPress, we can skip the rest.
+	if ( ! $meta || ! isset( $meta['videopress'] ) ) {
+		return false;
+	}
+
+	$info = (object) $meta['videopress'];
+
+	$args = array(
+		// 'sslverify' => false,
+	);
+
+	$result = wp_remote_get( videopress_make_video_get_path( $info->guid ), $args );
+
+	if ( is_wp_error( $result ) ) {
+		return false;
+	}
+
+	$response = json_decode( $result['body'], true );
+
+	// Update the attachment metadata.
+	$meta['videopress'] = $response;
+
+	wp_update_attachment_metadata( $post_id, $meta );
+
+	return true;
+}
+
+/**
+ * Check to see if this is a VideoPress post that hasn't had a guid set yet.
+ *
+ * @param int $post_id
+ * @return bool
+ */
+function videopress_is_attachment_without_guid( $post_id ) {
+	$post = get_post( $post_id );
+
+	if ( is_wp_error( $post ) ) {
+		return false;
+	}
+
+	if ( $post->post_mime_type !== 'video/videopress' ) {
+		return false;
+	}
+
+	$videopress_guid = get_post_meta( $post_id, 'videopress_guid', true );
+
+	if ( $videopress_guid ) {
+		return false;
+	}
+
+	return true;
+}
+
+/**
+ * Check to see if this is a VideoPress attachment.
+ *
+ * @param int $post_id
+ * @return bool
+ */
+function is_videopress_attachment( $post_id ) {
+	$post = get_post( $post_id );
+
+	if ( is_wp_error( $post ) ) {
+		return false;
+	}
+
+	if ( $post->post_mime_type !== 'video/videopress' ) {
+		return false;
+	}
+
+	return true;
+}
+
+/**
+ * Get the video update path
+ *
+ * @since 4.4
+ * @param string $guid
+ * @return string
+ */
+function videopress_make_video_get_path( $guid ) {
+	return sprintf(
+		'%s://%s/rest/v%s/videos/%s',
+		'https',
+		JETPACK__WPCOM_JSON_API_HOST,
+		Jetpack_Client::WPCOM_JSON_API_VERSION,
+		$guid
+	);
+}
+
+/**
+ * Get the upload api path.
+ *
+ * @since 4.4
+ * @param int $blog_id The id of the blog we're uploading to.
+ * @return string
+ */
+function videopress_make_media_upload_path( $blog_id ) {
+	return sprintf(
+		'https://public-api.wordpress.com/rest/v1.1/sites/%s/media/new',
+		$blog_id
+	);
+}
+
+/**
+ * This is a mock of the internal VideoPress method, which is meant to duplicate the functionality
+ * of the WPCOM API, so that the Jetpack REST API returns the same data with no modifications.
+ *
+ * @param int $blog_id Blog ID.
+ * @param int $post_id Post ID.
+ * @return bool|stdClass
+ */
+function video_get_info_by_blogpostid( $blog_id, $post_id ) {
+	$post = get_post( $post_id );
+
+	if ( is_wp_error( $post ) ) {
+		return false;
+	}
+
+	if ( 'video/videopress' !== $post->post_mime_type ) {
+		return false;
+	}
+
+	$video_info = new stdClass();
+	$video_info->guid = get_post_meta( $post_id, 'videopress_guid', true );
+	$video_info->finish_date_gmt = '0000-00-00 00:00:00';
+
+	if ( videopress_is_finished_processing( $post_id ) ) {
+		$video_info->finish_date_gmt = date( 'Y-m-d H:i:s' );
+	}
+
+	return $video_info;
+>>>>>>> Stashed changes
 }
 
 /**

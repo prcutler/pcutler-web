@@ -37,6 +37,7 @@ class WordAds_Sidebar_Widget extends WP_Widget {
 
 		$snippet = '';
 		if ( $wordads->option( 'wordads_house', true ) ) {
+<<<<<<< Updated upstream
 			$ad_url = 'https://s0.wp.com/wp-content/blog-plugins/wordads/house/';
 			if ( 'leaderboard' == $instance['unit'] && ! $this->params->mobile_device ) {
 				$ad_url .= 'leaderboard.png';
@@ -51,6 +52,16 @@ class WordAds_Sidebar_Widget extends WP_Widget {
 				<img src="$ad_url" alt="WordPress.com: Grow Your Business" width="$width" height="$height" />
 			</a>
 HTML;
+=======
+			$unit = 'mrec';
+			if ( 'leaderboard' == $instance['unit'] && ! $this->params->mobile_device ) {
+				$unit = 'leaderboard';
+			} else if ( 'wideskyscraper' == $instance['unit'] ) {
+				$unit = 'widesky';
+			}
+
+			$snippet = $wordads->get_house_ad( $unit );
+>>>>>>> Stashed changes
 		} else {
 			$section_id = 0 === $wordads->params->blog_id ? WORDADS_API_TEST_ID : $wordads->params->blog_id . '3';
 			$data_tags = ( $wordads->params->cloudflare ) ? ' data-cfasync="false"' : '';
@@ -64,7 +75,11 @@ HTML;
 		echo <<< HTML
 		<div class="wpcnt">
 			<div class="wpa">
+<<<<<<< Updated upstream
 				<a class="wpa-about" href="https://en.wordpress.com/about-these-ads/" rel="nofollow">$about</a>
+=======
+				<span class="wpa-about">$about</span>
+>>>>>>> Stashed changes
 				<div class="u {$instance['unit']}">
 					$snippet
 				</div>

@@ -14,12 +14,12 @@ define( 'GRUNION_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GRUNION_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 if ( is_admin() ) {
-	require_once GRUNION_PLUGIN_DIR . '/admin.php';
+	require_once GRUNION_PLUGIN_DIR . 'admin.php';
 }
 
 add_action( 'rest_api_init', 'grunion_contact_form_require_endpoint' );
 function grunion_contact_form_require_endpoint() {
-	require_once GRUNION_PLUGIN_DIR . '/class-grunion-contact-form-endpoint.php';
+	require_once GRUNION_PLUGIN_DIR . 'class-grunion-contact-form-endpoint.php';
 }
 
 /**
@@ -116,7 +116,8 @@ class Grunion_Contact_Form_Plugin {
 		if ( is_admin() ) {
 			add_action( 'admin_init',            array( $this, 'download_feedback_as_csv' ) );
 			add_action( 'admin_footer-edit.php', array( $this, 'export_form' ) );
-			add_action( 'current_screen', array( $this, 'unread_count' ) );
+			add_action( 'admin_menu',            array( $this, 'admin_menu' ) );
+			add_action( 'current_screen',        array( $this, 'unread_count' ) );
 		}
 
 		// custom post type we'll use to keep copies of the feedback items
@@ -190,6 +191,20 @@ class Grunion_Contact_Form_Plugin {
 		} else {
 			wp_register_style( 'grunion.css', GRUNION_PLUGIN_URL . 'css/grunion.css', array(), JETPACK__VERSION );
 		}
+	}
+
+	/**
+	 * Add the 'Export' menu item as a submenu of Feedback.
+	 */
+	public function admin_menu() {
+		add_submenu_page(
+			'edit.php?post_type=feedback',
+			__( 'Export feedback as CSV', 'jetpack' ),
+			__( 'Export CSV', 'jetpack' ),
+			'export',
+			'feedback-export',
+			array( $this, 'export_form' )
+		);
 	}
 
 	/**
@@ -566,7 +581,12 @@ class Grunion_Contact_Form_Plugin {
 	 * Prints the menu
 	 */
 	function export_form() {
+<<<<<<< Updated upstream
 		if ( get_current_screen()->id != 'edit-feedback' ) {
+=======
+		$current_screen = get_current_screen();
+		if ( ! in_array( $current_screen->id, array( 'edit-feedback', 'feedback_page_feedback-export' ) ) ) {
+>>>>>>> Stashed changes
 			return;
 		}
 
@@ -605,7 +625,9 @@ class Grunion_Contact_Form_Plugin {
 		<script type='text/javascript'>
 		var menu = document.getElementById( 'feedback-export' ),
 		wrapper = document.getElementsByClassName( 'wrap' )[0];
+		<?php if ( 'edit-feedback' === $current_screen->id ) : ?>
 		wrapper.appendChild(menu);
+		<?php endif; ?>
 		menu.style.display = 'block';
 		</script>
 		<?php
@@ -2345,21 +2367,52 @@ class Grunion_Contact_Form_Field extends Crunion_Contact_Form_Shortcode {
 			case 'email' :
 				// Make sure the email address is valid
 				if ( ! is_email( $field_value ) ) {
+<<<<<<< Updated upstream
+=======
+					/* translators: %s is the name of a form field */
+>>>>>>> Stashed changes
 					$this->add_error( sprintf( __( '%s requires a valid email address', 'jetpack' ), $field_label ) );
 				}
 			break;
 			case 'checkbox-multiple' :
 				// Check that there is at least one option selected
 				if ( empty( $field_value ) ) {
+<<<<<<< Updated upstream
+=======
+					/* translators: %s is the name of a form field */
+>>>>>>> Stashed changes
 					$this->add_error( sprintf( __( '%s requires at least one selection', 'jetpack' ), $field_label ) );
 				}
 			break;
 			default :
 				// Just check for presence of any text
 				if ( ! strlen( trim( $field_value ) ) ) {
+<<<<<<< Updated upstream
+					$this->add_error( sprintf( __( '%s is required', 'jetpack' ), $field_label ) );
+				}
+=======
+					/* translators: %s is the name of a form field */
 					$this->add_error( sprintf( __( '%s is required', 'jetpack' ), $field_label ) );
 				}
 		}
+	}
+
+
+	/**
+	 * Check the default value for options field
+	 *
+	 * @param string value
+	 * @param int index
+	 * @param string default value
+	 *
+	 * @return string
+	 */
+	public function get_option_value( $value, $index, $options ) {
+		if ( empty( $value[ $index ] ) ) {
+			return $options;
+>>>>>>> Stashed changes
+		}
+		return $value[ $index ];
 	}
 
 
@@ -2459,6 +2512,7 @@ class Grunion_Contact_Form_Field extends Crunion_Contact_Form_Shortcode {
 				$r .= "\t\t<label for='" . esc_attr( $field_id ) . "' class='grunion-field-label email" . ( $this->is_error() ? ' form-error' : '' ) . "'>" . esc_html( $field_label ) . ( $field_required ? '<span>' . $required_field_text . '</span>' : '' ) . "</label>\n";
 				$r .= "\t\t<input type='email' name='" . esc_attr( $field_id ) . "' id='" . esc_attr( $field_id ) . "' value='" . esc_attr( $field_value ) . "' " . $field_class . $field_placeholder . ' ' . ( $field_required ? "required aria-required='true'" : '' ) . "/>\n";
 				$r .= "\t</div>\n";
+<<<<<<< Updated upstream
 			break;
 			case 'telephone' :
 				$r .= "\n<div>\n";
@@ -2471,6 +2525,20 @@ class Grunion_Contact_Form_Field extends Crunion_Contact_Form_Shortcode {
 				$r .= "\t\t<textarea name='" . esc_attr( $field_id ) . "' id='contact-form-comment-" . esc_attr( $field_id ) . "' rows='20' " . $field_class . $field_placeholder . ' ' . ( $field_required ? "required aria-required='true'" : '' ) . '>' . esc_textarea( $field_value ) . "</textarea>\n";
 				$r .= "\t</div>\n";
 			break;
+=======
+			break;
+			case 'telephone' :
+				$r .= "\n<div>\n";
+				$r .= "\t\t<label for='" . esc_attr( $field_id ) . "' class='grunion-field-label telephone" . ( $this->is_error() ? ' form-error' : '' ) . "'>" . esc_html( $field_label ) . ( $field_required ? '<span>' . $required_field_text . '</span>' : '' ) . "</label>\n";
+				$r .= "\t\t<input type='tel' name='" . esc_attr( $field_id ) . "' id='" . esc_attr( $field_id ) . "' value='" . esc_attr( $field_value ) . "' " . $field_class . $field_placeholder . "/>\n";
+			break;
+			case 'textarea' :
+				$r .= "\n<div>\n";
+				$r .= "\t\t<label for='contact-form-comment-" . esc_attr( $field_id ) . "' class='grunion-field-label textarea" . ( $this->is_error() ? ' form-error' : '' ) . "'>" . esc_html( $field_label ) . ( $field_required ? '<span>' . $required_field_text . '</span>' : '' ) . "</label>\n";
+				$r .= "\t\t<textarea name='" . esc_attr( $field_id ) . "' id='contact-form-comment-" . esc_attr( $field_id ) . "' rows='20' " . $field_class . $field_placeholder . ' ' . ( $field_required ? "required aria-required='true'" : '' ) . '>' . esc_textarea( $field_value ) . "</textarea>\n";
+				$r .= "\t</div>\n";
+			break;
+>>>>>>> Stashed changes
 			case 'radio' :
 				$r .= "\t<div><label class='grunion-field-label" . ( $this->is_error() ? ' form-error' : '' ) . "'>" . esc_html( $field_label ) . ( $field_required ? '<span>' . $required_field_text . '</span>' : '' ) . "</label>\n";
 				foreach ( $this->get_attribute( 'options' ) as $optionIndex => $option ) {
