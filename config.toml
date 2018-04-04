@@ -10,7 +10,7 @@ title = "PaulCutler.org"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Paul Cutler 2018"
+copyright = "&copy; 2018 Paul Cutler"
 
 theme = "academic"
 enableEmoji = true
