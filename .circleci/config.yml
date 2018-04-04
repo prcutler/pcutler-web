@@ -11,6 +11,6 @@ jobs:
       - checkout
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       - run: ssh-keyscan -H nflpool.xyz >> ~/.ssh/known_hosts
-      - run: ssh pcutler@nflpool.xyz
+      - run: rsync -avz ./public pcutler@nflpool.xyz:/srv/paulcutler.og/test_html/
 
 
