@@ -10,5 +10,5 @@ jobs:
       - run: apk update && apk add git && apk add rsync
       - checkout
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - run: sudo ssh pcutler@nflpool.xyz rsync -avz ./public nflpool.xyz:/srv/paulcutler.og/test_html/
+      - run: ssh pcutler@nflpool.xyz rsync -avz ./public nflpool.xyz:/srv/paulcutler.og/test_html/
 
