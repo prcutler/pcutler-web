@@ -28,7 +28,7 @@ weight = 5
 
 +++
 
-# Biography
+# About
 
 Paul Cutler is a married, father of three.  He currently works as a product management executive in the security
 software industry.  When he's not attending his kid's sports activities or introducing them to classic 80s movies,
