@@ -17,7 +17,13 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Dessa. Chime"
+  course = "Dessa - Chime"
+  
+[[education.courses]]
+  course = "Anna Burch - Quit the Curse"
+  
+[[education.courses]]
+  course = "Lissie - Castles"
 
 
 +++

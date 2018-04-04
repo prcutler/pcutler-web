@@ -137,6 +137,9 @@
 - id: projects
   translation: Projects
 
+- id: music
+  translation: Now Listening
+
 # Error 404
 
 - id: page_not_found
@@ -144,3 +147,4 @@
 
 - id: 404_recommendations
   translation: Perhaps you were looking for one of these?
+
