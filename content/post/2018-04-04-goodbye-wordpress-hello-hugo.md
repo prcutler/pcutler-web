@@ -1,5 +1,5 @@
 ---
-title: goodbye-wordpress-hello-hugo
+title: Goodbye Wordpress, Hello Hugo
 author: Paul Cutler
 type: post
 date: 2018-04-04
@@ -11,7 +11,6 @@ tags:
 
 ---
 
-# Goodbye Wordpress, Hello Hugo
 
 I’ve been using [Wordpress](https://www.wordpress.org)for over 15 years.  In fact, I started blogging before Wordpress existed, and even used b2 / cafelog, from which Wordpress was forked.
 
