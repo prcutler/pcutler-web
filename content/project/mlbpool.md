@@ -6,14 +6,14 @@ date = "2018-04-03"
 title = "MLBPool2"
 
 # Project summary to display on homepage.
-summary = "Fantasy Baseball for the Lazy."
+summary = "A fantasy baseball like application written in Python and built with Pyramid to track and report MLB season pool picks and points for league play."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "mlbpool2.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["mlbpool2"]
+tags = ["mlbpool2", "python", "pyramid"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -40,7 +40,9 @@ launched in 2017 and MLBPool2 is based on the NFLPool codebase. This is only the
 built.
 
 Learn more:
+
 * [MLBpool2.com](https://mlbpool2.com)
 * [Github (Source Code)](https://github.com/prcutler/mlbpool2) - Licensed under the MIT license
 * [MLBPool Rules](https://mlbpool.xyz/home/rules)
+* [MLBPool User and Developer Documentation](http://mlbpool2.readthedocs.io/en/latest/) (Including how to play)
 * [Site Credits](https://mlbpool.xyz/home/credits)

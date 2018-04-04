@@ -6,14 +6,14 @@ date = "2018-04-03"
 title = "NFLPool"
 
 # Project summary to display on homepage.
-summary = "Fantasy Football for the Lazy."
+summary = "A fantasy football like application written in Python and built with Pyramid to track and report NFL season pool picks and points for league play."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "nflpool.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["nflpool"]
+tags = ["nflpool", "python", "pyramid"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -40,6 +40,7 @@ for a hobby, I decided to learn Python to automate the scoring process and to ke
 the first Python (and first Pyramid) app I have ever created.
 
 Learn more:
+
 * [NFLpool.xyz](https://nflpool.xyz)
 * [Github (Source Code)](https://github.com/prcutler/nflpool) - Licensed under the MIT license
 * [NFLPool Rules](https://nflpool.xyz/home/rules)

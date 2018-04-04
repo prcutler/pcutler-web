@@ -33,16 +33,12 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "NFLPool"
-  tag = ".nflpool"
-  
-[[filter]]
-  name = "MLBPool2"
-  tag = ".mlbpool2"
+  name = "Python"
+  tag = ".python"
 
-# [[filter]]
-#  name = "Other"
-#  tag = ".demo"
+ [[filter]]
+  name = "Other"
+  tag = ".other"
 
 +++
 
