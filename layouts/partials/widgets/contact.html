@@ -13,6 +13,15 @@
 
     <ul class="fa-ul" itemscope>
 
+      {{ with $.Site.Params.twitter }}
+      <li>
+        <i class="fa-li fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <span id="person-twitter" itemprop="twitter">
+          <a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a> on Twitter.
+        </span>
+      </li>
+      {{ end }}
+
       {{ with $.Site.Params.email }}
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>

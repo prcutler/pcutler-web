@@ -68,7 +68,6 @@ defaultContentLanguageInSubdir = false
   # phone = "888 888 88 88"
   # skype = "echo123"
   # telegram = ""
-  linkedin = "paulrcutler"
   twitter = "prcutler"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -234,6 +233,15 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//github.com/prcutler"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/paulrcutler"
+
+  [[params.social]]
+    icon = "rss-square"
+    icon_pack = "fa"
+    link = "//feeds.feedburner.com/pcutler"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
