@@ -3,14 +3,17 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/hugo
-    environment:
-      HUGO_BUILD_DIR: ~/hugo/public
     steps:
       - run: apk update && apk add git && apk add rsync
       - checkout
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run:
+          name: "Build Website With  Hugo"
+          command: HUGO_ENV=production hugo -v -s src/
+      - persist_to_workspace:
+          root: src
+          paths:
+            - public
       - run: ssh-keyscan -H nflpool.xyz >> ~/.ssh/known_hosts
-      - run: rsync -avz /hugo/public pcutler@nflpool.xyz:/srv/paulcutler.org/test_html/
+      - run: rsync -avz /src/public pcutler@nflpool.xyz:/srv/paulcutler.org/test_html/
 
 
