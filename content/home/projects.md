@@ -33,12 +33,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
-
+  name = "NFLPool"
+  tag = ".nflpool"
+  
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "MLBPool2"
+  tag = ".mlbpool2"
+
+# [[filter]]
+#  name = "Other"
+#  tag = ".demo"
 
 +++
 
