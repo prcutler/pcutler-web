@@ -19,7 +19,7 @@ In my last blog post, I noted how I was going to have to move back to SQLite for
 
 I won’t pretend that I still understand object oriented programming, especially the use of classes in Python. I’ve come a long way and I understand the concept of how a class creates an instance of the object, but putting it into practice is still a challenge. Using the Python for Entrepreneurs course examples, I was able to take my data model, write the SQLAlchemy classes, and get the database created.
 
-[<img class="alignnone size-full wp-image-6719" src="https://paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-07-31-08.42.02-3.png?resize=700%2C409" alt="" width="700" height="409" data-recalc-dims="1" />][1]
+[<img class="alignnone size-full wp-image-6719" src="https://paulcutler.org/wp-content/uploads/2017/08/Screenshot-2017-07-31-08.42.02-3.png?resize=700%2C409" alt="" width="700" height="409" data-recalc-dims="1" />][1]
 
 One of the nice things about the course is that it does touch on how to create an index in a table and making foreign keys to join two tables together, which I’ll need. If I don’t ever migrate to MongoDB, I may want to just use MySQL, which technically, I believe, doesn’t support foreign keys. So I’m not sure how portable this code will be, but like everything else I’m doing, Future Paul can deal with that.
 
