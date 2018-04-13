@@ -3,7 +3,7 @@ title: GNOME Docs Team meeting tomorrow
 author: Paul Cutler
 type: post
 date: 2010-06-23T18:09:05+00:00
-url: /2010/06/gnome-docs-team-meeting-tomorrow/
+url: /blog/2010/06/gnome-docs-team-meeting-tomorrow/
 categories:
   - Documentation
   - GNOME

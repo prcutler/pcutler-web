@@ -3,7 +3,7 @@ title: 'Talk Python Training: Consuming HTTP Services in Python Review'
 author: Paul Cutler
 type: post
 date: 2017-02-23T17:17:07+00:00
-url: /2017/02/talk-python-training-consuming-http-services-in-python/
+url: /blog/2017/02/talk-python-training-consuming-http-services-in-python/
 categories:
   - Python
 tags:

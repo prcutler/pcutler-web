@@ -3,7 +3,7 @@ title: PC World reviews Ubuntu
 author: Paul Cutler
 type: post
 date: 2005-04-27T21:15:14+00:00
-url: /2005/04/pc-world-reviews-ubuntu/
+url: /blog/2005/04/pc-world-reviews-ubuntu/
 categories:
   - Linux
   - Technology

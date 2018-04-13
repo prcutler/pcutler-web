@@ -3,7 +3,7 @@ title: Stupid Winamp
 author: Paul Cutler
 type: post
 date: 2003-02-15T16:37:36+00:00
-url: /2003/02/stupid-winamp/
+url: /blog/2003/02/stupid-winamp/
 categories:
   - Microsoft
   - Technology

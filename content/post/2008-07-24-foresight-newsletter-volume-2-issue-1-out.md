@@ -3,7 +3,7 @@ title: Foresight Newsletter Volume 2, Issue 1 out
 author: Paul Cutler
 type: post
 date: 2008-07-24T03:19:25+00:00
-url: /2008/07/foresight-newsletter-volume-2-issue-1-out/
+url: /blog/2008/07/foresight-newsletter-volume-2-issue-1-out/
 categories:
   - Foresight
 tags:

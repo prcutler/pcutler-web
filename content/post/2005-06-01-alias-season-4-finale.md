@@ -3,7 +3,7 @@ title: Alias Season 4 Finale
 author: Paul Cutler
 type: post
 date: 2005-06-01T12:56:01+00:00
-url: /2005/06/alias-season-4-finale/
+url: /blog/2005/06/alias-season-4-finale/
 categories:
   - Entertainment
   - TV

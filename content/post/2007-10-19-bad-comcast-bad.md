@@ -3,7 +3,7 @@ title: Bad Comcast, Bad
 author: Paul Cutler
 type: post
 date: 2007-10-19T14:18:16+00:00
-url: /2007/10/bad-comcast-bad/
+url: /blog/2007/10/bad-comcast-bad/
 categories:
   - Copyright
   - Technology

@@ -3,7 +3,7 @@ title: Hello world!
 author: Paul Cutler
 type: post
 date: 2004-08-29T22:06:35+00:00
-url: /2004/08/hello-world-3/
+url: /blog/2004/08/hello-world-3/
 categories:
   - General
 

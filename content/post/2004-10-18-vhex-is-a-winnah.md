@@ -3,7 +3,7 @@ title: Vhex is a winnah!
 author: Paul Cutler
 type: post
 date: 2004-10-19T01:37:46+00:00
-url: /2004/10/vhex-is-a-winnah/
+url: /blog/2004/10/vhex-is-a-winnah/
 categories:
   - General
 

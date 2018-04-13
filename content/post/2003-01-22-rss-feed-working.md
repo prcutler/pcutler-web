@@ -3,7 +3,7 @@ title: RSS Feed working?
 author: Paul Cutler
 type: post
 date: 2003-01-22T17:42:42+00:00
-url: /2003/01/rss-feed-working/
+url: /blog/2003/01/rss-feed-working/
 categories:
   - General
 

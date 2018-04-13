@@ -3,7 +3,7 @@ title: Flickr launches Photo Printing
 author: Paul Cutler
 type: post
 date: 2005-10-27T02:13:41+00:00
-url: /2005/10/flickr-launches-photo-printing/
+url: /blog/2005/10/flickr-launches-photo-printing/
 categories:
   - Flickr
   - Photography

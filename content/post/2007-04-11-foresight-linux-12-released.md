@@ -3,7 +3,7 @@ title: Foresight Linux 1.2 Released
 author: Paul Cutler
 type: post
 date: 2007-04-12T03:34:50+00:00
-url: /2007/04/foresight-linux-12-released/
+url: /blog/2007/04/foresight-linux-12-released/
 categories:
   - Foresight
   - Linux

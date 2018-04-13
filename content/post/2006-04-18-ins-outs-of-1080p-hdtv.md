@@ -3,7 +3,7 @@ title: "In's & Out's of 1080p HDTV"
 author: Paul Cutler
 type: post
 date: 2006-04-18T16:47:04+00:00
-url: /2006/04/ins-outs-of-1080p-hdtv/
+url: /blog/2006/04/ins-outs-of-1080p-hdtv/
 categories:
   - Hardware
   - Technology

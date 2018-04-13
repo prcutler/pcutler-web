@@ -3,7 +3,7 @@ title: Broadcast Flag Struck Down
 author: Paul Cutler
 type: post
 date: 2005-05-09T11:59:28+00:00
-url: /2005/05/broadcast-flag-struck-down/
+url: /blog/2005/05/broadcast-flag-struck-down/
 categories:
   - Copyright
   - EFF

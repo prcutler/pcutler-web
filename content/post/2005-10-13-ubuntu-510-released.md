@@ -3,7 +3,7 @@ title: Ubuntu 5.10 Released!
 author: Paul Cutler
 type: post
 date: 2005-10-13T22:31:37+00:00
-url: /2005/10/ubuntu-510-released/
+url: /blog/2005/10/ubuntu-510-released/
 categories:
   - Linux
   - Technology

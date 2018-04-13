@@ -3,7 +3,7 @@ title: Happy Birthday Bladerunner
 author: Paul Cutler
 type: post
 date: 2007-06-26T01:27:29+00:00
-url: /2007/06/happy-birthday-bladerunner/
+url: /blog/2007/06/happy-birthday-bladerunner/
 categories:
   - Entertainment
   - Movies

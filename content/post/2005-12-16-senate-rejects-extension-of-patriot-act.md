@@ -3,7 +3,7 @@ title: Senate Rejects Extension of Patriot Act
 author: Paul Cutler
 type: post
 date: 2005-12-17T02:20:22+00:00
-url: /2005/12/senate-rejects-extension-of-patriot-act/
+url: /blog/2005/12/senate-rejects-extension-of-patriot-act/
 categories:
   - Politics
 

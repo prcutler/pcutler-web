@@ -3,7 +3,7 @@ title: Next Generation Consoles
 author: Paul Cutler
 type: post
 date: 2005-12-08T04:16:37+00:00
-url: /2005/12/next-generation-consoles/
+url: /blog/2005/12/next-generation-consoles/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: The Beauty of Blu-Ray
 author: Paul Cutler
 type: post
 date: 2007-11-22T19:43:13+00:00
-url: /2007/11/the-beauty-of-blu-ray/
+url: /blog/2007/11/the-beauty-of-blu-ray/
 categories:
   - Hardware
   - Technology

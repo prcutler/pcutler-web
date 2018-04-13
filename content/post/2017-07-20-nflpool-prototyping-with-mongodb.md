@@ -3,7 +3,7 @@ title: NFLPool Prototyping with MongoDB
 author: Paul Cutler
 type: post
 date: 2017-07-20T20:52:04+00:00
-url: /2017/07/nflpool-prototyping-with-mongodb/
+url: /blog/2017/07/nflpool-prototyping-with-mongodb/
 categories:
   - Python
 tags:

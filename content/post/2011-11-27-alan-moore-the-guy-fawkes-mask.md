@@ -3,7 +3,7 @@ title: 'Alan Moore & the Guy Fawkes Mask'
 author: Paul Cutler
 type: post
 date: 2011-11-27T15:25:43+00:00
-url: /2011/11/alan-moore-the-guy-fawkes-mask/
+url: /blog/2011/11/alan-moore-the-guy-fawkes-mask/
 categories:
   - Books
   - Entertainment

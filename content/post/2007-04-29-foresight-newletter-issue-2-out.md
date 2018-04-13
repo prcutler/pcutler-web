@@ -3,7 +3,7 @@ title: Foresight Newsletter Issue 2 Out!
 author: Paul Cutler
 type: post
 date: 2007-04-30T00:37:23+00:00
-url: /2007/04/foresight-newletter-issue-2-out/
+url: /blog/2007/04/foresight-newletter-issue-2-out/
 categories:
   - Foresight
   - Linux

@@ -3,7 +3,7 @@ title: Under Construction
 author: Paul Cutler
 type: post
 date: 2003-04-10T02:04:30+00:00
-url: /2003/04/under-construction/
+url: /blog/2003/04/under-construction/
 categories:
   - General
 

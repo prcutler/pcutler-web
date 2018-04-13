@@ -3,7 +3,7 @@ title: 'Dear Lazyweb: Bluetooth Adapters on Linux'
 author: Paul Cutler
 type: post
 date: 2007-05-17T00:24:00+00:00
-url: /2007/05/dear-lazyweb-bluetooth-adapters-on-linux/
+url: /blog/2007/05/dear-lazyweb-bluetooth-adapters-on-linux/
 categories:
   - EFF
   - Hardware

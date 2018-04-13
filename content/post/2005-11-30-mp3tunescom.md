@@ -3,7 +3,7 @@ title: MP3tunes.com
 author: Paul Cutler
 type: post
 date: 2005-12-01T04:02:36+00:00
-url: /2005/11/mp3tunescom/
+url: /blog/2005/11/mp3tunescom/
 categories:
   - Entertainment
   - Music

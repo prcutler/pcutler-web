@@ -3,7 +3,7 @@ title: The iPhone Moral Quandary
 author: Paul Cutler
 type: post
 date: 2007-06-22T18:58:49+00:00
-url: /2007/06/the-iphone-moral-quandary/
+url: /blog/2007/06/the-iphone-moral-quandary/
 categories:
   - Apple
   - EFF

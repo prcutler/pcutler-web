@@ -3,7 +3,7 @@ title: GNOME.org revamp
 author: Paul Cutler
 type: post
 date: 2009-05-21T14:53:38+00:00
-url: /2009/05/gnomeorg-revamp/
+url: /blog/2009/05/gnomeorg-revamp/
 categories:
   - GNOME
   - Linux

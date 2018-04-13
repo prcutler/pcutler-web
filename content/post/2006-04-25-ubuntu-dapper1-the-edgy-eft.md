@@ -3,7 +3,7 @@ title: 'Ubuntu Dapper+1: The Edgy Eft'
 author: Paul Cutler
 type: post
 date: 2006-04-25T12:16:08+00:00
-url: /2006/04/ubuntu-dapper1-the-edgy-eft/
+url: /blog/2006/04/ubuntu-dapper1-the-edgy-eft/
 categories:
   - Linux
   - Technology

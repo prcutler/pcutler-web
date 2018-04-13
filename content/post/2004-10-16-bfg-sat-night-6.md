@@ -3,7 +3,7 @@ title: BFG Sat Night 6
 author: Paul Cutler
 type: post
 date: 2004-10-17T00:19:54+00:00
-url: /2004/10/bfg-sat-night-6/
+url: /blog/2004/10/bfg-sat-night-6/
 categories:
   - General
 

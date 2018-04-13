@@ -3,7 +3,7 @@ title: Let the music play
 author: Paul Cutler
 type: post
 date: 2004-09-02T01:52:56+00:00
-url: /2004/09/let-the-music-play/
+url: /blog/2004/09/let-the-music-play/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: Blizzard is spying on you
 author: Paul Cutler
 type: post
 date: 2005-11-01T01:46:56+00:00
-url: /2005/10/blizzard-is-spying-on-you/
+url: /blog/2005/10/blizzard-is-spying-on-you/
 categories:
   - Entertainment
   - Games

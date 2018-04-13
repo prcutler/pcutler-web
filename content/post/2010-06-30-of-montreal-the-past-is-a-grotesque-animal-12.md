@@ -3,7 +3,7 @@ title: of Montreal – The Past is a Grotesque Animal 12″
 author: Paul Cutler
 type: post
 date: 2010-06-30T18:38:24+00:00
-url: /2010/06/of-montreal-the-past-is-a-grotesque-animal-12/
+url: /blog/2010/06/of-montreal-the-past-is-a-grotesque-animal-12/
 categories:
   - Vinyl
 tags:

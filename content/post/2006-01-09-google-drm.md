@@ -3,7 +3,7 @@ title: Google DRM
 author: Paul Cutler
 type: post
 date: 2006-01-10T04:28:45+00:00
-url: /2006/01/google-drm/
+url: /blog/2006/01/google-drm/
 categories:
   - Copyright
   - Technology

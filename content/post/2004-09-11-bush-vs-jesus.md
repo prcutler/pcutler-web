@@ -3,7 +3,7 @@ title: Bush Vs Jesus
 author: Paul Cutler
 type: post
 date: 2004-09-11T15:36:30+00:00
-url: /2004/09/bush-vs-jesus/
+url: /blog/2004/09/bush-vs-jesus/
 categories:
   - Politics
 

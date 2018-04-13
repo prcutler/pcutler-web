@@ -3,7 +3,7 @@ title: I love Minnesota Music
 author: Paul Cutler
 type: post
 date: 2014-09-15T14:20:17+00:00
-url: /2014/09/i-love-minnesota-music/
+url: /blog/2014/09/i-love-minnesota-music/
 featured_image: /wp-content/uploads/2014/09/Doomtree.jpg
 full_width_featured_image:
   - 1

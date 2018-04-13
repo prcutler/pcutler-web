@@ -3,7 +3,7 @@ title: Last.fm Follow-Up
 author: Paul Cutler
 type: post
 date: 2005-09-23T02:55:32+00:00
-url: /2005/09/lastfm-follow-up/
+url: /blog/2005/09/lastfm-follow-up/
 categories:
   - Entertainment
   - Linux

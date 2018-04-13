@@ -3,7 +3,7 @@ title: On to greener pastures
 author: Paul Cutler
 type: post
 date: 2011-05-03T14:05:33+00:00
-url: /2011/05/on-to-greener-pastures/
+url: /blog/2011/05/on-to-greener-pastures/
 categories:
   - General
 

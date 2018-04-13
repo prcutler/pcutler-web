@@ -3,7 +3,7 @@ title: 'ESPN.com – NBA – Stein: Spree, Sam sulk season away'
 author: Paul Cutler
 type: post
 date: 2005-02-13T01:13:49+00:00
-url: /2005/02/espncom-nba-stein-spree-sam-sulk-season-away/
+url: /blog/2005/02/espncom-nba-stein-spree-sam-sulk-season-away/
 categories:
   - Sports
 

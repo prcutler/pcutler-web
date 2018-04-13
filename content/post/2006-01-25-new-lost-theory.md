@@ -3,7 +3,7 @@ title: New Lost Theory
 author: Paul Cutler
 type: post
 date: 2006-01-25T16:36:03+00:00
-url: /2006/01/new-lost-theory/
+url: /blog/2006/01/new-lost-theory/
 categories:
   - Entertainment
   - TV

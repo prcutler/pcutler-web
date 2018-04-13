@@ -3,7 +3,7 @@ title: Lego Star Destroyer
 author: Paul Cutler
 type: post
 date: 2005-06-30T19:56:49+00:00
-url: /2005/06/lego-star-destroyer/
+url: /blog/2005/06/lego-star-destroyer/
 categories:
   - Entertainment
   - Humor

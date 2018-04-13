@@ -3,7 +3,7 @@ title: Foresight Packages
 author: Paul Cutler
 type: post
 date: 2008-09-21T14:36:21+00:00
-url: /2008/09/foresight-packages/
+url: /blog/2008/09/foresight-packages/
 categories:
   - Foresight
 tags:

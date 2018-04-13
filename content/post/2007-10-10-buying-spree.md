@@ -3,7 +3,7 @@ title: Buying Spree
 author: Paul Cutler
 type: post
 date: 2007-10-11T00:57:03+00:00
-url: /2007/10/buying-spree/
+url: /blog/2007/10/buying-spree/
 categories:
   - Entertainment
   - Music

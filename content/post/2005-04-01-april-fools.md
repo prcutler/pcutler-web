@@ -3,7 +3,7 @@ title: "April Fool's"
 author: Paul Cutler
 type: post
 date: 2005-04-01T14:49:32+00:00
-url: /2005/04/april-fools/
+url: /blog/2005/04/april-fools/
 categories:
   - Humor
 

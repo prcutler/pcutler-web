@@ -3,7 +3,7 @@ title: 'ET: Quake Wars First Impressions'
 author: Paul Cutler
 type: post
 date: 2007-07-21T17:05:00+00:00
-url: /2007/07/et-quake-wars-first-impressions/
+url: /blog/2007/07/et-quake-wars-first-impressions/
 categories:
   - Entertainment
   - Games

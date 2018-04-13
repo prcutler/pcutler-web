@@ -3,7 +3,7 @@ title: Plan your writing
 author: Paul Cutler
 type: post
 date: 2010-03-10T13:46:43+00:00
-url: /2010/03/plan-your-writing/
+url: /blog/2010/03/plan-your-writing/
 categories:
   - Documentation
 tags:

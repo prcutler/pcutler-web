@@ -3,7 +3,7 @@ title: Fringe Finale
 author: Paul Cutler
 type: post
 date: 2013-01-18T14:06:59+00:00
-url: /2013/01/fringe-finale/
+url: /blog/2013/01/fringe-finale/
 categories:
   - TV
 tags:

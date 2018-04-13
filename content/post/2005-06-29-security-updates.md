@@ -3,7 +3,7 @@ title: Security Updates
 author: Paul Cutler
 type: post
 date: 2005-06-30T01:45:08+00:00
-url: /2005/06/security-updates/
+url: /blog/2005/06/security-updates/
 categories:
   - Technology
   - Wordpress

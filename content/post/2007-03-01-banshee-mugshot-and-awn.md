@@ -3,7 +3,7 @@ title: Banshee, Mugshot, and AWN
 author: Paul Cutler
 type: post
 date: 2007-03-01T22:08:24+00:00
-url: /2007/03/banshee-mugshot-and-awn/
+url: /blog/2007/03/banshee-mugshot-and-awn/
 categories:
   - Linux
   - Technology

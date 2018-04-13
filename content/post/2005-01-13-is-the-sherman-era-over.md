@@ -3,7 +3,7 @@ title: Is the Sherman era over?
 author: Paul Cutler
 type: post
 date: 2005-01-14T01:57:42+00:00
-url: /2005/01/is-the-sherman-era-over/
+url: /blog/2005/01/is-the-sherman-era-over/
 categories:
   - Packers
   - Sports

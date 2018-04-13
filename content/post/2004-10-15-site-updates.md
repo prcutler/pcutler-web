@@ -3,7 +3,7 @@ title: Site Updates
 author: Paul Cutler
 type: post
 date: 2004-10-15T15:23:48+00:00
-url: /2004/10/site-updates/
+url: /blog/2004/10/site-updates/
 categories:
   - General
   - Wordpress

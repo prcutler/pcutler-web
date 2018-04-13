@@ -3,7 +3,7 @@ title: 'MythTV & Filesharing'
 author: Paul Cutler
 type: post
 date: 2005-01-30T21:28:30+00:00
-url: /2005/01/mythtv-filesharing/
+url: /blog/2005/01/mythtv-filesharing/
 categories:
   - Copyright
   - EFF

@@ -3,7 +3,7 @@ title: "On this one, I'm with Colin Powell"
 author: Paul Cutler
 type: post
 date: 2003-06-02T23:55:45+00:00
-url: /2003/06/on-this-one-im-with-colin-powell/
+url: /blog/2003/06/on-this-one-im-with-colin-powell/
 categories:
   - Politics
 

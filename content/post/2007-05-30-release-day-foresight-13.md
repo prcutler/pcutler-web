@@ -3,7 +3,7 @@ title: Release Day! Foresight 1.3
 author: Paul Cutler
 type: post
 date: 2007-05-31T02:56:02+00:00
-url: /2007/05/release-day-foresight-13/
+url: /blog/2007/05/release-day-foresight-13/
 categories:
   - Foresight
   - GNOME

@@ -3,7 +3,7 @@ title: One Year of Python
 author: Paul Cutler
 type: post
 date: 2016-12-04T16:06:55+00:00
-url: /2016/12/one-year-of-python/
+url: /blog/2016/12/one-year-of-python/
 categories:
   - Python
 tags:

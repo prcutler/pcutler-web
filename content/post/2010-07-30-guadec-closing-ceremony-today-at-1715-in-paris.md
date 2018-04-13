@@ -3,7 +3,7 @@ title: GUADEC Closing Ceremony today at 17:15 in Paris
 author: Paul Cutler
 type: post
 date: 2010-07-30T13:46:59+00:00
-url: /2010/07/guadec-closing-ceremony-today-at-1715-in-paris/
+url: /blog/2010/07/guadec-closing-ceremony-today-at-1715-in-paris/
 categories:
   - GNOME
 tags:

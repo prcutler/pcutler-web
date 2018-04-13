@@ -3,7 +3,7 @@ title: Happy Birthday GNOME Journal!
 author: Paul Cutler
 type: post
 date: 2009-09-17T15:00:07+00:00
-url: /2009/09/gnome-journal-2/
+url: /blog/2009/09/gnome-journal-2/
 categories:
   - GNOME
   - GNOME Journal

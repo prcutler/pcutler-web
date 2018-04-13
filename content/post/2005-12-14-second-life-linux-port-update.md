@@ -3,7 +3,7 @@ title: Second Life Linux Port Update
 author: Paul Cutler
 type: post
 date: 2005-12-15T02:52:55+00:00
-url: /2005/12/second-life-linux-port-update/
+url: /blog/2005/12/second-life-linux-port-update/
 categories:
   - Entertainment
   - Games

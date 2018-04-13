@@ -3,7 +3,7 @@ title: Google Wave
 author: Paul Cutler
 type: post
 date: 2009-11-23T16:56:24+00:00
-url: /2009/11/google-wave/
+url: /blog/2009/11/google-wave/
 categories:
   - Documentation
 tags:

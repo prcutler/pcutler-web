@@ -3,7 +3,7 @@ title: MPAA censors film about itself
 author: Paul Cutler
 type: post
 date: 2005-12-09T03:46:52+00:00
-url: /2005/12/mpaa-censors-film-about-itself/
+url: /blog/2005/12/mpaa-censors-film-about-itself/
 categories:
   - Entertainment
   - Movies

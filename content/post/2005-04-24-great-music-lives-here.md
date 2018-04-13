@@ -3,7 +3,7 @@ title: Great music lives here
 author: Paul Cutler
 type: post
 date: 2005-04-24T14:41:48+00:00
-url: /2005/04/great-music-lives-here/
+url: /blog/2005/04/great-music-lives-here/
 categories:
   - Entertainment
   - Music

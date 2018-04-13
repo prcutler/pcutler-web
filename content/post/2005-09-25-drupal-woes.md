@@ -3,7 +3,7 @@ title: Drupal Woes
 author: Paul Cutler
 type: post
 date: 2005-09-25T23:19:34+00:00
-url: /2005/09/drupal-woes/
+url: /blog/2005/09/drupal-woes/
 categories:
   - Technology
   - Websites

@@ -3,7 +3,7 @@ title: Support Small World on Kickstarter (Especially for Table Top Day!)
 author: Paul Cutler
 type: post
 date: 2013-03-26T14:41:17+00:00
-url: /2013/03/support-small-world-on-kickstarter-especially-for-table-top-day/
+url: /blog/2013/03/support-small-world-on-kickstarter-especially-for-table-top-day/
 categories:
   - Games
 tags:

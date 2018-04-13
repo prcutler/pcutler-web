@@ -3,7 +3,7 @@ title: Latest Meme
 author: Paul Cutler
 type: post
 date: 2005-11-18T02:20:25+00:00
-url: /2005/11/latest-meme/
+url: /blog/2005/11/latest-meme/
 categories:
   - Humor
 

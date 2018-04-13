@@ -3,7 +3,7 @@ title: Ubuntu Blog
 author: Paul Cutler
 type: post
 date: 2006-02-09T13:49:58+00:00
-url: /2006/02/ubuntu-blog-2/
+url: /blog/2006/02/ubuntu-blog-2/
 categories:
   - Linux
   - Technology

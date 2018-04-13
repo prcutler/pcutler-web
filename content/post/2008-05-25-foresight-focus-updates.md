@@ -3,7 +3,7 @@ title: Foresight Focus Updates
 author: Paul Cutler
 type: post
 date: 2008-05-25T01:34:32+00:00
-url: /2008/05/foresight-focus-updates/
+url: /blog/2008/05/foresight-focus-updates/
 categories:
   - Foresight
 tags:

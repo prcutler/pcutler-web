@@ -4,7 +4,7 @@ author:
   - Rick Dakan
 type: post
 date: 2007-02-11T18:07:56+00:00
-url: /2007/02/geek-mafia/
+url: /blog/2007/02/geek-mafia/
 recommended:
   - yes
 book_image:

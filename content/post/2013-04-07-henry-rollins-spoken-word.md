@@ -3,7 +3,7 @@ title: Henry Rollins – Spoken Word
 author: Paul Cutler
 type: post
 date: 2013-04-07T20:38:07+00:00
-url: /2013/04/henry-rollins-spoken-word/
+url: /blog/2013/04/henry-rollins-spoken-word/
 categories:
   - Entertainment
 tags:

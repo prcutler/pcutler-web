@@ -3,7 +3,7 @@ title: 'Wanted: Rocking Web Design'
 author: Paul Cutler
 type: post
 date: 2010-08-18T14:50:13+00:00
-url: /2010/08/wanted-rocking-web-design/
+url: /blog/2010/08/wanted-rocking-web-design/
 categories:
   - GNOME
 tags:

@@ -3,7 +3,7 @@ title: Still slacking
 author: Paul Cutler
 type: post
 date: 2005-03-08T13:37:05+00:00
-url: /2005/03/still-slacking/
+url: /blog/2005/03/still-slacking/
 categories:
   - Technology
   - Wordpress

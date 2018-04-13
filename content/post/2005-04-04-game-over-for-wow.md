@@ -3,7 +3,7 @@ title: Game over for WoW?
 author: Paul Cutler
 type: post
 date: 2005-04-04T12:42:48+00:00
-url: /2005/04/game-over-for-wow/
+url: /blog/2005/04/game-over-for-wow/
 categories:
   - Entertainment
   - PC Games

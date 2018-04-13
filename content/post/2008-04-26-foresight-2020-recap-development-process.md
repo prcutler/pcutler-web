@@ -3,7 +3,7 @@ title: 'Foresight 20/20 Recap: Development Process'
 author: Paul Cutler
 type: post
 date: 2008-04-26T19:18:48+00:00
-url: /2008/04/foresight-2020-recap-development-process/
+url: /blog/2008/04/foresight-2020-recap-development-process/
 categories:
   - Foresight
 tags:

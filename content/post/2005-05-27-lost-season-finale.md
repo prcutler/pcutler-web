@@ -3,7 +3,7 @@ title: Lost Season Finale.
 author: Paul Cutler
 type: post
 date: 2005-05-28T00:38:35+00:00
-url: /2005/05/lost-season-finale/
+url: /blog/2005/05/lost-season-finale/
 categories:
   - Entertainment
   - TV

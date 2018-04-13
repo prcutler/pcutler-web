@@ -3,7 +3,7 @@ title: Comcast speeds
 author: Paul Cutler
 type: post
 date: 2007-07-08T14:15:34+00:00
-url: /2007/07/comcast-speeds/
+url: /blog/2007/07/comcast-speeds/
 categories:
   - Technology
 

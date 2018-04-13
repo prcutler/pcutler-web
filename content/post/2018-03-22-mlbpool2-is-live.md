@@ -3,7 +3,7 @@ title: MLBPool2 is live!
 author: Paul Cutler
 type: post
 date: 2018-03-23T01:18:13+00:00
-url: /2018/03/mlbpool2-is-live/
+url: /blog/2018/03/mlbpool2-is-live/
 categories:
   - Python
 tags:

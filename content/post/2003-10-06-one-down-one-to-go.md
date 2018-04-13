@@ -3,7 +3,7 @@ title: One down, one to go
 author: Paul Cutler
 type: post
 date: 2003-10-06T14:21:50+00:00
-url: /2003/10/one-down-one-to-go/
+url: /blog/2003/10/one-down-one-to-go/
 categories:
   - Badgers
   - Football

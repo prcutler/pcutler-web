@@ -3,7 +3,7 @@ title: Second Life
 author: Paul Cutler
 type: post
 date: 2005-07-25T00:32:10+00:00
-url: /2005/07/second-life/
+url: /blog/2005/07/second-life/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: Favorite Albums of 2013
 author: Paul Cutler
 type: post
 date: 2014-01-01T22:17:42+00:00
-url: /2014/01/favorite-albums-of-2013/
+url: /blog/2014/01/favorite-albums-of-2013/
 categories:
   - Music
 tags:

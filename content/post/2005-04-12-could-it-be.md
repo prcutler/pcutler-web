@@ -3,7 +3,7 @@ title: Could it be?
 author: Paul Cutler
 type: post
 date: 2005-04-13T03:10:10+00:00
-url: /2005/04/could-it-be/
+url: /blog/2005/04/could-it-be/
 categories:
   - Linux
   - Technology

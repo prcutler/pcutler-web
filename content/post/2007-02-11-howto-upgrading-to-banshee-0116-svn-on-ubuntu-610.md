@@ -3,7 +3,7 @@ title: 'HOWTO: Upgrading to Banshee 0.11.6 (SVN) on Ubuntu 6.10'
 author: Paul Cutler
 type: post
 date: 2007-02-11T15:33:38+00:00
-url: /2007/02/howto-upgrading-to-banshee-0116-svn-on-ubuntu-610/
+url: /blog/2007/02/howto-upgrading-to-banshee-0116-svn-on-ubuntu-610/
 categories:
   - Linux
   - Technology

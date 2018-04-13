@@ -3,7 +3,7 @@ title: Chicago here we come
 author: Paul Cutler
 type: post
 date: 2007-06-12T13:16:23+00:00
-url: /2007/06/chicago-here-we-come/
+url: /blog/2007/06/chicago-here-we-come/
 categories:
   - Foresight
   - GNOME

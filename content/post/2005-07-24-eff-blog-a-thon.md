@@ -3,7 +3,7 @@ title: EFF Blog-a-thon
 author: Paul Cutler
 type: post
 date: 2005-07-24T22:08:49+00:00
-url: /2005/07/eff-blog-a-thon/
+url: /blog/2005/07/eff-blog-a-thon/
 categories:
   - EFF
   - Technology

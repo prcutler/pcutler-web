@@ -3,7 +3,7 @@ title: Stop the RIAA – Join the Petition
 author: Paul Cutler
 type: post
 date: 2006-04-25T12:41:17+00:00
-url: /2006/04/stop-the-riaa-join-the-petition/
+url: /blog/2006/04/stop-the-riaa-join-the-petition/
 categories:
   - Copyright
   - EFF

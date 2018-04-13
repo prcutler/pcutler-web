@@ -3,7 +3,7 @@ title: Writing Open Source Day 2
 author: Paul Cutler
 type: post
 date: 2009-06-13T20:25:04+00:00
-url: /2009/06/writing-open-source-day-2/
+url: /blog/2009/06/writing-open-source-day-2/
 categories:
   - Documentation
   - GNOME

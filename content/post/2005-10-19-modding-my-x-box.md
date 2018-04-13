@@ -3,7 +3,7 @@ title: Modding my X-box
 author: Paul Cutler
 type: post
 date: 2005-10-20T01:54:44+00:00
-url: /2005/10/modding-my-x-box/
+url: /blog/2005/10/modding-my-x-box/
 categories:
   - Entertainment
   - Hardware

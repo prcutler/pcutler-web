@@ -3,7 +3,7 @@ title: V for Vendetta Delayed
 author: Paul Cutler
 type: post
 date: 2005-08-19T12:52:52+00:00
-url: /2005/08/v-for-vendetta-delayed/
+url: /blog/2005/08/v-for-vendetta-delayed/
 categories:
   - Entertainment
   - Movies

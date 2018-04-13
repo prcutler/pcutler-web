@@ -3,7 +3,7 @@ title: "Viiv won't check for piracy"
 author: Paul Cutler
 type: post
 date: 2006-03-17T14:44:43+00:00
-url: /2006/03/viiv-wont-check-for-piracy/
+url: /blog/2006/03/viiv-wont-check-for-piracy/
 categories:
   - General
 

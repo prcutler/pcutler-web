@@ -3,7 +3,7 @@ title: EFF Interviews
 author: Paul Cutler
 type: post
 date: 2003-07-31T19:34:26+00:00
-url: /2003/07/eff-interviews/
+url: /blog/2003/07/eff-interviews/
 categories:
   - EFF
   - Politics

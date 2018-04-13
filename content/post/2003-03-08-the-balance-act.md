@@ -3,7 +3,7 @@ title: The Balance Act
 author: Paul Cutler
 type: post
 date: 2003-03-08T02:29:08+00:00
-url: /2003/03/the-balance-act/
+url: /blog/2003/03/the-balance-act/
 categories:
   - Politics
   - Technology

@@ -3,7 +3,7 @@ title: Get notified about new releases
 author: Paul Cutler
 type: post
 date: 2010-09-18T20:08:30+00:00
-url: /2010/09/get-notified-about-new-releases/
+url: /blog/2010/09/get-notified-about-new-releases/
 categories:
   - General
 tags:

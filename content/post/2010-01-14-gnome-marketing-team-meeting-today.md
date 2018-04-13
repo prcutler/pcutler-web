@@ -3,7 +3,7 @@ title: GNOME Marketing Team Meeting Today
 author: Paul Cutler
 type: post
 date: 2010-01-14T15:27:06+00:00
-url: /2010/01/gnome-marketing-team-meeting-today/
+url: /blog/2010/01/gnome-marketing-team-meeting-today/
 categories:
   - GNOME
   - Marketing

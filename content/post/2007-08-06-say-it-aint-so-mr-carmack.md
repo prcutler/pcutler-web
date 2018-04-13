@@ -3,7 +3,7 @@ title: "Say it ain't so Mr. Carmack!"
 author: Paul Cutler
 type: post
 date: 2007-08-06T13:12:24+00:00
-url: /2007/08/say-it-aint-so-mr-carmack/
+url: /blog/2007/08/say-it-aint-so-mr-carmack/
 categories:
   - Games
   - PC Games

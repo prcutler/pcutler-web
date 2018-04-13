@@ -3,7 +3,7 @@ title: Duke Nukem In-Development 4ever
 author: Paul Cutler
 type: post
 date: 2004-08-30T13:12:15+00:00
-url: /2004/08/duke-nukem-in-development-4ever/
+url: /blog/2004/08/duke-nukem-in-development-4ever/
 categories:
   - Entertainment
   - PC Games

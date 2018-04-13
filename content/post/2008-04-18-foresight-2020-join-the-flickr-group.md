@@ -3,7 +3,7 @@ title: Foresight 20/20 – Join the Flickr Group!
 author: Paul Cutler
 type: post
 date: 2008-04-18T17:42:39+00:00
-url: /2008/04/foresight-2020-join-the-flickr-group/
+url: /blog/2008/04/foresight-2020-join-the-flickr-group/
 categories:
   - Flickr
   - Foresight

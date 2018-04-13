@@ -3,7 +3,7 @@ title: BFG Gaming Update
 author: Paul Cutler
 type: post
 date: 2004-10-16T23:44:28+00:00
-url: /2004/10/bfg-gaming-update/
+url: /blog/2004/10/bfg-gaming-update/
 categories:
   - Entertainment
   - PC Games

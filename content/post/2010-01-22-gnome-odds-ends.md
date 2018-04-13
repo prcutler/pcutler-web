@@ -3,7 +3,7 @@ title: 'GNOME Odds & Ends'
 author: Paul Cutler
 type: post
 date: 2010-01-22T22:09:54+00:00
-url: /2010/01/gnome-odds-ends/
+url: /blog/2010/01/gnome-odds-ends/
 categories:
   - GNOME
   - Marketing

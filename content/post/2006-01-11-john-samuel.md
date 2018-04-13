@@ -3,7 +3,7 @@ title: John Samuel
 author: Paul Cutler
 type: post
 date: 2006-01-11T14:55:09+00:00
-url: /2006/01/john-samuel/
+url: /blog/2006/01/john-samuel/
 categories:
   - Jack
   - Photography

@@ -3,7 +3,7 @@ title: Taking the plunge
 author: Paul Cutler
 type: post
 date: 2004-10-27T13:46:50+00:00
-url: /2004/10/taking-the-plunge/
+url: /blog/2004/10/taking-the-plunge/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: 'ET: Quake Wars to have Linux Client'
 author: Paul Cutler
 type: post
 date: 2006-02-04T17:49:42+00:00
-url: /2006/02/et-quake-wars-to-have-linux-client/
+url: /blog/2006/02/et-quake-wars-to-have-linux-client/
 categories:
   - Entertainment
   - Games

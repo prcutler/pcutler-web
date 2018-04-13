@@ -3,7 +3,7 @@ title: Turn your laptop into a picture fram
 author: Paul Cutler
 type: post
 date: 2005-06-22T03:15:56+00:00
-url: /2005/06/turn-your-laptop-into-a-picture-fram/
+url: /blog/2005/06/turn-your-laptop-into-a-picture-fram/
 categories:
   - Hardware
   - Technology

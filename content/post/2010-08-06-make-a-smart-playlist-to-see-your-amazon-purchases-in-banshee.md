@@ -3,7 +3,7 @@ title: Make a smart playlist to see your Amazon purchases in Banshee
 author: Paul Cutler
 type: post
 date: 2010-08-06T15:39:49+00:00
-url: /2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/
+url: /blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/
 categories:
   - GNOME
 tags:

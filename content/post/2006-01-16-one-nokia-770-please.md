@@ -3,7 +3,7 @@ title: One Nokia 770, please
 author: Paul Cutler
 type: post
 date: 2006-01-17T04:56:56+00:00
-url: /2006/01/one-nokia-770-please/
+url: /blog/2006/01/one-nokia-770-please/
 categories:
   - Hardware
   - Technology

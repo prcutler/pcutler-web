@@ -3,7 +3,7 @@ title: 32 bit Firefox on 64 bit Foresight
 author: Paul Cutler
 type: post
 date: 2008-02-10T18:14:14+00:00
-url: /2008/02/32-bit-firefox-on-64-bit-foresight/
+url: /blog/2008/02/32-bit-firefox-on-64-bit-foresight/
 categories:
   - Foresight
   - Linux

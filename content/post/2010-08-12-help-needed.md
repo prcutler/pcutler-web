@@ -3,7 +3,7 @@ title: Help Needed
 author: Paul Cutler
 type: post
 date: 2010-08-12T16:55:53+00:00
-url: /2010/08/help-needed/
+url: /blog/2010/08/help-needed/
 categories:
   - GNOME
 

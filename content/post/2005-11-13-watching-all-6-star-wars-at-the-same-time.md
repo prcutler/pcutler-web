@@ -3,7 +3,7 @@ title: Watching all 6 Star Wars (at the same time)
 author: Paul Cutler
 type: post
 date: 2005-11-13T16:35:17+00:00
-url: /2005/11/watching-all-6-star-wars-at-the-same-time/
+url: /blog/2005/11/watching-all-6-star-wars-at-the-same-time/
 categories:
   - Entertainment
   - Movies

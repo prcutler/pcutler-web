@@ -3,7 +3,7 @@ title: A Stormtrooper on Vacation
 author: Paul Cutler
 type: post
 date: 2013-01-08T14:30:55+00:00
-url: /2013/01/a-stormtrooper-on-vacation/
+url: /blog/2013/01/a-stormtrooper-on-vacation/
 categories:
   - Jack
   - Travel

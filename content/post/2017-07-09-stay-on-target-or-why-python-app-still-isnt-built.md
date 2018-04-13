@@ -3,7 +3,7 @@ title: Stay on Target (or why my Python app still isn’t built)
 author: Paul Cutler
 type: post
 date: 2017-07-09T15:17:58+00:00
-url: /2017/07/stay-on-target-or-why-python-app-still-isnt-built/
+url: /blog/2017/07/stay-on-target-or-why-python-app-still-isnt-built/
 featured_image: /wp-content/uploads/2017/07/target.jpg
 categories:
   - Python

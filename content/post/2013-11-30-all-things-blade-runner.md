@@ -3,7 +3,7 @@ title: All Things Blade Runner
 author: Paul Cutler
 type: post
 date: 2013-11-30T13:50:31+00:00
-url: /2013/11/all-things-blade-runner/
+url: /blog/2013/11/all-things-blade-runner/
 categories:
   - Entertainment
   - Movies

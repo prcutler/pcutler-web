@@ -3,7 +3,7 @@ title: WordPress Updated
 author: Paul Cutler
 type: post
 date: 2005-09-23T00:54:29+00:00
-url: /2005/09/wordpress-updated/
+url: /blog/2005/09/wordpress-updated/
 categories:
   - Technology
   - Wordpress

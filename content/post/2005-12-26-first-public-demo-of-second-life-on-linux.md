@@ -3,7 +3,7 @@ title: First Public Demo of Second Life on Linux
 author: Paul Cutler
 type: post
 date: 2005-12-26T22:42:59+00:00
-url: /2005/12/first-public-demo-of-second-life-on-linux/
+url: /blog/2005/12/first-public-demo-of-second-life-on-linux/
 categories:
   - Entertainment
   - Games

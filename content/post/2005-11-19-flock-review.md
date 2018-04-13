@@ -3,7 +3,7 @@ title: Flock Review
 author: Paul Cutler
 type: post
 date: 2005-11-20T00:34:03+00:00
-url: /2005/11/flock-review/
+url: /blog/2005/11/flock-review/
 categories:
   - Technology
   - Websites

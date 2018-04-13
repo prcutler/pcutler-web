@@ -3,7 +3,7 @@ title: Quake Wars gets a release date
 author: Paul Cutler
 type: post
 date: 2007-03-27T13:21:46+00:00
-url: /2007/03/quake-wars-gets-a-release-date/
+url: /blog/2007/03/quake-wars-gets-a-release-date/
 categories:
   - Entertainment
   - Foresight

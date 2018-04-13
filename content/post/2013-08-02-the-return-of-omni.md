@@ -3,7 +3,7 @@ title: The return of OMNI
 author: Paul Cutler
 type: post
 date: 2013-08-02T17:32:55+00:00
-url: /2013/08/the-return-of-omni/
+url: /blog/2013/08/the-return-of-omni/
 featured_image: /wp-content/uploads/2013/08/3862543508_cc6c27d45b_n-125x125.jpg
 categories:
   - Entertainment

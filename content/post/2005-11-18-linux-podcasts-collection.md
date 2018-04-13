@@ -3,7 +3,7 @@ title: Linux Podcasts Collection
 author: Paul Cutler
 type: post
 date: 2005-11-18T20:41:34+00:00
-url: /2005/11/linux-podcasts-collection/
+url: /blog/2005/11/linux-podcasts-collection/
 categories:
   - Linux
   - Technology

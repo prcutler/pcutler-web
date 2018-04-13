@@ -3,7 +3,7 @@ title: I should be packing
 author: Paul Cutler
 type: post
 date: 2009-07-02T04:10:16+00:00
-url: /2009/07/i-should-be-packing/
+url: /blog/2009/07/i-should-be-packing/
 categories:
   - GNOME
 tags:

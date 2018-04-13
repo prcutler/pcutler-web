@@ -3,7 +3,7 @@ title: 'What have I been up to?  Jinzora!'
 author: Paul Cutler
 type: post
 date: 2005-04-17T00:06:50+00:00
-url: /2005/04/what-have-i-been-up-to-jinzora/
+url: /blog/2005/04/what-have-i-been-up-to-jinzora/
 categories:
   - Entertainment
   - Linux

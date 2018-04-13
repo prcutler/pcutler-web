@@ -3,7 +3,7 @@ title: 'Jinzora & Netjuke to merge'
 author: Paul Cutler
 type: post
 date: 2005-04-20T15:47:27+00:00
-url: /2005/04/jinzora-netjuke-to-merge/
+url: /blog/2005/04/jinzora-netjuke-to-merge/
 categories:
   - Entertainment
   - Music

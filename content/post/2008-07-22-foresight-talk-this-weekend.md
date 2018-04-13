@@ -3,7 +3,7 @@ title: Foresight Talk This Weekend
 author: Paul Cutler
 type: post
 date: 2008-07-22T13:29:21+00:00
-url: /2008/07/foresight-talk-this-weekend/
+url: /blog/2008/07/foresight-talk-this-weekend/
 categories:
   - Linux
 tags:

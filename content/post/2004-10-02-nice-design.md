@@ -3,7 +3,7 @@ title: Nice Design
 author: Paul Cutler
 type: post
 date: 2004-10-02T23:16:10+00:00
-url: /2004/10/nice-design/
+url: /blog/2004/10/nice-design/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: Friends of GNOME
 author: Paul Cutler
 type: post
 date: 2009-06-09T17:49:06+00:00
-url: /2009/06/friends-of-gnome/
+url: /blog/2009/06/friends-of-gnome/
 categories:
   - GNOME
 tags:

@@ -3,7 +3,7 @@ title: Google to launch video service Monday
 author: Paul Cutler
 type: post
 date: 2005-06-27T03:04:46+00:00
-url: /2005/06/google-to-launch-video-service-monday/
+url: /blog/2005/06/google-to-launch-video-service-monday/
 categories:
   - Technology
 

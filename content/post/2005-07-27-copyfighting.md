@@ -3,7 +3,7 @@ title: Copyfighting
 author: Paul Cutler
 type: post
 date: 2005-07-27T12:50:01+00:00
-url: /2005/07/copyfighting/
+url: /blog/2005/07/copyfighting/
 categories:
   - Copyright
   - Politics

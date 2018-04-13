@@ -3,7 +3,7 @@ title: 'Matrix: Revolutions'
 author: Paul Cutler
 type: post
 date: 2003-11-10T13:06:12+00:00
-url: /2003/11/matrix-revolutions/
+url: /blog/2003/11/matrix-revolutions/
 categories:
   - Entertainment
   - Movies

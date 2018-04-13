@@ -3,7 +3,7 @@ title: Barcamp Chicago Day 1 Recap
 author: Paul Cutler
 type: post
 date: 2007-06-24T17:51:19+00:00
-url: /2007/06/barcamp-chicago-day-1-recap/
+url: /blog/2007/06/barcamp-chicago-day-1-recap/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: Foresight Website Maintenance
 author: Paul Cutler
 type: post
 date: 2007-10-12T23:40:43+00:00
-url: /2007/10/foresight-website-maintenance/
+url: /blog/2007/10/foresight-website-maintenance/
 categories:
   - Foresight
 

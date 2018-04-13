@@ -3,7 +3,7 @@ title: Help Bryen out
 author: Paul Cutler
 type: post
 date: 2010-10-04T20:23:01+00:00
-url: /2010/10/help-bryen-out/
+url: /blog/2010/10/help-bryen-out/
 categories:
   - GNOME
 

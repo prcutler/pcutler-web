@@ -3,7 +3,7 @@ title: "Weekend O' Fun"
 author: Paul Cutler
 type: post
 date: 2005-12-06T01:09:25+00:00
-url: /2005/12/weekend-o-fun/
+url: /blog/2005/12/weekend-o-fun/
 categories:
   - Entertainment
   - Games

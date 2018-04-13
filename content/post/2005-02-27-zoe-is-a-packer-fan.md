@@ -3,7 +3,7 @@ title: Zoe is a Packer Fan!
 author: Paul Cutler
 type: post
 date: 2005-02-27T16:38:25+00:00
-url: /2005/02/zoe-is-a-packer-fan/
+url: /blog/2005/02/zoe-is-a-packer-fan/
 categories:
   - Photography
   - The Kids

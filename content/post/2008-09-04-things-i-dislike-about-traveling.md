@@ -3,7 +3,7 @@ title: Things I dislike about traveling
 author: Paul Cutler
 type: post
 date: 2008-09-04T18:28:04+00:00
-url: /2008/09/things-i-dislike-about-traveling/
+url: /blog/2008/09/things-i-dislike-about-traveling/
 categories:
   - General
 tags:

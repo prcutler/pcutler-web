@@ -3,7 +3,7 @@ title: MLBPool2 – Letting a Player Change their Picks
 author: Paul Cutler
 type: post
 date: 2018-03-23T16:00:00+00:00
-url: /2018/03/mlbpool2-letting-a-player-change-their-picks/
+url: /blog/2018/03/mlbpool2-letting-a-player-change-their-picks/
 categories:
   - Python
 tags:

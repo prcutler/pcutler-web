@@ -3,7 +3,7 @@ title: Han Solo in Carbonite
 author: Paul Cutler
 type: post
 date: 2005-04-05T17:21:11+00:00
-url: /2005/04/han-solo-in-carbonite/
+url: /blog/2005/04/han-solo-in-carbonite/
 categories:
   - Entertainment
   - Movies

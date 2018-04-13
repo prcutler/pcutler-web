@@ -3,7 +3,7 @@ title: Setting up a Foresight 2 build environment, Part 1
 author: Paul Cutler
 type: post
 date: 2007-12-01T05:04:22+00:00
-url: /2007/12/setting-up-a-foresight-2-build-environment-part-i/
+url: /blog/2007/12/setting-up-a-foresight-2-build-environment-part-i/
 categories:
   - Foresight
 

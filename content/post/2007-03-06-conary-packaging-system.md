@@ -3,7 +3,7 @@ title: Conary Packaging System
 author: Paul Cutler
 type: post
 date: 2007-03-06T14:02:26+00:00
-url: /2007/03/conary-packaging-system/
+url: /blog/2007/03/conary-packaging-system/
 categories:
   - Foresight
   - Linux

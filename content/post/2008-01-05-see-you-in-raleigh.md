@@ -3,7 +3,7 @@ title: See you in Raleigh
 author: Paul Cutler
 type: post
 date: 2008-01-05T23:31:59+00:00
-url: /2008/01/see-you-in-raleigh/
+url: /blog/2008/01/see-you-in-raleigh/
 categories:
   - Foresight
 tags:

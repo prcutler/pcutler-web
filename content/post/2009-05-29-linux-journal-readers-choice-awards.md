@@ -3,7 +3,7 @@ title: "Linux Journal Readers' Choice Awards"
 author: Paul Cutler
 type: post
 date: 2009-05-29T20:46:55+00:00
-url: /2009/05/linux-journal-readers-choice-awards/
+url: /blog/2009/05/linux-journal-readers-choice-awards/
 categories:
   - GNOME
   - Linux

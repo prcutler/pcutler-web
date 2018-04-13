@@ -3,7 +3,7 @@ title: Congratulations Wisconsin Men’s Basketball
 author: Paul Cutler
 type: post
 date: 2014-03-30T14:36:20+00:00
-url: /2014/03/congrats-uwmbb/
+url: /blog/2014/03/congrats-uwmbb/
 featured_image: /wp-content/uploads/2014/03/uw-mbb.jpeg
 full_width_featured_image:
   - 1

@@ -3,7 +3,7 @@ title: "Link O' the Day"
 author: Paul Cutler
 type: post
 date: 2005-11-20T17:57:29+00:00
-url: /2005/11/link-o-the-day/
+url: /blog/2005/11/link-o-the-day/
 categories:
   - Technology
   - Websites

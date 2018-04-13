@@ -3,7 +3,7 @@ title: VHS officially dead
 author: Paul Cutler
 type: post
 date: 2005-06-16T10:52:43+00:00
-url: /2005/06/vhs-officially-dead/
+url: /blog/2005/06/vhs-officially-dead/
 categories:
   - Entertainment
   - Movies

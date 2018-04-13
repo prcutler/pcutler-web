@@ -3,7 +3,7 @@ title: The Needle Doctor is moving
 author: Paul Cutler
 type: post
 date: 2010-09-21T20:35:28+00:00
-url: /2010/09/the-needle-doctor-is-moving/
+url: /blog/2010/09/the-needle-doctor-is-moving/
 categories:
   - Hardware
 

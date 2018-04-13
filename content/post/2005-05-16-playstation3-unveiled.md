@@ -3,7 +3,7 @@ title: Playstation3 Unveiled
 author: Paul Cutler
 type: post
 date: 2005-05-17T02:40:39+00:00
-url: /2005/05/playstation3-unveiled/
+url: /blog/2005/05/playstation3-unveiled/
 categories:
   - Entertainment
   - Games

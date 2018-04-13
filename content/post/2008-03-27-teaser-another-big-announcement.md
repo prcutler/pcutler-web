@@ -3,7 +3,7 @@ title: 'Teaser: Another big announcement'
 author: Paul Cutler
 type: post
 date: 2008-03-27T14:16:56+00:00
-url: /2008/03/teaser-another-big-announcement/
+url: /blog/2008/03/teaser-another-big-announcement/
 categories:
   - Foresight
 

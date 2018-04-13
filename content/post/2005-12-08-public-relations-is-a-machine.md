@@ -3,7 +3,7 @@ title: Public Relations is a machine
 author: Paul Cutler
 type: post
 date: 2005-12-09T03:42:46+00:00
-url: /2005/12/public-relations-is-a-machine/
+url: /blog/2005/12/public-relations-is-a-machine/
 categories:
   - General
 

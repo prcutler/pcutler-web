@@ -3,7 +3,7 @@ title: GNOME Fundraising
 author: Paul Cutler
 type: post
 date: 2010-03-25T15:41:18+00:00
-url: /2010/03/gnome-fundraising/
+url: /blog/2010/03/gnome-fundraising/
 categories:
   - GNOME
 

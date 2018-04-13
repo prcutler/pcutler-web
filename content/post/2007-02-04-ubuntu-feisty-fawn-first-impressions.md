@@ -3,7 +3,7 @@ title: Ubuntu Feisty Fawn First Impressions
 author: Paul Cutler
 type: post
 date: 2007-02-04T17:27:16+00:00
-url: /2007/02/ubuntu-feisty-fawn-first-impressions/
+url: /blog/2007/02/ubuntu-feisty-fawn-first-impressions/
 categories:
   - Linux
   - Technology

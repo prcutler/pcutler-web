@@ -3,7 +3,7 @@ title: SUSE 10 OSS mini-review
 author: Paul Cutler
 type: post
 date: 2005-10-08T15:46:57+00:00
-url: /2005/10/suse-10-oss-mini-review/
+url: /blog/2005/10/suse-10-oss-mini-review/
 categories:
   - Linux
   - Technology

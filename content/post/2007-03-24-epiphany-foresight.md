@@ -3,7 +3,7 @@ title: 'Epiphany & Foresight'
 author: Paul Cutler
 type: post
 date: 2007-03-24T16:08:08+00:00
-url: /2007/03/epiphany-foresight/
+url: /blog/2007/03/epiphany-foresight/
 categories:
   - Foresight
   - GNOME

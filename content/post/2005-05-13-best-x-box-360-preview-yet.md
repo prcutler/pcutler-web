@@ -3,7 +3,7 @@ title: Best X-Box 360 Preview Yet
 author: Paul Cutler
 type: post
 date: 2005-05-13T21:46:07+00:00
-url: /2005/05/best-x-box-360-preview-yet/
+url: /blog/2005/05/best-x-box-360-preview-yet/
 categories:
   - Entertainment
   - Games

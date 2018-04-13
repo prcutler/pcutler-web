@@ -3,7 +3,7 @@ title: Zombies don’t have a chance versus Nature
 author: Paul Cutler
 type: post
 date: 2013-10-22T07:52:16+00:00
-url: /2013/10/zombies-dont-have-a-chance-versus-nature/
+url: /blog/2013/10/zombies-dont-have-a-chance-versus-nature/
 categories:
   - General
 tags:

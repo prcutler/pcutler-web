@@ -3,7 +3,7 @@ title: DRM drains your battery
 author: Paul Cutler
 type: post
 date: 2006-03-17T14:33:52+00:00
-url: /2006/03/drm-drains-your-batter/
+url: /blog/2006/03/drm-drains-your-batter/
 categories:
   - Hardware
   - Technology

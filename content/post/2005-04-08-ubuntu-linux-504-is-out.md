@@ -3,7 +3,7 @@ title: Ubuntu Linux 5.04 is out!
 author: Paul Cutler
 type: post
 date: 2005-04-08T12:39:56+00:00
-url: /2005/04/ubuntu-linux-504-is-out/
+url: /blog/2005/04/ubuntu-linux-504-is-out/
 categories:
   - Linux
   - Technology

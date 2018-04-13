@@ -3,7 +3,7 @@ title: Save Betamax – National Call-In Day September 14
 author: Paul Cutler
 type: post
 date: 2004-09-13T03:09:15+00:00
-url: /2004/09/save-betamax-national-call-in-day-september-14/
+url: /blog/2004/09/save-betamax-national-call-in-day-september-14/
 categories:
   - Politics
   - Technology

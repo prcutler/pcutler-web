@@ -3,7 +3,7 @@ title: Wikis as Websites
 author: Paul Cutler
 type: post
 date: 2005-11-23T14:59:15+00:00
-url: /2005/11/wikis-as-websites/
+url: /blog/2005/11/wikis-as-websites/
 categories:
   - Technology
   - Websites

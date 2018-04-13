@@ -3,7 +3,7 @@ title: GNOME Boston Summit 2010 kicks off
 author: Paul Cutler
 type: post
 date: 2010-11-06T15:49:30+00:00
-url: /2010/11/gnome-boston-summit-2010-kicks-off/
+url: /blog/2010/11/gnome-boston-summit-2010-kicks-off/
 categories:
   - GNOME
 tags:

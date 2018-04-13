@@ -3,7 +3,7 @@ title: GNOME Developers – We need your help!
 author: Paul Cutler
 type: post
 date: 2010-05-04T16:04:53+00:00
-url: /2010/05/gnome-developers-we-need-your-help/
+url: /blog/2010/05/gnome-developers-we-need-your-help/
 categories:
   - GNOME
 tags:

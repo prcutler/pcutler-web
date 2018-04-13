@@ -3,7 +3,7 @@ title: NFLPool 0.1 milestone completed
 author: Paul Cutler
 type: post
 date: 2017-03-07T02:05:08+00:00
-url: /2017/03/nflpool-0-1-milestone-completed/
+url: /blog/2017/03/nflpool-0-1-milestone-completed/
 categories:
   - Python
 tags:

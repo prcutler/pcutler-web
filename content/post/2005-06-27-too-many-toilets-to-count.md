@@ -3,7 +3,7 @@ title: Too many toilets to count
 author: Paul Cutler
 type: post
 date: 2005-06-27T12:50:50+00:00
-url: /2005/06/too-many-toilets-to-count/
+url: /blog/2005/06/too-many-toilets-to-count/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: Reamspire
 author: Paul Cutler
 type: post
 date: 2005-09-03T14:05:51+00:00
-url: /2005/09/reamspire/
+url: /blog/2005/09/reamspire/
 categories:
   - Linux
   - Technology

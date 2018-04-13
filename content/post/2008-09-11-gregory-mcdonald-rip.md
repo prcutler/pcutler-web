@@ -3,7 +3,7 @@ title: Gregory Mcdonald, RIP
 author: Paul Cutler
 type: post
 date: 2008-09-11T13:18:32+00:00
-url: /2008/09/gregory-mcdonald-rip/
+url: /blog/2008/09/gregory-mcdonald-rip/
 categories:
   - Books
 tags:

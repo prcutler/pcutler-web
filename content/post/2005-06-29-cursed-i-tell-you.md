@@ -3,7 +3,7 @@ title: Cursed, I tell you
 author: Paul Cutler
 type: post
 date: 2005-06-30T00:50:34+00:00
-url: /2005/06/cursed-i-tell-you/
+url: /blog/2005/06/cursed-i-tell-you/
 categories:
   - Hardware
   - Technology

@@ -3,7 +3,7 @@ title: Rolling Stone’s 25 best record stores
 author: Paul Cutler
 type: post
 date: 2010-09-16T21:39:08+00:00
-url: /2010/09/rolling-stones-25-best-record-stores/
+url: /blog/2010/09/rolling-stones-25-best-record-stores/
 categories:
   - New
   - Used

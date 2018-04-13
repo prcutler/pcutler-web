@@ -3,7 +3,7 @@ title: Banshee Alpha
 author: Paul Cutler
 type: post
 date: 2008-03-09T01:41:00+00:00
-url: /2008/03/banshee-alpha/
+url: /blog/2008/03/banshee-alpha/
 categories:
   - Foresight
   - Linux

@@ -3,7 +3,7 @@ title: Alan Moore interview
 author: Paul Cutler
 type: post
 date: 2006-03-17T14:39:14+00:00
-url: /2006/03/alan-moore-interview/
+url: /blog/2006/03/alan-moore-interview/
 categories:
   - Books
   - Entertainment

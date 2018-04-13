@@ -3,7 +3,7 @@ title: Foresight Linux
 author: Paul Cutler
 type: post
 date: 2007-03-02T03:20:13+00:00
-url: /2007/03/foresight-linux/
+url: /blog/2007/03/foresight-linux/
 categories:
   - Linux
   - Technology

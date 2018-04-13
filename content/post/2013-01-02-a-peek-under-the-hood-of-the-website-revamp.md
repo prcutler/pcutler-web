@@ -3,7 +3,7 @@ title: A peek under the hood of the website revamp
 author: Paul Cutler
 type: post
 date: 2013-01-02T15:48:44+00:00
-url: /2013/01/a-peek-under-the-hood-of-the-website-revamp/
+url: /blog/2013/01/a-peek-under-the-hood-of-the-website-revamp/
 categories:
   - Websites
   - Wordpress

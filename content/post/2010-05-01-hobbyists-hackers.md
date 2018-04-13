@@ -3,7 +3,7 @@ title: 'Hobbyists & Hackers'
 author: Paul Cutler
 type: post
 date: 2010-05-01T15:54:42+00:00
-url: /2010/05/hobbyists-hackers/
+url: /blog/2010/05/hobbyists-hackers/
 categories:
   - GNOME
   - Linux

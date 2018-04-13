@@ -3,7 +3,7 @@ title: Happy Halloween!
 author: Paul Cutler
 type: post
 date: 2003-10-31T17:43:57+00:00
-url: /2003/10/happy-halloween/
+url: /blog/2003/10/happy-halloween/
 categories:
   - General
   - Politics

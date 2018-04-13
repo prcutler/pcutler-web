@@ -3,7 +3,7 @@ title: 'Taking Snowy for a Walk #4 – Meet the Cavalier King Charles Spaniel'
 author: Paul Cutler
 type: post
 date: 2010-10-20T19:37:41+00:00
-url: /2010/10/taking-snowy-for-a-walk-4-meet-the-cavalier-king-charles-spaniel/
+url: /blog/2010/10/taking-snowy-for-a-walk-4-meet-the-cavalier-king-charles-spaniel/
 categories:
   - GNOME
 tags:

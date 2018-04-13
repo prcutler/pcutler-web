@@ -3,7 +3,7 @@ title: iRiver H10 on Ubuntu Linux Howto
 author: Paul Cutler
 type: post
 date: 2006-01-26T04:23:33+00:00
-url: /2006/01/iriver-h10-on-ubuntu-linux-howto/
+url: /blog/2006/01/iriver-h10-on-ubuntu-linux-howto/
 categories:
   - Hardware
   - Linux

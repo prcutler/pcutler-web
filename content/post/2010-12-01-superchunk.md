@@ -3,7 +3,7 @@ title: Superchunk
 author: Paul Cutler
 type: post
 date: 2010-12-02T03:41:43+00:00
-url: /2010/12/superchunk/
+url: /blog/2010/12/superchunk/
 categories:
   - Digital
 tags:

@@ -3,7 +3,7 @@ title: 'Foresight 20/20 Recap:  Re-organizing the wiki'
 author: Paul Cutler
 type: post
 date: 2008-04-23T18:03:32+00:00
-url: /2008/04/foresight-2020-recap-re-organizing-the-wiki/
+url: /blog/2008/04/foresight-2020-recap-re-organizing-the-wiki/
 categories:
   - Foresight
 tags:

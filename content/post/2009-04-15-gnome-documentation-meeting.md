@@ -3,7 +3,7 @@ title: GNOME Documentation Meeting
 author: Paul Cutler
 type: post
 date: 2009-04-15T00:53:58+00:00
-url: /2009/04/gnome-documentation-meeting/
+url: /blog/2009/04/gnome-documentation-meeting/
 categories:
   - GNOME
 tags:

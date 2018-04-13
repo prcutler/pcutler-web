@@ -3,7 +3,7 @@ title: Back from Seattle
 author: Paul Cutler
 type: post
 date: 2005-05-24T12:59:00+00:00
-url: /2005/05/back-from-seattle/
+url: /blog/2005/05/back-from-seattle/
 categories:
   - General
 

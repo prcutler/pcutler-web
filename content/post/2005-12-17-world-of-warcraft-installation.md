@@ -3,7 +3,7 @@ title: World of Warcraft Installation
 author: Paul Cutler
 type: post
 date: 2005-12-17T17:10:04+00:00
-url: /2005/12/world-of-warcraft-installation/
+url: /blog/2005/12/world-of-warcraft-installation/
 categories:
   - General
 

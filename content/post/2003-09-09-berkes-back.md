@@ -3,7 +3,7 @@ title: "Berke's Back!"
 author: Paul Cutler
 type: post
 date: 2003-09-09T15:34:02+00:00
-url: /2003/09/berkes-back/
+url: /blog/2003/09/berkes-back/
 categories:
   - Entertainment
 

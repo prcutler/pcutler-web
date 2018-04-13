@@ -3,7 +3,7 @@ title: How-to Build a practical PVR / HTPC
 author: Paul Cutler
 type: post
 date: 2006-01-25T16:31:54+00:00
-url: /2006/01/how-to-build-a-practical-pvr-htpc/
+url: /blog/2006/01/how-to-build-a-practical-pvr-htpc/
 categories:
   - Hardware
   - Linux

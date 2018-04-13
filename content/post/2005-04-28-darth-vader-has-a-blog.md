@@ -3,7 +3,7 @@ title: Darth Vader Has a Blog
 author: Paul Cutler
 type: post
 date: 2005-04-28T19:21:45+00:00
-url: /2005/04/darth-vader-has-a-blog/
+url: /blog/2005/04/darth-vader-has-a-blog/
 categories:
   - Entertainment
   - Humor

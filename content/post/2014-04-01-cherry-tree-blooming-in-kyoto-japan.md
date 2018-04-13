@@ -3,7 +3,7 @@ title: Cherry Tree Blooming in Kyoto, Japan
 author: Paul Cutler
 type: post
 date: 2014-04-01T13:15:02+00:00
-url: /2014/04/cherry-tree-blooming-in-kyoto-japan/
+url: /blog/2014/04/cherry-tree-blooming-in-kyoto-japan/
 categories:
   - Flickr
   - General

@@ -3,7 +3,7 @@ title: The Future of Gnome
 author: Paul Cutler
 type: post
 date: 2005-05-13T13:52:04+00:00
-url: /2005/05/the-future-of-gnome/
+url: /blog/2005/05/the-future-of-gnome/
 categories:
   - Linux
   - Technology

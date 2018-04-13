@@ -3,7 +3,7 @@ title: Real Life Counter-Strike
 author: Paul Cutler
 type: post
 date: 2005-06-12T03:51:32+00:00
-url: /2005/06/real-life-counter-strike/
+url: /blog/2005/06/real-life-counter-strike/
 categories:
   - Entertainment
   - Games

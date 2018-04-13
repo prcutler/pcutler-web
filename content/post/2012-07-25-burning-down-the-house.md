@@ -3,7 +3,7 @@ title: Burning Down the House
 author: Paul Cutler
 type: post
 date: 2012-07-25T11:00:12+00:00
-url: /2012/07/burning-down-the-house/
+url: /blog/2012/07/burning-down-the-house/
 categories:
   - Music
   - Uncategorized

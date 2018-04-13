@@ -3,7 +3,7 @@ title: In a world with DRM…
 author: Paul Cutler
 type: post
 date: 2006-01-25T16:29:19+00:00
-url: /2006/01/in-a-world-with-drm/
+url: /blog/2006/01/in-a-world-with-drm/
 categories:
   - Copyright
   - Technology

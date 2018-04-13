@@ -3,7 +3,7 @@ title: Jenny is a gamer
 author: Paul Cutler
 type: post
 date: 2005-10-15T19:02:24+00:00
-url: /2005/10/jenny-is-a-gamer/
+url: /blog/2005/10/jenny-is-a-gamer/
 categories:
   - Entertainment
   - Games

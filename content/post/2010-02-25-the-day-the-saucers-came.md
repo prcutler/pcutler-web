@@ -3,7 +3,7 @@ title: The Day the Saucers Came
 author: Paul Cutler
 type: post
 date: 2010-02-25T23:38:30+00:00
-url: /2010/02/the-day-the-saucers-came/
+url: /blog/2010/02/the-day-the-saucers-came/
 categories:
   - General
 

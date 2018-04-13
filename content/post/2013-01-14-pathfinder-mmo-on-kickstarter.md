@@ -3,7 +3,7 @@ title: Pathfinder MMO on Kickstarter
 author: Paul Cutler
 type: post
 date: 2013-01-14T16:35:59+00:00
-url: /2013/01/pathfinder-mmo-on-kickstarter/
+url: /blog/2013/01/pathfinder-mmo-on-kickstarter/
 categories:
   - Games
   - The Kids

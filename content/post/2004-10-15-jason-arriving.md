@@ -3,7 +3,7 @@ title: Jason arriving
 author: Paul Cutler
 type: post
 date: 2004-10-15T22:34:11+00:00
-url: /2004/10/jason-arriving/
+url: /blog/2004/10/jason-arriving/
 categories:
   - General
 

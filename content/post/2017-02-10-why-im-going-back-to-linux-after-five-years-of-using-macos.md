@@ -3,7 +3,7 @@ title: Why I’m going back to Linux after five years of using macOS
 author: Paul Cutler
 type: post
 date: 2017-02-10T15:58:27+00:00
-url: /2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/
+url: /blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/
 featured_image: /wp-content/uploads/2017/02/2017-02-10-08.14.03.jpg
 categories:
   - Apple

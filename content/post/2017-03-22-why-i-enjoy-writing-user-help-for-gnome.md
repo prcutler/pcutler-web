@@ -3,7 +3,7 @@ title: Why I enjoy writing user help for GNOME
 author: Paul Cutler
 type: post
 date: 2017-03-22T13:23:06+00:00
-url: /2017/03/why-i-enjoy-writing-user-help-for-gnome/
+url: /blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/
 categories:
   - Documentation
   - GNOME

@@ -3,7 +3,7 @@ title: The Angry Liberal Club
 author: Paul Cutler
 type: post
 date: 2006-05-11T15:12:15+00:00
-url: /2006/05/the-angry-liberal-club/
+url: /blog/2006/05/the-angry-liberal-club/
 categories:
   - Politics
 

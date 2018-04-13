@@ -3,7 +3,7 @@ title: "Support Bloggers' Rights"
 author: Paul Cutler
 type: post
 date: 2005-11-16T18:14:43+00:00
-url: /2005/11/support-bloggers-rights/
+url: /blog/2005/11/support-bloggers-rights/
 categories:
   - EFF
 

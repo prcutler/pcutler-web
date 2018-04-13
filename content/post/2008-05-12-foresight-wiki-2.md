@@ -3,7 +3,7 @@ title: Foresight Wiki
 author: Paul Cutler
 type: post
 date: 2008-05-12T16:54:53+00:00
-url: /2008/05/foresight-wiki-2/
+url: /blog/2008/05/foresight-wiki-2/
 categories:
   - Foresight
 tags:

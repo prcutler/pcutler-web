@@ -3,7 +3,7 @@ title: "Someday I'll buy one of these"
 author: Paul Cutler
 type: post
 date: 2003-10-27T22:14:21+00:00
-url: /2003/10/someday-ill-buy-one-of-these/
+url: /blog/2003/10/someday-ill-buy-one-of-these/
 categories:
   - Technology
 

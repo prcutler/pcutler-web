@@ -3,7 +3,7 @@ title: Coupling – The Good and Bad
 author: Paul Cutler
 type: post
 date: 2003-11-04T16:37:51+00:00
-url: /2003/11/coupling-the-good-and-bad/
+url: /blog/2003/11/coupling-the-good-and-bad/
 categories:
   - Entertainment
   - TV

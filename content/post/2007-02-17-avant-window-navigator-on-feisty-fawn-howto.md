@@ -3,7 +3,7 @@ title: Avant Window Navigator on Feisty Fawn Howto
 author: Paul Cutler
 type: post
 date: 2007-02-17T17:53:56+00:00
-url: /2007/02/avant-window-navigator-on-feisty-fawn-howto/
+url: /blog/2007/02/avant-window-navigator-on-feisty-fawn-howto/
 categories:
   - Linux
   - Technology

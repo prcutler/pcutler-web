@@ -3,7 +3,7 @@ title: That feeling of dread
 author: Paul Cutler
 type: post
 date: 2007-09-07T01:13:29+00:00
-url: /2007/09/that-feeling-of-dread/
+url: /blog/2007/09/that-feeling-of-dread/
 categories:
   - Hardware
   - Technology

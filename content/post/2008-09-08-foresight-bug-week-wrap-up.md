@@ -3,7 +3,7 @@ title: Foresight Bug Week Wrap-Up
 author: Paul Cutler
 type: post
 date: 2008-09-08T18:37:09+00:00
-url: /2008/09/foresight-bug-week-wrap-up/
+url: /blog/2008/09/foresight-bug-week-wrap-up/
 categories:
   - Foresight
 tags:

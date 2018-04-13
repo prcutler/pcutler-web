@@ -3,7 +3,7 @@ title: Wireless Freedom
 author: Paul Cutler
 type: post
 date: 2005-10-10T01:46:32+00:00
-url: /2005/10/wireless-freedom/
+url: /blog/2005/10/wireless-freedom/
 categories:
   - Linux
   - Technology

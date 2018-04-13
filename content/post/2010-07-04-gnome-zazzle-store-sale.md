@@ -3,7 +3,7 @@ title: GNOME Zazzle Store Sale
 author: Paul Cutler
 type: post
 date: 2010-07-05T00:05:28+00:00
-url: /2010/07/gnome-zazzle-store-sale/
+url: /blog/2010/07/gnome-zazzle-store-sale/
 categories:
   - GNOME
 tags:

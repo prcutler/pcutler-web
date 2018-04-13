@@ -3,7 +3,7 @@ title: Great gaming writing
 author: Paul Cutler
 type: post
 date: 2005-07-26T02:39:49+00:00
-url: /2005/07/great-gaming-writing/
+url: /blog/2005/07/great-gaming-writing/
 categories:
   - Entertainment
   - Games

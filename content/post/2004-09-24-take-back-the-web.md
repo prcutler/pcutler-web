@@ -3,7 +3,7 @@ title: Take back the web!
 author: Paul Cutler
 type: post
 date: 2004-09-24T15:23:14+00:00
-url: /2004/09/take-back-the-web/
+url: /blog/2004/09/take-back-the-web/
 categories:
   - Linux
   - Microsoft

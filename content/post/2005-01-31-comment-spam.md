@@ -3,7 +3,7 @@ title: Comment Spam
 author: Paul Cutler
 type: post
 date: 2005-02-01T02:17:46+00:00
-url: /2005/01/comment-spam/
+url: /blog/2005/01/comment-spam/
 categories:
   - Technology
   - Wordpress

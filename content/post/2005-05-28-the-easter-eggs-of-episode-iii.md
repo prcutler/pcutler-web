@@ -3,7 +3,7 @@ title: The Easter Eggs of Episode III
 author: Paul Cutler
 type: post
 date: 2005-05-28T13:39:28+00:00
-url: /2005/05/the-easter-eggs-of-episode-iii/
+url: /blog/2005/05/the-easter-eggs-of-episode-iii/
 categories:
   - Entertainment
   - Movies

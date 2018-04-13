@@ -3,7 +3,7 @@ title: I Steal Television Because I Have To
 author: Paul Cutler
 type: post
 date: 2006-04-14T10:41:42+00:00
-url: /2006/04/i-steal-television-because-i-have-to/
+url: /blog/2006/04/i-steal-television-because-i-have-to/
 categories:
   - Entertainment
   - TV

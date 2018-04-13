@@ -3,7 +3,7 @@ title: Paper Sushi
 author: Paul Cutler
 type: post
 date: 2005-02-03T14:34:34+00:00
-url: /2005/02/paper-sushi/
+url: /blog/2005/02/paper-sushi/
 categories:
   - Entertainment
   - Technology

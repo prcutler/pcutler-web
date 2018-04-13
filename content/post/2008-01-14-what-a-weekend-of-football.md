@@ -3,7 +3,7 @@ title: What a weekend of football
 author: Paul Cutler
 type: post
 date: 2008-01-14T01:41:37+00:00
-url: /2008/01/what-a-weekend-of-football/
+url: /blog/2008/01/what-a-weekend-of-football/
 categories:
   - Football
   - Packers

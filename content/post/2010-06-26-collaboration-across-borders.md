@@ -3,7 +3,7 @@ title: Collaboration Across Borders
 author: Paul Cutler
 type: post
 date: 2010-06-26T12:00:51+00:00
-url: /2010/06/collaboration-across-borders/
+url: /blog/2010/06/collaboration-across-borders/
 categories:
   - GNOME
   - Linux

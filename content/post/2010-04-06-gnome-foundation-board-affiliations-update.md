@@ -3,7 +3,7 @@ title: GNOME Foundation Board Affiliations Update
 author: Paul Cutler
 type: post
 date: 2010-04-06T13:20:38+00:00
-url: /2010/04/gnome-foundation-board-affiliations-update/
+url: /blog/2010/04/gnome-foundation-board-affiliations-update/
 categories:
   - GNOME
 

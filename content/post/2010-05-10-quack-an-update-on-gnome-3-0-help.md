@@ -3,7 +3,7 @@ title: Quack – An update on GNOME 3.0 Help
 author: Paul Cutler
 type: post
 date: 2010-05-11T01:59:11+00:00
-url: /2010/05/quack-an-update-on-gnome-3-0-help/
+url: /blog/2010/05/quack-an-update-on-gnome-3-0-help/
 categories:
   - Documentation
   - GNOME

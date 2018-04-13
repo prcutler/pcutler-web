@@ -3,7 +3,7 @@ title: 2009 GNOME Annual Report is out!
 author: Paul Cutler
 type: post
 date: 2010-12-13T19:57:27+00:00
-url: /2010/12/2009-gnome-annual-report-is-out/
+url: /blog/2010/12/2009-gnome-annual-report-is-out/
 categories:
   - GNOME
 tags:

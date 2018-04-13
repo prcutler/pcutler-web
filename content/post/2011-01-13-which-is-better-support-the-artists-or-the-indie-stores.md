@@ -3,7 +3,7 @@ title: Which is better – support the artists or the indie stores?
 author: Paul Cutler
 type: post
 date: 2011-01-13T17:10:48+00:00
-url: /2011/01/which-is-better-support-the-artists-or-the-indie-stores/
+url: /blog/2011/01/which-is-better-support-the-artists-or-the-indie-stores/
 categories:
   - Stores
 

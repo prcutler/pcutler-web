@@ -3,7 +3,7 @@ title: "Writing GNOME Docs, Part III (Let's write some code!)"
 author: Paul Cutler
 type: post
 date: 2009-03-28T01:44:34+00:00
-url: /2009/03/write-gnome-docs-part-iii-lets-write-some-code/
+url: /blog/2009/03/write-gnome-docs-part-iii-lets-write-some-code/
 categories:
   - GNOME
   - Linux

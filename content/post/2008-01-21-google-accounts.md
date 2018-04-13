@@ -3,7 +3,7 @@ title: Google Accounts
 author: Paul Cutler
 type: post
 date: 2008-01-21T15:56:27+00:00
-url: /2008/01/google-accounts/
+url: /blog/2008/01/google-accounts/
 categories:
   - Technology
 tags:

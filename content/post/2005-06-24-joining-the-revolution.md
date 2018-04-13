@@ -3,7 +3,7 @@ title: Joining the revolution
 author: Paul Cutler
 type: post
 date: 2005-06-24T16:49:11+00:00
-url: /2005/06/joining-the-revolution/
+url: /blog/2005/06/joining-the-revolution/
 categories:
   - Entertainment
   - Linux

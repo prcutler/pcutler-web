@@ -3,7 +3,7 @@ title: Happy 8th Birthday 89.3 The Current!
 author: Paul Cutler
 type: post
 date: 2013-01-20T17:54:04+00:00
-url: /2013/01/happy-8th-birthday-89-3-the-current/
+url: /blog/2013/01/happy-8th-birthday-89-3-the-current/
 categories:
   - Music
   - Radio

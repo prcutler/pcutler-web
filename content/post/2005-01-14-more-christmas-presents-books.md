@@ -3,7 +3,7 @@ title: 'More Christmas Presents: Books'
 author: Paul Cutler
 type: post
 date: 2005-01-15T03:22:35+00:00
-url: /2005/01/more-christmas-presents-books/
+url: /blog/2005/01/more-christmas-presents-books/
 categories:
   - Books
   - Entertainment

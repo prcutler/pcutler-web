@@ -3,7 +3,7 @@ title: Neil Gaiman introduces his first game, Wayward Manor
 author: Paul Cutler
 type: post
 date: 2013-07-26T13:48:04+00:00
-url: /2013/07/neil-gaiman-introduces-his-first-game-wayward-manor/
+url: /blog/2013/07/neil-gaiman-introduces-his-first-game-wayward-manor/
 categories:
   - Games
 tags:

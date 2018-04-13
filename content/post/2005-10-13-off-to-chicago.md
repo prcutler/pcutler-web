@@ -3,7 +3,7 @@ title: Off to Chicago
 author: Paul Cutler
 type: post
 date: 2005-10-13T14:37:52+00:00
-url: /2005/10/off-to-chicago/
+url: /blog/2005/10/off-to-chicago/
 categories:
   - Entertainment
   - Games

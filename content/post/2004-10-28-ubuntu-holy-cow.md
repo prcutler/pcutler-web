@@ -3,7 +3,7 @@ title: Ubuntu – Holy Cow
 author: Paul Cutler
 type: post
 date: 2004-10-29T01:39:16+00:00
-url: /2004/10/ubuntu-holy-cow/
+url: /blog/2004/10/ubuntu-holy-cow/
 categories:
   - Linux
   - Technology

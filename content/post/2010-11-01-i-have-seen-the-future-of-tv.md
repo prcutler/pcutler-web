@@ -3,7 +3,7 @@ title: I have seen the future of TV
 author: Paul Cutler
 type: post
 date: 2010-11-01T21:17:09+00:00
-url: /2010/11/i-have-seen-the-future-of-tv/
+url: /blog/2010/11/i-have-seen-the-future-of-tv/
 categories:
   - Badgers
   - Football

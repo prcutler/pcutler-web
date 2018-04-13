@@ -3,7 +3,7 @@ title: Foresight KDE Edition
 author: Paul Cutler
 type: post
 date: 2007-11-29T04:12:03+00:00
-url: /2007/11/foresight-kde-edition/
+url: /blog/2007/11/foresight-kde-edition/
 categories:
   - Foresight
   - GNOME

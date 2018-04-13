@@ -3,7 +3,7 @@ title: The Breakfast Club
 author: Paul Cutler
 type: post
 date: 2005-01-26T18:41:35+00:00
-url: /2005/01/the-breakfast-club/
+url: /blog/2005/01/the-breakfast-club/
 categories:
   - Entertainment
   - Movies

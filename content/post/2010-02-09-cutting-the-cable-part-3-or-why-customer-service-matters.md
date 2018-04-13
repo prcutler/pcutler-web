@@ -3,7 +3,7 @@ title: Cutting the Cable, Part 3 (or Why Customer Service Matters)
 author: Paul Cutler
 type: post
 date: 2010-02-09T01:01:45+00:00
-url: /2010/02/cutting-the-cable-part-3-or-why-customer-service-matters/
+url: /blog/2010/02/cutting-the-cable-part-3-or-why-customer-service-matters/
 categories:
   - Entertainment
   - Hardware

@@ -3,7 +3,7 @@ title: The 2nd best Christmas Present I received
 author: Paul Cutler
 type: post
 date: 2005-01-11T13:15:56+00:00
-url: /2005/01/the-2nd-best-christmas-present-i-received/
+url: /blog/2005/01/the-2nd-best-christmas-present-i-received/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: William Gibson gets it
 author: Paul Cutler
 type: post
 date: 2005-07-07T03:06:37+00:00
-url: /2005/07/william-gibson-gets-it/
+url: /blog/2005/07/william-gibson-gets-it/
 categories:
   - Books
   - Copyright

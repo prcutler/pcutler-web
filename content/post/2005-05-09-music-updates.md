@@ -3,7 +3,7 @@ title: Music Updates
 author: Paul Cutler
 type: post
 date: 2005-05-09T12:51:13+00:00
-url: /2005/05/music-updates/
+url: /blog/2005/05/music-updates/
 categories:
   - Entertainment
   - Music

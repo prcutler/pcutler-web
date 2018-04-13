@@ -3,7 +3,7 @@ title: New GNOME Journal, March 4th 2007
 author: Paul Cutler
 type: post
 date: 2007-03-05T13:41:58+00:00
-url: /2007/03/new-gnome-journal-march-4th-2007/
+url: /blog/2007/03/new-gnome-journal-march-4th-2007/
 categories:
   - GNOME
   - Linux

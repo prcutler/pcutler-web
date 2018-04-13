@@ -3,7 +3,7 @@ title: Heard it on the Radio
 author: Paul Cutler
 type: post
 date: 2010-12-10T16:36:23+00:00
-url: /2010/12/heard-it-on-the-radio/
+url: /blog/2010/12/heard-it-on-the-radio/
 categories:
   - Digital
   - Vinyl

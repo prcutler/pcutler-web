@@ -3,7 +3,7 @@ title: Goodbye Billy
 author: Paul Cutler
 type: post
 date: 2005-03-15T14:02:54+00:00
-url: /2005/03/goodbye-billy/
+url: /blog/2005/03/goodbye-billy/
 categories:
   - Entertainment
   - Games

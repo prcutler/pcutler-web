@@ -3,7 +3,7 @@ title: Time Warner vs. Comcast
 author: Paul Cutler
 type: post
 date: 2005-04-23T03:04:55+00:00
-url: /2005/04/time-warner-vs-comcast/
+url: /blog/2005/04/time-warner-vs-comcast/
 categories:
   - Technology
 

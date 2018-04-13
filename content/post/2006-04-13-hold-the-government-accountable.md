@@ -3,7 +3,7 @@ title: Hold the government accountable
 author: Paul Cutler
 type: post
 date: 2006-04-13T14:43:45+00:00
-url: /2006/04/hold-the-government-accountable/
+url: /blog/2006/04/hold-the-government-accountable/
 categories:
   - EFF
   - Technology

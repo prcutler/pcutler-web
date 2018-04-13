@@ -3,7 +3,7 @@ title: 'Taking Snowy for a Walk – Issue 3:  What users want'
 author: Paul Cutler
 type: post
 date: 2010-09-22T14:20:02+00:00
-url: /2010/09/taking-snowy-for-a-walk-issue-3-what-users-want/
+url: /blog/2010/09/taking-snowy-for-a-walk-issue-3-what-users-want/
 categories:
   - GNOME
   - Linux

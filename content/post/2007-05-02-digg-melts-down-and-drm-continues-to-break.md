@@ -3,7 +3,7 @@ title: Digg Melts Down (and DRM continues to break)
 author: Paul Cutler
 type: post
 date: 2007-05-02T12:38:15+00:00
-url: /2007/05/digg-melts-down-and-drm-continues-to-break/
+url: /blog/2007/05/digg-melts-down-and-drm-continues-to-break/
 categories:
   - Copyright
   - EFF

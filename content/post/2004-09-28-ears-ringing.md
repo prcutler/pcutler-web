@@ -3,7 +3,7 @@ title: Ears Ringing
 author: Paul Cutler
 type: post
 date: 2004-09-29T03:33:11+00:00
-url: /2004/09/ears-ringing/
+url: /blog/2004/09/ears-ringing/
 categories:
   - Entertainment
   - Music

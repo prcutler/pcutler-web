@@ -3,7 +3,7 @@ title: GNOME Do Final Project Report
 author: Paul Cutler
 type: post
 date: 2008-04-18T21:29:34+00:00
-url: /2008/04/gnome-do-final-project-report/
+url: /blog/2008/04/gnome-do-final-project-report/
 categories:
   - Foresight
   - Linux

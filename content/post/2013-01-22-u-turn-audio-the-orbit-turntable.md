@@ -3,7 +3,7 @@ title: U-Turn Audio – The Orbit Turntable
 author: Paul Cutler
 type: post
 date: 2013-01-22T16:45:24+00:00
-url: /2013/01/u-turn-audio-the-orbit-turntable/
+url: /blog/2013/01/u-turn-audio-the-orbit-turntable/
 categories:
   - Music
 tags:

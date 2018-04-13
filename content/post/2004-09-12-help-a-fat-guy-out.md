@@ -3,7 +3,7 @@ title: Help a Fat Guy Out!
 author: Paul Cutler
 type: post
 date: 2004-09-12T19:17:18+00:00
-url: /2004/09/help-a-fat-guy-out/
+url: /blog/2004/09/help-a-fat-guy-out/
 categories:
   - Entertainment
   - Movies

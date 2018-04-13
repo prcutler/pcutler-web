@@ -3,7 +3,7 @@ title: OS Installation Master
 author: Paul Cutler
 type: post
 date: 2006-01-23T04:58:13+00:00
-url: /2006/01/os-installation-master/
+url: /blog/2006/01/os-installation-master/
 categories:
   - Linux
   - Technology

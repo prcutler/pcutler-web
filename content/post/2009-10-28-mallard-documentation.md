@@ -3,7 +3,7 @@ title: Mallard Documentation
 author: Paul Cutler
 type: post
 date: 2009-10-28T13:40:18+00:00
-url: /2009/10/mallard-documentation/
+url: /blog/2009/10/mallard-documentation/
 categories:
   - Documentation
   - GNOME

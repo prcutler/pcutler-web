@@ -3,7 +3,7 @@ title: GNOME Sysadmin team update
 author: Paul Cutler
 type: post
 date: 2010-02-13T03:32:34+00:00
-url: /2010/02/gnome-sysadmin-team-update/
+url: /blog/2010/02/gnome-sysadmin-team-update/
 categories:
   - GNOME
 tags:

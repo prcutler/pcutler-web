@@ -3,7 +3,7 @@ title: World On Fire
 author: Paul Cutler
 type: post
 date: 2004-09-17T02:45:23+00:00
-url: /2004/09/world-on-fire/
+url: /blog/2004/09/world-on-fire/
 categories:
   - Entertainment
   - Music

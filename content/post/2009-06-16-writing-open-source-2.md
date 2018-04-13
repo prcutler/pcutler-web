@@ -3,7 +3,7 @@ title: Writing Open Source
 author: Paul Cutler
 type: post
 date: 2009-06-16T17:50:10+00:00
-url: /2009/06/writing-open-source-2/
+url: /blog/2009/06/writing-open-source-2/
 categories:
   - Documentation
   - GNOME

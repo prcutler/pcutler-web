@@ -3,7 +3,7 @@ title: I love the Simpsons
 author: Paul Cutler
 type: post
 date: 2005-02-21T15:20:36+00:00
-url: /2005/02/i-love-the-simpsons/
+url: /blog/2005/02/i-love-the-simpsons/
 categories:
   - Entertainment
   - TV

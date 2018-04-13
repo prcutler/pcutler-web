@@ -3,7 +3,7 @@ title: Get Smart About Football
 author: Paul Cutler
 type: post
 date: 2013-01-12T22:16:18+00:00
-url: /2013/01/get-smart-about-football/
+url: /blog/2013/01/get-smart-about-football/
 categories:
   - Football
 tags:

@@ -3,7 +3,7 @@ title: Missing features in MS WindowsXP 64-bit
 author: Paul Cutler
 type: post
 date: 2003-08-10T16:19:54+00:00
-url: /2003/08/missing-features-in-ms-windowsxp-64-bit/
+url: /blog/2003/08/missing-features-in-ms-windowsxp-64-bit/
 categories:
   - Microsoft
   - Technology

@@ -3,7 +3,7 @@ title: Required Reading
 author: Paul Cutler
 type: post
 date: 2005-06-19T01:45:06+00:00
-url: /2005/06/required-reading/
+url: /blog/2005/06/required-reading/
 categories:
   - Books
   - Entertainment

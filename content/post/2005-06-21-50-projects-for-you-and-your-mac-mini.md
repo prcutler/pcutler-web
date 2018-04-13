@@ -3,7 +3,7 @@ title: 50 Projects for you and your Mac Mini
 author: Paul Cutler
 type: post
 date: 2005-06-21T10:49:06+00:00
-url: /2005/06/50-projects-for-you-and-your-mac-mini/
+url: /blog/2005/06/50-projects-for-you-and-your-mac-mini/
 categories:
   - Apple
   - Technology

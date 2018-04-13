@@ -3,7 +3,7 @@ title: Off to Lambeau
 author: Paul Cutler
 type: post
 date: 2005-12-11T16:30:23+00:00
-url: /2005/12/off-to-lambeau/
+url: /blog/2005/12/off-to-lambeau/
 categories:
   - Football
   - Packers

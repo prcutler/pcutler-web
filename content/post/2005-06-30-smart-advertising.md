@@ -3,7 +3,7 @@ title: Smart Advertising
 author: Paul Cutler
 type: post
 date: 2005-06-30T18:55:09+00:00
-url: /2005/06/smart-advertising/
+url: /blog/2005/06/smart-advertising/
 categories:
   - Humor
 

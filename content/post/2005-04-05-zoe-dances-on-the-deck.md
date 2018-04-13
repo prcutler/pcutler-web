@@ -3,7 +3,7 @@ title: Zoe Dances on the Deck
 author: Paul Cutler
 type: post
 date: 2005-04-05T22:27:24+00:00
-url: /2005/04/zoe-dances-on-the-deck/
+url: /blog/2005/04/zoe-dances-on-the-deck/
 categories:
   - Alex
   - Photography

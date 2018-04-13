@@ -3,7 +3,7 @@ title: "Microsoft's Linux patent deals"
 author: Paul Cutler
 type: post
 date: 2007-06-20T14:57:18+00:00
-url: /2007/06/microsofts-linux-patent-deals/
+url: /blog/2007/06/microsofts-linux-patent-deals/
 categories:
   - Linux
   - Microsoft

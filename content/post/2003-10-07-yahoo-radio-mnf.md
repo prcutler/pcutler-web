@@ -3,7 +3,7 @@ title: 'Yahoo Radio & MNF'
 author: Paul Cutler
 type: post
 date: 2003-10-07T14:01:50+00:00
-url: /2003/10/yahoo-radio-mnf/
+url: /blog/2003/10/yahoo-radio-mnf/
 categories:
   - Entertainment
   - Football

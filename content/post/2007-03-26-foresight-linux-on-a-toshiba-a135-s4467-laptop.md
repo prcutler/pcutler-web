@@ -3,7 +3,7 @@ title: Foresight Linux on a Toshiba A135-S4467 Laptop
 author: Paul Cutler
 type: post
 date: 2007-03-27T01:36:30+00:00
-url: /2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/
+url: /blog/2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/
 categories:
   - Foresight
   - Linux

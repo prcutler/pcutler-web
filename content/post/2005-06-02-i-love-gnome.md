@@ -3,7 +3,7 @@ title: I love GNOME
 author: Paul Cutler
 type: post
 date: 2005-06-03T03:15:37+00:00
-url: /2005/06/i-love-gnome/
+url: /blog/2005/06/i-love-gnome/
 categories:
   - Linux
   - Technology

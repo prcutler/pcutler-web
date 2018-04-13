@@ -3,7 +3,7 @@ title: OS Installation Headaches
 author: Paul Cutler
 type: post
 date: 2006-01-24T05:16:03+00:00
-url: /2006/01/os-installation-headaches/
+url: /blog/2006/01/os-installation-headaches/
 categories:
   - Hardware
   - Linux

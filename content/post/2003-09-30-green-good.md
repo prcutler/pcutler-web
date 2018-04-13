@@ -3,7 +3,7 @@ title: Green = Good
 author: Paul Cutler
 type: post
 date: 2003-09-30T13:13:08+00:00
-url: /2003/09/green-good/
+url: /blog/2003/09/green-good/
 categories:
   - Badgers
   - Football

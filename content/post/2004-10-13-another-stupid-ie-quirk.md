@@ -3,7 +3,7 @@ title: Another stupid IE quirk
 author: Paul Cutler
 type: post
 date: 2004-10-13T12:47:59+00:00
-url: /2004/10/another-stupid-ie-quirk/
+url: /blog/2004/10/another-stupid-ie-quirk/
 categories:
   - Microsoft
   - Technology

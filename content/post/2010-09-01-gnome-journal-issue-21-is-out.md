@@ -3,7 +3,7 @@ title: GNOME Journal Issue 21 is out!
 author: Paul Cutler
 type: post
 date: 2010-09-01T15:43:43+00:00
-url: /2010/09/gnome-journal-issue-21-is-out/
+url: /blog/2010/09/gnome-journal-issue-21-is-out/
 categories:
   - GNOME
   - GNOME Journal

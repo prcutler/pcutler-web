@@ -3,7 +3,7 @@ title: Nadrinplace.com
 author: Paul Cutler
 type: post
 date: 2007-06-05T01:51:01+00:00
-url: /2007/06/nadrinplacecom/
+url: /blog/2007/06/nadrinplacecom/
 categories:
   - Alex
   - The Kids

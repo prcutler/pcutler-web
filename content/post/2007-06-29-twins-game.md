@@ -3,7 +3,7 @@ title: Twins Game
 author: Paul Cutler
 type: post
 date: 2007-06-30T03:18:21+00:00
-url: /2007/06/twins-game/
+url: /blog/2007/06/twins-game/
 categories:
   - Sports
 

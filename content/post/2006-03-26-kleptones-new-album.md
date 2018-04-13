@@ -3,7 +3,7 @@ title: Kleptones new album!
 author: Paul Cutler
 type: post
 date: 2006-03-26T17:20:27+00:00
-url: /2006/03/kleptones-new-album/
+url: /blog/2006/03/kleptones-new-album/
 categories:
   - Entertainment
   - Music

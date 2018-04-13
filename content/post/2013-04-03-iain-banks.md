@@ -3,7 +3,7 @@ title: Iain Banks
 author: Paul Cutler
 type: post
 date: 2013-04-03T14:07:52+00:00
-url: /2013/04/iain-banks/
+url: /blog/2013/04/iain-banks/
 categories:
   - Books
 tags:

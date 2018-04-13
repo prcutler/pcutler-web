@@ -3,7 +3,7 @@ title: 'GNOME Marketing Hackfest & Chicago GNOME Meetup'
 author: Paul Cutler
 type: post
 date: 2009-11-08T03:18:23+00:00
-url: /2009/11/gnome-marketing-hackfest-chicago-gnome-meetup/
+url: /blog/2009/11/gnome-marketing-hackfest-chicago-gnome-meetup/
 categories:
   - GNOME
   - Marketing

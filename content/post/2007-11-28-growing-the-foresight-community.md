@@ -3,7 +3,7 @@ title: Growing the Foresight Community
 author: Paul Cutler
 type: post
 date: 2007-11-28T17:37:20+00:00
-url: /2007/11/growing-the-foresight-community/
+url: /blog/2007/11/growing-the-foresight-community/
 categories:
   - Foresight
 

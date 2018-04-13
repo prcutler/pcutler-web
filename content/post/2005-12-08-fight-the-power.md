@@ -3,7 +3,7 @@ title: Fight the Power
 author: Paul Cutler
 type: post
 date: 2005-12-09T03:35:06+00:00
-url: /2005/12/fight-the-power/
+url: /blog/2005/12/fight-the-power/
 categories:
   - Politics
 

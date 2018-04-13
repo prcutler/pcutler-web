@@ -3,7 +3,7 @@ title: "Where'd who go?"
 author: Paul Cutler
 type: post
 date: 2007-09-01T04:16:41+00:00
-url: /2007/08/whered-who-go/
+url: /blog/2007/08/whered-who-go/
 categories:
   - Badgers
   - General

@@ -3,7 +3,7 @@ title: Updated, again!
 author: Paul Cutler
 type: post
 date: 2005-02-19T19:44:01+00:00
-url: /2005/02/updated-again/
+url: /blog/2005/02/updated-again/
 categories:
   - General
   - Technology

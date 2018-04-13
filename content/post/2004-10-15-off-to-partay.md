@@ -3,7 +3,7 @@ title: Off to Partay
 author: Paul Cutler
 type: post
 date: 2004-10-15T14:50:44+00:00
-url: /2004/10/off-to-partay/
+url: /blog/2004/10/off-to-partay/
 categories:
   - General
 

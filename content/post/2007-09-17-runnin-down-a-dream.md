@@ -3,7 +3,7 @@ title: "Runnin' down a dream"
 author: Paul Cutler
 type: post
 date: 2007-09-18T02:48:08+00:00
-url: /2007/09/runnin-down-a-dream/
+url: /blog/2007/09/runnin-down-a-dream/
 categories:
   - General
 

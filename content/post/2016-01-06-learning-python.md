@@ -3,7 +3,7 @@ title: Learning Python
 author: Paul Cutler
 type: post
 date: 2016-01-07T00:33:29+00:00
-url: /2016/01/learning-python/
+url: /blog/2016/01/learning-python/
 categories:
   - Python
 

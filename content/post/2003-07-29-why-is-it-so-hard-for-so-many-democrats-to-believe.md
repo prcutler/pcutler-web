@@ -3,7 +3,7 @@ title: Why is it so hard for so many Democrats to believe?
 author: Paul Cutler
 type: post
 date: 2003-07-29T13:46:32+00:00
-url: /2003/07/why-is-it-so-hard-for-so-many-democrats-to-believe/
+url: /blog/2003/07/why-is-it-so-hard-for-so-many-democrats-to-believe/
 categories:
   - Politics
 

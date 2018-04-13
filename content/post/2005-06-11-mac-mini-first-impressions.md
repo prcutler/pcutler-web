@@ -3,7 +3,7 @@ title: Mac Mini First Impressions
 author: Paul Cutler
 type: post
 date: 2005-06-12T00:37:15+00:00
-url: /2005/06/mac-mini-first-impressions/
+url: /blog/2005/06/mac-mini-first-impressions/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: On this Day 10 Years Ago
 author: Paul Cutler
 type: post
 date: 2006-02-09T02:59:49+00:00
-url: /2006/02/on-this-day-10-years-ago/
+url: /blog/2006/02/on-this-day-10-years-ago/
 categories:
   - Technology
 

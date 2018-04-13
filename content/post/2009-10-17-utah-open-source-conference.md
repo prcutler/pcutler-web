@@ -3,7 +3,7 @@ title: Utah Open Source Conference
 author: Paul Cutler
 type: post
 date: 2009-10-17T14:46:32+00:00
-url: /2009/10/utah-open-source-conference/
+url: /blog/2009/10/utah-open-source-conference/
 categories:
   - GNOME
   - Marketing

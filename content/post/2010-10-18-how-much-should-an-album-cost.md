@@ -3,7 +3,7 @@ title: How much should an album cost?
 author: Paul Cutler
 type: post
 date: 2010-10-18T13:27:45+00:00
-url: /2010/10/how-much-should-an-album-cost/
+url: /blog/2010/10/how-much-should-an-album-cost/
 categories:
   - Digital
 

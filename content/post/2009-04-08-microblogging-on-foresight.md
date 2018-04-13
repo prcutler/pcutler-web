@@ -3,7 +3,7 @@ title: Microblogging on Foresight
 author: Paul Cutler
 type: post
 date: 2009-04-08T20:22:34+00:00
-url: /2009/04/microblogging-on-foresight/
+url: /blog/2009/04/microblogging-on-foresight/
 categories:
   - Foresight
 tags:

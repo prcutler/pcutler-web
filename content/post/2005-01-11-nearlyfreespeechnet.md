@@ -3,7 +3,7 @@ title: NearlyFreeSpeech.net
 author: Paul Cutler
 type: post
 date: 2005-01-11T14:14:31+00:00
-url: /2005/01/nearlyfreespeechnet/
+url: /blog/2005/01/nearlyfreespeechnet/
 categories:
   - Technology
 

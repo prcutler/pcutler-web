@@ -3,7 +3,7 @@ title: Kicking off a week about Kickstarter (and how I became a loyal Polyvinyl 
 author: Paul Cutler
 type: post
 date: 2013-03-25T13:46:21+00:00
-url: /2013/03/kicking-off-a-week-about-kickstarter-and-how-i-became-a-loyal-polyvinyl-records-customer/
+url: /blog/2013/03/kicking-off-a-week-about-kickstarter-and-how-i-became-a-loyal-polyvinyl-records-customer/
 categories:
   - CD
   - Music

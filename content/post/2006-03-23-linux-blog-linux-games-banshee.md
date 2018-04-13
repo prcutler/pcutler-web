@@ -3,7 +3,7 @@ title: 'Linux Blog – Linux Games & Banshee'
 author: Paul Cutler
 type: post
 date: 2006-03-23T05:01:12+00:00
-url: /2006/03/linux-blog-linux-games-banshee/
+url: /blog/2006/03/linux-blog-linux-games-banshee/
 categories:
   - Linux
   - Technology

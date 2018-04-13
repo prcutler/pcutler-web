@@ -3,7 +3,7 @@ title: "Gates just doesn't get it."
 author: Paul Cutler
 type: post
 date: 2005-01-14T02:02:48+00:00
-url: /2005/01/gates-just-doesnt-get-it/
+url: /blog/2005/01/gates-just-doesnt-get-it/
 categories:
   - Copyright
   - Microsoft

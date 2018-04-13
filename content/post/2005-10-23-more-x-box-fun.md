@@ -3,7 +3,7 @@ title: More X-Box Fun
 author: Paul Cutler
 type: post
 date: 2005-10-24T00:32:16+00:00
-url: /2005/10/more-x-box-fun/
+url: /blog/2005/10/more-x-box-fun/
 categories:
   - Entertainment
   - Hardware

@@ -3,7 +3,7 @@ title: Distrowatch Weekly (4-2-2007)
 author: Paul Cutler
 type: post
 date: 2007-04-02T13:58:44+00:00
-url: /2007/04/distrowatch-weekly-4-2-2007/
+url: /blog/2007/04/distrowatch-weekly-4-2-2007/
 categories:
   - Foresight
   - Linux

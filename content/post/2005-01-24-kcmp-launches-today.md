@@ -3,7 +3,7 @@ title: KCMP Launches Today!
 author: Paul Cutler
 type: post
 date: 2005-01-24T14:19:23+00:00
-url: /2005/01/kcmp-launches-today/
+url: /blog/2005/01/kcmp-launches-today/
 categories:
   - Entertainment
   - Radio

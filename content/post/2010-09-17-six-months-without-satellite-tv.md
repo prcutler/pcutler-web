@@ -3,7 +3,7 @@ title: Six Months Without Satellite TV
 author: Paul Cutler
 type: post
 date: 2010-09-17T16:08:42+00:00
-url: /2010/09/six-months-without-satellite-tv/
+url: /blog/2010/09/six-months-without-satellite-tv/
 categories:
   - Entertainment
   - Hardware

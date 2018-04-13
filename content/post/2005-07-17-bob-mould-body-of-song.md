@@ -3,7 +3,7 @@ title: 'Bob Mould: Body of Song'
 author: Paul Cutler
 type: post
 date: 2005-07-18T02:22:00+00:00
-url: /2005/07/bob-mould-body-of-song/
+url: /blog/2005/07/bob-mould-body-of-song/
 enclosure:
   - |
     http://www.publicradio.org/tools/media/player/minnesota/radio/the_current/instudio/2005/07/20050705_bob_mould.pls

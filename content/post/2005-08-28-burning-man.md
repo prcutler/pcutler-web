@@ -3,7 +3,7 @@ title: Burning Man
 author: Paul Cutler
 type: post
 date: 2005-08-28T18:36:28+00:00
-url: /2005/08/burning-man/
+url: /blog/2005/08/burning-man/
 categories:
   - Entertainment
 

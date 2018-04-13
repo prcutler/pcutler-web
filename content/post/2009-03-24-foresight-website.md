@@ -3,7 +3,7 @@ title: Foresight Website
 author: Paul Cutler
 type: post
 date: 2009-03-24T15:54:46+00:00
-url: /2009/03/foresight-website/
+url: /blog/2009/03/foresight-website/
 categories:
   - Foresight
 tags:

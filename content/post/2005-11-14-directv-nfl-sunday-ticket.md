@@ -3,7 +3,7 @@ title: DirecTV NFL Sunday Ticket
 author: Paul Cutler
 type: post
 date: 2005-11-14T13:31:02+00:00
-url: /2005/11/directv-nfl-sunday-ticket/
+url: /blog/2005/11/directv-nfl-sunday-ticket/
 categories:
   - Entertainment
   - Football

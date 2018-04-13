@@ -3,7 +3,7 @@ title: 'Where I get stats for MLBPool and NFLPool: MySportsFeeds (and it’s awe
 author: Paul Cutler
 type: post
 date: 2018-03-09T13:24:35+00:00
-url: /2018/03/mysportsfeeds/
+url: /blog/2018/03/mysportsfeeds/
 categories:
   - Python
 tags:

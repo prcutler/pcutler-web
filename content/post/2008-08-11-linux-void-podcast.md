@@ -3,7 +3,7 @@ title: Linux Void Podcast
 author: Paul Cutler
 type: post
 date: 2008-08-11T16:36:40+00:00
-url: /2008/08/linux-void-podcast/
+url: /blog/2008/08/linux-void-podcast/
 categories:
   - Foresight
 tags:

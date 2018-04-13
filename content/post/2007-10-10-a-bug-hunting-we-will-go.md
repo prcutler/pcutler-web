@@ -3,7 +3,7 @@ title: A bug-hunting we will go
 author: Paul Cutler
 type: post
 date: 2007-10-11T01:23:53+00:00
-url: /2007/10/a-bug-hunting-we-will-go/
+url: /blog/2007/10/a-bug-hunting-we-will-go/
 categories:
   - Foresight
   - Linux

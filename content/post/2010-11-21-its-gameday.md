@@ -3,7 +3,7 @@ title: It’s Gameday!
 author: Paul Cutler
 type: post
 date: 2010-11-21T18:03:26+00:00
-url: /2010/11/its-gameday/
+url: /blog/2010/11/its-gameday/
 categories:
   - Packers
   - Sports

@@ -3,7 +3,7 @@ title: Quake Wars demo out!
 author: Paul Cutler
 type: post
 date: 2007-10-16T00:22:56+00:00
-url: /2007/10/quake-wars-demo-out/
+url: /blog/2007/10/quake-wars-demo-out/
 categories:
   - Games
   - PC Games

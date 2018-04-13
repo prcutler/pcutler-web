@@ -3,7 +3,7 @@ title: "Top 5 Distro's over the years"
 author: Paul Cutler
 type: post
 date: 2007-03-29T20:37:01+00:00
-url: /2007/03/top-5-distros-over-the-years/
+url: /blog/2007/03/top-5-distros-over-the-years/
 categories:
   - Foresight
   - Linux

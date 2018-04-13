@@ -3,7 +3,7 @@ title: Derivative Works
 author: Paul Cutler
 type: post
 date: 2007-05-19T21:33:38+00:00
-url: /2007/05/derivative-works/
+url: /blog/2007/05/derivative-works/
 categories:
   - Copyright
   - Entertainment

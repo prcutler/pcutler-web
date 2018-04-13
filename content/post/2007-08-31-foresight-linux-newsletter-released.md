@@ -3,7 +3,7 @@ title: Foresight Linux Newsletter Released
 author: Paul Cutler
 type: post
 date: 2007-09-01T04:18:33+00:00
-url: /2007/08/foresight-linux-newsletter-released/
+url: /blog/2007/08/foresight-linux-newsletter-released/
 categories:
   - Foresight
   - Linux

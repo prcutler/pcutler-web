@@ -3,7 +3,7 @@ title: "10 Things That Make Ubuntu a Neophyte's Distribution"
 author: Paul Cutler
 type: post
 date: 2005-11-27T03:45:03+00:00
-url: /2005/11/10-things-that-make-ubuntu-a-neophytes-distribution/
+url: /blog/2005/11/10-things-that-make-ubuntu-a-neophytes-distribution/
 categories:
   - Linux
   - Technology

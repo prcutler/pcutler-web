@@ -3,7 +3,7 @@ title: Gran Canaria Part II
 author: Paul Cutler
 type: post
 date: 2009-07-08T14:14:52+00:00
-url: /2009/07/gran-canaria-part-ii/
+url: /blog/2009/07/gran-canaria-part-ii/
 categories:
   - Documentation
   - GNOME

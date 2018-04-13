@@ -3,7 +3,7 @@ title: "I've been slacking"
 author: Paul Cutler
 type: post
 date: 2005-02-27T16:36:53+00:00
-url: /2005/02/ive-been-slacking/
+url: /blog/2005/02/ive-been-slacking/
 categories:
   - General
 

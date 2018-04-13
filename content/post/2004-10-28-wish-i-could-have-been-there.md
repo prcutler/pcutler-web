@@ -3,7 +3,7 @@ title: Wish I could have been there!
 author: Paul Cutler
 type: post
 date: 2004-10-29T03:10:36+00:00
-url: /2004/10/wish-i-could-have-been-there/
+url: /blog/2004/10/wish-i-could-have-been-there/
 categories:
   - Politics
 

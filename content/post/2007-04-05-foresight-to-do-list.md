@@ -3,7 +3,7 @@ title: Foresight To-Do List
 author: Paul Cutler
 type: post
 date: 2007-04-05T13:27:46+00:00
-url: /2007/04/foresight-to-do-list/
+url: /blog/2007/04/foresight-to-do-list/
 categories:
   - Foresight
   - Linux

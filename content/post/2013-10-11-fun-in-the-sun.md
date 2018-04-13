@@ -3,7 +3,7 @@ title: Fun in the Sun
 author: Paul Cutler
 type: post
 date: 2013-10-11T13:27:07+00:00
-url: /2013/10/fun-in-the-sun/
+url: /blog/2013/10/fun-in-the-sun/
 categories:
   - Travel
 tags:

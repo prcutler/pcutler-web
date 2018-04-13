@@ -3,7 +3,7 @@ title: Digital Music on Linux
 author: Paul Cutler
 type: post
 date: 2005-03-24T18:53:45+00:00
-url: /2005/03/digital-music-on-linux/
+url: /blog/2005/03/digital-music-on-linux/
 categories:
   - Entertainment
   - Linux

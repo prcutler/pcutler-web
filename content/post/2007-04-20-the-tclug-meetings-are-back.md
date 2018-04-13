@@ -3,7 +3,7 @@ title: The TCLUG meetings are back!
 author: Paul Cutler
 type: post
 date: 2007-04-20T17:18:50+00:00
-url: /2007/04/the-tclug-meetings-are-back/
+url: /blog/2007/04/the-tclug-meetings-are-back/
 categories:
   - Linux
   - Technology

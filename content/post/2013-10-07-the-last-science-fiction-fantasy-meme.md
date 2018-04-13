@@ -3,7 +3,7 @@ title: The “Last” Science Fiction / Fantasy Meme
 author: Paul Cutler
 type: post
 date: 2013-10-07T13:36:50+00:00
-url: /2013/10/the-last-science-fiction-fantasy-meme/
+url: /blog/2013/10/the-last-science-fiction-fantasy-meme/
 categories:
   - Books
 tags:

@@ -3,7 +3,7 @@ title: Welcome to Sunny Florida
 author: Paul Cutler
 type: post
 date: 2005-04-20T15:41:09+00:00
-url: /2005/04/welcome-to-sunny-florida/
+url: /blog/2005/04/welcome-to-sunny-florida/
 categories:
   - Entertainment
 

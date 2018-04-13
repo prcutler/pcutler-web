@@ -3,7 +3,7 @@ title: Technology Woes
 author: Paul Cutler
 type: post
 date: 2004-11-01T14:07:43+00:00
-url: /2004/11/technology-woes/
+url: /blog/2004/11/technology-woes/
 categories:
   - Linux
   - Technology

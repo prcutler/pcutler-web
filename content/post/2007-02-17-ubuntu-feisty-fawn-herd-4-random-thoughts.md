@@ -3,7 +3,7 @@ title: Ubuntu Feisty Fawn Herd 4 Random Thoughts
 author: Paul Cutler
 type: post
 date: 2007-02-17T17:48:20+00:00
-url: /2007/02/ubuntu-feisty-fawn-herd-4-random-thoughts/
+url: /blog/2007/02/ubuntu-feisty-fawn-herd-4-random-thoughts/
 categories:
   - Linux
   - Technology

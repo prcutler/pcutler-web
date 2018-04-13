@@ -3,7 +3,7 @@ title: How-To Shave Your Head
 author: Paul Cutler
 type: post
 date: 2005-10-08T15:13:21+00:00
-url: /2005/10/how-to-shave-your-head/
+url: /blog/2005/10/how-to-shave-your-head/
 categories:
   - General
 

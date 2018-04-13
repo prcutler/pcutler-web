@@ -3,7 +3,7 @@ title: Happy Birthday Current!
 author: Paul Cutler
 type: post
 date: 2006-01-24T20:18:48+00:00
-url: /2006/01/happy-birthday-current/
+url: /blog/2006/01/happy-birthday-current/
 categories:
   - Entertainment
   - Radio

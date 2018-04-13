@@ -3,7 +3,7 @@ title: GNOME 2.18 – T minus 1 Day
 author: Paul Cutler
 type: post
 date: 2007-03-14T03:26:53+00:00
-url: /2007/03/gnome-218-t-minus-1-day/
+url: /blog/2007/03/gnome-218-t-minus-1-day/
 categories:
   - Foresight
   - GNOME

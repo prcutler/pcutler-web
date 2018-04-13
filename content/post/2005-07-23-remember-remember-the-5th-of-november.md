@@ -3,7 +3,7 @@ title: Remember, Remember, the 5th of November
 author: Paul Cutler
 type: post
 date: 2005-07-23T23:29:47+00:00
-url: /2005/07/remember-remember-the-5th-of-november/
+url: /blog/2005/07/remember-remember-the-5th-of-november/
 categories:
   - Entertainment
   - Movies

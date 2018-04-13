@@ -3,7 +3,7 @@ title: Rebooting my productivity without technology
 author: Paul Cutler
 type: post
 date: 2016-03-31T12:36:21+00:00
-url: /2016/03/rebooting-my-productivity-without-technology/
+url: /blog/2016/03/rebooting-my-productivity-without-technology/
 featured_image: /wp-content/uploads/2016/03/moleskin.jpg
 categories:
   - General

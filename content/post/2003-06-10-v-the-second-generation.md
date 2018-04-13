@@ -3,7 +3,7 @@ title: 'V: The Second Generation'
 author: Paul Cutler
 type: post
 date: 2003-06-10T13:17:02+00:00
-url: /2003/06/v-the-second-generation/
+url: /blog/2003/06/v-the-second-generation/
 categories:
   - Entertainment
   - TV

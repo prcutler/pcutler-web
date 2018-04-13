@@ -3,7 +3,7 @@ title: Congratulations EFF
 author: Paul Cutler
 type: post
 date: 2007-10-13T01:55:47+00:00
-url: /2007/10/congratulations-eff/
+url: /blog/2007/10/congratulations-eff/
 categories:
   - EFF
 

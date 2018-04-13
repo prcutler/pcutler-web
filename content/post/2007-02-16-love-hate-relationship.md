@@ -3,7 +3,7 @@ title: 'Love & Hate Relationship'
 author: Paul Cutler
 type: post
 date: 2007-02-17T02:11:25+00:00
-url: /2007/02/love-hate-relationship/
+url: /blog/2007/02/love-hate-relationship/
 categories:
   - Linux
   - Technology

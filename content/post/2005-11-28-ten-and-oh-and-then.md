@@ -3,7 +3,7 @@ title: Ten and oh and then …
 author: Paul Cutler
 type: post
 date: 2005-11-29T03:57:04+00:00
-url: /2005/11/ten-and-oh-and-then/
+url: /blog/2005/11/ten-and-oh-and-then/
 categories:
   - Football
   - Sports

@@ -3,7 +3,7 @@ title: KCMP – Better than I expected
 author: Paul Cutler
 type: post
 date: 2005-01-25T02:06:51+00:00
-url: /2005/01/kcmp-better-than-i-expected/
+url: /blog/2005/01/kcmp-better-than-i-expected/
 categories:
   - Entertainment
   - Radio

@@ -3,7 +3,7 @@ title: 'Prince: Purple Rain'
 author: Paul Cutler
 type: post
 date: 2010-07-05T23:51:14+00:00
-url: /2010/07/prince-purple-rain/
+url: /blog/2010/07/prince-purple-rain/
 categories:
   - Used
   - Vinyl

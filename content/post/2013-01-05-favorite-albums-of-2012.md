@@ -3,7 +3,7 @@ title: Favorite Albums of 2012
 author: Paul Cutler
 type: post
 date: 2013-01-05T21:56:23+00:00
-url: /2013/01/favorite-albums-of-2012/
+url: /blog/2013/01/favorite-albums-of-2012/
 categories:
   - Music
 tags:

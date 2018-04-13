@@ -3,7 +3,7 @@ title: The Passion of the Clerks
 author: Paul Cutler
 type: post
 date: 2004-08-30T12:03:57+00:00
-url: /2004/08/the-passion-of-the-clerks/
+url: /blog/2004/08/the-passion-of-the-clerks/
 categories:
   - Movies
 

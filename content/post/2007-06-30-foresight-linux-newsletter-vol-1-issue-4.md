@@ -3,7 +3,7 @@ title: Foresight Linux Newsletter (Vol 1., Issue 4)
 author: Paul Cutler
 type: post
 date: 2007-07-01T03:33:59+00:00
-url: /2007/06/foresight-linux-newsletter-vol-1-issue-4/
+url: /blog/2007/06/foresight-linux-newsletter-vol-1-issue-4/
 categories:
   - Foresight
   - Linux

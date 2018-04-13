@@ -3,7 +3,7 @@ title: Radio Goodness
 author: Paul Cutler
 type: post
 date: 2005-01-10T18:22:55+00:00
-url: /2005/01/radio-goodness/
+url: /blog/2005/01/radio-goodness/
 categories:
   - Entertainment
   - Radio

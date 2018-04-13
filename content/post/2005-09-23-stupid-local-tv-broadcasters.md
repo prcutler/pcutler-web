@@ -3,7 +3,7 @@ title: Stupid Local TV Broadcasters
 author: Paul Cutler
 type: post
 date: 2005-09-24T04:11:37+00:00
-url: /2005/09/stupid-local-tv-broadcasters/
+url: /blog/2005/09/stupid-local-tv-broadcasters/
 categories:
   - Copyright
   - Entertainment

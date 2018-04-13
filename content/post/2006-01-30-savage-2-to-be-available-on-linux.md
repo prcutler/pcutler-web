@@ -3,7 +3,7 @@ title: Savage 2 to be available on Linux
 author: Paul Cutler
 type: post
 date: 2006-01-31T04:51:50+00:00
-url: /2006/01/savage-2-to-be-available-on-linux/
+url: /blog/2006/01/savage-2-to-be-available-on-linux/
 categories:
   - Entertainment
   - Games

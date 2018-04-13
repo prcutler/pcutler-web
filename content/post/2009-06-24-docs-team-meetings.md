@@ -3,7 +3,7 @@ title: Docs Team Meetings
 author: Paul Cutler
 type: post
 date: 2009-06-24T02:42:50+00:00
-url: /2009/06/docs-team-meetings/
+url: /blog/2009/06/docs-team-meetings/
 categories:
   - Documentation
   - GNOME

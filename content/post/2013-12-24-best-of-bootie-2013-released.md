@@ -3,7 +3,7 @@ title: Best of Bootie 2013 Released!
 author: Paul Cutler
 type: post
 date: 2013-12-24T19:47:17+00:00
-url: /2013/12/best-of-bootie-2013-released/
+url: /blog/2013/12/best-of-bootie-2013-released/
 featured_image: /wp-content/uploads/2013/12/BestOfBootie2013_CD-672x372.jpg
 full_width_featured_image:
   - 1

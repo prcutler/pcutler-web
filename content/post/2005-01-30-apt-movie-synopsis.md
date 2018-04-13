@@ -3,7 +3,7 @@ title: An Asinine Hodgepodge
 author: Paul Cutler
 type: post
 date: 2005-01-30T20:37:15+00:00
-url: /2005/01/apt-movie-synopsis/
+url: /blog/2005/01/apt-movie-synopsis/
 categories:
   - Entertainment
   - Movies

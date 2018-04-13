@@ -3,7 +3,7 @@ title: Foresight 2 (Alpha 1) Released!
 author: Paul Cutler
 type: post
 date: 2007-11-10T21:21:18+00:00
-url: /2007/11/foresight-2-alpha-1-released/
+url: /blog/2007/11/foresight-2-alpha-1-released/
 categories:
   - Foresight
   - Linux

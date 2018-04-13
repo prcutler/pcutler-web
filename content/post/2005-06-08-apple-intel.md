@@ -3,7 +3,7 @@ title: 'Apple & Intel'
 author: Paul Cutler
 type: post
 date: 2005-06-09T01:24:04+00:00
-url: /2005/06/apple-intel/
+url: /blog/2005/06/apple-intel/
 categories:
   - Hardware
   - Technology

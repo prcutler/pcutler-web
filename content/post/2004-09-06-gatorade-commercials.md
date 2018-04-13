@@ -3,7 +3,7 @@ title: Gatorade commercials
 author: Paul Cutler
 type: post
 date: 2004-09-07T02:20:55+00:00
-url: /2004/09/gatorade-commercials/
+url: /blog/2004/09/gatorade-commercials/
 categories:
   - Entertainment
   - Football

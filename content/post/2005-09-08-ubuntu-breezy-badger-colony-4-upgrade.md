@@ -3,7 +3,7 @@ title: Ubuntu Breezy Badger Colony 4 Upgrade
 author: Paul Cutler
 type: post
 date: 2005-09-08T13:51:30+00:00
-url: /2005/09/ubuntu-breezy-badger-colony-4-upgrade/
+url: /blog/2005/09/ubuntu-breezy-badger-colony-4-upgrade/
 categories:
   - Linux
   - Technology

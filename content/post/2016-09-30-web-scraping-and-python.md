@@ -3,7 +3,7 @@ title: Web Scraping and Python
 author: Paul Cutler
 type: post
 date: 2016-09-30T14:43:54+00:00
-url: /2016/09/web-scraping-and-python/
+url: /blog/2016/09/web-scraping-and-python/
 categories:
   - Python
 tags:

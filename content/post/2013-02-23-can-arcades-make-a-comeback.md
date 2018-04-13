@@ -3,7 +3,7 @@ title: Can arcades make a comeback?
 author: Paul Cutler
 type: post
 date: 2013-02-23T17:13:06+00:00
-url: /2013/02/can-arcades-make-a-comeback/
+url: /blog/2013/02/can-arcades-make-a-comeback/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: And baby makes 4
 author: Paul Cutler
 type: post
 date: 2003-11-27T21:32:08+00:00
-url: /2003/11/and-baby-makes-4/
+url: /blog/2003/11/and-baby-makes-4/
 categories:
   - General
 

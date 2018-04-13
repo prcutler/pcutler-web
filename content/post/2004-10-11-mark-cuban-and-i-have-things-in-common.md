@@ -3,7 +3,7 @@ title: Mark Cuban and I have things in common
 author: Paul Cutler
 type: post
 date: 2004-10-11T20:07:00+00:00
-url: /2004/10/mark-cuban-and-i-have-things-in-common/
+url: /blog/2004/10/mark-cuban-and-i-have-things-in-common/
 categories:
   - Copyright
   - EFF

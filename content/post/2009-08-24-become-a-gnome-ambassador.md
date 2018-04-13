@@ -3,7 +3,7 @@ title: Become a GNOME Ambassador
 author: Paul Cutler
 type: post
 date: 2009-08-24T20:45:45+00:00
-url: /2009/08/become-a-gnome-ambassador/
+url: /blog/2009/08/become-a-gnome-ambassador/
 categories:
   - GNOME
   - Marketing

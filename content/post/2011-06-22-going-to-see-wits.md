@@ -3,7 +3,7 @@ title: Going to see Wits
 author: Paul Cutler
 type: post
 date: 2011-06-22T15:25:21+00:00
-url: /2011/06/going-to-see-wits/
+url: /blog/2011/06/going-to-see-wits/
 categories:
   - General
 tags:

@@ -3,7 +3,7 @@ title: An Introduction to GNOME 3.0
 author: Paul Cutler
 type: post
 date: 2009-09-28T15:03:38+00:00
-url: /2009/09/an-introduction-to-gnome-3-0/
+url: /blog/2009/09/an-introduction-to-gnome-3-0/
 categories:
   - GNOME
   - Linux

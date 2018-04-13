@@ -3,7 +3,7 @@ title: "Ah, April Fool's Day"
 author: Paul Cutler
 type: post
 date: 2005-04-01T12:13:08+00:00
-url: /2005/04/ah-april-fools-day/
+url: /blog/2005/04/ah-april-fools-day/
 categories:
   - Humor
 

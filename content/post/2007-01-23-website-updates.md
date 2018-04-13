@@ -3,7 +3,7 @@ title: Website Updates
 author: Paul Cutler
 type: post
 date: 2007-01-23T14:58:50+00:00
-url: /2007/01/website-updates/
+url: /blog/2007/01/website-updates/
 categories:
   - Technology
   - Websites

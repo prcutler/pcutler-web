@@ -3,7 +3,7 @@ title: HTPC Components Ordered
 author: Paul Cutler
 type: post
 date: 2006-03-29T00:30:22+00:00
-url: /2006/03/htpc-components-ordered/
+url: /blog/2006/03/htpc-components-ordered/
 categories:
   - Hardware
   - Technology

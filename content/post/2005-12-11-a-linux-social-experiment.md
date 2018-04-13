@@ -3,7 +3,7 @@ title: A Linux Social Experiment
 author: Paul Cutler
 type: post
 date: 2005-12-11T16:28:11+00:00
-url: /2005/12/a-linux-social-experiment/
+url: /blog/2005/12/a-linux-social-experiment/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: Radio Follow-up
 author: Paul Cutler
 type: post
 date: 2003-07-30T21:52:27+00:00
-url: /2003/07/radio-follow-up-2/
+url: /blog/2003/07/radio-follow-up-2/
 categories:
   - Entertainment
   - Music

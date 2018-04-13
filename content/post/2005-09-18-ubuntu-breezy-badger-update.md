@@ -3,7 +3,7 @@ title: Ubuntu Breezy Badger Update
 author: Paul Cutler
 type: post
 date: 2005-09-18T17:04:16+00:00
-url: /2005/09/ubuntu-breezy-badger-update/
+url: /blog/2005/09/ubuntu-breezy-badger-update/
 categories:
   - Linux
   - Technology

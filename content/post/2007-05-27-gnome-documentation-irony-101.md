@@ -3,7 +3,7 @@ title: GNOME Documentation – Irony 101
 author: Paul Cutler
 type: post
 date: 2007-05-27T22:44:52+00:00
-url: /2007/05/gnome-documentation-irony-101/
+url: /blog/2007/05/gnome-documentation-irony-101/
 categories:
   - Foresight
   - GNOME

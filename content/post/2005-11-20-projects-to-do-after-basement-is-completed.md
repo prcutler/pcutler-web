@@ -3,7 +3,7 @@ title: Projects to do after Basement is completed
 author: Paul Cutler
 type: post
 date: 2005-11-20T17:43:07+00:00
-url: /2005/11/projects-to-do-after-basement-is-completed/
+url: /blog/2005/11/projects-to-do-after-basement-is-completed/
 categories:
   - Entertainment
   - Technology

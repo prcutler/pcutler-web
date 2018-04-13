@@ -3,7 +3,7 @@ title: Importing Team Data into NFLPool
 author: Paul Cutler
 type: post
 date: 2016-10-13T14:31:20+00:00
-url: /2016/10/importing-team-data-into-nflpool/
+url: /blog/2016/10/importing-team-data-into-nflpool/
 categories:
   - Python
 tags:

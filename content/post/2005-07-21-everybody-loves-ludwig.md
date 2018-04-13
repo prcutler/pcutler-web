@@ -3,7 +3,7 @@ title: Everybody Loves Ludwig
 author: Paul Cutler
 type: post
 date: 2005-07-22T01:47:32+00:00
-url: /2005/07/everybody-loves-ludwig/
+url: /blog/2005/07/everybody-loves-ludwig/
 categories:
   - Copyright
   - Entertainment

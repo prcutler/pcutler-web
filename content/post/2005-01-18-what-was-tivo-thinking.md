@@ -3,7 +3,7 @@ title: What was TiVo thinking?
 author: Paul Cutler
 type: post
 date: 2005-01-18T14:09:44+00:00
-url: /2005/01/what-was-tivo-thinking/
+url: /blog/2005/01/what-was-tivo-thinking/
 categories:
   - Technology
 

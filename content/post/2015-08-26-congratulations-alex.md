@@ -3,7 +3,7 @@ title: Congratulations Alex
 author: Paul Cutler
 type: post
 date: 2015-08-26T12:27:20+00:00
-url: /2015/08/congratulations-alex/
+url: /blog/2015/08/congratulations-alex/
 categories:
   - Alex
   - Jack

@@ -3,7 +3,7 @@ title: Must-Have Firefox Extensions
 author: Paul Cutler
 type: post
 date: 2005-12-13T04:10:45+00:00
-url: /2005/12/must-have-firefox-extensions/
+url: /blog/2005/12/must-have-firefox-extensions/
 categories:
   - Technology
 

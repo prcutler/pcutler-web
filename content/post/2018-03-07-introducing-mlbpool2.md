@@ -3,7 +3,7 @@ title: Introducing MLBPool2
 author: Paul Cutler
 type: post
 date: 2018-03-07T14:02:31+00:00
-url: /2018/03/introducing-mlbpool2/
+url: /blog/2018/03/introducing-mlbpool2/
 featured_image: /wp-content/uploads/2018/03/mlbpool2-1.png
 categories:
   - Python

@@ -3,7 +3,7 @@ title: Daylight Savings Time
 author: Paul Cutler
 type: post
 date: 2004-10-31T12:43:13+00:00
-url: /2004/10/daylight-savings-time/
+url: /blog/2004/10/daylight-savings-time/
 categories:
   - Alex
   - The Kids

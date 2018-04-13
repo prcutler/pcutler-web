@@ -3,7 +3,7 @@ title: Foresight 20/20 Conference Recap
 author: Paul Cutler
 type: post
 date: 2008-04-21T03:26:27+00:00
-url: /2008/04/foresight-2020-conference-recap/
+url: /blog/2008/04/foresight-2020-conference-recap/
 categories:
   - Foresight
 tags:

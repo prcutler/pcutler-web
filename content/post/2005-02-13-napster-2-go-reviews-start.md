@@ -3,7 +3,7 @@ title: Napster 2 Go Reviews Start
 author: Paul Cutler
 type: post
 date: 2005-02-14T01:39:19+00:00
-url: /2005/02/napster-2-go-reviews-start/
+url: /blog/2005/02/napster-2-go-reviews-start/
 categories:
   - Entertainment
   - Microsoft

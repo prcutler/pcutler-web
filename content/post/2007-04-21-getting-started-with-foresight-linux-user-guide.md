@@ -3,7 +3,7 @@ title: Getting Started with Foresight Linux User Guide
 author: Paul Cutler
 type: post
 date: 2007-04-21T14:17:36+00:00
-url: /2007/04/getting-started-with-foresight-linux-user-guide/
+url: /blog/2007/04/getting-started-with-foresight-linux-user-guide/
 categories:
   - Foresight
   - Linux

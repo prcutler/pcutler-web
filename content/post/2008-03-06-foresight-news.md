@@ -3,7 +3,7 @@ title: Foresight News
 author: Paul Cutler
 type: post
 date: 2008-03-06T15:33:59+00:00
-url: /2008/03/foresight-news/
+url: /blog/2008/03/foresight-news/
 categories:
   - Foresight
   - Linux

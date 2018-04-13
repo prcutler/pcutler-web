@@ -3,7 +3,7 @@ title: Quality Assurance
 author: Paul Cutler
 type: post
 date: 2008-06-13T14:00:29+00:00
-url: /2008/06/quality-assurance/
+url: /blog/2008/06/quality-assurance/
 categories:
   - Foresight
 tags:

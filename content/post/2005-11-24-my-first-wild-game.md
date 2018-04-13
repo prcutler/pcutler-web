@@ -3,7 +3,7 @@ title: My first Wild game
 author: Paul Cutler
 type: post
 date: 2005-11-24T15:26:48+00:00
-url: /2005/11/my-first-wild-game/
+url: /blog/2005/11/my-first-wild-game/
 categories:
   - Sports
 

@@ -3,7 +3,7 @@ title: And so it begins!
 author: Paul Cutler
 type: post
 date: 2004-11-02T13:47:02+00:00
-url: /2004/11/and-so-it-begins/
+url: /blog/2004/11/and-so-it-begins/
 categories:
   - Politics
 

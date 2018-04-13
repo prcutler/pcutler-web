@@ -3,7 +3,7 @@ title: 'What I’m Listening to: New Music Releases 7/25'
 author: Paul Cutler
 type: post
 date: 2012-07-24T12:47:20+00:00
-url: /2012/07/what-im-listening-to-new-music-releases-725/
+url: /blog/2012/07/what-im-listening-to-new-music-releases-725/
 categories:
   - Music
   - New Releases

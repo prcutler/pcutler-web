@@ -3,7 +3,7 @@ title: Work in Progress
 author: Paul Cutler
 type: post
 date: 2003-09-05T02:45:53+00:00
-url: /2003/09/work-in-progress/
+url: /blog/2003/09/work-in-progress/
 categories:
   - General
 

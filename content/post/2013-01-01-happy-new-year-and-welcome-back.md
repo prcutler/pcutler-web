@@ -3,7 +3,7 @@ title: Happy New Year and welcome back
 author: Paul Cutler
 type: post
 date: 2013-01-01T14:52:13+00:00
-url: /2013/01/happy-new-year-and-welcome-back/
+url: /blog/2013/01/happy-new-year-and-welcome-back/
 categories:
   - General
 

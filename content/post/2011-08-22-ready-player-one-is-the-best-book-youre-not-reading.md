@@ -3,7 +3,7 @@ title: Ready Player One is the best book you’re not reading
 author: Paul Cutler
 type: post
 date: 2011-08-22T13:25:18+00:00
-url: /2011/08/ready-player-one-is-the-best-book-youre-not-reading/
+url: /blog/2011/08/ready-player-one-is-the-best-book-youre-not-reading/
 categories:
   - Books
 tags:

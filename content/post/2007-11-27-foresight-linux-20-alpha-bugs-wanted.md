@@ -3,7 +3,7 @@ title: Foresight Linux 2.0 Alpha Bugs wanted!
 author: Paul Cutler
 type: post
 date: 2007-11-27T15:38:13+00:00
-url: /2007/11/foresight-linux-20-alpha-bugs-wanted/
+url: /blog/2007/11/foresight-linux-20-alpha-bugs-wanted/
 categories:
   - Foresight
   - Linux

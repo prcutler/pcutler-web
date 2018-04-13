@@ -3,7 +3,7 @@ title: GNOME T-Shirt Contest Update
 author: Paul Cutler
 type: post
 date: 2011-01-12T16:32:56+00:00
-url: /2011/01/gnome-t-shirt-contest-update/
+url: /blog/2011/01/gnome-t-shirt-contest-update/
 categories:
   - GNOME
 

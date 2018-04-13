@@ -3,7 +3,7 @@ title: GNOME Journal Issue 16 Released!
 author: Paul Cutler
 type: post
 date: 2009-09-09T14:18:03+00:00
-url: /2009/09/gnome-journal-issue-16-released/
+url: /blog/2009/09/gnome-journal-issue-16-released/
 categories:
   - GNOME
   - GNOME Journal

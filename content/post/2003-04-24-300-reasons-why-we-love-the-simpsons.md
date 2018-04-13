@@ -3,7 +3,7 @@ title: 300 Reasons Why We Love the Simpsons
 author: Paul Cutler
 type: post
 date: 2003-04-24T12:39:31+00:00
-url: /2003/04/300-reasons-why-we-love-the-simpsons/
+url: /blog/2003/04/300-reasons-why-we-love-the-simpsons/
 categories:
   - Entertainment
   - TV

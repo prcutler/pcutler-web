@@ -3,7 +3,7 @@ title: Kids Pictures
 author: Paul Cutler
 type: post
 date: 2004-09-11T22:32:52+00:00
-url: /2004/09/kids-pictures/
+url: /blog/2004/09/kids-pictures/
 categories:
   - General
 

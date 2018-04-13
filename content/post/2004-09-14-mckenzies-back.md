@@ -3,7 +3,7 @@ title: "McKenzie's back!"
 author: Paul Cutler
 type: post
 date: 2004-09-15T00:44:55+00:00
-url: /2004/09/mckenzies-back/
+url: /blog/2004/09/mckenzies-back/
 categories:
   - Football
   - Packers

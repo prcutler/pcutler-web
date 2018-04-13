@@ -3,7 +3,7 @@ title: Star Tribune on The Current
 author: Paul Cutler
 type: post
 date: 2005-07-18T19:54:31+00:00
-url: /2005/07/star-tribune-on-the-current/
+url: /blog/2005/07/star-tribune-on-the-current/
 categories:
   - Entertainment
   - Music

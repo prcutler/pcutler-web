@@ -3,7 +3,7 @@ title: Build me up Buttercup
 author: Paul Cutler
 type: post
 date: 2005-09-24T00:43:01+00:00
-url: /2005/09/build-me-up-buttercup/
+url: /blog/2005/09/build-me-up-buttercup/
 categories:
   - General
 

@@ -3,7 +3,7 @@ title: Updated Photos
 author: Paul Cutler
 type: post
 date: 2005-06-04T20:29:23+00:00
-url: /2005/06/updated-photos/
+url: /blog/2005/06/updated-photos/
 categories:
   - Alex
   - Photography

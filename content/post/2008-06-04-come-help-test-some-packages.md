@@ -3,7 +3,7 @@ title: Come help test some packages!
 author: Paul Cutler
 type: post
 date: 2008-06-04T03:19:17+00:00
-url: /2008/06/come-help-test-some-packages/
+url: /blog/2008/06/come-help-test-some-packages/
 categories:
   - Foresight
 

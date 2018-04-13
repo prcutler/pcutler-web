@@ -3,7 +3,7 @@ title: Welcome to Bloody Thursday
 author: Paul Cutler
 type: post
 date: 2006-03-02T12:51:38+00:00
-url: /2006/03/welcome-to-bloody-thursday/
+url: /blog/2006/03/welcome-to-bloody-thursday/
 categories:
   - Football
   - Sports

@@ -3,7 +3,7 @@ title: Anniversaries
 author: Paul Cutler
 type: post
 date: 2008-02-05T03:42:56+00:00
-url: /2008/02/anniversaries/
+url: /blog/2008/02/anniversaries/
 categories:
   - Linux
 tags:

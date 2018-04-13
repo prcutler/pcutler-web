@@ -3,7 +3,7 @@ title: The Must Have Game of 2006
 author: Paul Cutler
 type: post
 date: 2006-05-14T13:48:38+00:00
-url: /2006/05/the-must-have-game-of-2006/
+url: /blog/2006/05/the-must-have-game-of-2006/
 categories:
   - Entertainment
   - Games

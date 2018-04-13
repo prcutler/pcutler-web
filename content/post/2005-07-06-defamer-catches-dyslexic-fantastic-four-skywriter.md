@@ -3,7 +3,7 @@ title: Defamer catches dyslexic Fantastic Four skywriter
 author: Paul Cutler
 type: post
 date: 2005-07-06T11:25:51+00:00
-url: /2005/07/defamer-catches-dyslexic-fantastic-four-skywriter/
+url: /blog/2005/07/defamer-catches-dyslexic-fantastic-four-skywriter/
 categories:
   - Entertainment
   - Humor

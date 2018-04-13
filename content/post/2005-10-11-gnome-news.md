@@ -3,7 +3,7 @@ title: GNOME News
 author: Paul Cutler
 type: post
 date: 2005-10-11T12:14:22+00:00
-url: /2005/10/gnome-news/
+url: /blog/2005/10/gnome-news/
 categories:
   - Linux
   - Technology

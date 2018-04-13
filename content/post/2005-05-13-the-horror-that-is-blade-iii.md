@@ -3,7 +3,7 @@ title: The horror that is Blade III
 author: Paul Cutler
 type: post
 date: 2005-05-13T11:52:29+00:00
-url: /2005/05/the-horror-that-is-blade-iii/
+url: /blog/2005/05/the-horror-that-is-blade-iii/
 categories:
   - Entertainment
   - Movies

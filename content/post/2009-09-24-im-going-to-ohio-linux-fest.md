@@ -3,7 +3,7 @@ title: "I'm going to Ohio Linux Fest"
 author: Paul Cutler
 type: post
 date: 2009-09-24T17:05:21+00:00
-url: /2009/09/im-going-to-ohio-linux-fest/
+url: /blog/2009/09/im-going-to-ohio-linux-fest/
 categories:
   - GNOME
   - Linux

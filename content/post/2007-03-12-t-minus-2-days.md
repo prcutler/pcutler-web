@@ -3,7 +3,7 @@ title: T minus 2 Days
 author: Paul Cutler
 type: post
 date: 2007-03-13T01:43:21+00:00
-url: /2007/03/t-minus-2-days/
+url: /blog/2007/03/t-minus-2-days/
 categories:
   - Foresight
   - GNOME

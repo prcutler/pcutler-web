@@ -3,7 +3,7 @@ title: Theme Upgraded
 author: Paul Cutler
 type: post
 date: 2005-10-01T02:19:23+00:00
-url: /2005/09/theme-upgraded/
+url: /blog/2005/09/theme-upgraded/
 categories:
   - Technology
   - Websites

@@ -3,7 +3,7 @@ title: New printer
 author: Paul Cutler
 type: post
 date: 2005-07-26T02:11:56+00:00
-url: /2005/07/new-printer/
+url: /blog/2005/07/new-printer/
 categories:
   - Hardware
   - Technology

@@ -3,7 +3,7 @@ title: How I Got Started Programming
 author: Paul Cutler
 type: post
 date: 2016-01-10T16:00:22+00:00
-url: /2016/01/how-i-got-started-programming/
+url: /blog/2016/01/how-i-got-started-programming/
 featured_image: /wp-content/uploads/2016/01/6215829565_a7961cee5c_b.jpg
 categories:
   - GNOME

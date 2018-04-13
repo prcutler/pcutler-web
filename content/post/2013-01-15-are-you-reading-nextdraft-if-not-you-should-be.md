@@ -3,7 +3,7 @@ title: 'Are you reading NextDraft?  If not, you should be.'
 author: Paul Cutler
 type: post
 date: 2013-01-15T16:00:58+00:00
-url: /2013/01/are-you-reading-nextdraft-if-not-you-should-be/
+url: /blog/2013/01/are-you-reading-nextdraft-if-not-you-should-be/
 categories:
   - Humor
 tags:

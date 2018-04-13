@@ -3,7 +3,7 @@ title: Happy Earth Day!
 author: Paul Cutler
 type: post
 date: 2005-04-23T00:37:37+00:00
-url: /2005/04/happy-earth-day/
+url: /blog/2005/04/happy-earth-day/
 categories:
   - General
 

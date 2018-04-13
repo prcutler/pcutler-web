@@ -3,7 +3,7 @@ title: Blog updates
 author: Paul Cutler
 type: post
 date: 2008-01-04T16:42:04+00:00
-url: /2008/01/blog-updates/
+url: /blog/2008/01/blog-updates/
 categories:
   - Wordpress
 tags:

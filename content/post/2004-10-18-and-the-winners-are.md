@@ -3,7 +3,7 @@ title: And the winners are…
 author: Paul Cutler
 type: post
 date: 2004-10-19T01:36:46+00:00
-url: /2004/10/and-the-winners-are/
+url: /blog/2004/10/and-the-winners-are/
 categories:
   - General
 

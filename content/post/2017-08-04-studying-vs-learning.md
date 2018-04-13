@@ -3,7 +3,7 @@ title: Studying vs. Learning
 author: Paul Cutler
 type: post
 date: 2017-08-04T11:33:08+00:00
-url: /2017/08/studying-vs-learning/
+url: /blog/2017/08/studying-vs-learning/
 categories:
   - Python
 tags:

@@ -3,7 +3,7 @@ title: Games Delayed
 author: Paul Cutler
 type: post
 date: 2007-01-26T17:14:47+00:00
-url: /2007/01/games-delayed/
+url: /blog/2007/01/games-delayed/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: "Some people just don't get it"
 author: Paul Cutler
 type: post
 date: 2005-06-12T01:06:08+00:00
-url: /2005/06/some-people-just-dont-get-it/
+url: /blog/2005/06/some-people-just-dont-get-it/
 categories:
   - Copyright
   - Technology

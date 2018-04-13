@@ -3,7 +3,7 @@ title: Flickr Follow-up
 author: Paul Cutler
 type: post
 date: 2004-10-14T02:51:18+00:00
-url: /2004/10/flickr-follow-up/
+url: /blog/2004/10/flickr-follow-up/
 categories:
   - Photography
 

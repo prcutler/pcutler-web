@@ -3,7 +3,7 @@ title: Foresight 1.4 / GNOME 2.20.1 Appearance Issues
 author: Paul Cutler
 type: post
 date: 2007-10-18T21:36:20+00:00
-url: /2007/10/foresight-14-gnome-2201-appearance-issues/
+url: /blog/2007/10/foresight-14-gnome-2201-appearance-issues/
 categories:
   - Foresight
   - GNOME

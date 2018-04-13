@@ -3,7 +3,7 @@ title: Ubuntu Desktop Screenshot
 author: Paul Cutler
 type: post
 date: 2005-02-11T22:27:02+00:00
-url: /2005/02/ubuntu-desktop-screenshot/
+url: /blog/2005/02/ubuntu-desktop-screenshot/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: Playing with a new theme
 author: Paul Cutler
 type: post
 date: 2005-04-05T15:29:30+00:00
-url: /2005/04/playing-with-a-new-theme/
+url: /blog/2005/04/playing-with-a-new-theme/
 categories:
   - Technology
   - Wordpress

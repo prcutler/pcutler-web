@@ -3,7 +3,7 @@ title: Another Reason Why I Love The Current
 author: Paul Cutler
 type: post
 date: 2013-12-23T15:21:17+00:00
-url: /2013/12/another-reason-why-i-love-the-current/
+url: /blog/2013/12/another-reason-why-i-love-the-current/
 categories:
   - Entertainment
   - Radio

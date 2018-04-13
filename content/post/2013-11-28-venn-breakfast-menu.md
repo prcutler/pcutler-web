@@ -3,7 +3,7 @@ title: Venn Breakfast Menu
 author: Paul Cutler
 type: post
 date: 2013-11-28T20:34:55+00:00
-url: /2013/11/venn-breakfast-menu/
+url: /blog/2013/11/venn-breakfast-menu/
 categories:
   - Uncategorized
 

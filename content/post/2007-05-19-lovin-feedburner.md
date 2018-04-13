@@ -3,7 +3,7 @@ title: "Lovin' Feedburner"
 author: Paul Cutler
 type: post
 date: 2007-05-19T22:53:35+00:00
-url: /2007/05/lovin-feedburner/
+url: /blog/2007/05/lovin-feedburner/
 categories:
   - Foresight
   - Linux

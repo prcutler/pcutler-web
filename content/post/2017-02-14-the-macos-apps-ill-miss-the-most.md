@@ -3,7 +3,7 @@ title: The macOS apps I’ll miss the most
 author: Paul Cutler
 type: post
 date: 2017-02-14T14:24:53+00:00
-url: /2017/02/the-macos-apps-ill-miss-the-most/
+url: /blog/2017/02/the-macos-apps-ill-miss-the-most/
 categories:
   - Apple
   - GNOME

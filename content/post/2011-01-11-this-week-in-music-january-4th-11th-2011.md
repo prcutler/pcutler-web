@@ -3,7 +3,7 @@ title: This week in music – January 4th – 11th 2011
 author: Paul Cutler
 type: post
 date: 2011-01-12T03:52:45+00:00
-url: /2011/01/this-week-in-music-january-4th-11th-2011/
+url: /blog/2011/01/this-week-in-music-january-4th-11th-2011/
 categories:
   - Digital
   - Music of the Week

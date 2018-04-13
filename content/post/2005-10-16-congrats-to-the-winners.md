@@ -3,7 +3,7 @@ title: Congrats to the Winners
 author: Paul Cutler
 type: post
 date: 2005-10-17T01:55:18+00:00
-url: /2005/10/congrats-to-the-winners/
+url: /blog/2005/10/congrats-to-the-winners/
 categories:
   - Entertainment
   - Games

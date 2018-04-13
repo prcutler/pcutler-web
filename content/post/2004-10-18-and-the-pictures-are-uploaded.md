@@ -3,7 +3,7 @@ title: And the pictures are uploaded!
 author: Paul Cutler
 type: post
 date: 2004-10-19T01:48:17+00:00
-url: /2004/10/and-the-pictures-are-uploaded/
+url: /blog/2004/10/and-the-pictures-are-uploaded/
 categories:
   - General
 

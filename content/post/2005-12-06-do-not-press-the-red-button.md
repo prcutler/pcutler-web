@@ -3,7 +3,7 @@ title: Do not press the red button
 author: Paul Cutler
 type: post
 date: 2005-12-07T00:52:05+00:00
-url: /2005/12/do-not-press-the-red-button/
+url: /blog/2005/12/do-not-press-the-red-button/
 categories:
   - Humor
 

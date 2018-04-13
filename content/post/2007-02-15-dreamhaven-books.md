@@ -3,7 +3,7 @@ title: Dreamhaven Books
 author: Paul Cutler
 type: post
 date: 2007-02-15T14:40:20+00:00
-url: /2007/02/dreamhaven-books/
+url: /blog/2007/02/dreamhaven-books/
 categories:
   - Books
   - Entertainment

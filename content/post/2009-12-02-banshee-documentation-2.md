@@ -3,7 +3,7 @@ title: Banshee Documentation
 author: Paul Cutler
 type: post
 date: 2009-12-02T14:59:48+00:00
-url: /2009/12/banshee-documentation-2/
+url: /blog/2009/12/banshee-documentation-2/
 categories:
   - Documentation
   - GNOME

@@ -3,7 +3,7 @@ title: Python for Everybody at Coursera with Dr. Chuck
 author: Paul Cutler
 type: post
 date: 2016-09-16T14:58:52+00:00
-url: /2016/09/python-for-everybody-at-coursera-with-dr-chuck/
+url: /blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/
 categories:
   - Python
 tags:

@@ -3,7 +3,7 @@ title: No Halo3 Beta For Me
 author: Paul Cutler
 type: post
 date: 2007-05-18T16:02:32+00:00
-url: /2007/05/no-halo3-beta-for-me/
+url: /blog/2007/05/no-halo3-beta-for-me/
 categories:
   - Entertainment
   - Games

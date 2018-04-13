@@ -3,7 +3,7 @@ title: Xeni Profile from LA Times
 author: Paul Cutler
 type: post
 date: 2005-04-10T23:16:26+00:00
-url: /2005/04/xeni-profile-from-la-times/
+url: /blog/2005/04/xeni-profile-from-la-times/
 categories:
   - Technology
 

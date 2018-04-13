@@ -3,7 +3,7 @@ title: Yahoo Music Service Launches
 author: Paul Cutler
 type: post
 date: 2005-05-11T13:49:05+00:00
-url: /2005/05/yahoo-music-service-launches/
+url: /blog/2005/05/yahoo-music-service-launches/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: "Obesity: It's a Good Thing"
 author: Paul Cutler
 type: post
 date: 2004-09-02T01:30:42+00:00
-url: /2004/09/obesity-its-a-good-thing/
+url: /blog/2004/09/obesity-its-a-good-thing/
 categories:
   - General
 

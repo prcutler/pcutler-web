@@ -3,7 +3,7 @@ title: Badger Football
 author: Paul Cutler
 type: post
 date: 2003-11-09T23:03:52+00:00
-url: /2003/11/badger-football/
+url: /blog/2003/11/badger-football/
 categories:
   - Badgers
   - Football

@@ -3,7 +3,7 @@ title: "Know When to Hold 'Em, Know When to Fold 'Em"
 author: Paul Cutler
 type: post
 date: 2005-01-28T21:52:43+00:00
-url: /2005/01/know-when-to-hold-em-know-when-to-fold-em/
+url: /blog/2005/01/know-when-to-hold-em-know-when-to-fold-em/
 categories:
   - Entertainment
 

@@ -3,7 +3,7 @@ title: "What's in a name?"
 author: Paul Cutler
 type: post
 date: 2005-10-27T12:19:37+00:00
-url: /2005/10/whats-in-a-name/
+url: /blog/2005/10/whats-in-a-name/
 categories:
   - Technology
   - Websites

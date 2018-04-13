@@ -3,7 +3,7 @@ title: GNOME 3 is out!
 author: Paul Cutler
 type: post
 date: 2011-04-06T22:24:20+00:00
-url: /2011/04/gnome-3-is-out/
+url: /blog/2011/04/gnome-3-is-out/
 categories:
   - GNOME
 

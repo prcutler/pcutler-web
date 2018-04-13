@@ -3,7 +3,7 @@ title: Learning curve
 author: Paul Cutler
 type: post
 date: 2005-04-26T03:37:29+00:00
-url: /2005/04/learning-curve/
+url: /blog/2005/04/learning-curve/
 categories:
   - Linux
   - Technology

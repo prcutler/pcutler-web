@@ -3,7 +3,7 @@ title: XM on DirecTV
 author: Paul Cutler
 type: post
 date: 2005-11-18T14:14:14+00:00
-url: /2005/11/xm-on-directv/
+url: /blog/2005/11/xm-on-directv/
 categories:
   - Entertainment
   - Music

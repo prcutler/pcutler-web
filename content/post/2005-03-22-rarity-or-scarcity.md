@@ -3,7 +3,7 @@ title: Rarity or Scarcity?
 author: Paul Cutler
 type: post
 date: 2005-03-22T15:40:42+00:00
-url: /2005/03/rarity-or-scarcity/
+url: /blog/2005/03/rarity-or-scarcity/
 categories:
   - Entertainment
   - Movies

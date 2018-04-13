@@ -3,7 +3,7 @@ title: Chvrches – The Bones of What You Believe In
 author: Paul Cutler
 type: post
 date: 2013-09-24T13:34:54+00:00
-url: /2013/09/chvrches-the-bones-of-what-you-believe-in/
+url: /blog/2013/09/chvrches-the-bones-of-what-you-believe-in/
 categories:
   - Music
   - Vinyl

@@ -3,7 +3,7 @@ title: Foresight updates
 author: Paul Cutler
 type: post
 date: 2008-01-19T00:44:42+00:00
-url: /2008/01/foresight-updates/
+url: /blog/2008/01/foresight-updates/
 categories:
   - Foresight
   - Linux

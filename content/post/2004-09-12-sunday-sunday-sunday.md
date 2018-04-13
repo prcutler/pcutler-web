@@ -3,7 +3,7 @@ title: Sunday Sunday Sunday!
 author: Paul Cutler
 type: post
 date: 2004-09-12T19:12:15+00:00
-url: /2004/09/sunday-sunday-sunday/
+url: /blog/2004/09/sunday-sunday-sunday/
 categories:
   - Entertainment
   - General

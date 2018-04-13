@@ -3,7 +3,7 @@ title: "If it at first you don't succeed…"
 author: Paul Cutler
 type: post
 date: 2005-10-11T13:10:16+00:00
-url: /2005/10/if-it-at-first-you-dont-succeed/
+url: /blog/2005/10/if-it-at-first-you-dont-succeed/
 categories:
   - Copyright
   - EFF

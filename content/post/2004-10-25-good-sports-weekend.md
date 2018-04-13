@@ -3,7 +3,7 @@ title: Good Sports Weekend
 author: Paul Cutler
 type: post
 date: 2004-10-25T12:13:50+00:00
-url: /2004/10/good-sports-weekend/
+url: /blog/2004/10/good-sports-weekend/
 categories:
   - Badgers
   - Football

@@ -3,7 +3,7 @@ title: Playoff thoughts
 author: Paul Cutler
 type: post
 date: 2006-01-16T03:56:48+00:00
-url: /2006/01/playoff-thoughts/
+url: /blog/2006/01/playoff-thoughts/
 categories:
   - Football
   - Sports

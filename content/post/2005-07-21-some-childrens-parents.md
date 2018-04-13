@@ -3,7 +3,7 @@ title: "Some Children's Parents"
 author: Paul Cutler
 type: post
 date: 2005-07-22T01:55:58+00:00
-url: /2005/07/some-childrens-parents/
+url: /blog/2005/07/some-childrens-parents/
 categories:
   - Alex
   - The Kids

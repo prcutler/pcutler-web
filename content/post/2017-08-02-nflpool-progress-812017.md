@@ -3,7 +3,7 @@ title: 'NFLPool Progress: 8/1/2017'
 author: Paul Cutler
 type: post
 date: 2017-08-02T14:53:08+00:00
-url: /2017/08/nflpool-progress-812017/
+url: /blog/2017/08/nflpool-progress-812017/
 categories:
   - Python
 tags:

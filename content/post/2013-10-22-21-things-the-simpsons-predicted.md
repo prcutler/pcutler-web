@@ -3,7 +3,7 @@ title: 21 Things The Simpsons Predicted
 author: Paul Cutler
 type: post
 date: 2013-10-22T07:45:35+00:00
-url: /2013/10/21-things-the-simpsons-predicted/
+url: /blog/2013/10/21-things-the-simpsons-predicted/
 categories:
   - Uncategorized
 

@@ -3,7 +3,7 @@ title: 'Bluefish & Screem'
 author: Paul Cutler
 type: post
 date: 2005-01-17T01:07:35+00:00
-url: /2005/01/bluefish-screem/
+url: /blog/2005/01/bluefish-screem/
 categories:
   - General
   - Linux

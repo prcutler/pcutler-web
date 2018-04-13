@@ -3,7 +3,7 @@ title: 'Last Starfighter: The Musical'
 author: Paul Cutler
 type: post
 date: 2004-10-20T01:25:25+00:00
-url: /2004/10/last-starfighter-the-musical/
+url: /blog/2004/10/last-starfighter-the-musical/
 categories:
   - Entertainment
   - Movies

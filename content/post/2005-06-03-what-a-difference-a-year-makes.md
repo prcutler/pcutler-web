@@ -3,7 +3,7 @@ title: What a difference a year makes
 author: Paul Cutler
 type: post
 date: 2005-06-04T01:52:12+00:00
-url: /2005/06/what-a-difference-a-year-makes/
+url: /blog/2005/06/what-a-difference-a-year-makes/
 categories:
   - Alex
   - Photography

@@ -3,7 +3,7 @@ title: The Opus Interview
 author: Paul Cutler
 type: post
 date: 2003-11-21T16:41:08+00:00
-url: /2003/11/the-opus-interview/
+url: /blog/2003/11/the-opus-interview/
 categories:
   - Entertainment
 

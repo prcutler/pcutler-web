@@ -3,7 +3,7 @@ title: Joys of running an experimental OS
 author: Paul Cutler
 type: post
 date: 2005-03-12T20:01:35+00:00
-url: /2005/03/joys-of-running-an-experimental-os/
+url: /blog/2005/03/joys-of-running-an-experimental-os/
 categories:
   - Linux
   - Technology

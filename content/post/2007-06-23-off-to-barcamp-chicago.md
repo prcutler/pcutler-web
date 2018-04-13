@@ -3,7 +3,7 @@ title: Off to Barcamp Chicago
 author: Paul Cutler
 type: post
 date: 2007-06-23T11:52:53+00:00
-url: /2007/06/off-to-barcamp-chicago/
+url: /blog/2007/06/off-to-barcamp-chicago/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: Ubuntu Fun
 author: Paul Cutler
 type: post
 date: 2006-01-19T00:13:09+00:00
-url: /2006/01/ubuntu-fun/
+url: /blog/2006/01/ubuntu-fun/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: Joost Beta Invites
 author: Paul Cutler
 type: post
 date: 2007-05-17T00:14:47+00:00
-url: /2007/05/joost-beta-invites/
+url: /blog/2007/05/joost-beta-invites/
 categories:
   - Apple
   - Entertainment

@@ -3,7 +3,7 @@ title: Harry Potter
 author: Paul Cutler
 type: post
 date: 2005-07-16T15:38:01+00:00
-url: /2005/07/harry-potter/
+url: /blog/2005/07/harry-potter/
 categories:
   - Books
   - Entertainment

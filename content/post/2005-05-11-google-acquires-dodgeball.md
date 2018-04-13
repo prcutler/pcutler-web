@@ -3,7 +3,7 @@ title: Google Acquires Dodgeball
 author: Paul Cutler
 type: post
 date: 2005-05-12T03:20:16+00:00
-url: /2005/05/google-acquires-dodgeball/
+url: /blog/2005/05/google-acquires-dodgeball/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: Summer of Code
 author: Paul Cutler
 type: post
 date: 2005-06-01T03:14:25+00:00
-url: /2005/05/summer-of-code/
+url: /blog/2005/05/summer-of-code/
 categories:
   - Technology
 

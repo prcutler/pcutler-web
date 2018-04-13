@@ -3,7 +3,7 @@ title: Fun with Flickr
 author: Paul Cutler
 type: post
 date: 2005-07-17T21:28:50+00:00
-url: /2005/07/fun-with-flickr/
+url: /blog/2005/07/fun-with-flickr/
 categories:
   - Photography
 

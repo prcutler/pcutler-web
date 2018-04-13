@@ -3,7 +3,7 @@ title: The story of the horsey
 author: Paul Cutler
 type: post
 date: 2005-05-16T21:08:56+00:00
-url: /2005/05/the-story-of-the-horsey/
+url: /blog/2005/05/the-story-of-the-horsey/
 categories:
   - Photography
   - The Kids

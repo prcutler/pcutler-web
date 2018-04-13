@@ -3,7 +3,7 @@ title: PC World reviews Linux audio players
 author: Paul Cutler
 type: post
 date: 2007-01-26T14:00:54+00:00
-url: /2007/01/pc-world-reviews-linux-audio-players/
+url: /blog/2007/01/pc-world-reviews-linux-audio-players/
 categories:
   - Linux
   - Technology

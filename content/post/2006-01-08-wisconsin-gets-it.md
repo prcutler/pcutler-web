@@ -3,7 +3,7 @@ title: Wisconsin Gets It
 author: Paul Cutler
 type: post
 date: 2006-01-09T01:53:04+00:00
-url: /2006/01/wisconsin-gets-it/
+url: /blog/2006/01/wisconsin-gets-it/
 categories:
   - EFF
   - Politics

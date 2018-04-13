@@ -3,7 +3,7 @@ title: Ten Years of Giving to the EFF
 author: Paul Cutler
 type: post
 date: 2013-12-18T15:13:18+00:00
-url: /2013/12/ten-years-of-giving-to-the-eff/
+url: /blog/2013/12/ten-years-of-giving-to-the-eff/
 categories:
   - EFF
 tags:

@@ -3,7 +3,7 @@ title: MAME stuff
 author: Paul Cutler
 type: post
 date: 2005-11-20T18:02:24+00:00
-url: /2005/11/mame-stuff/
+url: /blog/2005/11/mame-stuff/
 categories:
   - Entertainment
   - Games

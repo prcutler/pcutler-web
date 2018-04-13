@@ -3,7 +3,7 @@ title: Even Congress denied access to basic details of NSA spying
 author: Paul Cutler
 type: post
 date: 2013-08-05T01:37:55+00:00
-url: /2013/08/even-congress-denied-access-to-basic-details-of-nsa-spying/
+url: /blog/2013/08/even-congress-denied-access-to-basic-details-of-nsa-spying/
 categories:
   - Politics
 tags:

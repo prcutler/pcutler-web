@@ -3,7 +3,7 @@ title: Test Post from Gaming Party – January 03
 author: Paul Cutler
 type: post
 date: 2004-10-13T03:14:33+00:00
-url: /2004/10/test-post-from-gaming-party-january-03/
+url: /blog/2004/10/test-post-from-gaming-party-january-03/
 categories:
   - Photography
   - Technology

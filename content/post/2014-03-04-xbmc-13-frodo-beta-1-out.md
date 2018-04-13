@@ -3,7 +3,7 @@ title: XBMC 13 (Gotham) Beta 1 Out
 author: Paul Cutler
 type: post
 date: 2014-03-04T14:20:49+00:00
-url: /2014/03/xbmc-13-frodo-beta-1-out/
+url: /blog/2014/03/xbmc-13-frodo-beta-1-out/
 categories:
   - Technology
   - XBMC

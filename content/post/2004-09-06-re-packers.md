@@ -3,7 +3,7 @@ title: 'Re: Packers'
 author: Paul Cutler
 type: post
 date: 2004-09-06T23:08:17+00:00
-url: /2004/09/re-packers/
+url: /blog/2004/09/re-packers/
 categories:
   - Football
   - Packers

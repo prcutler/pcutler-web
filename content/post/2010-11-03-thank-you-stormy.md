@@ -3,7 +3,7 @@ title: Thank you Stormy
 author: Paul Cutler
 type: post
 date: 2010-11-04T01:46:42+00:00
-url: /2010/11/thank-you-stormy/
+url: /blog/2010/11/thank-you-stormy/
 categories:
   - GNOME
 

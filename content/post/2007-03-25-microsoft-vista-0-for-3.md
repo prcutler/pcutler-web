@@ -3,7 +3,7 @@ title: 'Microsoft Vista:  0 for 3'
 author: Paul Cutler
 type: post
 date: 2007-03-26T01:22:47+00:00
-url: /2007/03/microsoft-vista-0-for-3/
+url: /blog/2007/03/microsoft-vista-0-for-3/
 categories:
   - Foresight
   - Linux

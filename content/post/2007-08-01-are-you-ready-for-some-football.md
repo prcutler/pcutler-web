@@ -3,7 +3,7 @@ title: Are you ready for some football?
 author: Paul Cutler
 type: post
 date: 2007-08-01T12:57:55+00:00
-url: /2007/08/are-you-ready-for-some-football/
+url: /blog/2007/08/are-you-ready-for-some-football/
 categories:
   - Sports
   - TV

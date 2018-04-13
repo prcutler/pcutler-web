@@ -3,7 +3,7 @@ title: "Software I'm excited about"
 author: Paul Cutler
 type: post
 date: 2007-12-11T15:34:05+00:00
-url: /2007/12/software-im-excited-about/
+url: /blog/2007/12/software-im-excited-about/
 categories:
   - Foresight
   - GNOME

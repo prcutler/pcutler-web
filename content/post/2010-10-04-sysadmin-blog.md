@@ -3,7 +3,7 @@ title: Sysadmin Blog
 author: Paul Cutler
 type: post
 date: 2010-10-04T15:59:36+00:00
-url: /2010/10/sysadmin-blog/
+url: /blog/2010/10/sysadmin-blog/
 categories:
   - GNOME
 

@@ -3,7 +3,7 @@ title: Poker Results
 author: Paul Cutler
 type: post
 date: 2005-01-30T14:08:51+00:00
-url: /2005/01/poker-results/
+url: /blog/2005/01/poker-results/
 categories:
   - Entertainment
 

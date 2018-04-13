@@ -3,7 +3,7 @@ title: Foresight Issues Update
 author: Paul Cutler
 type: post
 date: 2008-12-23T14:55:50+00:00
-url: /2008/12/foresight-issues-update/
+url: /blog/2008/12/foresight-issues-update/
 categories:
   - Foresight
 

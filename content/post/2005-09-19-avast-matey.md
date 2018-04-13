@@ -3,7 +3,7 @@ title: Avast, matey!
 author: Paul Cutler
 type: post
 date: 2005-09-19T10:52:02+00:00
-url: /2005/09/avast-matey/
+url: /blog/2005/09/avast-matey/
 categories:
   - Humor
 

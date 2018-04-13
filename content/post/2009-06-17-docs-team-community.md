@@ -3,7 +3,7 @@ title: 'Docs Team & Community'
 author: Paul Cutler
 type: post
 date: 2009-06-17T18:42:09+00:00
-url: /2009/06/docs-team-community/
+url: /blog/2009/06/docs-team-community/
 categories:
   - Documentation
   - GNOME

@@ -3,7 +3,7 @@ title: Planning for the inevitable
 author: Paul Cutler
 type: post
 date: 2007-08-06T20:27:14+00:00
-url: /2007/08/planning-for-the-inevitable/
+url: /blog/2007/08/planning-for-the-inevitable/
 categories:
   - Websites
 

@@ -3,7 +3,7 @@ title: Join the Album Club
 author: Paul Cutler
 type: post
 date: 2011-06-01T20:09:49+00:00
-url: /2011/06/join-the-album-club/
+url: /blog/2011/06/join-the-album-club/
 categories:
   - Music
 tags:

@@ -3,7 +3,7 @@ title: High Resolution Wallpapers
 author: Paul Cutler
 type: post
 date: 2005-09-25T22:44:16+00:00
-url: /2005/09/high-resolution-wallpapers/
+url: /blog/2005/09/high-resolution-wallpapers/
 categories:
   - General
 

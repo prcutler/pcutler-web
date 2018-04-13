@@ -3,7 +3,7 @@ title: "Storm Troopin'"
 author: Paul Cutler
 type: post
 date: 2008-06-05T13:18:23+00:00
-url: /2008/06/storm-troopin/
+url: /blog/2008/06/storm-troopin/
 categories:
   - Flickr
   - Photography

@@ -3,7 +3,7 @@ title: Yahoo! and me
 author: Paul Cutler
 type: post
 date: 2008-02-02T01:43:42+00:00
-url: /2008/02/yahoo-and-me/
+url: /blog/2008/02/yahoo-and-me/
 categories:
   - Microsoft
   - Technology

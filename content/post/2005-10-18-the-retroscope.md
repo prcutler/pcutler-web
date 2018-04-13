@@ -3,7 +3,7 @@ title: The Retroscope
 author: Paul Cutler
 type: post
 date: 2005-10-19T03:20:55+00:00
-url: /2005/10/the-retroscope/
+url: /blog/2005/10/the-retroscope/
 categories:
   - Humor
 

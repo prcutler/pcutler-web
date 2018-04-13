@@ -3,7 +3,7 @@ title: GNOME Accounts
 author: Paul Cutler
 type: post
 date: 2010-01-20T01:37:42+00:00
-url: /2010/01/gnome-accounts/
+url: /blog/2010/01/gnome-accounts/
 categories:
   - GNOME
 

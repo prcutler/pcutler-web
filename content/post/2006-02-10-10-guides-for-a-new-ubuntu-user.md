@@ -3,7 +3,7 @@ title: 10 Guides for a new Ubuntu user
 author: Paul Cutler
 type: post
 date: 2006-02-11T04:29:30+00:00
-url: /2006/02/10-guides-for-a-new-ubuntu-user/
+url: /blog/2006/02/10-guides-for-a-new-ubuntu-user/
 categories:
   - Linux
   - Technology

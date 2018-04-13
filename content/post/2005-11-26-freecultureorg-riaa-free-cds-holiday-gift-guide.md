@@ -3,7 +3,7 @@ title: 'FreeCulture.org: RIAA-free CDs Holiday Gift Guide'
 author: Paul Cutler
 type: post
 date: 2005-11-27T03:20:47+00:00
-url: /2005/11/freecultureorg-riaa-free-cds-holiday-gift-guide/
+url: /blog/2005/11/freecultureorg-riaa-free-cds-holiday-gift-guide/
 categories:
   - Entertainment
   - Music

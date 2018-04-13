@@ -3,7 +3,7 @@ title: Get out and vote!
 author: Paul Cutler
 type: post
 date: 2008-11-04T14:59:27+00:00
-url: /2008/11/get-out-and-vote/
+url: /blog/2008/11/get-out-and-vote/
 categories:
   - Politics
 

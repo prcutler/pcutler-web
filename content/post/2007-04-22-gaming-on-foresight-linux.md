@@ -3,7 +3,7 @@ title: Gaming on (Foresight) Linux
 author: Paul Cutler
 type: post
 date: 2007-04-23T01:01:15+00:00
-url: /2007/04/gaming-on-foresight-linux/
+url: /blog/2007/04/gaming-on-foresight-linux/
 categories:
   - Entertainment
   - Foresight

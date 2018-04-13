@@ -3,7 +3,7 @@ title: Ubuntu Desktop News
 author: Paul Cutler
 type: post
 date: 2005-12-16T03:37:18+00:00
-url: /2005/12/ubuntu-desktop-news/
+url: /blog/2005/12/ubuntu-desktop-news/
 categories:
   - Linux
   - Technology

@@ -3,7 +3,7 @@ title: Banshee 0.12.0 Released
 author: Paul Cutler
 type: post
 date: 2007-03-06T15:03:06+00:00
-url: /2007/03/banshee-0120-released/
+url: /blog/2007/03/banshee-0120-released/
 categories:
   - Linux
   - Technology

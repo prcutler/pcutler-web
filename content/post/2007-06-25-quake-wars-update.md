@@ -3,7 +3,7 @@ title: Quake Wars Update
 author: Paul Cutler
 type: post
 date: 2007-06-26T00:47:04+00:00
-url: /2007/06/quake-wars-update/
+url: /blog/2007/06/quake-wars-update/
 categories:
   - Entertainment
   - Games

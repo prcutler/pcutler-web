@@ -3,7 +3,7 @@ title: Jumping the Shark
 author: Paul Cutler
 type: post
 date: 2003-11-21T14:01:25+00:00
-url: /2003/11/jumping-the-shark/
+url: /blog/2003/11/jumping-the-shark/
 categories:
   - Entertainment
   - Movies

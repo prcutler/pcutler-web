@@ -3,7 +3,7 @@ title: My workflow in learning Python
 author: Paul Cutler
 type: post
 date: 2016-01-15T13:50:36+00:00
-url: /2016/01/my-workflow-in-learning-python/
+url: /blog/2016/01/my-workflow-in-learning-python/
 featured_image: /wp-content/uploads/2016/01/python-workflow.png
 categories:
   - Python

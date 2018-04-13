@@ -3,7 +3,7 @@ title: Python for Entrepeneurs Progress
 author: Paul Cutler
 type: post
 date: 2017-07-11T12:57:06+00:00
-url: /2017/07/python-for-entrepeneurs-progress/
+url: /blog/2017/07/python-for-entrepeneurs-progress/
 categories:
   - Python
 tags:

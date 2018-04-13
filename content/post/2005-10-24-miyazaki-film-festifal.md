@@ -3,7 +3,7 @@ title: Miyazaki Film Festival
 author: Paul Cutler
 type: post
 date: 2005-10-25T02:20:16+00:00
-url: /2005/10/miyazaki-film-festifal/
+url: /blog/2005/10/miyazaki-film-festifal/
 categories:
   - Entertainment
   - Movies

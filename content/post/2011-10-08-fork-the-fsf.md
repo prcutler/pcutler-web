@@ -3,7 +3,7 @@ title: Fork the FSF
 author: Paul Cutler
 type: post
 date: 2011-10-09T02:19:19+00:00
-url: /2011/10/fork-the-fsf/
+url: /blog/2011/10/fork-the-fsf/
 categories:
   - Linux
 tags:

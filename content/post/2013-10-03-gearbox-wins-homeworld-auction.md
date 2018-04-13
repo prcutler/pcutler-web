@@ -3,7 +3,7 @@ title: Gearbox wins Homeworld Auction
 author: Paul Cutler
 type: post
 date: 2013-10-03T13:14:26+00:00
-url: /2013/10/gearbox-wins-homeworld-auction/
+url: /blog/2013/10/gearbox-wins-homeworld-auction/
 categories:
   - Games
   - PC Games

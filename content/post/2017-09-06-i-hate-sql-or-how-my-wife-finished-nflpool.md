@@ -3,7 +3,7 @@ title: I Hate SQL (Or how my wife finished NFLPool)
 author: Paul Cutler
 type: post
 date: 2017-09-06T12:33:39+00:00
-url: /2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/
+url: /blog/2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/
 categories:
   - Python
 tags:

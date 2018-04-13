@@ -3,7 +3,7 @@ title: "We need some stinkin' Badgers!"
 author: Paul Cutler
 type: post
 date: 2003-03-06T16:15:35+00:00
-url: /2003/03/we-need-some-stinkin-badgers/
+url: /blog/2003/03/we-need-some-stinkin-badgers/
 categories:
   - Badgers
   - Sports

@@ -3,7 +3,7 @@ title: Off the Grid
 author: Paul Cutler
 type: post
 date: 2007-05-13T16:19:11+00:00
-url: /2007/05/off-the-grid-2/
+url: /blog/2007/05/off-the-grid-2/
 categories:
   - Books
   - Entertainment

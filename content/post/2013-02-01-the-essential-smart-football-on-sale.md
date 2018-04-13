@@ -3,7 +3,7 @@ title: The Essential Smart Football on Sale
 author: Paul Cutler
 type: post
 date: 2013-02-01T16:14:32+00:00
-url: /2013/02/the-essential-smart-football-on-sale/
+url: /blog/2013/02/the-essential-smart-football-on-sale/
 categories:
   - Football
 tags:

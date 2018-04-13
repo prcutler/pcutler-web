@@ -3,7 +3,7 @@ title: Blu-Ray goes for the knockout blow
 author: Paul Cutler
 type: post
 date: 2008-01-05T01:43:39+00:00
-url: /2008/01/blu-ray-goes-for-the-knockout-blow/
+url: /blog/2008/01/blu-ray-goes-for-the-knockout-blow/
 categories:
   - Entertainment
   - Movies

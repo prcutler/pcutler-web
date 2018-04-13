@@ -3,7 +3,7 @@ title: What a weekend
 author: Paul Cutler
 type: post
 date: 2004-08-30T03:07:37+00:00
-url: /2004/08/what-a-weekend/
+url: /blog/2004/08/what-a-weekend/
 categories:
   - General
 

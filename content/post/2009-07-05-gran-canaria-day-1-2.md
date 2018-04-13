@@ -3,7 +3,7 @@ title: 'Gran Canaria Day 1 & 2'
 author: Paul Cutler
 type: post
 date: 2009-07-05T18:46:00+00:00
-url: /2009/07/gran-canaria-day-1-2/
+url: /blog/2009/07/gran-canaria-day-1-2/
 categories:
   - GNOME
 tags:

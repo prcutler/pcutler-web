@@ -3,7 +3,7 @@ title: GNOME 2.32 Screenshots needed
 author: Paul Cutler
 type: post
 date: 2010-09-26T20:09:24+00:00
-url: /2010/09/gnome-2-32-screenshots-needed/
+url: /blog/2010/09/gnome-2-32-screenshots-needed/
 categories:
   - GNOME
 tags:

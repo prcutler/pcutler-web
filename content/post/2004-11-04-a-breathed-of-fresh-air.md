@@ -3,7 +3,7 @@ title: A Breath(ed) of fresh air
 author: Paul Cutler
 type: post
 date: 2004-11-04T14:17:35+00:00
-url: /2004/11/a-breathed-of-fresh-air/
+url: /blog/2004/11/a-breathed-of-fresh-air/
 categories:
   - Books
   - Entertainment

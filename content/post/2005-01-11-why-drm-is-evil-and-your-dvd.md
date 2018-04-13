@@ -3,7 +3,7 @@ title: Why DRM is Evil, and what it means to your DVD Collection
 author: Paul Cutler
 type: post
 date: 2005-01-12T03:30:25+00:00
-url: /2005/01/why-drm-is-evil-and-your-dvd/
+url: /blog/2005/01/why-drm-is-evil-and-your-dvd/
 categories:
   - Copyright
   - EFF

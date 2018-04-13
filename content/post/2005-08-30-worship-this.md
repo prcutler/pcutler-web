@@ -3,7 +3,7 @@ title: Worship this
 author: Paul Cutler
 type: post
 date: 2005-08-30T18:35:43+00:00
-url: /2005/08/worship-this/
+url: /blog/2005/08/worship-this/
 categories:
   - General
 

@@ -3,7 +3,7 @@ title: GoDaddy Screws up
 author: Paul Cutler
 type: post
 date: 2006-01-10T02:38:03+00:00
-url: /2006/01/godaddy-screws-up/
+url: /blog/2006/01/godaddy-screws-up/
 categories:
   - Technology
   - Websites

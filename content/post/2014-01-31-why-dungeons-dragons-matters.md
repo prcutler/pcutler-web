@@ -3,7 +3,7 @@ title: 'Why Dungeons & Dragons Matters'
 author: Paul Cutler
 type: post
 date: 2014-01-31T13:15:37+00:00
-url: /2014/01/why-dungeons-dragons-matters/
+url: /blog/2014/01/why-dungeons-dragons-matters/
 featured_image: /wp-content/uploads/2014/01/dice.jpg
 full_width_featured_image:
   - 1

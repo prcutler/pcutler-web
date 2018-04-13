@@ -3,7 +3,7 @@ title: How I Met Your Mother – Comic-Con 2013
 author: Paul Cutler
 type: post
 date: 2013-07-23T01:05:49+00:00
-url: /2013/07/how-i-met-your-mother-comic-con-2013/
+url: /blog/2013/07/how-i-met-your-mother-comic-con-2013/
 categories:
   - Entertainment
   - TV

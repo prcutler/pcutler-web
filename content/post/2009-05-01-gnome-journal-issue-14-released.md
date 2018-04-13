@@ -3,7 +3,7 @@ title: GNOME Journal Issue 14 released!
 author: Paul Cutler
 type: post
 date: 2009-05-01T16:16:17+00:00
-url: /2009/05/gnome-journal-issue-14-released/
+url: /blog/2009/05/gnome-journal-issue-14-released/
 categories:
   - GNOME
   - GNOME Journal

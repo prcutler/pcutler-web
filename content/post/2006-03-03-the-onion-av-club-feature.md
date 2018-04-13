@@ -3,7 +3,7 @@ title: The Onion AV Club feature
 author: Paul Cutler
 type: post
 date: 2006-03-03T13:18:41+00:00
-url: /2006/03/the-onion-av-club-feature/
+url: /blog/2006/03/the-onion-av-club-feature/
 categories:
   - Entertainment
   - Music

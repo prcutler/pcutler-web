@@ -3,7 +3,7 @@ title: I will get a Mac.. someday
 author: Paul Cutler
 type: post
 date: 2005-01-12T03:42:01+00:00
-url: /2005/01/i-will-get-a-mac-someday/
+url: /blog/2005/01/i-will-get-a-mac-someday/
 categories:
   - Technology
 

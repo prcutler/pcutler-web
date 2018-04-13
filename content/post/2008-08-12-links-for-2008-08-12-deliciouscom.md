@@ -3,7 +3,7 @@ title: 'links for 2008-08-12 [delicious.com]'
 author: Paul Cutler
 type: post
 date: 2008-08-12T22:32:21+00:00
-url: /2008/08/links-for-2008-08-12-deliciouscom/
+url: /blog/2008/08/links-for-2008-08-12-deliciouscom/
 categories:
   - Links
 

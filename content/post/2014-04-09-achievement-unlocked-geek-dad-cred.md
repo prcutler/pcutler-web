@@ -3,7 +3,7 @@ title: 'Achievement Unlocked: Geek Dad Cred'
 author: Paul Cutler
 type: post
 date: 2014-04-09T12:53:16+00:00
-url: /2014/04/achievement-unlocked-geek-dad-cred/
+url: /blog/2014/04/achievement-unlocked-geek-dad-cred/
 categories:
   - Movies
 tags:

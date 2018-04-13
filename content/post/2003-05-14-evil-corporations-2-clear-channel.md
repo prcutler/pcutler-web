@@ -3,7 +3,7 @@ title: 'Evil Corporations #2: Clear Channel'
 author: Paul Cutler
 type: post
 date: 2003-05-14T16:46:57+00:00
-url: /2003/05/evil-corporations-2-clear-channel/
+url: /blog/2003/05/evil-corporations-2-clear-channel/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: How time flies (or why I still haven’t learned Python)
 author: Paul Cutler
 type: post
 date: 2016-07-22T06:21:56+00:00
-url: /2016/07/how-time-flies-or-why-i-still-havent-learned-python/
+url: /blog/2016/07/how-time-flies-or-why-i-still-havent-learned-python/
 categories:
   - Python
 tags:

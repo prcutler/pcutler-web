@@ -3,7 +3,7 @@ title: What a week
 author: Paul Cutler
 type: post
 date: 2009-08-17T01:23:13+00:00
-url: /2009/08/what-a-week/
+url: /blog/2009/08/what-a-week/
 categories:
   - General
 

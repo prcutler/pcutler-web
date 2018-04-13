@@ -3,7 +3,7 @@ title: Second Life on Linux!
 author: Paul Cutler
 type: post
 date: 2006-02-02T12:56:53+00:00
-url: /2006/02/second-life-on-linux/
+url: /blog/2006/02/second-life-on-linux/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: 7 Deadly Sins
 author: Paul Cutler
 type: post
 date: 2005-05-04T02:09:33+00:00
-url: /2005/05/7-deadly-sins/
+url: /blog/2005/05/7-deadly-sins/
 categories:
   - Humor
   - Photography

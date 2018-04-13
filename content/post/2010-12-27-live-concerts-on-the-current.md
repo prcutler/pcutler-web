@@ -3,7 +3,7 @@ title: Live concerts on The Current
 author: Paul Cutler
 type: post
 date: 2010-12-27T14:58:31+00:00
-url: /2010/12/live-concerts-on-the-current/
+url: /blog/2010/12/live-concerts-on-the-current/
 categories:
   - Music
 tags:

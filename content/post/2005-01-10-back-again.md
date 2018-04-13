@@ -3,7 +3,7 @@ title: Back Again
 author: Paul Cutler
 type: post
 date: 2005-01-10T16:38:22+00:00
-url: /2005/01/back-again/
+url: /blog/2005/01/back-again/
 categories:
   - General
 

@@ -3,7 +3,7 @@ title: Experimental Support for Compiz-Fusion
 author: Paul Cutler
 type: post
 date: 2007-10-25T02:28:45+00:00
-url: /2007/10/experimental-support-for-compiz-fusion/
+url: /blog/2007/10/experimental-support-for-compiz-fusion/
 categories:
   - Foresight
   - Linux

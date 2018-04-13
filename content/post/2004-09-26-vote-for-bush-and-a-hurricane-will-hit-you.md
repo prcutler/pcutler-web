@@ -3,7 +3,7 @@ title: Vote for Bush and a Hurricane will hit you
 author: Paul Cutler
 type: post
 date: 2004-09-26T14:27:38+00:00
-url: /2004/09/vote-for-bush-and-a-hurricane-will-hit-you/
+url: /blog/2004/09/vote-for-bush-and-a-hurricane-will-hit-you/
 categories:
   - Humor
   - Politics

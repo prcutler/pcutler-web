@@ -3,7 +3,7 @@ title: 2.29 Release Notes
 author: Paul Cutler
 type: post
 date: 2010-01-20T14:05:38+00:00
-url: /2010/01/2-29-release-notes/
+url: /blog/2010/01/2-29-release-notes/
 categories:
   - General
 

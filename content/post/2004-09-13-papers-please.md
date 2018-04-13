@@ -3,7 +3,7 @@ title: Papers Please!
 author: Paul Cutler
 type: post
 date: 2004-09-14T00:57:41+00:00
-url: /2004/09/papers-please/
+url: /blog/2004/09/papers-please/
 categories:
   - Politics
   - Technology

@@ -3,7 +3,7 @@ title: LCD Soundsystem Wraps it Up
 author: Paul Cutler
 type: post
 date: 2011-04-05T02:49:25+00:00
-url: /2011/04/lcd-soundsystem-wraps-it-up/
+url: /blog/2011/04/lcd-soundsystem-wraps-it-up/
 categories:
   - Music
 tags:

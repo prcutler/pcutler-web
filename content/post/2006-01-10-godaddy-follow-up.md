@@ -3,7 +3,7 @@ title: GoDaddy Follow-up
 author: Paul Cutler
 type: post
 date: 2006-01-11T02:15:28+00:00
-url: /2006/01/godaddy-follow-up/
+url: /blog/2006/01/godaddy-follow-up/
 categories:
   - Technology
   - Websites

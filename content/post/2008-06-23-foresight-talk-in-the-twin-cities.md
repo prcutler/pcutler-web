@@ -3,7 +3,7 @@ title: Foresight Talk in the Twin Cities
 author: Paul Cutler
 type: post
 date: 2008-06-23T13:05:21+00:00
-url: /2008/06/foresight-talk-in-the-twin-cities/
+url: /blog/2008/06/foresight-talk-in-the-twin-cities/
 categories:
   - Foresight
   - Linux

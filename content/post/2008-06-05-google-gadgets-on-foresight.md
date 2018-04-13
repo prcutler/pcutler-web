@@ -3,7 +3,7 @@ title: Google Gadgets on Foresight
 author: Paul Cutler
 type: post
 date: 2008-06-05T03:19:04+00:00
-url: /2008/06/google-gadgets-on-foresight/
+url: /blog/2008/06/google-gadgets-on-foresight/
 categories:
   - Foresight
 tags:

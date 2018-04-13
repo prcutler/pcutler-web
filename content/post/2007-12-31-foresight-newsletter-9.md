@@ -3,7 +3,7 @@ title: 'Foresight Newsletter #9'
 author: Paul Cutler
 type: post
 date: 2007-12-31T22:51:25+00:00
-url: /2007/12/foresight-newsletter-9/
+url: /blog/2007/12/foresight-newsletter-9/
 categories:
   - Foresight
 tags:

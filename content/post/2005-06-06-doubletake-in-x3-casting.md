@@ -3,7 +3,7 @@ title: Doubletake in X3 Casting
 author: Paul Cutler
 type: post
 date: 2005-06-07T01:20:43+00:00
-url: /2005/06/doubletake-in-x3-casting/
+url: /blog/2005/06/doubletake-in-x3-casting/
 categories:
   - Entertainment
   - Movies

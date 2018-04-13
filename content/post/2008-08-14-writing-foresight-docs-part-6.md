@@ -3,7 +3,7 @@ title: 'Writing Foresight Docs: Part 6'
 author: Paul Cutler
 type: post
 date: 2008-08-14T20:19:09+00:00
-url: /2008/08/writing-foresight-docs-part-6/
+url: /blog/2008/08/writing-foresight-docs-part-6/
 categories:
   - Foresight
 tags:

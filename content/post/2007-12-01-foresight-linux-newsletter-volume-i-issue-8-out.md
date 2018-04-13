@@ -3,7 +3,7 @@ title: Foresight Linux Newsletter Volume I, Issue 8 Out
 author: Paul Cutler
 type: post
 date: 2007-12-01T04:34:52+00:00
-url: /2007/12/foresight-linux-newsletter-volume-i-issue-8-out/
+url: /blog/2007/12/foresight-linux-newsletter-volume-i-issue-8-out/
 categories:
   - Foresight
 

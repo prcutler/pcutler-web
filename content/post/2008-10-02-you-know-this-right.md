@@ -3,7 +3,7 @@ title: You know this, right?
 author: Paul Cutler
 type: post
 date: 2008-10-02T13:26:36+00:00
-url: /2008/10/you-know-this-right/
+url: /blog/2008/10/you-know-this-right/
 categories:
   - Politics
 tags:

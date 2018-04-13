@@ -3,7 +3,7 @@ title: Speaking of Opus
 author: Paul Cutler
 type: post
 date: 2003-11-24T03:56:01+00:00
-url: /2003/11/speaking-of-opus/
+url: /blog/2003/11/speaking-of-opus/
 categories:
   - Entertainment
 

@@ -3,7 +3,7 @@ title: Thanks Steve
 author: Paul Cutler
 type: post
 date: 2011-10-06T13:02:35+00:00
-url: /2011/10/thanks-steve/
+url: /blog/2011/10/thanks-steve/
 categories:
   - Apple
   - Technology

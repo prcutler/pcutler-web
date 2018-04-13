@@ -3,7 +3,7 @@ title: "The Inauguration You Didn't See"
 author: Paul Cutler
 type: post
 date: 2005-02-03T12:31:46+00:00
-url: /2005/02/the-inauguration-you-didnt-see/
+url: /blog/2005/02/the-inauguration-you-didnt-see/
 categories:
   - Politics
 

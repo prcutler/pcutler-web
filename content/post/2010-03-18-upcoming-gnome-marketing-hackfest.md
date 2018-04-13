@@ -3,7 +3,7 @@ title: Upcoming GNOME Marketing Hackfest
 author: Paul Cutler
 type: post
 date: 2010-03-18T13:31:17+00:00
-url: /2010/03/upcoming-gnome-marketing-hackfest/
+url: /blog/2010/03/upcoming-gnome-marketing-hackfest/
 categories:
   - GNOME
   - Marketing

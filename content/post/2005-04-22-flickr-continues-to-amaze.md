@@ -3,7 +3,7 @@ title: Flickr continues to amaze
 author: Paul Cutler
 type: post
 date: 2005-04-22T23:43:37+00:00
-url: /2005/04/flickr-continues-to-amaze/
+url: /blog/2005/04/flickr-continues-to-amaze/
 categories:
   - Photography
   - Technology

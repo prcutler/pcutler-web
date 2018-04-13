@@ -3,7 +3,7 @@ title: 2009 GNOME Annual Report Kickoff
 author: Paul Cutler
 type: post
 date: 2009-10-08T02:32:48+00:00
-url: /2009/10/2009-gnome-annual-report-kickoff/
+url: /blog/2009/10/2009-gnome-annual-report-kickoff/
 categories:
   - GNOME
   - Marketing

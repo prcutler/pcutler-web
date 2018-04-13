@@ -3,7 +3,7 @@ title: Life of the Closed Mind
 author: Paul Cutler
 type: post
 date: 2005-05-29T00:20:47+00:00
-url: /2005/05/life-of-the-closed-mind/
+url: /blog/2005/05/life-of-the-closed-mind/
 categories:
   - Politics
 

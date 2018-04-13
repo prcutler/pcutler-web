@@ -3,7 +3,7 @@ title: Go Badgers!
 author: Paul Cutler
 type: post
 date: 2004-09-04T21:31:28+00:00
-url: /2004/09/go-badgers/
+url: /blog/2004/09/go-badgers/
 categories:
   - Badgers
   - Football

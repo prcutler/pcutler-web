@@ -3,7 +3,7 @@ title: Bandwidth Oops
 author: Paul Cutler
 type: post
 date: 2005-09-06T12:34:54+00:00
-url: /2005/09/bandwidth-oops/
+url: /blog/2005/09/bandwidth-oops/
 categories:
   - Technology
 

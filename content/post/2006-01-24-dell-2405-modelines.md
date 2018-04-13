@@ -3,7 +3,7 @@ title: Dell 2405 Modelines
 author: Paul Cutler
 type: post
 date: 2006-01-24T05:21:55+00:00
-url: /2006/01/dell-2405-modelines/
+url: /blog/2006/01/dell-2405-modelines/
 categories:
   - Hardware
   - Linux

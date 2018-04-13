@@ -3,7 +3,7 @@ title: August Vinyl
 author: Paul Cutler
 type: post
 date: 2013-10-01T13:03:44+00:00
-url: /2013/10/august-vinyl/
+url: /blog/2013/10/august-vinyl/
 categories:
   - Music
   - New

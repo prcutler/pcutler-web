@@ -3,7 +3,7 @@ title: "Meet Snowy, Tomboy's best friend"
 author: Paul Cutler
 type: post
 date: 2009-05-28T15:10:47+00:00
-url: /2009/05/meet-snowy-tomboys-best-friend/
+url: /blog/2009/05/meet-snowy-tomboys-best-friend/
 categories:
   - GNOME
   - Linux

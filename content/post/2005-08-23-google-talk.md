@@ -3,7 +3,7 @@ title: Google Talk
 author: Paul Cutler
 type: post
 date: 2005-08-24T03:29:20+00:00
-url: /2005/08/google-talk/
+url: /blog/2005/08/google-talk/
 categories:
   - Technology
 

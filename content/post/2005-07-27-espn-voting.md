@@ -3,7 +3,7 @@ title: ESPN Voting
 author: Paul Cutler
 type: post
 date: 2005-07-27T12:32:03+00:00
-url: /2005/07/espn-voting/
+url: /blog/2005/07/espn-voting/
 categories:
   - Football
   - Sports

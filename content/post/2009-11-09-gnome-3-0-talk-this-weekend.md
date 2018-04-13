@@ -3,7 +3,7 @@ title: GNOME 3.0 talk this weekend!
 author: Paul Cutler
 type: post
 date: 2009-11-09T15:11:03+00:00
-url: /2009/11/gnome-3-0-talk-this-weekend/
+url: /blog/2009/11/gnome-3-0-talk-this-weekend/
 categories:
   - GNOME
   - Marketing

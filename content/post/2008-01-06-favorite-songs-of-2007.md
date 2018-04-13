@@ -3,7 +3,7 @@ title: Favorite Songs of 2007
 author: Paul Cutler
 type: post
 date: 2008-01-06T15:09:23+00:00
-url: /2008/01/favorite-songs-of-2007/
+url: /blog/2008/01/favorite-songs-of-2007/
 categories:
   - Music
 

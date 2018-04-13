@@ -3,7 +3,7 @@ title: I hate Internet Explorer
 author: Paul Cutler
 type: post
 date: 2005-08-19T12:55:18+00:00
-url: /2005/08/i-hate-internet-explorer/
+url: /blog/2005/08/i-hate-internet-explorer/
 categories:
   - Microsoft
   - Technology

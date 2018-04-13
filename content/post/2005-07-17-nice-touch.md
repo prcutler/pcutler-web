@@ -3,7 +3,7 @@ title: Nice Touch
 author: Paul Cutler
 type: post
 date: 2005-07-18T03:02:45+00:00
-url: /2005/07/nice-touch/
+url: /blog/2005/07/nice-touch/
 categories:
   - Technology
 

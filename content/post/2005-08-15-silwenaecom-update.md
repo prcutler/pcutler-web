@@ -3,7 +3,7 @@ title: Silwenae.com update
 author: Paul Cutler
 type: post
 date: 2005-08-15T12:54:25+00:00
-url: /2005/08/silwenaecom-update/
+url: /blog/2005/08/silwenaecom-update/
 categories:
   - Technology
   - Websites

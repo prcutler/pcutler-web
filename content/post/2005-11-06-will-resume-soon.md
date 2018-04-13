@@ -3,7 +3,7 @@ title: Will Resume Soon
 author: Paul Cutler
 type: post
 date: 2005-11-07T01:06:43+00:00
-url: /2005/11/will-resume-soon/
+url: /blog/2005/11/will-resume-soon/
 categories:
   - General
 

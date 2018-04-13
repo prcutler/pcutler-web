@@ -3,7 +3,7 @@ title: Phair thee well
 author: Paul Cutler
 type: post
 date: 2003-04-21T13:38:57+00:00
-url: /2003/04/phair-thee-well/
+url: /blog/2003/04/phair-thee-well/
 categories:
   - Entertainment
   - Music

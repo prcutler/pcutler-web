@@ -3,7 +3,7 @@ title: Banshee Documentation
 author: Paul Cutler
 type: post
 date: 2009-06-18T03:38:11+00:00
-url: /2009/06/banshee-documentation/
+url: /blog/2009/06/banshee-documentation/
 categories:
   - Documentation
   - Linux

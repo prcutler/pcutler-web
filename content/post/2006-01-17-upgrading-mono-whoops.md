@@ -3,7 +3,7 @@ title: Upgrading Mono – whoops!
 author: Paul Cutler
 type: post
 date: 2006-01-17T20:18:39+00:00
-url: /2006/01/upgrading-mono-whoops/
+url: /blog/2006/01/upgrading-mono-whoops/
 categories:
   - Linux
   - Technology

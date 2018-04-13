@@ -3,7 +3,7 @@ title: 'Writing Foresight Docs: Part 3'
 author: Paul Cutler
 type: post
 date: 2007-06-05T03:18:22+00:00
-url: /2007/06/writing-foresight-docs-part-3/
+url: /blog/2007/06/writing-foresight-docs-part-3/
 categories:
   - Foresight
   - Linux

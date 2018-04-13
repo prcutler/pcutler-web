@@ -3,7 +3,7 @@ title: Foresight Wiki
 author: Paul Cutler
 type: post
 date: 2007-10-04T14:48:43+00:00
-url: /2007/10/foresight-wiki/
+url: /blog/2007/10/foresight-wiki/
 categories:
   - Foresight
   - Linux

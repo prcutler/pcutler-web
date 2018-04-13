@@ -3,7 +3,7 @@ title: RIP Pat Morita
 author: Paul Cutler
 type: post
 date: 2005-11-25T23:33:03+00:00
-url: /2005/11/rip-pat-morita/
+url: /blog/2005/11/rip-pat-morita/
 categories:
   - Entertainment
   - Movies

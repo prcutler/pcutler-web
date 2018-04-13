@@ -3,7 +3,7 @@ title: Writing GNOME Docs, Part II
 author: Paul Cutler
 type: post
 date: 2009-03-26T18:03:39+00:00
-url: /2009/03/writing-gnome-docs-part-ii/
+url: /blog/2009/03/writing-gnome-docs-part-ii/
 categories:
   - GNOME
   - Linux

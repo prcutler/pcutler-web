@@ -3,7 +3,7 @@ title: "It doesn't get much better…"
 author: Paul Cutler
 type: post
 date: 2003-07-26T21:42:27+00:00
-url: /2003/07/it-doesnt-get-much-better/
+url: /blog/2003/07/it-doesnt-get-much-better/
 categories:
   - General
 

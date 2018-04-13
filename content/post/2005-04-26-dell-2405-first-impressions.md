@@ -3,7 +3,7 @@ title: Dell 2405 First Impressions
 author: Paul Cutler
 type: post
 date: 2005-04-27T01:25:56+00:00
-url: /2005/04/dell-2405-first-impressions/
+url: /blog/2005/04/dell-2405-first-impressions/
 categories:
   - Hardware
   - Technology

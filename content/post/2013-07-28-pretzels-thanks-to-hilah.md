@@ -3,7 +3,7 @@ title: Pretzels! (Thanks to Hilah!)
 author: Paul Cutler
 type: post
 date: 2013-07-28T15:15:43+00:00
-url: /2013/07/pretzels-thanks-to-hilah/
+url: /blog/2013/07/pretzels-thanks-to-hilah/
 categories:
   - Cooking
 tags:

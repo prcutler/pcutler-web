@@ -3,7 +3,7 @@ title: PackageKit
 author: Paul Cutler
 type: post
 date: 2007-09-08T16:04:27+00:00
-url: /2007/09/packagekit/
+url: /blog/2007/09/packagekit/
 categories:
   - Foresight
   - Linux

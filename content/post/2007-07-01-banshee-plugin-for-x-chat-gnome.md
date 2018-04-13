@@ -3,7 +3,7 @@ title: Banshee plugin for X-Chat-GNOME
 author: Paul Cutler
 type: post
 date: 2007-07-01T14:23:14+00:00
-url: /2007/07/banshee-plugin-for-x-chat-gnome/
+url: /blog/2007/07/banshee-plugin-for-x-chat-gnome/
 categories:
   - Foresight
   - GNOME

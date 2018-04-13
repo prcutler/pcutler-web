@@ -3,7 +3,7 @@ title: Zoe is smarter than me
 author: Paul Cutler
 type: post
 date: 2005-06-14T02:34:26+00:00
-url: /2005/06/zoe-is-smarter-than-me/
+url: /blog/2005/06/zoe-is-smarter-than-me/
 categories:
   - Humor
   - Linux

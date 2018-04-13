@@ -3,7 +3,7 @@ title: 'Writing Docs:  Part 2'
 author: Paul Cutler
 type: post
 date: 2007-06-03T20:06:40+00:00
-url: /2007/06/writing-docs-part-2/
+url: /blog/2007/06/writing-docs-part-2/
 categories:
   - Foresight
   - GNOME

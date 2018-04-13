@@ -3,7 +3,7 @@ title: "A Bug-huntin' we will go"
 author: Paul Cutler
 type: post
 date: 2008-08-25T18:01:09+00:00
-url: /2008/08/a-bug-huntin-we-will-go/
+url: /blog/2008/08/a-bug-huntin-we-will-go/
 categories:
   - Foresight
 

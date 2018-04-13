@@ -3,7 +3,7 @@ title: "Blizzard's April Fools"
 author: Paul Cutler
 type: post
 date: 2005-04-01T19:30:24+00:00
-url: /2005/04/blizzards-april-fools/
+url: /blog/2005/04/blizzards-april-fools/
 categories:
   - Humor
 

@@ -3,7 +3,7 @@ title: 'Star Wars: The Phantom Menace Vinyl Re-Release'
 author: Paul Cutler
 type: post
 date: 2013-01-21T16:30:39+00:00
-url: /2013/01/star-wars-the-phantom-menace-vinyl-re-release/
+url: /blog/2013/01/star-wars-the-phantom-menace-vinyl-re-release/
 categories:
   - Music
 tags:

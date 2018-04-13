@@ -3,7 +3,7 @@ title: Packers vs. Bears (10/7/07)
 author: Paul Cutler
 type: post
 date: 2007-10-13T02:25:28+00:00
-url: /2007/10/packers-vs-bears-10707/
+url: /blog/2007/10/packers-vs-bears-10707/
 categories:
   - Badgers
   - Football

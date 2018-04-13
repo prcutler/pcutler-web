@@ -3,7 +3,7 @@ title: Welcome to 2016 and my quest to learn Python
 author: Paul Cutler
 type: post
 date: 2016-01-05T03:13:54+00:00
-url: /2016/01/welcome-to-2016-and-my-quest-to-learn-python/
+url: /blog/2016/01/welcome-to-2016-and-my-quest-to-learn-python/
 categories:
   - Python
 tags:

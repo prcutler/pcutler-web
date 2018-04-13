@@ -3,7 +3,7 @@ title: Super Tecmo Brett
 author: Paul Cutler
 type: post
 date: 2007-11-04T17:11:27+00:00
-url: /2007/11/super-tecmo-brett/
+url: /blog/2007/11/super-tecmo-brett/
 categories:
   - Humor
   - Packers

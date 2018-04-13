@@ -3,7 +3,7 @@ title: GNOME Journal Issue 15 Released!
 author: Paul Cutler
 type: post
 date: 2009-07-01T15:41:31+00:00
-url: /2009/07/gnome-journal-issue-15-released/
+url: /blog/2009/07/gnome-journal-issue-15-released/
 categories:
   - GNOME
   - GNOME Journal

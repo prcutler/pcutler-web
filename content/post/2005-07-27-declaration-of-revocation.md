@@ -3,7 +3,7 @@ title: Declaration of Revocation
 author: Paul Cutler
 type: post
 date: 2005-07-27T17:32:20+00:00
-url: /2005/07/declaration-of-revocation/
+url: /blog/2005/07/declaration-of-revocation/
 categories:
   - Humor
 

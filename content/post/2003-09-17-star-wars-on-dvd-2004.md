@@ -3,7 +3,7 @@ title: Star Wars on DVD – 2004!
 author: Paul Cutler
 type: post
 date: 2003-09-17T18:18:57+00:00
-url: /2003/09/star-wars-on-dvd-2004/
+url: /blog/2003/09/star-wars-on-dvd-2004/
 categories:
   - Entertainment
   - Movies

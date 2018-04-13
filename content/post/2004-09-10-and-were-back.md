@@ -3,7 +3,7 @@ title: "And…. we're back"
 author: Paul Cutler
 type: post
 date: 2004-09-10T17:13:07+00:00
-url: /2004/09/and-were-back/
+url: /blog/2004/09/and-were-back/
 categories:
   - General
 

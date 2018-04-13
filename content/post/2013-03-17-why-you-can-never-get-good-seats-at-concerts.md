@@ -3,7 +3,7 @@ title: Why You Can Never Get Good Seats at Concerts
 author: Paul Cutler
 type: post
 date: 2013-03-18T02:16:57+00:00
-url: /2013/03/why-you-can-never-get-good-seats-at-concerts/
+url: /blog/2013/03/why-you-can-never-get-good-seats-at-concerts/
 categories:
   - Entertainment
   - Music

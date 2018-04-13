@@ -3,7 +3,7 @@ title: Foresight Week In Review
 author: Paul Cutler
 type: post
 date: 2008-07-30T13:41:59+00:00
-url: /2008/07/foresight-week-in-review/
+url: /blog/2008/07/foresight-week-in-review/
 categories:
   - Foresight
   - Linux

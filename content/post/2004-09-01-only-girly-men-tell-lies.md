@@ -3,7 +3,7 @@ title: Only girly men tell lies
 author: Paul Cutler
 type: post
 date: 2004-09-02T01:46:18+00:00
-url: /2004/09/only-girly-men-tell-lies/
+url: /blog/2004/09/only-girly-men-tell-lies/
 categories:
   - Politics
 

@@ -3,7 +3,7 @@ title: Which file extension are you?
 author: Paul Cutler
 type: post
 date: 2007-02-10T00:13:51+00:00
-url: /2007/02/which-file-extension-are-you/
+url: /blog/2007/02/which-file-extension-are-you/
 categories:
   - Humor
 

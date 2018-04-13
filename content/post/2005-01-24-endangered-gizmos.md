@@ -3,7 +3,7 @@ title: Endangered Gizmos
 author: Paul Cutler
 type: post
 date: 2005-01-25T02:13:31+00:00
-url: /2005/01/endangered-gizmos/
+url: /blog/2005/01/endangered-gizmos/
 categories:
   - EFF
   - Technology

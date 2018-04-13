@@ -3,7 +3,7 @@ title: The Minnewiki
 author: Paul Cutler
 type: post
 date: 2005-10-03T12:07:33+00:00
-url: /2005/10/the-minnewiki/
+url: /blog/2005/10/the-minnewiki/
 categories:
   - Entertainment
   - Music

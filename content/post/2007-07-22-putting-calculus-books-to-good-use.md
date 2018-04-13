@@ -3,7 +3,7 @@ title: Putting Calculus Books to Good Use
 author: Paul Cutler
 type: post
 date: 2007-07-22T15:34:25+00:00
-url: /2007/07/putting-calculus-books-to-good-use/
+url: /blog/2007/07/putting-calculus-books-to-good-use/
 categories:
   - Foresight
   - Hardware

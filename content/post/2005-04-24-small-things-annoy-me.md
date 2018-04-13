@@ -3,7 +3,7 @@ title: Small things annoy me…
 author: Paul Cutler
 type: post
 date: 2005-04-25T01:15:54+00:00
-url: /2005/04/small-things-annoy-me/
+url: /blog/2005/04/small-things-annoy-me/
 categories:
   - Humor
 

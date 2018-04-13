@@ -3,7 +3,7 @@ title: "A Feather in Conary's Hat"
 author: Paul Cutler
 type: post
 date: 2007-07-31T12:05:46+00:00
-url: /2007/07/a-feather-in-conarys-hat/
+url: /blog/2007/07/a-feather-in-conarys-hat/
 categories:
   - Foresight
   - Linux

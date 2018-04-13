@@ -3,7 +3,7 @@ title: 'eBook Readers & the Publishing Industry'
 author: Paul Cutler
 type: post
 date: 2009-12-10T15:56:44+00:00
-url: /2009/12/ebook-readers-the-publishing-industry/
+url: /blog/2009/12/ebook-readers-the-publishing-industry/
 categories:
   - Books
   - Entertainment

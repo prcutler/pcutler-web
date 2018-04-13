@@ -3,7 +3,7 @@ title: Lenovo Thinkpad T61
 author: Paul Cutler
 type: post
 date: 2008-03-25T02:17:59+00:00
-url: /2008/03/lenovo-thinkpad-t61/
+url: /blog/2008/03/lenovo-thinkpad-t61/
 categories:
   - Foresight
   - Hardware

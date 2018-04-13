@@ -3,7 +3,7 @@ title: Bladerunner DVD Details
 author: Paul Cutler
 type: post
 date: 2007-05-17T12:35:24+00:00
-url: /2007/05/bladerunner-dvd-details/
+url: /blog/2007/05/bladerunner-dvd-details/
 categories:
   - Entertainment
   - Movies

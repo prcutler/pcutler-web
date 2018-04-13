@@ -3,7 +3,7 @@ title: Blade Runner
 author: Paul Cutler
 type: post
 date: 2007-10-26T16:14:48+00:00
-url: /2007/10/blade-runner/
+url: /blog/2007/10/blade-runner/
 categories:
   - Movies
 

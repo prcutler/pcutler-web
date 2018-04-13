@@ -3,7 +3,7 @@ title: When it rains, it pours
 author: Paul Cutler
 type: post
 date: 2004-09-28T21:41:09+00:00
-url: /2004/09/when-it-rains-it-pours/
+url: /blog/2004/09/when-it-rains-it-pours/
 categories:
   - Entertainment
   - Games

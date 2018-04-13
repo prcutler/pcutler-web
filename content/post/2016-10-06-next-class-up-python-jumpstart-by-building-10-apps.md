@@ -3,7 +3,7 @@ title: 'Next class up: Python Jumpstart by Building 10 Apps'
 author: Paul Cutler
 type: post
 date: 2016-10-06T18:34:20+00:00
-url: /2016/10/next-class-up-python-jumpstart-by-building-10-apps/
+url: /blog/2016/10/next-class-up-python-jumpstart-by-building-10-apps/
 categories:
   - Python
 tags:

@@ -3,7 +3,7 @@ title: "And, it's over"
 author: Paul Cutler
 type: post
 date: 2004-11-03T22:13:45+00:00
-url: /2004/11/and-its-over/
+url: /blog/2004/11/and-its-over/
 categories:
   - Politics
 

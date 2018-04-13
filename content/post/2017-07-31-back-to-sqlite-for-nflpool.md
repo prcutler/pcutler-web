@@ -3,7 +3,7 @@ title: Back to SQLite for NFLPool
 author: Paul Cutler
 type: post
 date: 2017-07-31T12:47:48+00:00
-url: /2017/07/back-to-sqlite-for-nflpool/
+url: /blog/2017/07/back-to-sqlite-for-nflpool/
 categories:
   - Python
 tags:

@@ -3,7 +3,7 @@ title: EA could lose exclusive NFL gaming rights
 author: Paul Cutler
 type: post
 date: 2006-03-03T13:16:51+00:00
-url: /2006/03/ea-could-lose-exclusive-nfl-gaming-rights/
+url: /blog/2006/03/ea-could-lose-exclusive-nfl-gaming-rights/
 categories:
   - Entertainment
   - Games

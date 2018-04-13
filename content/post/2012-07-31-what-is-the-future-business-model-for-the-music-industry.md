@@ -3,7 +3,7 @@ title: What is the future business model for the music industry?
 author: Paul Cutler
 type: post
 date: 2012-08-01T02:02:27+00:00
-url: /2012/07/what-is-the-future-business-model-for-the-music-industry/
+url: /blog/2012/07/what-is-the-future-business-model-for-the-music-industry/
 categories:
   - Music
 tags:

@@ -3,7 +3,7 @@ title: Entrepeneur or Scam Artist?
 author: Paul Cutler
 type: post
 date: 2005-09-25T23:44:00+00:00
-url: /2005/09/entrepeneur-or-scam-artist/
+url: /blog/2005/09/entrepeneur-or-scam-artist/
 categories:
   - Politics
 

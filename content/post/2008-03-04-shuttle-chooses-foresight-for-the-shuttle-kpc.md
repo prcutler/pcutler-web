@@ -3,7 +3,7 @@ title: Shuttle chooses Foresight for the Shuttle KPC
 author: Paul Cutler
 type: post
 date: 2008-03-04T19:56:19+00:00
-url: /2008/03/shuttle-chooses-foresight-for-the-shuttle-kpc/
+url: /blog/2008/03/shuttle-chooses-foresight-for-the-shuttle-kpc/
 categories:
   - Foresight
   - Linux

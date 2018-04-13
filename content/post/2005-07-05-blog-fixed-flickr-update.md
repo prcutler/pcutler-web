@@ -3,7 +3,7 @@ title: 'Blog Fixed & Flickr Update'
 author: Paul Cutler
 type: post
 date: 2005-07-06T00:53:16+00:00
-url: /2005/07/blog-fixed-flickr-update/
+url: /blog/2005/07/blog-fixed-flickr-update/
 categories:
   - Photography
   - Technology

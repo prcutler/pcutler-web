@@ -3,7 +3,7 @@ title: Writing Python to Learn
 author: Paul Cutler
 type: post
 date: 2017-03-03T14:15:13+00:00
-url: /2017/03/writing-python-to-learn/
+url: /blog/2017/03/writing-python-to-learn/
 categories:
   - Python
 tags:

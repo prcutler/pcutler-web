@@ -3,7 +3,7 @@ title: 'Simply Beautiful: GNOME 2.18 and Foresight 1.1 Released'
 author: Paul Cutler
 type: post
 date: 2007-03-15T04:43:34+00:00
-url: /2007/03/simply-beautiful-gnome-218-and-foresight-11-released/
+url: /blog/2007/03/simply-beautiful-gnome-218-and-foresight-11-released/
 categories:
   - Foresight
   - GNOME

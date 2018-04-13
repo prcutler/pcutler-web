@@ -3,7 +3,7 @@ title: "RIAA Uses More Power They Don't Have"
 author: Paul Cutler
 type: post
 date: 2005-07-27T12:45:33+00:00
-url: /2005/07/riaa-uses-more-power-they-dont-have/
+url: /blog/2005/07/riaa-uses-more-power-they-dont-have/
 categories:
   - Copyright
   - Entertainment

@@ -3,7 +3,7 @@ title: This Week in Music
 author: Paul Cutler
 type: post
 date: 2005-10-05T12:15:36+00:00
-url: /2005/10/this-week-in-music-2/
+url: /blog/2005/10/this-week-in-music-2/
 categories:
   - Entertainment
   - Music

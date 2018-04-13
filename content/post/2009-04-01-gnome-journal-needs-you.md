@@ -3,7 +3,7 @@ title: GNOME Journal Needs You!
 author: Paul Cutler
 type: post
 date: 2009-04-01T13:52:43+00:00
-url: /2009/04/gnome-journal-needs-you/
+url: /blog/2009/04/gnome-journal-needs-you/
 categories:
   - GNOME
 tags:

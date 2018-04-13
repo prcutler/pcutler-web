@@ -3,7 +3,7 @@ title: "Toshiba's HD-DVD player: Just a HTPC?"
 author: Paul Cutler
 type: post
 date: 2006-05-09T11:59:06+00:00
-url: /2006/05/toshibas-hd-dvd-player-just-a-htpc/
+url: /blog/2006/05/toshibas-hd-dvd-player-just-a-htpc/
 categories:
   - Hardware
   - Technology

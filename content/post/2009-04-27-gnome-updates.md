@@ -3,7 +3,7 @@ title: GNOME Updates
 author: Paul Cutler
 type: post
 date: 2009-04-27T03:28:51+00:00
-url: /2009/04/gnome-updates/
+url: /blog/2009/04/gnome-updates/
 categories:
   - Documentation
   - GNOME

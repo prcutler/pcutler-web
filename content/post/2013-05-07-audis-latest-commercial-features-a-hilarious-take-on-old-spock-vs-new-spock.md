@@ -3,7 +3,7 @@ title: Audi’s latest commercial features a hilarious take on Old Spock vs. New
 author: Paul Cutler
 type: post
 date: 2013-05-07T19:06:36+00:00
-url: /2013/05/audis-latest-commercial-features-a-hilarious-take-on-old-spock-vs-new-spock/
+url: /blog/2013/05/audis-latest-commercial-features-a-hilarious-take-on-old-spock-vs-new-spock/
 categories:
   - Entertainment
   - Movies

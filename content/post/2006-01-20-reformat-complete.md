@@ -3,7 +3,7 @@ title: Reformat Complete
 author: Paul Cutler
 type: post
 date: 2006-01-21T00:28:03+00:00
-url: /2006/01/reformat-complete/
+url: /blog/2006/01/reformat-complete/
 categories:
   - Linux
   - Technology

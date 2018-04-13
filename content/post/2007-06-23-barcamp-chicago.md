@@ -3,7 +3,7 @@ title: Barcamp Chicago
 author: Paul Cutler
 type: post
 date: 2007-06-23T19:10:14+00:00
-url: /2007/06/barcamp-chicago/
+url: /blog/2007/06/barcamp-chicago/
 categories:
   - Technology
 

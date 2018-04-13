@@ -3,7 +3,7 @@ title: A look back at needles
 author: Paul Cutler
 type: post
 date: 2011-03-24T14:40:28+00:00
-url: /2011/03/a-look-back-at-needles/
+url: /blog/2011/03/a-look-back-at-needles/
 categories:
   - Hardware
 

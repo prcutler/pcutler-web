@@ -3,7 +3,7 @@ title: Rock and Roll Hall of Fame Nominees Announced
 author: Paul Cutler
 type: post
 date: 2010-09-29T15:58:12+00:00
-url: /2010/09/rock-and-roll-hall-of-fame-nominees-announced/
+url: /blog/2010/09/rock-and-roll-hall-of-fame-nominees-announced/
 categories:
   - General
 

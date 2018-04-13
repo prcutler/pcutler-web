@@ -3,7 +3,7 @@ title: 'Fame & Glory'
 author: Paul Cutler
 type: post
 date: 2008-07-23T03:59:30+00:00
-url: /2008/07/fame-glory/
+url: /blog/2008/07/fame-glory/
 categories:
   - Technology
 

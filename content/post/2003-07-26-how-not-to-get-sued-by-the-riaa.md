@@ -3,7 +3,7 @@ title: How not to get sued by the RIAA
 author: Paul Cutler
 type: post
 date: 2003-07-26T21:47:03+00:00
-url: /2003/07/how-not-to-get-sued-by-the-riaa/
+url: /blog/2003/07/how-not-to-get-sued-by-the-riaa/
 categories:
   - Copyright
   - EFF

@@ -3,7 +3,7 @@ title: Vinyl Will Never Die
 author: Paul Cutler
 type: post
 date: 2013-01-02T21:02:12+00:00
-url: /2013/01/vinyl-will-never-die/
+url: /blog/2013/01/vinyl-will-never-die/
 categories:
   - Music
 tags:

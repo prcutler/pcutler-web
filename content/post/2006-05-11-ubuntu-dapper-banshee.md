@@ -3,7 +3,7 @@ title: Ubuntu Dapper + Banshee
 author: Paul Cutler
 type: post
 date: 2006-05-11T15:17:52+00:00
-url: /2006/05/ubuntu-dapper-banshee/
+url: /blog/2006/05/ubuntu-dapper-banshee/
 categories:
   - Linux
   - Technology

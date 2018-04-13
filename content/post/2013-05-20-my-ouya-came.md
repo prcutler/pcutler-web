@@ -3,7 +3,7 @@ title: My OUYA came!
 author: Paul Cutler
 type: post
 date: 2013-05-20T12:53:07+00:00
-url: /2013/05/my-ouya-came/
+url: /blog/2013/05/my-ouya-came/
 categories:
   - Games
 tags:

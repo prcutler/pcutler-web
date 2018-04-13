@@ -3,7 +3,7 @@ title: More AWN Eye Candy
 author: Paul Cutler
 type: post
 date: 2007-07-15T23:38:46+00:00
-url: /2007/07/more-awn-eye-candy/
+url: /blog/2007/07/more-awn-eye-candy/
 categories:
   - Foresight
   - GNOME

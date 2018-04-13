@@ -3,7 +3,7 @@ title: 'American Edit: Dean Gray Tuesday'
 author: Paul Cutler
 type: post
 date: 2005-12-14T04:08:51+00:00
-url: /2005/12/american-edit-dean-gray-tuesday/
+url: /blog/2005/12/american-edit-dean-gray-tuesday/
 categories:
   - Copyright
   - Entertainment

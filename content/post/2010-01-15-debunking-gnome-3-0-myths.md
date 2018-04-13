@@ -3,7 +3,7 @@ title: Debunking GNOME 3.0 Myths
 author: Paul Cutler
 type: post
 date: 2010-01-15T13:44:37+00:00
-url: /2010/01/debunking-gnome-3-0-myths/
+url: /blog/2010/01/debunking-gnome-3-0-myths/
 categories:
   - GNOME
   - Marketing

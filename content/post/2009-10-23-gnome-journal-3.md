@@ -3,7 +3,7 @@ title: GNOME Journal
 author: Paul Cutler
 type: post
 date: 2009-10-23T14:02:26+00:00
-url: /2009/10/gnome-journal-3/
+url: /blog/2009/10/gnome-journal-3/
 categories:
   - GNOME
   - GNOME Journal

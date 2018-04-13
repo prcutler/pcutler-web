@@ -3,7 +3,7 @@ title: Hello Planet GNOME!
 author: Paul Cutler
 type: post
 date: 2009-05-29T02:39:44+00:00
-url: /2009/05/hello-planet-gnome/
+url: /blog/2009/05/hello-planet-gnome/
 categories:
   - GNOME
 tags:

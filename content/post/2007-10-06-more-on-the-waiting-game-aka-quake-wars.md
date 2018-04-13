@@ -3,7 +3,7 @@ title: More on the waiting game aka Quake Wars
 author: Paul Cutler
 type: post
 date: 2007-10-06T14:08:54+00:00
-url: /2007/10/more-on-the-waiting-game-aka-quake-wars/
+url: /blog/2007/10/more-on-the-waiting-game-aka-quake-wars/
 categories:
   - Games
   - Linux

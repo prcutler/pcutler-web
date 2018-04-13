@@ -3,7 +3,7 @@ title: GNOME Docs Hackfest (Part I)
 author: Paul Cutler
 type: post
 date: 2009-06-19T14:07:28+00:00
-url: /2009/06/gnome-docs-hackfest-part-i/
+url: /blog/2009/06/gnome-docs-hackfest-part-i/
 categories:
   - Documentation
   - GNOME

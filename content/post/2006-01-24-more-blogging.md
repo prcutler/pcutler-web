@@ -3,7 +3,7 @@ title: More blogging
 author: Paul Cutler
 type: post
 date: 2006-01-25T02:21:31+00:00
-url: /2006/01/more-blogging/
+url: /blog/2006/01/more-blogging/
 categories:
   - General
   - The Kids

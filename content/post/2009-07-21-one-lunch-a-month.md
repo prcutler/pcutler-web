@@ -3,7 +3,7 @@ title: One lunch a month
 author: Paul Cutler
 type: post
 date: 2009-07-21T12:43:33+00:00
-url: /2009/07/one-lunch-a-month/
+url: /blog/2009/07/one-lunch-a-month/
 categories:
   - GNOME
 

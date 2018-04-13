@@ -3,7 +3,7 @@ title: Fantasy leagues for women
 author: Paul Cutler
 type: post
 date: 2006-05-14T13:52:34+00:00
-url: /2006/05/fantasy-leagues-for-women/
+url: /blog/2006/05/fantasy-leagues-for-women/
 categories:
   - Humor
 

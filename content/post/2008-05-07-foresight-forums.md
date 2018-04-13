@@ -3,7 +3,7 @@ title: Foresight Forums
 author: Paul Cutler
 type: post
 date: 2008-05-07T14:40:08+00:00
-url: /2008/05/foresight-forums/
+url: /blog/2008/05/foresight-forums/
 categories:
   - Foresight
 tags:

@@ -3,7 +3,7 @@ title: Packer Cuts
 author: Paul Cutler
 type: post
 date: 2004-09-05T14:30:57+00:00
-url: /2004/09/packer-cuts/
+url: /blog/2004/09/packer-cuts/
 categories:
   - Football
   - Packers

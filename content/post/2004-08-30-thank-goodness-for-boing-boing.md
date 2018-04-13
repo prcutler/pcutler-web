@@ -3,7 +3,7 @@ title: Thank goodness for boing-boing
 author: Paul Cutler
 type: post
 date: 2004-08-31T02:12:08+00:00
-url: /2004/08/thank-goodness-for-boing-boing/
+url: /blog/2004/08/thank-goodness-for-boing-boing/
 categories:
   - Politics
 

@@ -3,7 +3,7 @@ title: More theme stuff
 author: Paul Cutler
 type: post
 date: 2005-05-16T12:56:08+00:00
-url: /2005/05/more-theme-stuff/
+url: /blog/2005/05/more-theme-stuff/
 categories:
   - Technology
   - Wordpress

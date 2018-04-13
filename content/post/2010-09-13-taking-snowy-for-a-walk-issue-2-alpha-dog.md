@@ -3,7 +3,7 @@ title: 'Taking Snowy for a Walk – Issue 2: Alpha dog'
 author: Paul Cutler
 type: post
 date: 2010-09-13T19:07:38+00:00
-url: /2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/
+url: /blog/2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/
 categories:
   - GNOME
 tags:

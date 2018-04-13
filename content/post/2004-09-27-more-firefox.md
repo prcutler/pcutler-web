@@ -3,7 +3,7 @@ title: More Firefox
 author: Paul Cutler
 type: post
 date: 2004-09-27T15:43:25+00:00
-url: /2004/09/more-firefox/
+url: /blog/2004/09/more-firefox/
 categories:
   - Technology
 

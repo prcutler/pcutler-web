@@ -3,7 +3,7 @@ title: Who will Rock the Garden this summer?
 author: Paul Cutler
 type: post
 date: 2011-04-06T14:06:02+00:00
-url: /2011/04/who-will-rock-the-garden-this-summer/
+url: /blog/2011/04/who-will-rock-the-garden-this-summer/
 categories:
   - Music
 tags:

@@ -3,7 +3,7 @@ title: Linux Gaming
 author: Paul Cutler
 type: post
 date: 2004-09-13T13:18:03+00:00
-url: /2004/09/linux-gaming/
+url: /blog/2004/09/linux-gaming/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: 'Writing Foresight Docs:  Part 5'
 author: Paul Cutler
 type: post
 date: 2007-06-18T01:18:20+00:00
-url: /2007/06/writing-foresight-docs-part-5/
+url: /blog/2007/06/writing-foresight-docs-part-5/
 categories:
   - Foresight
   - GNOME

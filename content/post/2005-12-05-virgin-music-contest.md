@@ -3,7 +3,7 @@ title: Virgin Music Contest
 author: Paul Cutler
 type: post
 date: 2005-12-06T01:27:04+00:00
-url: /2005/12/virgin-music-contest/
+url: /blog/2005/12/virgin-music-contest/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: Marketing Hackfest – Participating and Interacting in Communities
 author: Paul Cutler
 type: post
 date: 2010-05-08T10:57:01+00:00
-url: /2010/05/marketing-hackfest-participating-and-interacting-in-communities/
+url: /blog/2010/05/marketing-hackfest-participating-and-interacting-in-communities/
 categories:
   - GNOME
   - Marketing

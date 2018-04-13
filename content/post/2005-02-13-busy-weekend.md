@@ -3,7 +3,7 @@ title: Busy Weekend
 author: Paul Cutler
 type: post
 date: 2005-02-14T02:08:55+00:00
-url: /2005/02/busy-weekend/
+url: /blog/2005/02/busy-weekend/
 categories:
   - General
 

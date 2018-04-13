@@ -3,7 +3,7 @@ title: GNOME Journal Issue 17 out!
 author: Paul Cutler
 type: post
 date: 2009-11-25T15:55:37+00:00
-url: /2009/11/gnome-journal-issue-17-out/
+url: /blog/2009/11/gnome-journal-issue-17-out/
 categories:
   - GNOME Journal
 tags:

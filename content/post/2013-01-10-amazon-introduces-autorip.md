@@ -3,7 +3,7 @@ title: Amazon Introduces AutoRip
 author: Paul Cutler
 type: post
 date: 2013-01-11T02:25:29+00:00
-url: /2013/01/amazon-introduces-autorip/
+url: /blog/2013/01/amazon-introduces-autorip/
 categories:
   - Music
 tags:

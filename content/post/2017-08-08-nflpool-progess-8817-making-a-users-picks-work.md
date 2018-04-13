@@ -3,7 +3,7 @@ title: NFLPool Progess 8/8/17 – Making a user’s picks work
 author: Paul Cutler
 type: post
 date: 2017-08-08T14:56:50+00:00
-url: /2017/08/nflpool-progess-8817-making-a-users-picks-work/
+url: /blog/2017/08/nflpool-progess-8817-making-a-users-picks-work/
 featured_image: /wp-content/uploads/2017/08/Screenshot-2017-08-07-15.59.41-1.png
 categories:
   - Python

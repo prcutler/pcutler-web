@@ -3,7 +3,7 @@ title: Foresight Newsletter
 author: Paul Cutler
 type: post
 date: 2007-03-27T13:01:30+00:00
-url: /2007/03/foresight-newsletter/
+url: /blog/2007/03/foresight-newsletter/
 categories:
   - Foresight
   - Linux

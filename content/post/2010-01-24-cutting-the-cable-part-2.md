@@ -3,7 +3,7 @@ title: Cutting the Cable, Part 2
 author: Paul Cutler
 type: post
 date: 2010-01-24T21:53:44+00:00
-url: /2010/01/cutting-the-cable-part-2/
+url: /blog/2010/01/cutting-the-cable-part-2/
 categories:
   - Apple
   - Entertainment

@@ -3,7 +3,7 @@ title: ChicagoBarcamp Day 2 Recap
 author: Paul Cutler
 type: post
 date: 2007-06-26T02:30:29+00:00
-url: /2007/06/chicagobarcamp-pt-2/
+url: /blog/2007/06/chicagobarcamp-pt-2/
 categories:
   - Foresight
   - GNOME

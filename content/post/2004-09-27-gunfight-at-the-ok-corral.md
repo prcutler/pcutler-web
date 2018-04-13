@@ -3,7 +3,7 @@ title: Gunfight at the OK Corral
 author: Paul Cutler
 type: post
 date: 2004-09-27T12:29:59+00:00
-url: /2004/09/gunfight-at-the-ok-corral/
+url: /blog/2004/09/gunfight-at-the-ok-corral/
 categories:
   - Football
   - Packers

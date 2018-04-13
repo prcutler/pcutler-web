@@ -3,7 +3,7 @@ title: GNOME 2.28 Released!
 author: Paul Cutler
 type: post
 date: 2009-09-24T14:20:35+00:00
-url: /2009/09/gnome-2-28-released/
+url: /blog/2009/09/gnome-2-28-released/
 categories:
   - GNOME
   - Linux

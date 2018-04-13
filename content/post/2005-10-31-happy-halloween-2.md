@@ -3,7 +3,7 @@ title: Happy Halloween!
 author: Paul Cutler
 type: post
 date: 2005-11-01T02:13:54+00:00
-url: /2005/10/happy-halloween-2/
+url: /blog/2005/10/happy-halloween-2/
 categories:
   - Alex
   - Photography

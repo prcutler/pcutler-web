@@ -3,7 +3,7 @@ title: Ubuntu migration (almost) complete
 author: Paul Cutler
 type: post
 date: 2005-04-10T23:23:44+00:00
-url: /2005/04/ubuntu-migration-almost-complete/
+url: /blog/2005/04/ubuntu-migration-almost-complete/
 categories:
   - Linux
   - Technology

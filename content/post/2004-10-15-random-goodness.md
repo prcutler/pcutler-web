@@ -3,7 +3,7 @@ title: Random Goodness
 author: Paul Cutler
 type: post
 date: 2004-10-15T14:41:03+00:00
-url: /2004/10/random-goodness/
+url: /blog/2004/10/random-goodness/
 categories:
   - Books
   - Humor

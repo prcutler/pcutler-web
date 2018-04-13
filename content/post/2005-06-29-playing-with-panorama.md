@@ -3,7 +3,7 @@ title: Playing with Panorama
 author: Paul Cutler
 type: post
 date: 2005-06-29T14:05:34+00:00
-url: /2005/06/playing-with-panorama/
+url: /blog/2005/06/playing-with-panorama/
 categories:
   - Photography
 

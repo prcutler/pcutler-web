@@ -3,7 +3,7 @@ title: Misc. Stuff
 author: Paul Cutler
 type: post
 date: 2003-02-14T14:53:13+00:00
-url: /2003/02/misc-stuff/
+url: /blog/2003/02/misc-stuff/
 categories:
   - EFF
   - Entertainment

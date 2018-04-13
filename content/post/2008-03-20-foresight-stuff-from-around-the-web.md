@@ -3,7 +3,7 @@ title: Foresight stuff from around the web
 author: Paul Cutler
 type: post
 date: 2008-03-20T15:28:36+00:00
-url: /2008/03/foresight-stuff-from-around-the-web/
+url: /blog/2008/03/foresight-stuff-from-around-the-web/
 categories:
   - Foresight
 

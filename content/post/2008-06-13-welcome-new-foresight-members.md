@@ -3,7 +3,7 @@ title: Welcome new Foresight members
 author: Paul Cutler
 type: post
 date: 2008-06-13T14:29:06+00:00
-url: /2008/06/welcome-new-foresight-members/
+url: /blog/2008/06/welcome-new-foresight-members/
 categories:
   - Foresight
 

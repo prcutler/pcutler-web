@@ -3,7 +3,7 @@ title: Keep On Rockin’ Me Baby
 author: Paul Cutler
 type: post
 date: 2010-09-03T02:22:34+00:00
-url: /2010/09/keep-on-rockin-me-baby/
+url: /blog/2010/09/keep-on-rockin-me-baby/
 categories:
   - GNOME
 tags:

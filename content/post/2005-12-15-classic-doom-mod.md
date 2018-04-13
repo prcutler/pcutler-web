@@ -3,7 +3,7 @@ title: Classic Doom Mod
 author: Paul Cutler
 type: post
 date: 2005-12-16T03:39:31+00:00
-url: /2005/12/classic-doom-mod/
+url: /blog/2005/12/classic-doom-mod/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: Boston Summit
 author: Paul Cutler
 type: post
 date: 2010-10-19T20:26:31+00:00
-url: /2010/10/boston-summit/
+url: /blog/2010/10/boston-summit/
 categories:
   - GNOME
 tags:

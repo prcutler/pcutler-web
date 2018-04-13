@@ -3,7 +3,7 @@ title: TerraStation
 author: Paul Cutler
 type: post
 date: 2005-08-30T13:34:32+00:00
-url: /2005/08/terrastation/
+url: /blog/2005/08/terrastation/
 categories:
   - Hardware
   - Technology

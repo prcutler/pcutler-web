@@ -3,7 +3,7 @@ title: 'Foresight 2.0 Bittorrent Client: Deluge'
 author: Paul Cutler
 type: post
 date: 2007-12-27T16:24:12+00:00
-url: /2007/12/foresight-20-bittorrent-client-deluge/
+url: /blog/2007/12/foresight-20-bittorrent-client-deluge/
 categories:
   - Foresight
 

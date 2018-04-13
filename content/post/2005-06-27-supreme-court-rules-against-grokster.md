@@ -3,7 +3,7 @@ title: Supreme Court rules against Grokster
 author: Paul Cutler
 type: post
 date: 2005-06-27T15:30:07+00:00
-url: /2005/06/supreme-court-rules-against-grokster/
+url: /blog/2005/06/supreme-court-rules-against-grokster/
 categories:
   - Copyright
   - EFF

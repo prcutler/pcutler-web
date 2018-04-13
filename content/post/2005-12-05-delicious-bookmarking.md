@@ -3,7 +3,7 @@ title: Del.icio.us Bookmarking
 author: Paul Cutler
 type: post
 date: 2005-12-06T01:21:32+00:00
-url: /2005/12/delicious-bookmarking/
+url: /blog/2005/12/delicious-bookmarking/
 categories:
   - Technology
   - Websites

@@ -3,7 +3,7 @@ title: "ESPN's Daily Quickie"
 author: Paul Cutler
 type: post
 date: 2004-10-25T13:30:31+00:00
-url: /2004/10/espns-daily-quickie/
+url: /blog/2004/10/espns-daily-quickie/
 categories:
   - Sports
 

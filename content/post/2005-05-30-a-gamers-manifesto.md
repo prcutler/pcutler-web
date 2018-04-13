@@ -3,7 +3,7 @@ title: "A Gamer's Manifesto"
 author: Paul Cutler
 type: post
 date: 2005-05-30T21:04:42+00:00
-url: /2005/05/a-gamers-manifesto/
+url: /blog/2005/05/a-gamers-manifesto/
 categories:
   - Entertainment
   - Games

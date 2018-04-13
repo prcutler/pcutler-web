@@ -3,7 +3,7 @@ title: 'Dear Lazy Web: I love you'
 author: Paul Cutler
 type: post
 date: 2006-05-13T03:07:13+00:00
-url: /2006/05/dear-lazy-web-i-love-you/
+url: /blog/2006/05/dear-lazy-web-i-love-you/
 categories:
   - Technology
 

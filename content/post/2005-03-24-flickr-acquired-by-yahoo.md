@@ -3,7 +3,7 @@ title: Flickr! Acquired! By! Yahoo!
 author: Paul Cutler
 type: post
 date: 2005-03-24T14:16:27+00:00
-url: /2005/03/flickr-acquired-by-yahoo/
+url: /blog/2005/03/flickr-acquired-by-yahoo/
 categories:
   - Photography
   - Technology

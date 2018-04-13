@@ -3,7 +3,7 @@ title: 'Evil Corporations #1 – Phone Companies'
 author: Paul Cutler
 type: post
 date: 2003-04-25T13:23:38+00:00
-url: /2003/04/evil-corporations-1-phone-companies/
+url: /blog/2003/04/evil-corporations-1-phone-companies/
 categories:
   - Technology
 

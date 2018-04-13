@@ -3,7 +3,7 @@ title: Back from Orlando
 author: Paul Cutler
 type: post
 date: 2004-10-11T20:12:45+00:00
-url: /2004/10/back-from-orlando/
+url: /blog/2004/10/back-from-orlando/
 categories:
   - General
 

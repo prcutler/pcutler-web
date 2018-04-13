@@ -3,7 +3,7 @@ title: Marketing to MMOG players
 author: Paul Cutler
 type: post
 date: 2005-11-27T02:29:38+00:00
-url: /2005/11/marketing-to-mmog-players/
+url: /blog/2005/11/marketing-to-mmog-players/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: EFF Defends Right to Read Public Web Pages Without Getting Sued
 author: Paul Cutler
 type: post
 date: 2005-10-08T16:02:33+00:00
-url: /2005/10/eff-defends-right-to-read-public-web-pages-without-getting-sued/
+url: /blog/2005/10/eff-defends-right-to-read-public-web-pages-without-getting-sued/
 categories:
   - EFF
   - Technology

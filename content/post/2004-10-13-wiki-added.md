@@ -3,7 +3,7 @@ title: Wiki added!
 author: Paul Cutler
 type: post
 date: 2004-10-14T01:48:49+00:00
-url: /2004/10/wiki-added/
+url: /blog/2004/10/wiki-added/
 categories:
   - Technology
   - Wordpress

@@ -3,7 +3,7 @@ title: NFLPool Progress 8/13/17
 author: Paul Cutler
 type: post
 date: 2017-08-14T14:02:11+00:00
-url: /2017/08/nflpool-progress-81317/
+url: /blog/2017/08/nflpool-progress-81317/
 categories:
   - Python
 tags:

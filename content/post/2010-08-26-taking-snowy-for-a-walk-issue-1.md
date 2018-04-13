@@ -3,7 +3,7 @@ title: 'Taking Snowy for a Walk – Issue #1'
 author: Paul Cutler
 type: post
 date: 2010-08-26T21:34:39+00:00
-url: /2010/08/taking-snowy-for-a-walk-issue-1/
+url: /blog/2010/08/taking-snowy-for-a-walk-issue-1/
 categories:
   - GNOME
 tags:

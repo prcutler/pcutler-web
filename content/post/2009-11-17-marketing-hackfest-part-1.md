@@ -3,7 +3,7 @@ title: Marketing Hackfest (Part 1)
 author: Paul Cutler
 type: post
 date: 2009-11-17T13:37:31+00:00
-url: /2009/11/marketing-hackfest-part-1/
+url: /blog/2009/11/marketing-hackfest-part-1/
 categories:
   - GNOME
   - Marketing

@@ -3,7 +3,7 @@ title: GNOME Journal Issue 16
 author: Paul Cutler
 type: post
 date: 2009-07-16T03:11:16+00:00
-url: /2009/07/gnome-journal-issue-16/
+url: /blog/2009/07/gnome-journal-issue-16/
 categories:
   - GNOME Journal
 tags:

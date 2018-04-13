@@ -3,7 +3,7 @@ title: Write for GNOME Journal!
 author: Paul Cutler
 type: post
 date: 2010-08-03T11:46:25+00:00
-url: /2010/08/write-for-gnome-journal/
+url: /blog/2010/08/write-for-gnome-journal/
 categories:
   - GNOME Journal
 tags:

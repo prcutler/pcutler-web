@@ -3,7 +3,7 @@ title: Get Involved with Foresight Linux
 author: Paul Cutler
 type: post
 date: 2007-09-26T14:41:16+00:00
-url: /2007/09/get-involved-with-foresight-linux/
+url: /blog/2007/09/get-involved-with-foresight-linux/
 categories:
   - Foresight
 

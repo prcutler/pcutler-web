@@ -3,7 +3,7 @@ title: 'Games & Copyright'
 author: Paul Cutler
 type: post
 date: 2005-03-14T14:23:18+00:00
-url: /2005/03/games-copyright/
+url: /blog/2005/03/games-copyright/
 categories:
   - Copyright
   - Entertainment

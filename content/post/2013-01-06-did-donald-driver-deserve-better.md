@@ -3,7 +3,7 @@ title: Did Donald Driver Deserve Better?
 author: Paul Cutler
 type: post
 date: 2013-01-07T02:46:27+00:00
-url: /2013/01/did-donald-driver-deserve-better/
+url: /blog/2013/01/did-donald-driver-deserve-better/
 categories:
   - Packers
 tags:

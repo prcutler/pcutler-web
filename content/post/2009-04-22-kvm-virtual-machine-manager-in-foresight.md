@@ -3,7 +3,7 @@ title: 'KVM & Virtual Machine Manager in Foresight'
 author: Paul Cutler
 type: post
 date: 2009-04-22T21:44:17+00:00
-url: /2009/04/kvm-virtual-machine-manager-in-foresight/
+url: /blog/2009/04/kvm-virtual-machine-manager-in-foresight/
 categories:
   - Foresight
   - Linux

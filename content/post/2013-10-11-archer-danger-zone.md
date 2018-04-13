@@ -3,7 +3,7 @@ title: Archer – Danger Zone
 author: Paul Cutler
 type: post
 date: 2013-10-12T00:52:20+00:00
-url: /2013/10/archer-danger-zone/
+url: /blog/2013/10/archer-danger-zone/
 categories:
   - Uncategorized
 

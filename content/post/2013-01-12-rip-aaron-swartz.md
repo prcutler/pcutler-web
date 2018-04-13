@@ -3,7 +3,7 @@ title: RIP Aaron Swartz
 author: Paul Cutler
 type: post
 date: 2013-01-12T14:44:28+00:00
-url: /2013/01/rip-aaron-swartz/
+url: /blog/2013/01/rip-aaron-swartz/
 categories:
   - Technology
 

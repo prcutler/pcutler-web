@@ -3,7 +3,7 @@ title: Volunteering at MPR
 author: Paul Cutler
 type: post
 date: 2005-02-28T15:11:45+00:00
-url: /2005/02/volunteering-at-mrp/
+url: /blog/2005/02/volunteering-at-mrp/
 categories:
   - Entertainment
   - Radio

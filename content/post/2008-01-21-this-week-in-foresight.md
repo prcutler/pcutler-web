@@ -3,7 +3,7 @@ title: This Week in Foresight
 author: Paul Cutler
 type: post
 date: 2008-01-21T21:40:21+00:00
-url: /2008/01/this-week-in-foresight/
+url: /blog/2008/01/this-week-in-foresight/
 categories:
   - Foresight
 

@@ -3,7 +3,7 @@ title: BurnIt Club
 author: Paul Cutler
 type: post
 date: 2005-06-30T02:20:12+00:00
-url: /2005/06/burnit-club/
+url: /blog/2005/06/burnit-club/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: Mas Tequila
 author: Paul Cutler
 type: post
 date: 2004-10-17T03:38:18+00:00
-url: /2004/10/mos-tequila/
+url: /blog/2004/10/mos-tequila/
 categories:
   - General
 

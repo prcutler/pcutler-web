@@ -3,7 +3,7 @@ title: "Don't Vote Campaign"
 author: Paul Cutler
 type: post
 date: 2004-10-04T13:27:39+00:00
-url: /2004/10/dont-vote-campaign/
+url: /blog/2004/10/dont-vote-campaign/
 categories:
   - Entertainment
   - Politics

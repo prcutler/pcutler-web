@@ -3,7 +3,7 @@ title: Apatheia.org Down
 author: Paul Cutler
 type: post
 date: 2005-11-27T23:55:21+00:00
-url: /2005/11/apatheiaorg-down/
+url: /blog/2005/11/apatheiaorg-down/
 categories:
   - Technology
   - Websites

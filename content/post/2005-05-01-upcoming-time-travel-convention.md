@@ -3,7 +3,7 @@ title: Upcoming Time Travel Convention
 author: Paul Cutler
 type: post
 date: 2005-05-02T02:08:32+00:00
-url: /2005/05/upcoming-time-travel-convention/
+url: /blog/2005/05/upcoming-time-travel-convention/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: "The Truth Behind Apple's Switch"
 author: Paul Cutler
 type: post
 date: 2005-07-11T11:52:59+00:00
-url: /2005/07/the-truth-behind-apples-switch/
+url: /blog/2005/07/the-truth-behind-apples-switch/
 categories:
   - Apple
   - Technology

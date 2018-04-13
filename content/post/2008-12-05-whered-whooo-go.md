@@ -3,7 +3,7 @@ title: "Where'd whooo go?"
 author: Paul Cutler
 type: post
 date: 2008-12-05T01:12:55+00:00
-url: /2008/12/whered-whooo-go/
+url: /blog/2008/12/whered-whooo-go/
 categories:
   - Foresight
 tags:

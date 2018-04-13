@@ -3,7 +3,7 @@ title: Why I love Ubuntu
 author: Paul Cutler
 type: post
 date: 2005-02-11T22:18:06+00:00
-url: /2005/02/why-i-love-ubuntu/
+url: /blog/2005/02/why-i-love-ubuntu/
 categories:
   - Linux
   - Technology

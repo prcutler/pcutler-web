@@ -3,7 +3,7 @@ title: Happy New Year!
 author: Paul Cutler
 type: post
 date: 2006-01-01T13:36:14+00:00
-url: /2006/01/happy-new-year/
+url: /blog/2006/01/happy-new-year/
 categories:
   - General
 

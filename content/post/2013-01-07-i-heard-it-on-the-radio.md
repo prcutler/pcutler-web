@@ -3,7 +3,7 @@ title: I Heard it on the Radio
 author: Paul Cutler
 type: post
 date: 2013-01-07T15:00:24+00:00
-url: /2013/01/i-heard-it-on-the-radio/
+url: /blog/2013/01/i-heard-it-on-the-radio/
 categories:
   - Radio
 tags:

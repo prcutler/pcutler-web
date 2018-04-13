@@ -3,7 +3,7 @@ title: Join the GNOME Marketing Team!
 author: Paul Cutler
 type: post
 date: 2009-06-26T04:01:09+00:00
-url: /2009/06/join-the-gnome-marketing-team/
+url: /blog/2009/06/join-the-gnome-marketing-team/
 categories:
   - GNOME
   - Marketing

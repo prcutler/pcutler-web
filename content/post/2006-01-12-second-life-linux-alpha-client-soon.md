@@ -3,7 +3,7 @@ title: Second Life Linux Alpha Client… Soon
 author: Paul Cutler
 type: post
 date: 2006-01-12T17:43:13+00:00
-url: /2006/01/second-life-linux-alpha-client-soon/
+url: /blog/2006/01/second-life-linux-alpha-client-soon/
 categories:
   - Entertainment
   - Games

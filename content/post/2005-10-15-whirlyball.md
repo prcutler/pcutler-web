@@ -3,7 +3,7 @@ title: Whirlyball
 author: Paul Cutler
 type: post
 date: 2005-10-15T15:35:09+00:00
-url: /2005/10/whirlyball/
+url: /blog/2005/10/whirlyball/
 categories:
   - Entertainment
   - Games

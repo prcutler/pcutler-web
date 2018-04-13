@@ -3,7 +3,7 @@ title: Welcome to the dd-wrt revolution
 author: Paul Cutler
 type: post
 date: 2008-05-25T00:37:54+00:00
-url: /2008/05/welcome-to-the-dd-wrt-revolution/
+url: /blog/2008/05/welcome-to-the-dd-wrt-revolution/
 categories:
   - Linux
   - Technology

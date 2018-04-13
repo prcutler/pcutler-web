@@ -3,7 +3,7 @@ title: Madden 360 – Too Real?
 author: Paul Cutler
 type: post
 date: 2005-11-23T14:37:05+00:00
-url: /2005/11/madden-360-too-real/
+url: /blog/2005/11/madden-360-too-real/
 categories:
   - Football
   - Sports

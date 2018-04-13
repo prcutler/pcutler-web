@@ -3,7 +3,7 @@ title: Epiphany and me
 author: Paul Cutler
 type: post
 date: 2007-07-16T01:17:25+00:00
-url: /2007/07/epiphany-and-me/
+url: /blog/2007/07/epiphany-and-me/
 categories:
   - Foresight
   - GNOME

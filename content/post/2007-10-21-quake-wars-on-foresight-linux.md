@@ -3,7 +3,7 @@ title: Quake Wars on Foresight Linux
 author: Paul Cutler
 type: post
 date: 2007-10-22T01:21:22+00:00
-url: /2007/10/quake-wars-on-foresight-linux/
+url: /blog/2007/10/quake-wars-on-foresight-linux/
 categories:
   - Entertainment
   - Foresight

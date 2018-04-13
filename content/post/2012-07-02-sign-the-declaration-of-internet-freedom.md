@@ -3,7 +3,7 @@ title: Sign The Declaration Of Internet Freedom
 author: Paul Cutler
 type: post
 date: 2012-07-02T14:35:37+00:00
-url: /2012/07/sign-the-declaration-of-internet-freedom/
+url: /blog/2012/07/sign-the-declaration-of-internet-freedom/
 categories:
   - EFF
   - Technology

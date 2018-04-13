@@ -3,7 +3,7 @@ title: 'GNOME Journal Issue #19 is out!'
 author: Paul Cutler
 type: post
 date: 2010-03-30T21:41:10+00:00
-url: /2010/03/gnome-journal-issue-19-is-out/
+url: /blog/2010/03/gnome-journal-issue-19-is-out/
 categories:
   - GNOME
   - GNOME Journal

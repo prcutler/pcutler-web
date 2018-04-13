@@ -3,7 +3,7 @@ title: A follow-up on GNOME 3 myths
 author: Paul Cutler
 type: post
 date: 2010-01-17T16:03:42+00:00
-url: /2010/01/a-follow-up-on-gnome-3-myths/
+url: /blog/2010/01/a-follow-up-on-gnome-3-myths/
 categories:
   - GNOME
 tags:

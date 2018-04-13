@@ -3,7 +3,7 @@ title: Elisa Updates
 author: Paul Cutler
 type: post
 date: 2007-05-28T22:05:07+00:00
-url: /2007/05/elisa-updates/
+url: /blog/2007/05/elisa-updates/
 categories:
   - Foresight
   - GNOME

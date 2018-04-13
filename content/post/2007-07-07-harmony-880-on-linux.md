@@ -3,7 +3,7 @@ title: Harmony 880 on Linux
 author: Paul Cutler
 type: post
 date: 2007-07-07T15:53:32+00:00
-url: /2007/07/harmony-880-on-linux/
+url: /blog/2007/07/harmony-880-on-linux/
 categories:
   - Hardware
   - Linux

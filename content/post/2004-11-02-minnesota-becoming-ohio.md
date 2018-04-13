@@ -3,7 +3,7 @@ title: Minnesota becoming Ohio
 author: Paul Cutler
 type: post
 date: 2004-11-03T00:41:21+00:00
-url: /2004/11/minnesota-becoming-ohio/
+url: /blog/2004/11/minnesota-becoming-ohio/
 categories:
   - Politics
 

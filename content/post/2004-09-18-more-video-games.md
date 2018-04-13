@@ -3,7 +3,7 @@ title: More Video Games
 author: Paul Cutler
 type: post
 date: 2004-09-18T17:08:52+00:00
-url: /2004/09/more-video-games/
+url: /blog/2004/09/more-video-games/
 categories:
   - Entertainment
   - Games

@@ -3,7 +3,7 @@ title: Vinyl (R)Evolution
 author: Paul Cutler
 type: post
 date: 2010-06-05T23:37:14+00:00
-url: /2010/06/vinyl-revolution/
+url: /blog/2010/06/vinyl-revolution/
 categories:
   - Music
 tags:

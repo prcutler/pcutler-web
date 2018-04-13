@@ -3,7 +3,7 @@ title: A month with Quod Libet
 author: Paul Cutler
 type: post
 date: 2007-10-15T15:50:50+00:00
-url: /2007/10/a-month-with-quod-libet/
+url: /blog/2007/10/a-month-with-quod-libet/
 categories:
   - Foresight
   - GNOME

@@ -3,7 +3,7 @@ title: Cutting the cable
 author: Paul Cutler
 type: post
 date: 2010-01-07T22:31:46+00:00
-url: /2010/01/cutting-the-cable/
+url: /blog/2010/01/cutting-the-cable/
 categories:
   - Entertainment
   - Hardware

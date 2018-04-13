@@ -3,7 +3,7 @@ title: Importing NFL statistics into NFLPool
 author: Paul Cutler
 type: post
 date: 2017-08-30T13:03:17+00:00
-url: /2017/08/importing-nfl-statistics-into-nflpool/
+url: /blog/2017/08/importing-nfl-statistics-into-nflpool/
 categories:
   - Python
 tags:

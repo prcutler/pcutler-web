@@ -3,7 +3,7 @@ title: Welcome to Vinyl (R)evolution
 author: Paul Cutler
 type: post
 date: 2010-07-02T23:29:41+00:00
-url: /2010/07/welcome-to-vinyl-revolution/
+url: /blog/2010/07/welcome-to-vinyl-revolution/
 categories:
   - General
 

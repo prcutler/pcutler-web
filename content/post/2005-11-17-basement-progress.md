@@ -3,7 +3,7 @@ title: Basement Progress
 author: Paul Cutler
 type: post
 date: 2005-11-18T02:18:02+00:00
-url: /2005/11/basement-progress/
+url: /blog/2005/11/basement-progress/
 categories:
   - General
 

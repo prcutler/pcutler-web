@@ -3,7 +3,7 @@ title: EFF Suprise
 author: Paul Cutler
 type: post
 date: 2005-07-18T01:41:19+00:00
-url: /2005/07/eff-suprise/
+url: /blog/2005/07/eff-suprise/
 categories:
   - EFF
   - Technology

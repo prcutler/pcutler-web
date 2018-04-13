@@ -3,7 +3,7 @@ title: Top 10 Commands
 author: Paul Cutler
 type: post
 date: 2008-04-10T21:16:56+00:00
-url: /2008/04/top-10-commands/
+url: /blog/2008/04/top-10-commands/
 categories:
   - Foresight
   - Linux

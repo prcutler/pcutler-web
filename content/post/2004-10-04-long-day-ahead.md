@@ -3,7 +3,7 @@ title: Long Day Ahead
 author: Paul Cutler
 type: post
 date: 2004-10-04T13:07:38+00:00
-url: /2004/10/long-day-ahead/
+url: /blog/2004/10/long-day-ahead/
 categories:
   - Packers
   - Sports

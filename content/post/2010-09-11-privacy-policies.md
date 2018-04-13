@@ -3,7 +3,7 @@ title: Privacy Policies
 author: Paul Cutler
 type: post
 date: 2010-09-11T19:49:09+00:00
-url: /2010/09/privacy-policies/
+url: /blog/2010/09/privacy-policies/
 categories:
   - GNOME
 tags:

@@ -3,7 +3,7 @@ title: The more things change, the more things stay the same
 author: Paul Cutler
 type: post
 date: 2005-07-27T12:45:06+00:00
-url: /2005/07/the-more-things-change-the-more-things-stay-the-same/
+url: /blog/2005/07/the-more-things-change-the-more-things-stay-the-same/
 categories:
   - Football
   - Sports

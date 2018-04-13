@@ -3,7 +3,7 @@ title: 'BBC – Dr. Who & Coupling'
 author: Paul Cutler
 type: post
 date: 2003-09-26T13:33:04+00:00
-url: /2003/09/bbc-dr-who-coupling/
+url: /blog/2003/09/bbc-dr-who-coupling/
 categories:
   - Entertainment
   - TV

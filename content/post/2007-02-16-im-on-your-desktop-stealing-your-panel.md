@@ -3,7 +3,7 @@ title: "I'm on your desktop, stealing your panel"
 author: Paul Cutler
 type: post
 date: 2007-02-17T01:28:22+00:00
-url: /2007/02/im-on-your-desktop-stealing-your-panel/
+url: /blog/2007/02/im-on-your-desktop-stealing-your-panel/
 categories:
   - Linux
   - Technology

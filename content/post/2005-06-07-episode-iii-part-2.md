@@ -3,7 +3,7 @@ title: Episode III, Part 2
 author: Paul Cutler
 type: post
 date: 2005-06-07T12:47:11+00:00
-url: /2005/06/episode-iii-part-2/
+url: /blog/2005/06/episode-iii-part-2/
 categories:
   - Entertainment
   - Movies

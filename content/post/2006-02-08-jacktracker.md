@@ -3,7 +3,7 @@ title: Jacktracker
 author: Paul Cutler
 type: post
 date: 2006-02-09T03:04:18+00:00
-url: /2006/02/jacktracker/
+url: /blog/2006/02/jacktracker/
 categories:
   - Entertainment
   - TV

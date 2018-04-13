@@ -3,7 +3,7 @@ title: Hello Planet Foresight!
 author: Paul Cutler
 type: post
 date: 2007-03-14T12:23:10+00:00
-url: /2007/03/hello-planet-foresight/
+url: /blog/2007/03/hello-planet-foresight/
 categories:
   - Foresight
   - Linux

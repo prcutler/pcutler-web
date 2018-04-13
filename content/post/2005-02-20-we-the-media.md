@@ -3,7 +3,7 @@ title: We the Media
 author: Paul Cutler
 type: post
 date: 2005-02-21T01:28:51+00:00
-url: /2005/02/we-the-media/
+url: /blog/2005/02/we-the-media/
 categories:
   - Books
   - Copyright

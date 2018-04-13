@@ -3,7 +3,7 @@ title: Time Travel is real!
 author: Paul Cutler
 type: post
 date: 2013-07-26T13:13:25+00:00
-url: /2013/07/time-travel-is-real/
+url: /blog/2013/07/time-travel-is-real/
 categories:
   - Humor
 

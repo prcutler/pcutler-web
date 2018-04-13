@@ -3,7 +3,7 @@ title: T61 Lockups Follow-up
 author: Paul Cutler
 type: post
 date: 2008-04-27T02:31:01+00:00
-url: /2008/04/t61-lockups-follow-up/
+url: /blog/2008/04/t61-lockups-follow-up/
 categories:
   - Foresight
   - Hardware

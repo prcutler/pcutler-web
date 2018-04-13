@@ -3,7 +3,7 @@ title: "Sony's Playstation3 Unveiled"
 author: Paul Cutler
 type: post
 date: 2006-05-09T12:28:43+00:00
-url: /2006/05/sonys-playstation3-unveiled/
+url: /blog/2006/05/sonys-playstation3-unveiled/
 categories:
   - Hardware
   - Technology

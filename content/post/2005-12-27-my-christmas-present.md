@@ -3,7 +3,7 @@ title: My Christmas Present
 author: Paul Cutler
 type: post
 date: 2005-12-27T13:15:32+00:00
-url: /2005/12/my-christmas-present/
+url: /blog/2005/12/my-christmas-present/
 categories:
   - Books
   - Entertainment

@@ -3,7 +3,7 @@ title: Marketing the Marketing Team
 author: Paul Cutler
 type: post
 date: 2009-07-21T01:44:47+00:00
-url: /2009/07/marketing-the-marketing-team/
+url: /blog/2009/07/marketing-the-marketing-team/
 categories:
   - GNOME
   - Marketing

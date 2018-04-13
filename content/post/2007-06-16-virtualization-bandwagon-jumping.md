@@ -3,7 +3,7 @@ title: Virtualization Bandwagon Jumping
 author: Paul Cutler
 type: post
 date: 2007-06-16T22:18:29+00:00
-url: /2007/06/virtualization-bandwagon-jumping/
+url: /blog/2007/06/virtualization-bandwagon-jumping/
 categories:
   - Foresight
   - Linux

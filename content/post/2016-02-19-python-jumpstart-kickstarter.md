@@ -3,7 +3,7 @@ title: Python Jumpstart Kickstarter
 author: Paul Cutler
 type: post
 date: 2016-02-19T13:01:23+00:00
-url: /2016/02/python-jumpstart-kickstarter/
+url: /blog/2016/02/python-jumpstart-kickstarter/
 categories:
   - Python
 tags:

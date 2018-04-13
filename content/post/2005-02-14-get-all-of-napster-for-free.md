@@ -3,7 +3,7 @@ title: Get all of Napster for free
 author: Paul Cutler
 type: post
 date: 2005-02-14T23:55:07+00:00
-url: /2005/02/get-all-of-napster-for-free/
+url: /blog/2005/02/get-all-of-napster-for-free/
 categories:
   - Entertainment
   - Music

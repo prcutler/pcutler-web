@@ -3,7 +3,7 @@ title: Criticism
 author: Paul Cutler
 type: post
 date: 2003-03-13T15:38:38+00:00
-url: /2003/03/criticism/
+url: /blog/2003/03/criticism/
 categories:
   - Linux
   - Microsoft

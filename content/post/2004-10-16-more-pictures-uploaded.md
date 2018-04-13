@@ -3,7 +3,7 @@ title: More pictures uploaded!
 author: Paul Cutler
 type: post
 date: 2004-10-16T15:57:15+00:00
-url: /2004/10/more-pictures-uploaded/
+url: /blog/2004/10/more-pictures-uploaded/
 categories:
   - General
 

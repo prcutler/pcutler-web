@@ -3,7 +3,7 @@ title: City Pages’ Oral History of 89.3 The Current
 author: Paul Cutler
 type: post
 date: 2014-01-22T14:26:17+00:00
-url: /2014/01/city-pages-oral-history-of-the-current/
+url: /blog/2014/01/city-pages-oral-history-of-the-current/
 categories:
   - Music
   - Radio

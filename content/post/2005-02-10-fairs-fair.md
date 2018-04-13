@@ -3,7 +3,7 @@ title: "Fair's Fair"
 author: Paul Cutler
 type: post
 date: 2005-02-10T23:41:46+00:00
-url: /2005/02/fairs-fair/
+url: /blog/2005/02/fairs-fair/
 categories:
   - Politics
 

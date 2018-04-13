@@ -3,7 +3,7 @@ title: Let’s get back at it
 author: Paul Cutler
 type: post
 date: 2011-03-24T14:31:20+00:00
-url: /2011/03/lets-get-back-at-it/
+url: /blog/2011/03/lets-get-back-at-it/
 categories:
   - General
 

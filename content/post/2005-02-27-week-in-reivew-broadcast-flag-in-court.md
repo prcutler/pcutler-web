@@ -3,7 +3,7 @@ title: 'Week in Review:  Broadcast Flag in Court'
 author: Paul Cutler
 type: post
 date: 2005-02-27T16:53:49+00:00
-url: /2005/02/week-in-reivew-broadcast-flag-in-court/
+url: /blog/2005/02/week-in-reivew-broadcast-flag-in-court/
 categories:
   - Copyright
   - EFF

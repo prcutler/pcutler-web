@@ -3,7 +3,7 @@ title: Pearl Jam – Mind Your Manners
 author: Paul Cutler
 type: post
 date: 2013-07-15T12:32:01+00:00
-url: /2013/07/pearl-jam-mind-your-manners/
+url: /blog/2013/07/pearl-jam-mind-your-manners/
 categories:
   - Music
 tags:

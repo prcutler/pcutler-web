@@ -3,7 +3,7 @@ title: Ubuntu changes GNOME Taskbar
 author: Paul Cutler
 type: post
 date: 2005-10-07T21:19:40+00:00
-url: /2005/10/ubuntu-changes-gnome-taskbar/
+url: /blog/2005/10/ubuntu-changes-gnome-taskbar/
 categories:
   - Linux
   - Technology

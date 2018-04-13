@@ -3,7 +3,7 @@ title: Trent Reznor gets it
 author: Paul Cutler
 type: post
 date: 2005-06-30T23:58:15+00:00
-url: /2005/06/trent-reznor-gets-it/
+url: /blog/2005/06/trent-reznor-gets-it/
 categories:
   - Copyright
   - Entertainment

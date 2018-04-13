@@ -3,7 +3,7 @@ title: Bluetooth (Headset / ALSA) update
 author: Paul Cutler
 type: post
 date: 2007-05-17T12:24:33+00:00
-url: /2007/05/bluetooth-headset-alsa-update/
+url: /blog/2007/05/bluetooth-headset-alsa-update/
 categories:
   - Foresight
   - Linux

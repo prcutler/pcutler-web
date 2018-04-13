@@ -3,7 +3,7 @@ title: Mmmm, football
 author: Paul Cutler
 type: post
 date: 2005-01-17T14:15:56+00:00
-url: /2005/01/mmmm-football/
+url: /blog/2005/01/mmmm-football/
 categories:
   - Football
   - Sports

@@ -3,7 +3,7 @@ title: Badger vs UNLV Review – 9/11/04
 author: Paul Cutler
 type: post
 date: 2004-09-12T19:27:05+00:00
-url: /2004/09/badger-vs-unlv-review-91104/
+url: /blog/2004/09/badger-vs-unlv-review-91104/
 categories:
   - Badgers
   - Football

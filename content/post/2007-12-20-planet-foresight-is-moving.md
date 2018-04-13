@@ -3,7 +3,7 @@ title: Planet Foresight is moving
 author: Paul Cutler
 type: post
 date: 2007-12-20T18:36:09+00:00
-url: /2007/12/planet-foresight-is-moving/
+url: /blog/2007/12/planet-foresight-is-moving/
 categories:
   - Foresight
   - General

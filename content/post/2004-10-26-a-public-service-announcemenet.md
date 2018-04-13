@@ -3,7 +3,7 @@ title: A Public Service Announcement
 author: Paul Cutler
 type: post
 date: 2004-10-26T13:51:50+00:00
-url: /2004/10/a-public-service-announcemenet/
+url: /blog/2004/10/a-public-service-announcemenet/
 categories:
   - Politics
 

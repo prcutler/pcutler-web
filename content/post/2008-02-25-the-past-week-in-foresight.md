@@ -3,7 +3,7 @@ title: The past week in Foresight
 author: Paul Cutler
 type: post
 date: 2008-02-25T15:25:12+00:00
-url: /2008/02/the-past-week-in-foresight/
+url: /blog/2008/02/the-past-week-in-foresight/
 categories:
   - Foresight
   - Linux

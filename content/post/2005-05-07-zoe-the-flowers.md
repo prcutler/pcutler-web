@@ -3,7 +3,7 @@ title: 'Zoe & The Flowers'
 author: Paul Cutler
 type: post
 date: 2005-05-07T21:56:35+00:00
-url: /2005/05/zoe-the-flowers/
+url: /blog/2005/05/zoe-the-flowers/
 categories:
   - Photography
   - The Kids

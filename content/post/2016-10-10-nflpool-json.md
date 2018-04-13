@@ -3,7 +3,7 @@ title: Building the NFLPool webapp – Starting with JSON
 author: Paul Cutler
 type: post
 date: 2016-10-10T13:22:08+00:00
-url: /2016/10/nflpool-json/
+url: /blog/2016/10/nflpool-json/
 categories:
   - Python
 tags:

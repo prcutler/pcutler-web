@@ -3,7 +3,7 @@ title: 'Mark Shuttleworth: In defense of independent governance'
 author: Paul Cutler
 type: post
 date: 2007-05-19T21:24:13+00:00
-url: /2007/05/mark-shuttleworth-in-defense-of-independent-governance/
+url: /blog/2007/05/mark-shuttleworth-in-defense-of-independent-governance/
 categories:
   - Linux
   - Politics

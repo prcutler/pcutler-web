@@ -3,7 +3,7 @@ title: "BFG Arrival  – The Reason We're Here"
 author: Paul Cutler
 type: post
 date: 2004-10-15T22:33:19+00:00
-url: /2004/10/bfg-arrival-the-reason-were-here/
+url: /blog/2004/10/bfg-arrival-the-reason-were-here/
 categories:
   - General
 

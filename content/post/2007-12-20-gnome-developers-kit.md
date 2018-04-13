@@ -3,7 +3,7 @@ title: "GNOME Developer's Kit"
 author: Paul Cutler
 type: post
 date: 2007-12-20T15:06:00+00:00
-url: /2007/12/gnome-developers-kit/
+url: /blog/2007/12/gnome-developers-kit/
 categories:
   - Foresight
   - GNOME

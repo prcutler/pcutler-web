@@ -3,7 +3,7 @@ title: Behind the scenes at 89.3
 author: Paul Cutler
 type: post
 date: 2005-10-08T15:52:06+00:00
-url: /2005/10/behind-the-scenes-at-893/
+url: /blog/2005/10/behind-the-scenes-at-893/
 categories:
   - Entertainment
   - Music

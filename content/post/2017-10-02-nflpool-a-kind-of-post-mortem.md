@@ -3,7 +3,7 @@ title: 'NFLPool: a (kind of) Post Mortem'
 author: Paul Cutler
 type: post
 date: 2017-10-02T13:09:44+00:00
-url: /2017/10/nflpool-a-kind-of-post-mortem/
+url: /blog/2017/10/nflpool-a-kind-of-post-mortem/
 categories:
   - Python
 tags:

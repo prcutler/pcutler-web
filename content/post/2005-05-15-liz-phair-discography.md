@@ -3,7 +3,7 @@ title: Liz Phair Discography
 author: Paul Cutler
 type: post
 date: 2005-05-15T17:41:40+00:00
-url: /2005/05/liz-phair-discography/
+url: /blog/2005/05/liz-phair-discography/
 categories:
   - Entertainment
   - Music

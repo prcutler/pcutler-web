@@ -3,7 +3,7 @@ title: Upgrade Complete
 author: Paul Cutler
 type: post
 date: 2004-10-13T02:44:35+00:00
-url: /2004/10/upgrade-complete/
+url: /blog/2004/10/upgrade-complete/
 categories:
   - General
   - Technology

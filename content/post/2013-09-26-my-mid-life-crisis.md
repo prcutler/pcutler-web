@@ -3,7 +3,7 @@ title: My Mid-Life Crisis
 author: Paul Cutler
 type: post
 date: 2013-09-26T13:19:55+00:00
-url: /2013/09/my-mid-life-crisis/
+url: /blog/2013/09/my-mid-life-crisis/
 categories:
   - Vinyl
 tags:

@@ -3,7 +3,7 @@ title: Tasky on Foresight 2
 author: Paul Cutler
 type: post
 date: 2008-02-28T15:24:05+00:00
-url: /2008/02/tasky-on-foresight-2/
+url: /blog/2008/02/tasky-on-foresight-2/
 categories:
   - Foresight
 tags:

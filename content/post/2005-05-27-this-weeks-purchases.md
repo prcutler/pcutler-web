@@ -3,7 +3,7 @@ title: "This week's purchases"
 author: Paul Cutler
 type: post
 date: 2005-05-28T01:00:12+00:00
-url: /2005/05/this-weeks-purchases/
+url: /blog/2005/05/this-weeks-purchases/
 categories:
   - Books
   - Entertainment

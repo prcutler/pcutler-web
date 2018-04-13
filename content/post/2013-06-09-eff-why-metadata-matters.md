@@ -3,7 +3,7 @@ title: 'EFF: Why Metadata Matters'
 author: Paul Cutler
 type: post
 date: 2013-06-10T04:59:18+00:00
-url: /2013/06/eff-why-metadata-matters/
+url: /blog/2013/06/eff-why-metadata-matters/
 categories:
   - Technology
 tags:

@@ -3,7 +3,7 @@ title: Foresight Year in Review
 author: Paul Cutler
 type: post
 date: 2007-12-21T14:26:30+00:00
-url: /2007/12/foresight-year-in-review/
+url: /blog/2007/12/foresight-year-in-review/
 categories:
   - Foresight
 

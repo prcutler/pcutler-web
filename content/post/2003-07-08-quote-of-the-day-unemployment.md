@@ -3,7 +3,7 @@ title: Quote of the Day – Unemployment
 author: Paul Cutler
 type: post
 date: 2003-07-08T13:08:31+00:00
-url: /2003/07/quote-of-the-day-unemployment/
+url: /blog/2003/07/quote-of-the-day-unemployment/
 categories:
   - Politics
 

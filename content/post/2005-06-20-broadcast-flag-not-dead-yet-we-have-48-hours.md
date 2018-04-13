@@ -3,7 +3,7 @@ title: Broadcast Flag not dead yet – we have 48 hours!
 author: Paul Cutler
 type: post
 date: 2005-06-21T01:27:09+00:00
-url: /2005/06/broadcast-flag-not-dead-yet-we-have-48-hours/
+url: /blog/2005/06/broadcast-flag-not-dead-yet-we-have-48-hours/
 categories:
   - EFF
   - Entertainment

@@ -3,7 +3,7 @@ title: Ubuntu One
 author: Paul Cutler
 type: post
 date: 2009-05-16T21:16:22+00:00
-url: /2009/05/ubuntu-one/
+url: /blog/2009/05/ubuntu-one/
 categories:
   - Linux
   - Ubuntu

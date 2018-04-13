@@ -3,7 +3,7 @@ title: New Release Tuesday
 author: Paul Cutler
 type: post
 date: 2005-05-04T01:51:29+00:00
-url: /2005/05/new-release-tuesday/
+url: /blog/2005/05/new-release-tuesday/
 categories:
   - Entertainment
   - Music

@@ -3,7 +3,7 @@ title: Chaska offers city-wide 802.11 for $16
 author: Paul Cutler
 type: post
 date: 2004-09-03T13:02:57+00:00
-url: /2004/09/chaska-offers-city-wide-80211-for-16/
+url: /blog/2004/09/chaska-offers-city-wide-80211-for-16/
 categories:
   - Technology
 

@@ -3,7 +3,7 @@ title: "Today's Meme"
 author: Paul Cutler
 type: post
 date: 2005-07-22T13:07:18+00:00
-url: /2005/07/todays-meme/
+url: /blog/2005/07/todays-meme/
 categories:
   - Humor
 

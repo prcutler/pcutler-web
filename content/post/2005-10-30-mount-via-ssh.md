@@ -3,7 +3,7 @@ title: Mount via SSH
 author: Paul Cutler
 type: post
 date: 2005-10-30T15:17:25+00:00
-url: /2005/10/mount-via-ssh/
+url: /blog/2005/10/mount-via-ssh/
 categories:
   - Linux
   - Technology

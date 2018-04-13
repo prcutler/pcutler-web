@@ -3,7 +3,7 @@ title: /Mourn VoodooExtreme
 author: Paul Cutler
 type: post
 date: 2003-05-29T14:57:51+00:00
-url: /2003/05/mourn-voodooextreme/
+url: /blog/2003/05/mourn-voodooextreme/
 categories:
   - Entertainment
   - Games

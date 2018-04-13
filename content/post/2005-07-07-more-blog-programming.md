@@ -3,7 +3,7 @@ title: More blog programming
 author: Paul Cutler
 type: post
 date: 2005-07-08T02:19:01+00:00
-url: /2005/07/more-blog-programming/
+url: /blog/2005/07/more-blog-programming/
 categories:
   - Technology
   - Wordpress

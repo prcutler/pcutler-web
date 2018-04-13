@@ -3,7 +3,7 @@ title: Interview with Jon Lech Johansen
 author: Paul Cutler
 type: post
 date: 2005-04-05T15:26:14+00:00
-url: /2005/04/interview-with-jon-lech-johansen/
+url: /blog/2005/04/interview-with-jon-lech-johansen/
 categories:
   - Entertainment
   - Linux

@@ -3,7 +3,7 @@ title: 'Vinyl (R)Evolution Music of the Week: June 29th'
 author: Paul Cutler
 type: post
 date: 2010-07-01T18:32:32+00:00
-url: /2010/07/vinyl-revolution-music-of-the-week-june-29th/
+url: /blog/2010/07/vinyl-revolution-music-of-the-week-june-29th/
 categories:
   - Digital
   - Music of the Week

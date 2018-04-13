@@ -3,7 +3,7 @@ title: What my dad taught me about tech
 author: Paul Cutler
 type: post
 date: 2010-06-20T18:48:09+00:00
-url: /2010/06/what-my-dad-taught-me-about-tech/
+url: /blog/2010/06/what-my-dad-taught-me-about-tech/
 categories:
   - Technology
 

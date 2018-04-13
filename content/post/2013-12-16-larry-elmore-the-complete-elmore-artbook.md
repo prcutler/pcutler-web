@@ -3,7 +3,7 @@ title: 'Larry Elmore: The Complete Elmore Artbook'
 author: Paul Cutler
 type: post
 date: 2013-12-16T16:25:08+00:00
-url: /2013/12/larry-elmore-the-complete-elmore-artbook/
+url: /blog/2013/12/larry-elmore-the-complete-elmore-artbook/
 categories:
   - Books
 tags:

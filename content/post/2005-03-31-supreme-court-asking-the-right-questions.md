@@ -3,7 +3,7 @@ title: Supreme Court Asking the Right Questions
 author: Paul Cutler
 type: post
 date: 2005-03-31T13:08:57+00:00
-url: /2005/03/supreme-court-asking-the-right-questions/
+url: /blog/2005/03/supreme-court-asking-the-right-questions/
 categories:
   - Copyright
   - EFF

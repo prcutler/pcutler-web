@@ -3,7 +3,7 @@ title: Installing and Configuring Ubuntu on a Laptop
 author: Paul Cutler
 type: post
 date: 2005-11-23T17:11:48+00:00
-url: /2005/11/installing-and-configuring-ubuntu-on-a-laptop/
+url: /blog/2005/11/installing-and-configuring-ubuntu-on-a-laptop/
 categories:
   - Linux
   - Technology

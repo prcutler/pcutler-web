@@ -3,7 +3,7 @@ title: Upgrade Complete
 author: Paul Cutler
 type: post
 date: 2005-05-10T23:39:56+00:00
-url: /2005/05/upgrade-complete-2-2/
+url: /blog/2005/05/upgrade-complete-2-2/
 categories:
   - Technology
   - Wordpress

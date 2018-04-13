@@ -3,7 +3,7 @@ title: GNOME Journal
 author: Paul Cutler
 type: post
 date: 2007-06-24T18:15:10+00:00
-url: /2007/06/gnome-journal/
+url: /blog/2007/06/gnome-journal/
 categories:
   - Foresight
   - GNOME

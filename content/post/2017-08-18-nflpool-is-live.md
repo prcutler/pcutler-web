@@ -3,7 +3,7 @@ title: NFLPool is live
 author: Paul Cutler
 type: post
 date: 2017-08-18T13:53:28+00:00
-url: /2017/08/nflpool-is-live/
+url: /blog/2017/08/nflpool-is-live/
 categories:
   - Python
 tags:

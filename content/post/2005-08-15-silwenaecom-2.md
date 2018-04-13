@@ -3,7 +3,7 @@ title: Silwenae.com
 author: Paul Cutler
 type: post
 date: 2005-08-15T20:57:28+00:00
-url: /2005/08/silwenaecom-2/
+url: /blog/2005/08/silwenaecom-2/
 categories:
   - Technology
   - Websites

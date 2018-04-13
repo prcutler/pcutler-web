@@ -3,7 +3,7 @@ title: Ubuntu 6.10 Burning Problem
 author: Paul Cutler
 type: post
 date: 2007-02-04T13:24:21+00:00
-url: /2007/02/ubuntu-610-burning-problem/
+url: /blog/2007/02/ubuntu-610-burning-problem/
 categories:
   - Hardware
   - Linux

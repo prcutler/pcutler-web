@@ -3,7 +3,7 @@ title: Random Football Thoughts
 author: Paul Cutler
 type: post
 date: 2005-11-22T19:07:08+00:00
-url: /2005/11/random-football-thoughts/
+url: /blog/2005/11/random-football-thoughts/
 categories:
   - Football
   - Sports

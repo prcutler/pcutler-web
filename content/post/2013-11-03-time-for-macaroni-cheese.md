@@ -3,7 +3,7 @@ title: 'Time for Macaroni & Cheese'
 author: Paul Cutler
 type: post
 date: 2013-11-03T22:06:47+00:00
-url: /2013/11/time-for-macaroni-cheese/
+url: /blog/2013/11/time-for-macaroni-cheese/
 categories:
   - Cooking
 tags:

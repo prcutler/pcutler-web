@@ -3,7 +3,7 @@ title: 'Evil Corporations #3: Macrovision'
 author: Paul Cutler
 type: post
 date: 2005-11-27T02:03:20+00:00
-url: /2005/11/evil-corporations-3-macrovision/
+url: /blog/2005/11/evil-corporations-3-macrovision/
 categories:
   - Copyright
   - Entertainment

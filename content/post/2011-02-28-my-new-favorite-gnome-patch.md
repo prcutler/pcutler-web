@@ -3,7 +3,7 @@ title: My new favorite GNOME Patch
 author: Paul Cutler
 type: post
 date: 2011-02-28T16:03:18+00:00
-url: /2011/02/my-new-favorite-gnome-patch/
+url: /blog/2011/02/my-new-favorite-gnome-patch/
 categories:
   - GNOME
   - Linux

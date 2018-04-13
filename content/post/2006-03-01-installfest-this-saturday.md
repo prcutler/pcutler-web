@@ -3,7 +3,7 @@ title: Installfest this Saturday!
 author: Paul Cutler
 type: post
 date: 2006-03-02T01:36:33+00:00
-url: /2006/03/installfest-this-saturday/
+url: /blog/2006/03/installfest-this-saturday/
 categories:
   - Linux
   - Technology

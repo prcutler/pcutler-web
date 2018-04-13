@@ -3,7 +3,7 @@ title: Back in the saddle
 author: Paul Cutler
 type: post
 date: 2003-10-21T13:43:58+00:00
-url: /2003/10/back-in-the-saddle/
+url: /blog/2003/10/back-in-the-saddle/
 categories:
   - General
 

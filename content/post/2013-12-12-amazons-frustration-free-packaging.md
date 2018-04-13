@@ -3,7 +3,7 @@ title: Amazon’s Frustration Free Packaging
 author: Paul Cutler
 type: post
 date: 2013-12-13T00:11:14+00:00
-url: /2013/12/amazons-frustration-free-packaging/
+url: /blog/2013/12/amazons-frustration-free-packaging/
 categories:
   - Music
   - Vinyl

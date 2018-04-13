@@ -3,7 +3,7 @@ title: Quote of the Day
 author: Paul Cutler
 type: post
 date: 2003-04-11T15:46:40+00:00
-url: /2003/04/quote-of-the-day/
+url: /blog/2003/04/quote-of-the-day/
 categories:
   - Politics
 

@@ -3,7 +3,7 @@ title: Oops, I did it again
 author: Paul Cutler
 type: post
 date: 2003-09-05T02:43:42+00:00
-url: /2003/09/oops-i-did-it-again/
+url: /blog/2003/09/oops-i-did-it-again/
 categories:
   - Entertainment
   - Football

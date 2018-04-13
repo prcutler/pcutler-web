@@ -3,7 +3,7 @@ title: Site5 Issues
 author: Paul Cutler
 type: post
 date: 2007-05-28T22:17:43+00:00
-url: /2007/05/site5-issues/
+url: /blog/2007/05/site5-issues/
 categories:
   - Technology
   - Websites

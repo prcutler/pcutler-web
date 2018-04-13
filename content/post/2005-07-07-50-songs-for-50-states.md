@@ -3,7 +3,7 @@ title: 50 Songs for 50 States
 author: Paul Cutler
 type: post
 date: 2005-07-08T02:15:02+00:00
-url: /2005/07/50-songs-for-50-states/
+url: /blog/2005/07/50-songs-for-50-states/
 categories:
   - Entertainment
   - Music

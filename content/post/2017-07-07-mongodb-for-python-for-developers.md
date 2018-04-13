@@ -3,7 +3,7 @@ title: MongoDB for Python for Developers
 author: Paul Cutler
 type: post
 date: 2017-07-07T13:55:06+00:00
-url: /2017/07/mongodb-for-python-for-developers/
+url: /blog/2017/07/mongodb-for-python-for-developers/
 categories:
   - Python
 tags:

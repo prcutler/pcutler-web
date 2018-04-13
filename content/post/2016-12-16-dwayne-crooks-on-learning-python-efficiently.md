@@ -3,7 +3,7 @@ title: Dwayne Crooks on learning Python efficiently
 author: Paul Cutler
 type: post
 date: 2016-12-16T13:03:11+00:00
-url: /2016/12/dwayne-crooks-on-learning-python-efficiently/
+url: /blog/2016/12/dwayne-crooks-on-learning-python-efficiently/
 categories:
   - Python
 tags:

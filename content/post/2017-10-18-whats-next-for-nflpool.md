@@ -3,7 +3,7 @@ title: What’s next for NFLPool
 author: Paul Cutler
 type: post
 date: 2017-10-18T12:59:42+00:00
-url: /2017/10/whats-next-for-nflpool/
+url: /blog/2017/10/whats-next-for-nflpool/
 categories:
   - Python
 tags:

@@ -3,7 +3,7 @@ title: Record Store Day 2013 is fast approaching
 author: Paul Cutler
 type: post
 date: 2013-03-01T14:21:08+00:00
-url: /2013/03/record-store-day-2013-is-fast-approaching/
+url: /blog/2013/03/record-store-day-2013-is-fast-approaching/
 categories:
   - Music
 tags:
