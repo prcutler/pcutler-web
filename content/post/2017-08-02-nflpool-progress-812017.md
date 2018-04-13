@@ -33,7 +33,7 @@ Well, the first step in NFLPool is to set up the tables with the team informatio
 
 Sounds easy, and then the next thing I knew it was 7pm and I was asking my wife for help. Using the original prototype, which had working Python code to populate the team info table and the active players, I couldn’t get the team info to populate. I thought this tweet summed it up pretty well:
 
-[<img class="alignnone size-full wp-image-6728" src="https://i2.wp.com/paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-09.56.26.png?resize=700%2C320" alt="" width="700" height="320" data-recalc-dims="1" />][2]
+[<img class="alignnone size-full wp-image-6728" src="https://paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-09.56.26.png?resize=700%2C320" alt="" width="700" height="320" data-recalc-dims="1" />][2]
 
 Turns out I had a return statement at the end of my loop that shouldn’t be there. Took her five minutes &#8211; sometimes you just need another set of eyes. The loop itself is terrible code, but it&#8217;s working.
 
@@ -52,6 +52,6 @@ Until then, I’ll just keep telling myself this:
   
 [<img class="alignnone size-full wp-image-6723" src="https://i1.wp.com/paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-08.54.40-4.png?resize=700%2C570" alt="" width="700" height="570" data-recalc-dims="1" />][3]
 
- [1]: https://i2.wp.com/paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-07-31-08.42.02-3.png
+ [1]: https://paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-07-31-08.42.02-3.png
  [2]: https://i2.wp.com/paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-09.56.26.png
- [3]: https://i1.wp.com/paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-08.54.40-4.png
+ [3]: https://paulcutler.org/blog/wp-content/uploads/2017/08/Screenshot-2017-08-02-08.54.40-4.png
