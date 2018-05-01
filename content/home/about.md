@@ -20,10 +20,10 @@ weight = 5
   course = "Dessa - Chime"
   
 [[education.courses]]
-  course = "Anna Burch - Quit the Curse"
+  course = "Speedy Ortiz - Twerp Verse"
   
 [[education.courses]]
-  course = "Lissie - Castles"
+  course = "Liz Phair - Girly-Sound to Guyville"
 
 
 +++
