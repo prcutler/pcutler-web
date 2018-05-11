@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Dessa - Chime"
+  course = "Frank Turner - Be More Kind"
   
 [[education.courses]]
   course = "Speedy Ortiz - Twerp Verse"
