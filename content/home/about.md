@@ -20,7 +20,7 @@ weight = 5
   course = "Frank Turner - Be More Kind"
   
 [[education.courses]]
-  course = "Speedy Ortiz - Twerp Verse"
+  course = "Now, Now - Saved"
   
 [[education.courses]]
   course = "Liz Phair - Girly-Sound to Guyville"
