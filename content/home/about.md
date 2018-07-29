@@ -20,10 +20,10 @@ weight = 5
   course = "Frank Turner - Be More Kind"
   
 [[education.courses]]
-  course = "Now, Now - Saved"
+  course = "Phantastic Ferniture - Phantastic Ferniture"
   
 [[education.courses]]
-  course = "Liz Phair - Girly-Sound to Guyville"
+  course = "Kacey Musgraves - Golden Hour"
 
 
 +++
