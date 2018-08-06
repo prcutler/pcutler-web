@@ -12,8 +12,6 @@ tags:
 
 ---
 
-There is No Offseason
-
 The blogging might slow down some, but the coding never stops.  Ok, well maybe a little.  After creating and launching [MLBPool2](https://mlbpool2.com) this past spring, I took a small break and then back at it for the upcoming season of [NFLPool](https://nflpool.xyz).
 
 I have two big goals for NFLPool before the 2018 season starts:
