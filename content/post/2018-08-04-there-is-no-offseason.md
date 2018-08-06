@@ -1,5 +1,5 @@
 ---
-title: There is No Offseason (or writing my Python apps never ends and that's ok)
+title: There is No Offseason
 author: Paul Cutler
 type: post
 date: 2018-08-06
@@ -11,6 +11,8 @@ tags:
   - Python
 
 ---
+
+## Alternative title:  There is No Offseason (or writing my Python apps never ends and that's ok)
 
 The blogging might slow down some, but the coding never stops.  Ok, well maybe a little.  After creating and launching [MLBPool2](https://mlbpool2.com) this past spring, I took a small break and then back at it for the upcoming season of [NFLPool](https://nflpool.xyz).
 
