@@ -20,7 +20,7 @@ weight = 5
   course = "Frank Turner - Be More Kind"
   
 [[education.courses]]
-  course = "Phantastic Ferniture - Phantastic Ferniture"
+  course = "Big Red Machine - Big Red Machine"
   
 [[education.courses]]
   course = "Kacey Musgraves - Golden Hour"
