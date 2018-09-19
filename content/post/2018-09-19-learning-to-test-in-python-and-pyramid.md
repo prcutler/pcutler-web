@@ -12,7 +12,6 @@ tags:
   - Talk Python
 
 ---
-# Learning How to Test in Python and Pyramid
 
 *tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together.  If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code.  And if you’ve taken courses at Talk Python, take advantage of the office hours!*
 
