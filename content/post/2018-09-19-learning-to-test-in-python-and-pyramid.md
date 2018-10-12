@@ -190,7 +190,7 @@ Open your Pyramid dunder init file and update your logging configuration with an
 
 And add the if / else statement.  You’ve now accounted for both Rollbar and you won’t create a log in your `tests` directory when running this test.
 
-Lastly, you need to update your `development.ini` file to account for the Roller changes.  Comment out the `rollbar.root` below so you don’t receive notifications for errors in development and add the `[rollbar:test_settings]` block below.
+Lastly, you need to update your `development.ini` file to account for the Rollbar changes.  Comment out the `rollbar.root` below so you don’t receive notifications for errors in development and add the `[rollbar:test_settings]` block below.
 
 	#  Rollbar settings
 	
