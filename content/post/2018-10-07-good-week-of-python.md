@@ -32,10 +32,10 @@ I mentioned in my last blog post a few weeks ago how I’ve been learning about 
 
 GitHub and partners started [Hacktoberfest](https://hacktoberfest.digitalocean.com/) this week, so it was a perfect time to go through all of the Pyramid documentation and update it.  So I did, and it was a good learning opportunity.  It’s not as simple as an easy search and replace - reading through the docs to make sure the changes are done right also teaches me about the features, and learning about `pytest` and especially `coverage` was great.  Talking to the developers, Pyramid has a 1.10 release coming very soon, so I got those changes in and then dived into another discussion topic on IRC, *cookiecutters*.
 
-With the upcoming 1.10 Pyramid will be merging three of it’s cookiecutters into one.  Even though we’ll update the documentation, including the README, there are probably some developers who have a workflow to just pull the cookiecutter from the command line.  I added a message to the two deprecated cookiecutters that they are deprecated and to use the correct one.  I did spend some time going through the Talk Python course on cookiecutters, which was good, too.  I was looking for a way to update the pre-commit hook to add the deprecation message, but no luck on that.
+With the upcoming 1.10 release, Pyramid will be merging three of it’s cookiecutters into one.  Even though we’ll update the documentation, including the README, there are probably some developers who have a workflow to just pull the cookiecutter from the command line.  I added a message to the two deprecated cookiecutters that they are deprecated and to use the correct one.  I did spend some time going through the Talk Python course on cookiecutters, which was good, too.  I was looking for a way to update the pre-commit hook to add the deprecation message, but no luck on that.
 
 And speaking of Hacktoberfest, I met the goals!  (Not that I’m done yet).
 
 It was a good week.
 
-![Hacktoberfest 2018](/static/images/hacktoberfest2018.png)
+![Hacktoberfest 2018](/images/hacktoberfest2018.png)
