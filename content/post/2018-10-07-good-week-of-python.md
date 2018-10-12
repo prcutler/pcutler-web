@@ -38,4 +38,4 @@ And speaking of Hacktoberfest, I met the goals!  (Not that I’m done yet).
 
 It was a good week.
 
-![Hacktoberfest 2018](/static/images/hacktoberfest2018.png)
+[Hacktoberfest 2018](/static/images/hacktoberfest2018.png)
