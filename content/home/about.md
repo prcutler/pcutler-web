@@ -17,13 +17,13 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Frank Turner - Be More Kind"
+  course = "Jason Isbell & the 400 Unit - Live at the Ryman"
   
 [[education.courses]]
   course = "Big Red Machine - Big Red Machine"
   
 [[education.courses]]
-  course = "Kacey Musgraves - Golden Hour"
+  course = "Haley - Pleasureland"
 
 
 +++
