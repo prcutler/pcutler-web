@@ -23,7 +23,7 @@ weight = 5
   course = "Big Red Machine - Big Red Machine"
   
 [[education.courses]]
-  course = "Haley - Pleasureland"
+  course = "Boygenius - Boygenius"
 
 
 +++
