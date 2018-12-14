@@ -20,7 +20,7 @@ weight = 5
   course = "Jason Isbell & the 400 Unit - Live at the Ryman"
   
 [[education.courses]]
-  course = "Big Red Machine - Big Red Machine"
+  course = "The Hold Steady - Stay Positive (Re-issue)"
   
 [[education.courses]]
   course = "Boygenius - Boygenius"
