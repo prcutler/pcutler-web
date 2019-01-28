@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Jason Isbell & the 400 Unit - Live at the Ryman"
+  course = "Better Oblivion Community Center - Better Oblivion Community Center"
   
 [[education.courses]]
   course = "The Hold Steady - Stay Positive (Re-issue)"
