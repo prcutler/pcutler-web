@@ -23,7 +23,7 @@ weight = 5
   course = "The Hold Steady - Stay Positive (Re-issue)"
   
 [[education.courses]]
-  course = "Boygenius - Boygenius"
+  course = "Bob Mould - Sunshine Rock"
 
 
 +++
