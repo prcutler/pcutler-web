@@ -20,7 +20,7 @@ weight = 5
   course = "Better Oblivion Community Center - Better Oblivion Community Center"
   
 [[education.courses]]
-  course = "The Hold Steady - Stay Positive (Re-issue)"
+  course = "Julia Jacklin - Crushing"
   
 [[education.courses]]
   course = "Bob Mould - Sunshine Rock"
