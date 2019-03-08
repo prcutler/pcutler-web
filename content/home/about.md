@@ -25,6 +25,8 @@ weight = 5
 [[education.courses]]
   course = "Bob Mould - Sunshine Rock"
 
+[[education.courses]]
+  course = "J.S. Ondara - Tales of America"
 
 +++
 
