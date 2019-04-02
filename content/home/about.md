@@ -20,7 +20,7 @@ weight = 5
   course = "Better Oblivion Community Center - Better Oblivion Community Center"
   
 [[education.courses]]
-  course = "Julia Jacklin - Crushing"
+  course = "Jenny Lewis - On the Line"
   
 [[education.courses]]
   course = "Bob Mould - Sunshine Rock"
