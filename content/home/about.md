@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Better Oblivion Community Center - Better Oblivion Community Center"
+  course = " The Bird And The Bee ‎– Ray Guns Are Not Just The Future (10th Anniversary Edition"
   
 [[education.courses]]
   course = "Jenny Lewis - On the Line"
