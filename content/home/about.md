@@ -17,16 +17,13 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = " The Bird And The Bee ‎– Ray Guns Are Not Just The Future (10th Anniversary Edition)"
+  course = "The National - I Am Easy to Find"
   
 [[education.courses]]
   course = "Jenny Lewis - On the Line"
-  
-[[education.courses]]
-  course = "Bob Mould - Sunshine Rock"
 
 [[education.courses]]
-  course = "J.S. Ondara - Tales of America"
+  course = "Alex Lahey - The Best of Luck Club"
 
 +++
 
