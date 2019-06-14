@@ -2,7 +2,7 @@
 title: Learning pytest using continuous integration with Azure Pipelines (or SSH key hell) - Part 1
 author: Paul Cutler
 type: post
-date: 2019-06-014
+date: 2019-06-14T14:00-0600
 categories:
   - Python
   - Pyramid
@@ -50,6 +50,7 @@ Ok, let’s add my SSH key to Azure Pipelines.  Again, Microsoft has [good devel
 - Step 2: In your projects in Azure Pipelines, go to Pipelines -\> Library and choose Secure files.  Add your private key (usually `id_rsa`). 
 - Step 3: Add the SSH Task to Azure Pipelines and make sure you authorize the private key - follow [Microsoft’s developer documentation for the SSH Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops).  Update your YAML file:
 
+```
 	# Install SSH Key
 		# Install an SSH key prior to a build or release
 		- task: InstallSSHKey@0
@@ -58,6 +59,7 @@ Ok, let’s add my SSH key to Azure Pipelines.  Again, Microsoft has [good devel
 		    sshPublicKey: 
 		    #sshPassphrase: # Optional
 		    sshKeySecureFile: 
+```
 
 The hostname input confused me at first, but here you’re going to go into your `~/.ssh` directory and copy and paste the Github entry in your `known_hosts` file.  (This is a hidden directory in your home folder on macOS or Linux.  I’m not sure where it is on Windows, sorry!) Paste your public key in `sshPublicKey:` and the name of your private key that you uploaded in Step 2 above.  If your repository is public on Github, you are not going to want to add your sshPassphrase to your YAML file.
 
