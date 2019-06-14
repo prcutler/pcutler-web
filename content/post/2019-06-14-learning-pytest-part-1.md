@@ -2,7 +2,7 @@
 title: Learning pytest using continuous integration with Azure Pipelines (or SSH key hell) - Part 1
 author: Paul Cutler
 type: post
-date: 2019-06-014T14:00:00-06:00
+date: 2019-06-014
 categories:
   - Python
   - Pyramid
