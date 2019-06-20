@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "prcutler-2016.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "paul.r.cutler@gmail.com"
+  email = "paul@paulcutler.org"
   address = "Chaska, MN, USA"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "888 888 88 88"
@@ -221,7 +221,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:paul.r.cutle@gmail.com"
+    link = "mailto:paul@paulcutler.org"
 
   [[params.social]]
     icon = "twitter"
