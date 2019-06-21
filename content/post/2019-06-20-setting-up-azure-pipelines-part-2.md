@@ -31,8 +31,7 @@ One question I was asked: *[Why continuous integration if I’m just a hobbyist?
 repo page; hooking up the Slack integration to get a message when a build builds or fails; and knowing I’m doing 
 things like a “real” developer might.  
 
-But I digress.  I set up Azure Pipelines to run two builds - one in Python 3.6 and one in Python 3.7.  
-After I make a commit to the SilverSaucer Github repository, Azure Pipelines automatically starts a job and builds the project.  
+But I digress.  I set up Azure Pipelines to run two builds - one in Python 3.6 and one in Python 3.7.  After I make a commit to the SilverSaucer Github repository, Azure Pipelines automatically starts a job and builds the project.  
 
 ![Azure Builds](/images/failed-builds.png)
 
@@ -46,8 +45,7 @@ The bad news:  The exact same two tests fail on Python 3.7. ([Log](https://gist.
 I made sure my development machine’s version of Python matched Azure’s and upgraded from Python 3.7.1 to 3.7.3 
 just to make sure - still failed.
 
-I poked at it here and there for a few days and then asked for help in the Pyramid IRC channel.  
-Right away, I received advice to add `pysqlite3` and it worked!  I used `pip freeze` to update 
+I poked at it here and there for a few days and then asked for help in the Pyramid IRC channel.  Right away, I received advice to add `pysqlite3` and it worked!  I used `pip freeze` to update 
 my `requirements.txt` file and made sure `pysqlite3` was in there, committed, and now I have a shiny badge on my repo.
 
 I still don’t understand *why* it built on Python 3.6 but not Python 3.7.  But it’s working and time to move on.
