@@ -2,7 +2,7 @@
 title: Setting up Azure Pipelines - Part 2
 author: Paul Cutler
 type: post
-date: 2019-06-20T21:00:00-05:00
+date: 2019-06-20T21:00:00
 categories:
   - Python
 tags:
