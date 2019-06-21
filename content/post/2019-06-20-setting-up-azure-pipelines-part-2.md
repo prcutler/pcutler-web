@@ -10,6 +10,7 @@ tags:
   - Python
   - Testing
 
+---
 
 [In Part 1, I covered the challenges I had in setting up my SSH key with Azure Pipelines](https://paulcutler.org/blog/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/) 
 to work with my existing Github repository, which contains a new Pyramid project without any customization (yet).
