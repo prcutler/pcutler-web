@@ -24,6 +24,6 @@ weight = 3
   label = '<i class="fa fa-arrow-down"></i> Learn More'
 +++
 
-Father. Husband. Vinyl Music Lover. Technology Enthusiast. Football fan. Python student.
+Father. Husband. Vinyl Music Lover. Technology Enthusiast. Football fan. Python student. He / him.
 <br>
 
