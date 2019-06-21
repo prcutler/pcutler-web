@@ -32,9 +32,10 @@ repo page; hooking up the Slack integration to get a message when a build builds
 things like a “real” developer might.  
 
 But I digress.  I set up Azure Pipelines to run two builds - one in Python 3.6 and one in Python 3.7.  
-fter I make a commit to the SilverSaucer Github repository, Azure Pipelines automatically starts a job and builds the project.  
+After I make a commit to the SilverSaucer Github repository, Azure Pipelines automatically starts a job and builds the project.  
 
-![https://paulcutler.org/images/success-builds.png](DraggedImage.png)
+~[Azure Builds](/images/failed-builds.png)
+
 
 Two of the four tests passed.
 
