@@ -34,7 +34,7 @@ things like a “real” developer might.
 But I digress.  I set up Azure Pipelines to run two builds - one in Python 3.6 and one in Python 3.7.  
 After I make a commit to the SilverSaucer Github repository, Azure Pipelines automatically starts a job and builds the project.  
 
-~[Azure Builds](/images/failed-builds.png)
+![Azure Builds](/images/failed-builds.png)
 
 
 Two of the four tests passed.
