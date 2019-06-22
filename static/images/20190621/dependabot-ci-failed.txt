@@ -1,0 +1,152 @@
+2019-06-20T13:58:08.9887682Z ##[section]Starting: pytest
+2019-06-20T13:58:08.9891095Z ==============================================================================
+2019-06-20T13:58:08.9891512Z Task         : Command line
+2019-06-20T13:58:08.9891683Z Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+2019-06-20T13:58:08.9891870Z Version      : 2.151.1
+2019-06-20T13:58:08.9891995Z Author       : Microsoft Corporation
+2019-06-20T13:58:08.9892178Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+2019-06-20T13:58:08.9892363Z ==============================================================================
+2019-06-20T13:58:09.1213370Z Generating script.
+2019-06-20T13:58:09.1234823Z ========================== Starting Command Output ===========================
+2019-06-20T13:58:09.1268562Z [command]/bin/bash --noprofile --norc /home/vsts/work/_temp/af4deae5-cc0a-4f28-84c6-5572a0240ad5.sh
+2019-06-20T13:58:09.5178796Z Requirement already satisfied: pytest in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (4.6.2)
+2019-06-20T13:58:09.5499819Z Collecting pytest-azurepipelines
+2019-06-20T13:58:09.6127508Z   Downloading https://files.pythonhosted.org/packages/18/cd/5931a8f4fa228086a2dd0459226c72fee79f4877249859f48a1a5266a8fc/pytest_azurepipelines-0.6.0-py3-none-any.whl
+2019-06-20T13:58:09.6323213Z Requirement already satisfied: py>=1.5.0 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (1.8.0)
+2019-06-20T13:58:09.6343737Z Requirement already satisfied: packaging in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (19.0)
+2019-06-20T13:58:09.6379153Z Requirement already satisfied: wcwidth in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (0.1.7)
+2019-06-20T13:58:09.6399984Z Requirement already satisfied: six>=1.10.0 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (1.12.0)
+2019-06-20T13:58:09.6418988Z Requirement already satisfied: attrs>=17.4.0 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (19.1.0)
+2019-06-20T13:58:09.6603076Z Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (0.12.0)
+2019-06-20T13:58:09.6664789Z Requirement already satisfied: more-itertools>=4.0.0; python_version > "2.7" in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (5.0.0)
+2019-06-20T13:58:09.6702289Z Requirement already satisfied: importlib-metadata>=0.12 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (0.17)
+2019-06-20T13:58:09.6796383Z Requirement already satisfied: atomicwrites>=1.0 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from pytest) (1.3.0)
+2019-06-20T13:58:09.6814530Z Requirement already satisfied: pyparsing>=2.0.2 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from packaging->pytest) (2.4.0)
+2019-06-20T13:58:09.6831829Z Requirement already satisfied: zipp>=0.5 in /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest) (0.5.1)
+2019-06-20T13:58:09.8546812Z Installing collected packages: pytest-azurepipelines
+2019-06-20T13:58:09.8786732Z Successfully installed pytest-azurepipelines-0.6.0
+2019-06-20T13:58:12.5451012Z ============================= test session starts ==============================
+2019-06-20T13:58:12.5452551Z platform linux -- Python 3.7.3, pytest-4.6.2, py-1.8.0, pluggy-0.12.0
+2019-06-20T13:58:12.5478358Z rootdir: /home/vsts/work/1/s, inifile: pytest.ini, testpaths: silversaucer
+2019-06-20T13:58:12.5479527Z plugins: cov-2.7.1, azurepipelines-0.6.0
+2019-06-20T13:58:12.8908325Z collected 2 items
+2019-06-20T13:58:12.8916516Z 
+2019-06-20T13:58:13.1572752Z test_passing_view F                                                      [ 50%]
+2019-06-20T13:58:13.2910764Z Timestamp is not available for one or more testsuites. Total run duration is being calculated as the sum of time durations of detected testsuites
+2019-06-20T13:58:13.3442237Z ##[error]2 test(s) failed, 2 test(s) collected.
+2019-06-20T13:58:13.3451902Z ##[warning]Coverage XML was not created, skipping upload.
+2019-06-20T13:58:13.3452507Z 
+2019-06-20T13:58:13.3452755Z 
+2019-06-20T13:58:13.3452887Z =================================== FAILURES ===================================
+2019-06-20T13:58:13.3453105Z _________________ TestMyViewSuccessCondition.test_passing_view _________________
+2019-06-20T13:58:13.3453268Z 
+2019-06-20T13:58:13.3454019Z cls = <class 'sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite'>
+2019-06-20T13:58:13.3454243Z 
+2019-06-20T13:58:13.3454372Z     @classmethod
+2019-06-20T13:58:13.3454536Z     def dbapi(cls):
+2019-06-20T13:58:13.3454668Z         try:
+2019-06-20T13:58:13.3454844Z >           from pysqlite2 import dbapi2 as sqlite
+2019-06-20T13:58:13.3455290Z E           ModuleNotFoundError: No module named 'pysqlite2'
+2019-06-20T13:58:13.3455515Z 
+2019-06-20T13:58:13.3456010Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:338: ModuleNotFoundError
+2019-06-20T13:58:13.3456623Z 
+2019-06-20T13:58:13.3456879Z During handling of the above exception, another exception occurred:
+2019-06-20T13:58:13.3457066Z 
+2019-06-20T13:58:13.3457186Z self = <silversaucer.tests.TestMyViewSuccessCondition testMethod=test_passing_view>
+2019-06-20T13:58:13.3457357Z 
+2019-06-20T13:58:13.3457514Z     def setUp(self):
+2019-06-20T13:58:13.3457652Z >       super(TestMyViewSuccessCondition, self).setUp()
+2019-06-20T13:58:13.3457798Z 
+2019-06-20T13:58:13.3457919Z silversaucer/tests.py:46: 
+2019-06-20T13:58:13.3458107Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2019-06-20T13:58:13.3458290Z silversaucer/tests.py:17: in setUp
+2019-06-20T13:58:13.3458697Z     self.config.include('.models')
+2019-06-20T13:58:13.3459207Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/pyramid/config/__init__.py:676: in include
+2019-06-20T13:58:13.3459486Z     c(configurator)
+2019-06-20T13:58:13.3459975Z silversaucer/models/__init__.py:68: in includeme
+2019-06-20T13:58:13.3460166Z     session_factory = get_session_factory(get_engine(settings))
+2019-06-20T13:58:13.3460372Z silversaucer/models/__init__.py:16: in get_engine
+2019-06-20T13:58:13.3460554Z     return engine_from_config(settings, prefix)
+2019-06-20T13:58:13.3461132Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/__init__.py:478: in engine_from_config
+2019-06-20T13:58:13.3461417Z     return create_engine(url, **options)
+2019-06-20T13:58:13.3461929Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/__init__.py:435: in create_engine
+2019-06-20T13:58:13.3462201Z     return strategy.create(*args, **kwargs)
+2019-06-20T13:58:13.3462716Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py:87: in create
+2019-06-20T13:58:13.3462969Z     dbapi = dialect_cls.dbapi(**dbapi_args)
+2019-06-20T13:58:13.3463497Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:343: in dbapi
+2019-06-20T13:58:13.3464149Z     raise e
+2019-06-20T13:58:13.3464785Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:341: in dbapi
+2019-06-20T13:58:13.3465148Z     from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+2019-06-20T13:58:13.3465419Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/sqlite3/__init__.py:23: in <module>
+2019-06-20T13:58:13.3465666Z     from sqlite3.dbapi2 import *
+2019-06-20T13:58:13.3465922Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2019-06-20T13:58:13.3466140Z 
+2019-06-20T13:58:13.3466636Z     import datetime
+2019-06-20T13:58:13.3466990Z     import time
+2019-06-20T13:58:13.3467271Z     import collections.abc
+2019-06-20T13:58:13.3467508Z     
+2019-06-20T13:58:13.3467719Z >   from _sqlite3 import *
+2019-06-20T13:58:13.3468578Z E   ModuleNotFoundError: No module named '_sqlite3'
+2019-06-20T13:58:13.3468874Z 
+2019-06-20T13:58:13.3469117Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/sqlite3/dbapi2.py:27: ModuleNotFoundError
+2019-06-20T13:58:13.3469368Z _________________ TestMyViewFailureCondition.test_failing_view _________________
+2019-06-20T13:58:13.3469587Z 
+2019-06-20T13:58:13.3470055Z cls = <class 'sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite'>
+2019-06-20T13:58:13.3470348Z 
+2019-06-20T13:58:13.3470555Z     @classmethod
+2019-06-20T13:58:13.3470784Z     def dbapi(cls):
+2019-06-20T13:58:13.3471010Z         try:
+2019-06-20T13:58:13.3471222Z >           from pysqlite2 import dbapi2 as sqlite
+2019-06-20T13:58:13.3471710Z E           ModuleNotFoundError: No module named 'pysqlite2'
+2019-06-20T13:58:13.3471965Z 
+2019-06-20T13:58:13.3472511Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:338: ModuleNotFoundError
+2019-06-20T13:58:13.3472793Z 
+2019-06-20T13:58:13.3472938Z During handling of the above exception, another exception occurred:
+2019-06-20T13:58:13.3473107Z 
+2019-06-20T13:58:13.3473241Z self = <silversaucer.tests.TestMyViewFailureCondition testMethod=test_failing_view>
+2019-06-20T13:58:13.3473402Z 
+2019-06-20T13:58:13.3473522Z     def setUp(self):
+2019-06-20T13:58:13.3473761Z         self.config = testing.setUp(settings={
+2019-06-20T13:58:13.3474220Z             'sqlalchemy.url': 'sqlite:///:memory:'
+2019-06-20T13:58:13.3474468Z         })
+2019-06-20T13:58:13.3474793Z >       self.config.include('.models')
+2019-06-20T13:58:13.3474995Z 
+2019-06-20T13:58:13.3475104Z silversaucer/tests.py:17: 
+2019-06-20T13:58:13.3475296Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2019-06-20T13:58:13.3475770Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/pyramid/config/__init__.py:676: in include
+2019-06-20T13:58:13.3476034Z     c(configurator)
+2019-06-20T13:58:13.3476578Z silversaucer/models/__init__.py:68: in includeme
+2019-06-20T13:58:13.3476815Z     session_factory = get_session_factory(get_engine(settings))
+2019-06-20T13:58:13.3477179Z silversaucer/models/__init__.py:16: in get_engine
+2019-06-20T13:58:13.3477370Z     return engine_from_config(settings, prefix)
+2019-06-20T13:58:13.3477931Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/__init__.py:478: in engine_from_config
+2019-06-20T13:58:13.3478210Z     return create_engine(url, **options)
+2019-06-20T13:58:13.3478689Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/__init__.py:435: in create_engine
+2019-06-20T13:58:13.3478960Z     return strategy.create(*args, **kwargs)
+2019-06-20T13:58:13.3479445Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py:87: in create
+2019-06-20T13:58:13.3479695Z     dbapi = dialect_cls.dbapi(**dbapi_args)
+2019-06-20T13:58:13.3480190Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:343: in dbapi
+2019-06-20T13:58:13.3480471Z     raise e
+2019-06-20T13:58:13.3480943Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py:341: in dbapi
+2019-06-20T13:58:13.3481212Z     from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+2019-06-20T13:58:13.3481411Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/sqlite3/__init__.py:23: in <module>
+2019-06-20T13:58:13.3481619Z     from sqlite3.dbapi2 import *
+2019-06-20T13:58:13.3481764Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2019-06-20T13:58:13.3481863Z 
+2019-06-20T13:58:13.3482044Z     import datetime
+2019-06-20T13:58:13.3482157Z     import time
+2019-06-20T13:58:13.3482330Z     import collections.abc
+2019-06-20T13:58:13.3482459Z     
+2019-06-20T13:58:13.3482614Z >   from _sqlite3 import *
+2019-06-20T13:58:13.3483032Z E   ModuleNotFoundError: No module named '_sqlite3'
+2019-06-20T13:58:13.3483233Z 
+2019-06-20T13:58:13.3483373Z /opt/hostedtoolcache/Python/3.7.3/x64/lib/python3.7/sqlite3/dbapi2.py:27: ModuleNotFoundError
+2019-06-20T13:58:13.3483956Z ----------- generated xml file: /home/vsts/work/1/s/test-output.xml ------------
+2019-06-20T13:58:13.3484225Z =========================== 2 failed in 0.67 seconds ===========================
+2019-06-20T13:58:13.3485063Z ##[error]Bash exited with code '1'.
+2019-06-20T13:58:13.3524594Z ##[section]Async Command Start: Publish test results
+2019-06-20T13:58:13.4699738Z Publishing test results to test run '196'
+2019-06-20T13:58:13.4700392Z Test results remaining: 2. Test run id: 196
+2019-06-20T13:58:13.9342437Z Published Test Run : https://dev.azure.com/prcutler/Silver%20Saucer/_TestManagement/Runs?runId=196&_a=runCharts
+2019-06-20T13:58:13.9343240Z ##[section]Async Command End: Publish test results
+2019-06-20T13:58:13.9344305Z ##[section]Finishing: pytest
