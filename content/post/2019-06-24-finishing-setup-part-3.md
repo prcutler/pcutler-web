@@ -12,8 +12,8 @@ tags:
 
 ---
 
-Part 1: [Setting up Azure Pipelines with SSH keys](https://paulcutler.org/blog/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/)
-Part 2: [Setting up Azure Pipelines](https://paulcutler.org/blog/setting-up-azure-pipelines-part-2/) (or watching it work on Python 3.6 and fail on Python 3.7)
+* Part 1: [Setting up Azure Pipelines with SSH keys](https://paulcutler.org/blog/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/)
+* Part 2: [Setting up Azure Pipelines](https://paulcutler.org/blog/setting-up-azure-pipelines-part-2/) (or watching it work on Python 3.6 and fail on Python 3.7)
 
 ## Using Dependabot to manage Python dependencies
 
