@@ -81,8 +81,8 @@ The course [Building data-driven web apps with Pyramid and SQLAlchemy]([https://
 
 So while I’m going to kind of Frankenstein my courses, I’m going to do it using TDD.  I’m not going to build a PyPI clone like [Building data-driven web apps with Pyramid and SQLAlchemy]([https://training.talkpython.fm/courses/details/building-data-driven-web-applications-in-python-with-pyramid-sqlalchemy-and-bootstrap]) teaches.  Silversaucer.com is just an online playground for me to keep learning, and the first thing I’m going to build is a Randomizer for my vinyl record collection using the Discogs API.  I’m going to work through the two courses above and I’ll also be using the following books to learn more about testing:
 
-*[ Test-Driven Development with Python](https://www.obeythetestinggoat.com/) by Harry Percival
-* pytest Quick Start Guide: Write better Python code with simple and maintainable tests by Bruno Oliveira
+* [Test-Driven Development with Python](https://www.obeythetestinggoat.com/) by Harry Percival
+* [pytest Quick Start Guide: Write better Python code with simple and maintainable tests](https://www.packtpub.com/web-development/pytest-quick-start-guide) by Bruno Oliveira
 * [Python Testing with pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest) by Brian Okken
 
 I’ll keep blogging what I learn and where I get stuck.   I *need* to learn testing, especially if I want to continue maintaining and improving [NFLPool](https://nflpool.xyz) and [MLBPool2](https://mlbpool2.com).  And learning how to code is fun, in a frustrating kind of way (at times).  
