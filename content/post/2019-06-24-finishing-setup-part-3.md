@@ -2,7 +2,7 @@
 title: Finishing Setup (with Dependabot and Pytest reporting) and Project Goals - Part 3
 author: Paul Cutler
 type: post
-date: 2019-06-24T15:00
+date: 2019-06-24T15:00:00
 categories:
   - Python
 tags:
