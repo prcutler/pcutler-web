@@ -27,11 +27,11 @@ That’s it - Dependabot will keep an eye on your `requirements.txt` and send yo
 
 As I’ve integrated with Azure Pipelines for continuous integration, it builds the pull request and tells me if it failed or succeeded, which is nice to know before I merge it:
 
-![](Screenshot%202019-06-20%2009.02.44.png)
+![Dependabot Details](/images/20190624/dependabot-merge-details.png)
 
 But of the five pull requests Dependabot created, three of the five failed to build in Azure Pipelines:
 
-![](dependabot-ci-failed.png)
+![Dependabot failed builds](/images/20190624/dependabot-ci-failed.png)
 
 And it’s the *exact* same error as I ran into in part 2 - the builds in Python 3.6 work and they don’t in 3.7 due to some kind of (and I’m guessing) SQLAlchemy / pysqlite3 problem.  (Log)
 
@@ -39,7 +39,7 @@ After even more troubleshooting, and if I had any hair (which I don’t, thankfu
 
 But when it does work, it feels great.  I had updated the README, which kicked off a build, and since I hooked up Slack to Azure Pipelines, I saw this:
 
-![](azure-build-worked.png)
+![Azure working build](/images/20190624/azure-build-worked.png)
 
 So now it’s setup just like the Test-Driven Development with Python says it should be.  From Chapter 24:
 
@@ -62,9 +62,11 @@ I’ve only played around with the HTML report code coverage generates a couple 
 
 In your project’s dashboard on Azure DevOps, go to *Test Plans* -\> *Runs*:  
 
-![](azure-test-runs.png)
+![Azure Test Plans / Runs](/images/20190624/azure-test-runs.png)
 
 Choose which test results you want to look at it and there are pretty reports for you to view, and if you keep scrolling down on the right hand side it will give you different outcomes for review.  It might save me a few clicks from the manual HTML code coverage builds, so I have that going for me.
+
+![Pytest Results](/images/20190624/pytest-results.png)
 
 ## Project Goals
 
