@@ -10,6 +10,7 @@ tags:
   - pytest
   - Python
   - Pyramid
+  - Azure  
 
 ---
 

@@ -9,6 +9,7 @@ tags:
   - SilverSaucer
   - Python
   - Testing
+  - Azure
 
 ---
 

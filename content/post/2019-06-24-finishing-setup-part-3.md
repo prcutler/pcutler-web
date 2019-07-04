@@ -9,6 +9,7 @@ tags:
   - SilverSaucer
   - Python
   - Testing
+  - Azure  
 
 ---
 
@@ -17,7 +18,9 @@ tags:
 
 ## Using Dependabot to manage Python dependencies
 
-I just want to start coding and learning how to write a Pyramid app the correct way and start learning `pytest`.  I’m going to do one more thing before getting to the fun part, the coding and that is setup Dependabot to help manage my Python dependencies.
+All I want is to start coding.  I want to learn how to write a Pyramid app the correct way and also to start learning `pytest`.  There's just one more thing to do and one to tweak in Azure and then it's time for the fun part - the actual learning and coding.
+
+First, I’m going to setup [Dependabot](https://dependabot.com/) to help manage my Python dependencies.
 
 Last year I bought a Python bundle on [Humble Bundle](https://humblebundle.com) that included a one year subscription to [Pyup.io](https://pyup.io).  I’ve been using it for both NFLPool and MLBPool2 as it’s free for open source projects (both of those projects are licensed under a MIT license).  I haven’t decided what license the content on SilverSaucer.com, but knowing me, it will probably be open source.  But on the off chance it’s not, I’m going to try out [Dependabot](https://dependabot.com/).
 
