@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "The National - I Am Easy to Find"
+  course = "Hatchie - Keepsake"
   
 [[education.courses]]
   course = "Jenny Lewis - On the Line"
