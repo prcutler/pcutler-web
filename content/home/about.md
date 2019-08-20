@@ -23,6 +23,9 @@ weight = 5
   course = "The Bird and the Bee - Interpreting the Masters Vol. 2 - A Tribute to Van Halen"
 
 [[education.courses]]
+  course = "The Hold Steady - Thrashing Thru the Passion"
+
+[[education.courses]]
   course = "Alex Lahey - The Best of Luck Club"
 
 +++
