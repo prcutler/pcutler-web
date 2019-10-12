@@ -20,13 +20,13 @@ weight = 5
   course = "Bon Iver - i,i"
   
 [[education.courses]]
-  course = "The Bird and the Bee - Interpreting the Masters Vol. 2 - A Tribute to Van Halen"
+  course = "Sturgill Simpson - Sound and Fury"
 
 [[education.courses]]
   course = "The Hold Steady - Thrashing Thru the Passion"
 
 [[education.courses]]
-  course = "Alex Lahey - The Best of Luck Club"
+  course = "The New Pornographers - In the Morse Code of Brake Lights"
 
 +++
 
