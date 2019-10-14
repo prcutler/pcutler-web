@@ -18,9 +18,6 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Bon Iver - i,i"
-  
-[[education.courses]]
-  course = "The Bird and the Bee - Interpreting the Masters Vol. 2 - A Tribute to Van Halen"
 
 [[education.courses]]
   course = "The Hold Steady - Thrashing Thru the Passion"
