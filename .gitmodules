@@ -1,0 +1,3 @@
+[submodule "themes/academic-kickstart"]
+	path = themes/academic-kickstart
+	url = https://github.com/sourcethemes/academic-kickstart.git
